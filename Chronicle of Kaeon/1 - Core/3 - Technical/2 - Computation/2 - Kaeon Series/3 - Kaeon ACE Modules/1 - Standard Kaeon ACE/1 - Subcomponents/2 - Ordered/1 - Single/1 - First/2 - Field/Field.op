@@ -1,0 +1,20 @@
+Field
+	
+	Philosophy
+		
+		-
+			A field element is a first order Kaeon ACE subcomponent that represents a field of data
+			with an alias and content.
+
+			It must have the content "Field".
+		-
+	
+	Principles
+		
+		Children
+		
+			-
+				The element must have one child, where the content of said child shall represent
+				the alias of the field. Said child must itself have one child, the content of which
+				shall represent the content of the field.
+			-

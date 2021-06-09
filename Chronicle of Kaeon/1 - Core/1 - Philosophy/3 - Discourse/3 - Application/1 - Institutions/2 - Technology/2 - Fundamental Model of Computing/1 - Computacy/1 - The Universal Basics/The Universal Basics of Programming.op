@@ -1,0 +1,33 @@
+The Universal Basics of Programming
+
+	Philosophy
+
+		-
+			The universal basics of programming, listed in order in this document, are the basic
+			concepts one must learn in order to develop the vast majority of programs.
+
+			In and of themselves, they can be taught to anyone fairly quickly, in a few hours or
+			less.
+		-
+
+	Principles
+
+		The Universal Basics
+
+			Basic Output
+			Variables and Data Types: Number, Characters and Strings, Boolean, Null
+			Basic Input
+			Conditionals
+			Loops
+			Lists and Strings as Lists
+			Functions
+
+		Code Styles
+
+			-
+				At some point, it is ideal for students to be exposed to programming styles that
+				utilize a LISP-like form, such as what Kaeon FUSION uses, in order to help them
+				grasp the underlying structure of programs regardless of their syntax and to give
+				them powerful insights into the nature of code that can be applied beyond
+				programming.
+			-

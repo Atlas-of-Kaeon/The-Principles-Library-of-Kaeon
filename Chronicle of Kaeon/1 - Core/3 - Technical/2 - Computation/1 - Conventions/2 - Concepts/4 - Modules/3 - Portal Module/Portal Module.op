@@ -1,0 +1,9 @@
+Portal Module
+
+	Philosophy
+
+		-
+			A portal module is a module in which the state shall be modified to represent the state
+			of another module, and may alter the state of the module it represents if its own state
+			is modified.
+		-

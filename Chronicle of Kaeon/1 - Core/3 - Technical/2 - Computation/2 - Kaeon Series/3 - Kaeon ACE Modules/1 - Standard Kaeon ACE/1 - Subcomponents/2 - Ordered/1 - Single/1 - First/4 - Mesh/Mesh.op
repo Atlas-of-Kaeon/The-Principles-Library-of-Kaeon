@@ -1,0 +1,27 @@
+Mesh
+
+	Philosophy
+	
+		-
+			A mesh element is a first order Kaeon ACE subcomponent that represents a collection of
+			polygons attached to the entity it belongs to.
+
+			It must have the content "Mesh".
+		-
+	
+	Principles
+		
+		Children
+		
+			-
+				The element may have one or both of the geometry element and a color element.
+				
+				The geometry element, if present, shall have the content "Geometry", and may have
+				an indefinite number of vertex elements and polygon elements as children. The order
+				in which a vertex or polygon element is listed relative to other elements of the
+				same type shall be its index.
+
+				The element must also have as a child an element with the content "Type", which
+				itself must have a child with the content "3D", "2D", "2D Aspect Off", or "2D
+				Absolute".
+			-

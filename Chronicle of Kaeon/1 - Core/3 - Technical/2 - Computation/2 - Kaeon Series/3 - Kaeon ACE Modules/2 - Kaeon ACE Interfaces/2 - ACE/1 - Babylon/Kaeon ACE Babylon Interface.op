@@ -1,0 +1,26 @@
+Kaeon ACE Babylon Interface
+
+	Philosophy
+
+		-
+			The Kaeon ACE Babylon interface is a JavaScript based Kaeon ACE Interface that renders
+			Kaeon ACE content to the babylon.js engine.
+		-
+
+	Principles
+
+		Hosting
+
+			-
+				Being JS based, Kaeon ACE applications running on the Kaeon ACE Babylon interface
+				my run in any browser environment, and there may also be specialized shadow hosts
+				for such applications.
+
+				Due to restrictions on audio autoplay, the Kaeon ACE Babylon interface should show
+				a start screen with a "Start" button that the user must manually click before the
+				application launches.
+
+				Additionally, the Kaeon ACE Babylon interface should check whether the device it is
+				running on offers VR support, and provide an option to launch it if the
+				functionality is available.
+			-

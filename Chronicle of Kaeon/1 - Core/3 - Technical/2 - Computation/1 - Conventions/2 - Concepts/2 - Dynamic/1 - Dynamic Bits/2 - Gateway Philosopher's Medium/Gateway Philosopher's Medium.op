@@ -1,0 +1,14 @@
+Gateway Philosopher's Medium
+	
+	Philosophy
+	
+		-
+			A module that abides by the gateway Philosopher's Medium shall contain a function
+			referred to as the gateway function that shall take a dynamic bit and deterministically
+			return a new value based on the passed in value, as well as a function referred to as
+			the reduce function that shall take a dynamic bit and deterministically return a
+			boolean value based on the passed in value.
+
+			A module that abides by the gateway Philosopher's Medium shall be known as a gateway
+			Philosopher's Stone module.
+		-

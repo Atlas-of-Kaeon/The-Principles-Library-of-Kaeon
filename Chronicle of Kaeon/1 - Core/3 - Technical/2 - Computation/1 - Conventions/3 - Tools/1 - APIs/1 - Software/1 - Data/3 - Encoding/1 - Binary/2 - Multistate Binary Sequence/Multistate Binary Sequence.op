@@ -1,0 +1,12 @@
+Multistate Binary Sequence
+
+	Philosophy
+	
+		-
+			A multistate binary sequence is a sequence of bit sequences, referred to as state
+			sequences, each of which just long enough to encode a given number, defined as the
+			order of the multistate binary sequence.
+
+			Each state sequence shall specify in binary a number between zero and the order number,
+			inclusive.
+		-

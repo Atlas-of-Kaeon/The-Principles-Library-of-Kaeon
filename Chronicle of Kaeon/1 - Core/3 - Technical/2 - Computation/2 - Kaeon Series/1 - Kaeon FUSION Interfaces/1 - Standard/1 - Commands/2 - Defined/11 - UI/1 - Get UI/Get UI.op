@@ -1,0 +1,12 @@
+Get UI
+
+	Philosophy
+
+		-
+			The get UI command is a command with the content "Get UI". It may have an indefinite
+			number of children, each of which return strings containing CSS selectors.
+
+			It shall return all elements in the host DOM, if present, that match any of the
+			specified selectors, each as a dynamic list corresponding to a DOM JSON representation
+			of the corresponding element.
+		-

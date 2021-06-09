@@ -1,0 +1,68 @@
+Script
+	
+	Philosophy
+		
+		-
+			A script element is a first order Kaeon ACE subcomponent that represents a script
+			attached to the entity it belongs to.
+
+			It must have the content "Script".
+		-
+	
+	Principles
+
+		Status
+
+			-
+				A script may either be active or inactive.
+
+				As such, a script element may optionally have a child with the content "Status"
+				referred to as the status element, which if present must have a child with either
+				the content "Active" or "Inactive", indicating the status of the script.
+
+				If said element is not present, the script shall have a status of active by
+				default.
+			-
+		
+		Sub-Scripts
+
+			-
+				Each child of a script element, save for the status element if it is present, shall
+				be a sub-script element.
+
+				The content of a sub-script element shall determine when it executes, and may be
+				"Start", "Update", "Status", or "Destroy".
+
+				A start sub-script shall execute once when the script is first placed into the
+				scene.
+
+				An update sub-script shall execute once per scene loop if the script to which it
+				belongs is active.
+
+				A status sub-script shall execute whenever the status of the script is changed.
+
+				A destroy sub-script shall execute whenever the script to which it belongs is
+				removed from the scene.
+
+				A sub-script element shall have a child with the content "source", and may
+				optionally have a child with the content "language".
+
+				The source element shall have one child containing the code for the sub-script to
+				which it belongs.
+				
+				Said code shall have an arguments array passed to it, which shall contain the Kaeon
+				ACE core as its first element, which the sub-script may perform philosopher's atlas
+				calls on as the sole means to interface with the rest of the scene and with the
+				engine, and shall also contain a number representing the time in seconds that has
+				passed since the last iteration of the update loop as its second element.
+
+				The arguments array for a status sub-script shall also contain a boolean as its
+				third element, which shall have a value of true if the status has been set to
+				active, and a value of false if the status has been set to inactive.
+
+				The language element, if present, shall have one child containing the language that
+				the sub-script is written in.
+
+				If the language element is not present, the engine shall attempt to detect the
+				language of the sub-script automatically.
+			-

@@ -1,0 +1,25 @@
+Kaeon ACE Directives
+
+	Philosophy
+	
+		-
+			Kaeon ACE directives are defined single ordered Kaeon ACE subcomponents with an order
+			of one, which are used to specify directives to the host environment.
+		-
+	
+	Principles
+	
+		Structure
+		
+			-
+				A directive element's content will be "Directive", and it may have any children.
+			-
+		
+		Use
+		
+			-
+				A use directive is a type of directive that instructs the host environment to
+				import additional modules. It shall have a child with the content "Use", where
+				letter case is irrelevant, and the children of said child shall each have content
+				specifying the paths or names of modules to import.
+			-

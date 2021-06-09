@@ -1,0 +1,8 @@
+Category Filter
+
+	Philosophy
+
+		-
+			An category filter uses an AI model to place into data into categories, after which a
+			secondary AI model can pick the most appropriate output from within said category.
+		-

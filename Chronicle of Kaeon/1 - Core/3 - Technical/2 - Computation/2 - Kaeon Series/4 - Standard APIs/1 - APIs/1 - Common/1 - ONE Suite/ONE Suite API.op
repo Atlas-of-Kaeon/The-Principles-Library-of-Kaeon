@@ -1,0 +1,52 @@
+ONE Suite API
+
+	Philosophy
+
+		-
+			The ONE Suite API is an API that may be used for processing ONE, ONE+, and Kaeon FUSION
+			in various languages, and for using the universal preprocessor.
+		-
+
+	Principles
+
+		Functions
+
+			Preprocess
+
+				-
+					The preprocess function shall take a string as an argument, and shall execute
+					any universal preprocessor directives in said string, and shall return the
+					resulting string.
+				-
+
+			Parse
+
+				-
+					The parse function shall take any ONE or ONE+ string as an argument and shall
+					return the content of said string in ONE list form, and shall utilize the
+					universal preprocessor when parsing.
+				-
+
+			Write
+
+				-
+					The write function shall take a list representing a ONE document in ONE list
+					form, and shall return the content of the document as a ONE document string.
+				-
+
+			Process
+
+				-
+					The process function shall take a ONE document in either the form of a ONE+
+					string which may have universal preprocessor directives or in ONE list form as
+					its first argument, and may optionally take an object representing a saved
+					state of a Kaeon FUSION interpreter, which may be an empty object.
+
+					If it recieved an interpreter state as an argument, it shall load said state
+					into a Kaeon FUSION interpreter, and if not shall load a default Kaeon FUSION
+					interpreter, and then shall use said interpreter to process the recieved ONE
+					document as Kaeon FUSION code.
+
+					After running the Kaeon FUSION script, it shall return the return value of the
+					Kaeon FUSION script.
+				-

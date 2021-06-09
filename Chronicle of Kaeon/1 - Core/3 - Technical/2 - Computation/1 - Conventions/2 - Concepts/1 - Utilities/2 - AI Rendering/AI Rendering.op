@@ -1,0 +1,27 @@
+AI Rendering
+
+	Philosophy
+
+		-
+			AI Rendering is the act of rendering scene geometry through a machine learning model
+			either instead of through a graphics processor or before or after running it through a
+			graphics processor.
+		-
+
+	Principles
+
+		Prudent Rendering
+
+			-
+				Prudent rendering is a process where a renderer for a pre-rendered scene determines
+				which sets of frames repeat exactly or can be derived from a single frame and thus
+				avoids rendering certain frame unnecessarily.
+			-
+
+		Prudent Playback
+
+			-
+				Prudent playback is when frames that repeat exactly in a sequence are stored only
+				once, and the playback seuqence itself is stored as a sequence of references to
+				said frames.
+			-

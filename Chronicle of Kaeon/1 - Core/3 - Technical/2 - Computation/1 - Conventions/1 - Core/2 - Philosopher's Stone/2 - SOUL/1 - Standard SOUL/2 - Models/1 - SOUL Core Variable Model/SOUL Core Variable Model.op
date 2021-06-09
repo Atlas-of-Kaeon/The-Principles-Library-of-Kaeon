@@ -1,0 +1,8 @@
+SOUL Core Variable Model
+
+	Philosophy
+	
+		-
+			The SOUL core variable model is a model for the standard SOUL core where the output may
+			be any vector of any length containing numbers between zero and one, inclusive.
+		-

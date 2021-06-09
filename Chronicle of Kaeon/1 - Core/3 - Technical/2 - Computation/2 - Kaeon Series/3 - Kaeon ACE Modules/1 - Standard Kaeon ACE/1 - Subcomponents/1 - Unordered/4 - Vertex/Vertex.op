@@ -1,0 +1,21 @@
+Vertex
+
+	Philosophy
+	
+		-
+			A vertex element is an ACE element that represents a vertex of a polygon.
+			
+			It must have the content "Vertex".
+		-
+	
+	Principles
+		
+		Children
+		
+			-
+				The element must have a child with the content "Position", and may also have a
+				child with the content "Normal", as well as a child with the content "Texture". All
+				of the aforementioned children must have a single vector 3 element as its child.
+
+				The element may also have one color element as its child.
+			-

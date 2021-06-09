@@ -1,0 +1,8 @@
+Binary Data Map
+
+	Philosophy
+
+		-
+			A binary data map is a data map where every number in the input vector as well as the
+			output number can only be a zero or a one.
+		-

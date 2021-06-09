@@ -1,0 +1,48 @@
+HTJS
+
+	Philosophy
+
+		-
+			HTJS is a convention that allows a single text file to act as both a JavaScript file
+			and an HTML file through a strategic placement of JavaScript comments.
+		-
+
+	Principles
+
+		Structure
+
+			-
+				HTML content and JavaScript content must be placed on separate lines.
+				
+				JavaScript content must be placed within script tags and HTML content must be
+				commented out using JavaScript comments.
+			-
+
+		Conventions
+
+			File Extension
+
+				-
+					A HTJS file should have a ".html" file extension.
+				-
+
+			Comment Mark Clearing
+
+				-
+					The JavaScript code may employ DOM modification code to clear the rendered HTML
+					page of any JavaScript comment marks.
+				-
+
+			Standard Format
+
+				-
+					The standard format for a HTJS file begins with the line:
+
+						// <script> document.documentElement.innerHTML = "";
+
+					and ends with the line:
+
+						// </script>
+
+					with JavaScript code placed between the two aforementioned lines.
+				-

@@ -1,0 +1,100 @@
+Latinized Angaian
+
+	Philosophy
+
+		-
+			Latinized Angaian is a convention that establishes characters that correspond to the
+			characters in the standard Angaian dialect which are based off of Latin characters.
+		-
+
+	Principles
+
+		Conventions
+
+			Mappings
+
+				-
+					This document lists said characters according to their character number. They
+					shall be specified as pre-existing case sensitive latin characters.
+				-
+
+			Injection
+
+				-
+					A latinized Angaian sequence in other text can be place following a sequence
+					consisting of an open paren followed a forward slash, and followed by a
+					sequence consisting of a back slash followed by a closed paren.
+				-
+
+			Unspecified Characters
+
+				-
+					Characters within a latinized Angaian sequence that do not map to any Angaian
+					characters shall remain unconverted in the sequence is converted to Angaian.
+				-
+		
+		Characters
+
+			0: Space or Tab
+
+			1: b
+			2: k
+			3: d
+			4: f
+			5: g
+			6: h
+			7: j
+			8: l
+			9: m
+			10: n
+			11: p
+			12: r
+			13: s
+			14: t
+			15: v
+			16: w
+			17: y
+			18: z
+			19: T
+			20: H
+			21: c
+			22: S
+			23: Z
+			24: N
+			25: X
+			26: Q
+
+			33: a
+			34: A
+			35: e
+			36: E
+			37: i
+			38: o
+			39: u
+			40: U
+
+			65: Single Quote
+			66: Comma
+			67: Period
+			68: Open Paren
+			69: Closed Paren
+			70: Open Curly Brace or Colon
+			71: Closed Curly Brace or Semicolon
+			72: Tilde
+			73: Asterisk
+
+			257: 0
+			258: 1
+			260: 2
+			264: 3
+			272: 4
+
+			513: 5
+			514: 6
+			516: 7
+			520: 8
+			528: 9
+
+			1023: Dash
+
+			1024: New Line

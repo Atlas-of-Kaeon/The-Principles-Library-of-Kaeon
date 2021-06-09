@@ -1,0 +1,20 @@
+Properties
+
+	Philosophy
+	
+		-
+			A properties element is a first order Kaeon ACE subcomponent that represents properties
+			of the entity it belongs to.
+
+			It must have the content "Properties".
+		-
+	
+	Principles
+		
+		Children
+		
+			-
+				The element may have one or both of children with the content "Active" or
+				"Destroyed", each of which, if present, must have a child with either "True" or
+				"False" as its content.
+			-

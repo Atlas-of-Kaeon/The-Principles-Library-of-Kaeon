@@ -1,0 +1,12 @@
+Self-Ciphering Document
+
+	Philosophy
+
+		-
+			A self-ciphering document is an executable document that contains a human readable
+			portion that may either encrypted or unencrypted.
+
+			If executed with a given key and a flag specifying whether said content should be
+			encrypted or decrypted, said operation shall be performed on said content with said
+			key.
+		-

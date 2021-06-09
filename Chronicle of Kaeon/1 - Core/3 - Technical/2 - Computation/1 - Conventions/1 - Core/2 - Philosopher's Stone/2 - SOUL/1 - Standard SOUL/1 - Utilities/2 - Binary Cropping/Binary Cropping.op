@@ -1,0 +1,47 @@
+Binary Cropping
+
+	Philosophy
+
+		-
+			Binary cropping is a method for culling the output of operations where outputs are
+			vectors of variable length containing numbers between zero and one, inclusive.
+		-
+	
+	Principles
+
+		Vector Set
+
+			-
+				When an input is received, it is passed to two separate operations, each of which
+				returns a vector of numbers between zero and one.
+
+				The first vector is called the value vector, the second vector is called the
+				culling vector, and collectively they are referred to as a vector set.
+			-
+
+		Scaling
+
+			-
+				The length of the value vector should be equal to the length of the longest
+				expected output value.
+
+				The length of the culling vector should be equivalent to the number of binary
+				digits in the shortest possible binary number where each digit is one, with a value
+				equal to or greater than the length of the value vector.
+			-
+
+		Cropping
+
+			-
+				Once a vector set has been generated, the culling vector is interpreted to generate
+				a binary number where the first number in the vector is the lowest binary digit,
+				the last number in the vector is the highest binary digit, a number less than .5
+				corresponds to a zero, and a number greater than or equal to .5 corresponds to a
+				one.
+
+				If the length of the value vector is greater than the value of the generated binary
+				number, then the trailing end of the value vector shall be cropped such that the
+				length of the value vector is equal to the value of the generated binary number.
+
+				The value vector is then returned as the final result.
+			-

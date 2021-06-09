@@ -1,0 +1,17 @@
+General Unary
+
+	Philosophy
+
+		-
+			General Unary is a method for encoding a number in base one using a string where said
+			number is equivalent to the length of said string.
+		-
+
+	Principles
+
+		Standard Unary
+
+			-
+				Standard unary is a variant of general unary where every character in a string
+				written in it should be the number one.
+			-

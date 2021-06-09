@@ -1,0 +1,11 @@
+Data Map Generation
+
+	Philosophy
+
+		-
+			Data map generation is any process in which a given data map and a vector of any length
+			containing numbers between zero and one, inclusive, may be used to generate an output
+			number between zero and one, inclusive, assuming said vector is a hypothetical input in
+			a hypothetical input-output pair within said data map and said output number was the
+			corresponding output in the input-output pair.
+		-

@@ -1,0 +1,10 @@
+Height Map
+	
+	Philosophy
+		
+		-
+			A height map is a type of loadable element that represents the mesh and collider of a
+			terrain height map.
+
+			The type child of the loadable element must have a child with the content "Height Map".
+		-

@@ -1,0 +1,20 @@
+Conduit
+
+	Philosophy
+	
+		-
+			A conduit element is a first order Kaeon ACE subcomponent wherein the children of the
+			element are periodically updated by the host environment based on its type.
+
+			It must have the content "Conduit".
+		-
+	
+	Principles
+		
+		Children
+		
+			-
+				The element must have two children, one with the content "Type", and the other with
+				the content "Port". The type element must have a child with either "Keyboard" or
+				"Mouse" as its content, and the port element must have no children.
+			-

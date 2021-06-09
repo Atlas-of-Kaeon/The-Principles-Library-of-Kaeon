@@ -1,0 +1,23 @@
+Camera
+	
+	Philosophy
+	
+		-
+			A camera element is a first order Kaeon ACE subcomponent that represents a camera
+			attached to the entity it belongs to.
+
+			It must have the content "Camera".
+		-
+	
+	Principles
+		
+		Children
+		
+			-
+				The element may have as children an indefinite number of transform elements, which
+				will apply in order.
+				
+				The element may also have a child with the content "FOV", which itself shall have a
+				child with a number as its content. If the FOV is not specified, it will be set to
+				a default value.
+			-

@@ -1,0 +1,20 @@
+Transform
+
+	Philosophy
+		
+		-
+			A transform element is a first order Kaeon ACE subcomponent that represents a
+			transformation attached to the entity it belongs to.
+
+			It must have the content "Transform".
+		-
+	
+	Principles
+		
+		Children
+		
+			-
+				The element must have a vector 3 element as a child, and must also have a child
+				with the content "Type", which itself must have a child with the content
+				"Translation", "Rotation", or "Scale".
+			-

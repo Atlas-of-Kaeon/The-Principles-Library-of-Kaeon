@@ -1,0 +1,57 @@
+Standard SOUL
+	
+	Philosophy
+		
+		-
+			A standard SOUL is a SOUL implemented using a standard module, along with certain
+			conventions to ensure cross compatibility.
+		-
+	
+	Principles
+
+		Input and Output
+
+			Object Types
+
+				-
+					Objects passed to the train, generate, and correlate functions in a standard
+					SOUL must be lists of numbers between zero and one, inclusive.
+				-
+			
+			String Conversion
+
+				-
+					Strings may be converted to and from a list of numbers for use as inputs and
+					outputs for standard SOULs where each character corresponds to its character
+					code divided by the maximum character value if the character code is greater
+					than zero, or to zero if the character code is zero.
+
+					The default character encoding for use with a standard SOUL is UTF-32.
+				-
+		
+		The Optimize Function
+
+			-
+				Standard SOULs shall have an optimize function which optimizes the SOUL's internal
+				representation of its corpus.
+			-
+		
+		SOUL Models
+			
+			-
+				As there are various ways of implementing artificial intelligence, there are
+				various ways of implementing a SOUL, some of which my be more suited to certain
+				tasks.
+				
+				The various possible implementations of a standard SOUL are referred to as models.
+				
+				Each model must have a name with which it can be identified.
+				
+				Therefore, the standard SOUL must have a function for switching what model it is
+				currently using, as well as a function for passing arguments to said model.
+				
+				A SOUL may only use one model at a time for processing, but it may train multiple
+				models at once.
+
+				Each model ought to have a custom file format storing its state.
+			-

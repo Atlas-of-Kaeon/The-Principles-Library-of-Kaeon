@@ -1,0 +1,32 @@
+Data Map Stack
+
+	Philosophy
+
+		-
+			A data map stack is a sequence of data map vectors where the output of one data map
+			vector becomes the input for the next, where each of said vectors is referred to as a
+			layer.
+		-
+
+	Principles
+
+		Blackbox
+
+			-
+				A data map stack functions as a single data map vector from the perspective of any
+				external systems where the first layer is the input and the last layer is the
+				output.
+			-
+
+		Deep
+
+			-
+				Any data map stack consisting of four layers or more is considered deep.
+			-
+
+		Training
+
+			-
+				In training a data map stack, the process looks for the lowest amount of change it
+				can make to the stack to achieve the desired results.
+			-

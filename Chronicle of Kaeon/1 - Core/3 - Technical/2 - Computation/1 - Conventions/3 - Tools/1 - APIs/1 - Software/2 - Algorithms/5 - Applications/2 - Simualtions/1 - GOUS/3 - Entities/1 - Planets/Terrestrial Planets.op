@@ -1,0 +1,113 @@
+Open Universe Terrestrial Planets
+
+	Philosophy
+
+		-
+			This document specifies standards for defining the properties terrestrial planets
+			within an open universe as defined by the general open universe standard.
+		-
+
+	Principles
+
+		Height Maps
+
+			Global Map
+
+				-
+					The global height map is a spherical height map that defines the general height
+					of a the planet at any given location.
+
+					The height at each point on the height map shall correspond to the radius of
+					the base planet plus the point on the global map, a value between zero and one,
+					multiplied by a given number of meters.
+				-
+
+			Local Maps
+
+				-
+					Local height maps define more precise height parameters than the global height
+					map at specific locations on the planet, and as such shall be mapped according
+					to a given width and length, specified in meters, and according to a given
+					latitude and longitude, specifying its center.
+
+					It may be normalized with the global height map to some extent.
+				-
+
+		Ocean
+
+			Composition
+
+				-
+					If a planet has an ocean, its chemical composition may be specified in terms of
+					percentages of certain elements, molecules, and microorganisms.
+				-
+
+			Level
+
+				-
+					If a planet has an ocean, its level may be specified as a given number of
+					meters above the radius of the base planet.
+				-
+
+		Atmosphere
+
+			Composition
+
+				-
+					If a planet has an atmosphere, its chemical composition may be specified in
+					terms of percentages of certain elements and molecules.
+				-
+
+			Height
+
+				-
+					If a planet has an atmosphere, the length it extends off the planet may be
+					specified as a given number of meters above the radius of the base planet.
+				-
+
+		Property Maps
+
+			Static
+
+				Terrain
+
+					-
+						A terrain map specifes the terrain properties of certain regions on the
+						global map.
+					-
+
+				Volcanos
+
+					-
+						A volcano map specifies points on the global height map with active
+						volcanic activity, and may also specify the extent of said activity.
+					-
+
+				Caves
+
+					-
+						A cave map specifies points on the global height map where caves are
+						present, and may also specify the properties of said caves.
+					-
+
+			Dynamic
+
+				Weather
+
+					-
+						A weather map specifies the atmoshperic temperatures and cloud formations
+						at certain points on the planet.
+					-
+
+				Vegetation
+
+					-
+						A vegetation map specifies the vegetation present in certain regions of the
+						planet.
+					-
+
+		Landmarks
+
+			-
+				Landmarks refer to any miscellaneous structures on the planet.
+			-

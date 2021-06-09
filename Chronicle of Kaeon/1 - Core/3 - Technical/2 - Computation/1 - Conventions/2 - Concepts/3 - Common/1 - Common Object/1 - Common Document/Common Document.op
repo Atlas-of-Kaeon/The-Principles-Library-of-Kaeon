@@ -1,0 +1,9 @@
+Common Document
+
+	Philosophy
+
+		-
+			A common document is a specification for the data structure needed to represent a given
+			type of document, such that it may be implmented in different languages and
+			environments.
+		-

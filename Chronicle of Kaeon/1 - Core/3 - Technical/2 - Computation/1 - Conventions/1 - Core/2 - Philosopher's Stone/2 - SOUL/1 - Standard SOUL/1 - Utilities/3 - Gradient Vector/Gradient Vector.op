@@ -1,0 +1,30 @@
+Gradient Vector
+	
+	Philosophy
+
+		-
+			A gradient vector is a vector created by mapping the contents of a vector containing
+			numbers between zero and one, inclusive, to a vector which may have a different length
+			such that every number in the original vector has an influence on every value in the
+			new vector, relative to their respective indicies.
+		-
+	
+	Principles
+
+		Coefficient
+
+			-
+				The following formula is used for calculating the coefficient used for multiplying
+				the values of the original vector to produce the values of the new vector:
+				
+					1 - |(([Original Index] / [Original Size]) - ([New Index] / [New Size]))|
+				
+				The index values start at one, unless their corresponding length value is zero, in
+				which case their value will be zero.
+				
+				If either of the length values are zero, then formula will be skipped and the
+				coefficient will be set to zero to avoid a divide by zero error.
+
+				After all the values have been calulated for a number in the output vector, the
+				number used shall be the average of them.
+			-

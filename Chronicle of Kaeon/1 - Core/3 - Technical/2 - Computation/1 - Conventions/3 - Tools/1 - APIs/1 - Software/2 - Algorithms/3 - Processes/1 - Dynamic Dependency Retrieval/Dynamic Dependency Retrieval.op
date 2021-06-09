@@ -1,0 +1,9 @@
+Dynamic Dependency Retrieval
+
+	Philosophy
+
+		-
+			Dynamic dependency retrieval is a convention wherein a programming environment shall
+			dynamically install any external dependencies required by programs running within it if
+			they are not installed already.
+		-

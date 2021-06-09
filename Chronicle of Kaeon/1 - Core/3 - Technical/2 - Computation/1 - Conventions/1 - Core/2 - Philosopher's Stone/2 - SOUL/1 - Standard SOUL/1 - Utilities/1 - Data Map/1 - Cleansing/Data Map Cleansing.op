@@ -1,0 +1,12 @@
+Data Map Cleansing
+
+	Philosophy
+
+		-
+			Data map cleansing is a process in which for a given data map, for all sets of points
+			with matching input vectors, all are removed from the data map save for the most
+			recently added point in each of said sets.
+
+			A data map that has had data map cleansing applied to it is referred to as a cleansed
+			data map.
+		-

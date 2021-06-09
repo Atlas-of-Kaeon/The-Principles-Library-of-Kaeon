@@ -1,0 +1,77 @@
+Game Content
+
+	Philosophy
+
+		-
+			This document specifies categories into which game content may be categorized.
+		-
+
+	Principles
+
+		Types
+
+			Static Content
+
+				-
+					Static content is pre-defined content that will always be available on a given
+					playthrough.
+				-
+
+			Dynamic Content
+
+				-
+					Dynamic content is dynamically generated content or content from a source
+					external to the base game that will not always be available on a given
+					playthrough.
+				-
+
+			Permanent Content
+
+				-
+					Permanent content is content that will permanently alter the game state once
+					consumed.
+				-
+
+			Impermanent Content
+
+				-
+					Impermanent content is content that will only alter the game state temporarily
+					once consumed.
+				-
+
+			Constant Content
+
+				-
+					Constant content is static content that will always be available on a given
+					playthrough not matter what choices the player makes.
+				-
+
+			Branching Content
+
+				-
+					Branching content is static content that may or may not be available on a given
+					playthrough depending on what choices the player makes.
+				-
+
+			Core Content
+
+				-
+					Core content is static content that is considered central to the game's
+					narrative.
+				-
+
+			Extraneous Content
+
+				-
+					Extraneous content is static content that is not considered central to the
+					game's narrative.
+				-
+
+		Completion
+
+			-
+				A game can be considered beaten when there is no more core content left to consume.
+
+				A game can be considered complete when there is no more static content left to
+				consume.
+			-

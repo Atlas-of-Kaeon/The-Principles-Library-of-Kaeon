@@ -1,0 +1,27 @@
+Minimal API
+
+	Philosophy
+
+		-
+			A minimal API is a service that receives http and https requests, and performs tasks
+			and returns data based solely on the content of the request's URL.
+		-
+
+	Principles
+
+		Default Header
+
+			-
+				By default, requests to minimal APIs should use GET headers, though effects of said
+				requests may be anything.
+			-
+
+		Minimal API Wrapper
+
+			-
+				A minimal API wrapper is a utility that automatically handles tasks that require
+				multiple minimal API calls.
+
+				This may be necessary in cases involving encryption or where large amounts of data
+				need to be exchanged.
+			-

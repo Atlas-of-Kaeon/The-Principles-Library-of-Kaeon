@@ -1,0 +1,9 @@
+Kaeon ACE Module Interface
+
+	Philosophy
+
+		-
+			A Kaeon ACE module interface is a type of Kaeon FUSION interface that attaches Kaeon
+			ACE modules to the Philosopher's Atlas of the FUSION interpreter, which is assumed to
+			be running in an environment capable of hosting a Kaeon ACE application.
+		-

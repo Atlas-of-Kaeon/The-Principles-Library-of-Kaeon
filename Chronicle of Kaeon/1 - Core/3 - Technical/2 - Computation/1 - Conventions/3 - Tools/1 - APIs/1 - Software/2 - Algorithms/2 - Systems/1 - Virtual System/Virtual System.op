@@ -1,0 +1,29 @@
+Virtual System
+
+	Philosophy
+
+		-
+			A virtual system is a virtual interface to a system that contains a modular list of
+			commands, each of which have an alias and may take an indefinite number of string
+			arguments.
+
+			A virtual system may use various different UI shells as interfaces to it, and may
+			execute commands autonomously upon startup.
+		-
+
+	Philosophy
+
+		Default Virutal System
+
+			-
+				A default virtual system provides an interface to a virtual file system through its
+				commands, provides unix style commands for file system navigation and management,
+				provides commands for dynamically changing the available commands, as well as for
+				dynamically changing the shell in use.
+
+				If the name of a file is used as a command, it shall run as an executable if it is
+				an executable.
+				
+				The default shell for a default virtual system is a multi-tabbed terminal
+				interface.
+			-

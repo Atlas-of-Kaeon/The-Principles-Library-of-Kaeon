@@ -1,0 +1,186 @@
+Open Universe Dimensions
+
+	Philosophy
+
+		-
+			This document specifies how the coordinate systems and entity properties defined in the
+			open universe core shall be defined.
+		-
+
+	Principles
+
+		Coordinates
+
+			Universal Time
+
+				-
+					The universal time shall be defined in seconds.
+				-
+
+			General Coordinate System
+
+				-
+					Points on the axes of the general coordinate system shall be defined in light
+					years.
+				-
+
+			Relative Coordinate Systems
+
+				Standard Relative Coordinate System
+
+					-
+						The standard relative coordinate system is a relative coordinate system
+						that defines points relative to a given cosmic entity by projecting a ray
+						out from its center defined by a vector aligned with its tilt, and scaling
+						it to a given number of meters.
+
+						If the entity in question is a celestial entity, said point may be
+						projected onto its surface, and then optionally modified from the resulting
+						point.
+					-
+
+		Cosmic Entity Properties
+
+			All
+
+				Position
+
+					-
+						Dependant cosmic entities shall have their positions defined in meters, and
+						independant cosmic entities shall have their positions defined in light
+						years.
+					-
+
+				Tilt
+
+					-
+						Cosmic entity tilt shall be defined in radians on the x and z axes.
+					-
+
+			Cluster Entities
+
+				Dimensions
+
+					-
+						Dependant cluster entities shall have their dimensions defined in meters,
+						and independant cluster entities shall have their dimensions defined in
+						light years.
+					-
+
+				Paths
+
+					Types
+
+						Points
+
+							-
+								A path used to define the form of a cluster entity may be defined
+								using a seqeuence of points, with the path flowing from one point
+								to the next in order.
+								
+								Each point shall have the width for the cluster entity at itself
+								defined, with the width at all other points derived by
+								interpolating between them.
+							-
+
+						Ring
+
+							-
+								A path used to define the form of a cluster entity may be defined
+								using a ring, which shall be perfectly circular, with the radius of
+								its center and its width, which shall be the same everywhere.
+							-
+
+						Spiral
+
+							-
+								A path used to define the form of a cluster entity may be defined
+								using a spiral, which shall, from its position, spiral outwards,
+								with its radius increasing at a specified rate per radian, and
+								terminating after a specified number of radians.
+
+								It shall have its width defined at its starting point and at its
+								terminating point, and shall interpolate between them for all other
+								points.
+							-
+
+					Coordinates
+
+						-
+							A path used to define a path entity shall have a starting point.
+
+							The starting point for a points path is the first point.
+
+							The starting point for a ring path is at zero radians relative the z
+							axis of its parent.
+
+							The starting point for a spiral path is at the center of the spiral.
+
+							The position of an entity within the defined cluster entity is defined
+							by specifying a distance from the starting point along the path and
+							by specfying the x and y coordinates of the child entity on a plane
+							that intersects the path at that point.
+						-
+
+				Cloud
+
+					-
+						A cloud cluster entity may use the dimensions used to define a ring path to
+						define said entity as a hollow sphere.
+
+						The position of an entity within a cloud entity may be defined as a 3D
+						cartesian point relative to its center.
+					-
+
+			Celestial Entities
+
+				All
+
+					Mass
+
+						-
+							Celestial entity mass shall be defined in kilograms.
+						-
+
+					Diameter
+
+						-
+							Celestial entity diameter shall be defined in meters.
+						-
+
+				Dependant
+
+					Orbit
+
+						Path
+
+							-
+								The orbital path of a dependant celestial entity shall have its
+								tilt defined in radians on the x and z axes, and its dimensions
+								specified in meters, with its length and the position of its
+								length-wise center relative to the center of the parent entity on
+								the z axis, as well as the position of its widest point relative to
+								its length-wise center on the z axis and its width at said point.
+							-
+
+						Speed
+
+							-
+								The average orbital speed of a dependant celestial entity shall be
+								defined in meters per second
+							-
+
+						Start
+
+							-
+								The starting position of a dependant celestial entity along its
+								orbital path where the universal time is zero shall be defined in
+								radians, projected from a unit circle to a point on the ellipse.
+							-
+
+					Rotation
+
+						-
+							The rotational speed of a celestial entity shall be defined in radians
+							per second.
+						-

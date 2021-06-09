@@ -1,0 +1,9 @@
+Data Map
+
+	Philosophy
+
+		-
+			A data map is a set of input-output pairs where the input is a vector of indefinite
+			length where each element is a number between zero and one, inclusive, and the output
+			is a single number between zero and one, inclusive.
+		-

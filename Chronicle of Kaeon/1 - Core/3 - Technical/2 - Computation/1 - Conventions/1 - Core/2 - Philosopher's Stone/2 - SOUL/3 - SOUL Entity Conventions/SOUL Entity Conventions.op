@@ -1,0 +1,92 @@
+SOUL Entity Conventions
+
+	Philosophy
+
+		-
+			This document specifies conventions for SOUL entities.
+		-
+	
+	Principles
+
+		Atlas
+
+			-
+				A SOUL entity atlas is a SOUL entity implemented as or as part of a philosopher's
+				atlas.
+			-
+
+		Cluster
+
+			-
+				A SOUL entity cluster is a group of SOUL entities that for all intents and purposes
+				function together as a single SOUL entity.
+			-
+
+		Organs
+
+			Philosophy
+
+				-
+					SOUL entity organs are modules that interact with SOUL entities.
+
+					They may either be internal, meaning they are part of the SOUL entity itself,
+					or external, meaning they interface with the SOUL entity through its input and
+					output channels.
+				-
+
+			Principles
+
+				Internal
+
+					Pulse
+
+						-
+							A pulse is an internal SOUL entity organ that manages an internal event
+							loop where upon each iteration other internal SOUL entity organs,
+							called pulse modules, may send text through the output channels.
+						-
+
+					Record
+
+						-
+							A record is an internal SOUL entity organ that stores records of the
+							text inputs received, text outputs sent, and numerical inputs received
+							by the SOUL entity it belongs to along with the time they were sent or
+							received.
+						-
+
+					Pulse Modules
+
+						Starter
+
+							-
+								A starter is a pulse module that produces randomized output to
+								send through the output channel when insufficient data is
+								available within whatever records are available.
+							-
+
+						Core
+
+							-
+								A core is a pulse module that produces output to send through the
+								output channel based on the content of whatever records are
+								available is said said contents are sufficent.
+							-
+
+				External
+
+					Manager
+
+						-
+							A manager is an external SOUL entity organ that allows a user to modify
+							the state of a SOUL entity, to record the state of a SOUL entity and
+							export it to text, to start, pause, or stop the activity of a SOUL
+							entity, or to spawn and destroy SOUL entities.
+						-
+
+					Breeder
+
+						-
+							A breeder is a module that can take the serialized state of a SOUL
+							entity and mutate it in order to emulate breeding.
+						-

@@ -1,0 +1,18 @@
+Tag
+	
+	Philosophy
+	
+		-
+			A tag element is a first order Kaeon ACE subcomponent that represents a tag identifier.
+
+			It must have the content "Tag".
+		-
+	
+	Principles
+		
+		Children
+			
+			-
+				The element must have a single element as its child, the content of which shall
+				specify the tag that the element represents.
+			-

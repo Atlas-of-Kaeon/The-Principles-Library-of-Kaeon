@@ -1,0 +1,41 @@
+Discourse Format
+
+	Philosophy
+
+		-
+			The discourse format is a Kaeon document format used to transcribe a discussion between
+			several parties.
+			
+			Its structure is modelled on that of online forums.
+		-
+
+	Principles
+
+		Structure
+
+			-
+				Each participant in the discussion shall be identified by a unique alias, or by the
+				word "Anonymous" to indicate that their identity is unknown.
+
+				The title of the document shall be the alias of whoever initiated the discussion,
+				followed by the sequence " - ", followed by the title of the discussion.
+
+				The philosophy section of the document shall contain a prompt that initiates the
+				discussion.
+				
+				The principles section of the document may contain an indefinite number of
+				discourse elements.
+
+				Each discourse element shall represent a response to the prompt.
+				
+				Their content shall be the alias of whoever made the response, and they must have
+				a child called a response element, which shall contain said response.
+				
+				A discourse element may also have an indefinite number of additional discourse
+				elements as children following the response element, each of which represent
+				responses to its parent discourse element.
+
+				Additionally, a discourse element may have a child with the content "Metadata"
+				preceding the response element, which may have an indefinite number of children
+				specifying miscellaneous information about the discourse element.
+			-

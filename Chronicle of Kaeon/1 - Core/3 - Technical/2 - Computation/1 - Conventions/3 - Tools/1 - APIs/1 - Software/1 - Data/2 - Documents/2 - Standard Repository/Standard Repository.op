@@ -1,0 +1,11 @@
+Standard Repository
+
+	Philosophy
+
+		-
+			The standard repository is a convention for project repositories.
+			
+			Under the convention, project repositories should contain one folder sharing the name
+			of the repository, in which all of the project contents are kept. Alongside said
+			folder, there may also be a license file and a readme file.
+		-

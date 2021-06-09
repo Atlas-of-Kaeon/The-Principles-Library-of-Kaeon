@@ -1,0 +1,11 @@
+Delete UI
+
+	Philosophy
+
+		-
+			The delete UI command is a command with the content "Delete UI". It may have an
+			indefinite number of children, each of which return strings containing CSS selectors.
+
+			It shall delete all of the elements matching the returned selectors within the host
+			DOM, if present.
+		-

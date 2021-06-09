@@ -1,0 +1,16 @@
+Send
+
+	Philosophy
+
+		-
+			The send command is a command with the content "send". It shall have one child which
+			shall return either a string containing a raw HTTP request or a dynamic list
+			corresponding to an HTTP request in HTTP JSON format, and may also have an additional
+			child which returns a list.
+
+			The returned response shall be converted into a dynamic list corresponding to the same
+			response in HTTP JSON format. If the second child is not present, it shall execute the
+			request synchronously and return the returned list, and if the list is present, it
+			shall execute the request asynchronously and execute the returned list as a Kaeon
+			FUSION function, passing the returned list to it as an argument.
+		-

@@ -1,0 +1,21 @@
+Polygon
+
+	Philosophy
+	
+		-
+			A polygon element is an ACE element that represents a polygon in a mesh.
+			
+			It must have the content "Polygon".
+		-
+	
+	Principles
+		
+		Children
+			
+			-
+				The element must have a child with the content "Indexes", which may have an
+				indefinite number of children, each of which have an integer number as their
+				content.
+				
+				The element may also have one color element as a child.
+			-

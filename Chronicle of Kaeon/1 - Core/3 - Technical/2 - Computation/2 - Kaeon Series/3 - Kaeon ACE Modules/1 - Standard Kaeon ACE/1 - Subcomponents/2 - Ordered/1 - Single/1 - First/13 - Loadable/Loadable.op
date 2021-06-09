@@ -1,0 +1,23 @@
+Loadable
+
+	Philosophy
+	
+		-
+			A loadable is a first order Kaeon ACE subcomponent that represents a loadable resource.
+
+			It must have the content "Loadable".
+		-
+	
+	Principles
+		
+		Children
+		
+			-
+				The element must have two children, one with the content "Type" and the other with
+				the content "Source".
+
+				The type element must have a child with content specifying the type of loadable
+				that the loadable element represents, and the source element must have a child with
+				content specifying the file path of the resource that the loadable element
+				represents.
+			-

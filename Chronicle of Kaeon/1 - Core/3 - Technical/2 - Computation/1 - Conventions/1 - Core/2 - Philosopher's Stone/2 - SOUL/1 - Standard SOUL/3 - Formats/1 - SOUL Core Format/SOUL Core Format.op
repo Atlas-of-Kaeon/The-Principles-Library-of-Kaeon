@@ -1,0 +1,20 @@
+SOUL Format
+
+	Philosophy
+		
+		-
+			The SOUL format allows standard SOUL to save its state as a ONE document.
+			
+			The document must have two elements: an element with the content "Corpus", and an
+			element with the content "Models".
+			
+			For every input/output/correlation set in the SOUL's corpus, the corpus element must
+			have a child with the content "Set". This child must have three children: an element
+			with the content "Input", and element with the content "Output", and element with the
+			content "Correlation". Each one of said elements must have a child with content
+			containing its respective value.
+			
+			For every model the SOUL contains, it must have a child with content containing the
+			model's name. Each such element must have a child with the state of its respective
+			model encoded in said model's custom file format as its content.
+		-

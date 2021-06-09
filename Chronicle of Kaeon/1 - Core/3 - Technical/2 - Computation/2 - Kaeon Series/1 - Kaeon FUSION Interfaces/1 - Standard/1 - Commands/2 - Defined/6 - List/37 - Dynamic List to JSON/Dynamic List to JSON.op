@@ -1,0 +1,12 @@
+Dynamic List to JSON
+
+	Philosophy
+
+		-
+			The dynamic list to JSON command is a command with the content "Dynamic List to JSON".
+			It shall have one child which returns a dynamic list.
+
+			It shall return a JSON string corresponding to the specified dynamic list, where any
+			list that has at least one non-null field alias shall become an object, and where any
+			list that has no non-null field aliases shall remain a list.
+		-

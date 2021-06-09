@@ -1,0 +1,9 @@
+The Responsive DOM Principle
+
+	Philosophy
+
+		-
+			The Responsive DOM principle is the principle that all aspects of a document based
+			rendering, including any changes made to it at runtime, must be reflected in the
+			document that defines it.
+		-

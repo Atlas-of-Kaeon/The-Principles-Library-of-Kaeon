@@ -1,0 +1,56 @@
+Common Database API
+
+	Philosophy
+
+		-
+			The common database API is a standard for the parameters of a function that can take
+			and process any request for any type of database.
+		-
+
+	Principles
+
+		Default Name
+
+			-
+				The defualt name of the common database API function is "query".
+			-
+
+		Parameters
+
+			Sources
+
+				-
+					The sources parameter is either a single value or a list of values that
+					specify databases that the requests are directed at.
+
+					Each of said values may either be a string specifying the database, or a list
+					where the first element is said string and the second element, if present, is
+					a list of lists where in each of said nested lists, the first element is a
+					string specifying the name of a credential and the second is a string
+					containing the value of a credential.
+				-
+
+			Requests
+
+				-
+					The requests parameter is either a single value or a list of values that
+					constitute requests directed at the intended databases.
+				-
+
+			Type
+
+				-
+					The type parameter, which is optional, is a string that specifies the type of
+					database the requests are intended for.
+
+					If the type parameter is not present, the API may attempt to dynamically
+					accommodate the request.
+				-
+		
+		Standard Types
+
+			Relational
+			Key
+			Document
+			Column
+			Graph

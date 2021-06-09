@@ -1,0 +1,19 @@
+Collider
+
+	Philosophy
+		
+		-
+			A collider element is a first order Kaeon ACE subcomponent that represents a rigid body
+			attached to the entity it belongs to.
+
+			It must have the content "Collider".
+		-
+	
+	Principles
+		
+		Children
+		
+			-
+				The element may have a mesh element as a child, and must have a child with the
+				content "Type", which must have a child with the content "Mesh" or "Sphere".
+			-

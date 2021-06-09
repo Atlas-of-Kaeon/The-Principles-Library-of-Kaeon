@@ -1,0 +1,55 @@
+Kaeon Neural Network Format
+
+	Philosophy
+	
+		-
+			The Kaeon Neural Network Format is a ONE document format for storing the state of a
+			neural network.
+		-
+	
+	Principles
+		
+		Structure
+			
+			-
+				The document will contain an indefinite number of elements, each containing the
+				content "Layer" or "Use".
+				
+				Elements with the content "Layer" correspond to a layer in a neural network. The
+				order in which they are listed dictates the order of the layers in the neural
+				network.
+				
+				Elements with the content "Use" may have an indefinite number of children, each
+				with content specifying the name of a module containing various activation
+				functions. Each of said activation functions will have a string alias.
+				
+				Nested within the layer elements will be an indefinite number of elements
+				containing the content "Neuron", corresponding to neurons within their respective
+				layer, listed in the order corresponding to their indexes. Each neuron element will
+				have a combination of the following children: an element with the content
+				"Connections", and element with the content "Bias", and an element with the content
+				"Activation".
+				
+				The element with the content "Connections" must be present if the layer its
+				respective neuron occurs in is not the last layer and must be absent otherwise,
+				will have a child with containing a number between between zero and one for every
+				neuron in the following layer, corresponding with the weights of the neural
+				connections.
+				
+				The element with the content "Bias", if present, will have a child containing a
+				number between zero and one, corresponding to the bias of the neuron. If the bias
+				element is not present, the neuron will have a bias of zero. This element may not
+				be present in a neuron belonging the first layer of the neural network.
+				
+				If an element with the content "Activation" is present among the children of a
+				neuron element, it must have a child containing the alias of an activation function
+				provided by one of the modules referenced by a use element. The referenced
+				activation will be the activation function of the neuron defined by said neuron
+				element.
+				
+				If an element with the content "Activation" is not present among the children of a
+				neuron element, the neuron defined by said neuron element will have the following
+				activation function:
+				
+					f(x) = 1 / (1 + e^-x)
+			-

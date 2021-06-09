@@ -1,0 +1,14 @@
+Set UI
+
+	Philosophy
+
+		-
+			The set UI command is a command with the content "Set UI". Its first child shall return
+			a dynamic list representing a DOM element in DOM JSON format, and it may have an
+			indefinite number of additional children, each of which shall return strings specifying
+			CSS selectors.
+
+			It shall find each of the elements present in the host DOM, if present, that match the
+			specified CSS selectors and modify their properties to match the specified properties
+			of the returned element.
+		-

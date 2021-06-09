@@ -1,0 +1,11 @@
+Gradient Principle
+
+	Philosophy
+
+		-
+			The gradient principle is the principle that policies with time based factors,
+			specifically sentencing policies, should have time based outcomes.
+
+			Therefore, the scale of said outcomes should be determined by gradient functions which
+			take said time based factors as arguments.
+		-

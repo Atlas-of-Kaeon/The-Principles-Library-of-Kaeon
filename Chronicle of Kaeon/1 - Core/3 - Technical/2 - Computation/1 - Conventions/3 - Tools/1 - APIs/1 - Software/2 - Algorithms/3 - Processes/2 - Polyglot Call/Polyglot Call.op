@@ -1,0 +1,32 @@
+Polyglot Call
+
+	Philosophy
+
+		-
+			A polyglot call is an operation which, from one language or envrionment, dynamically
+			executes an operation in another, and returns the result to whatever it was called
+			from.
+		-
+
+	Principles
+
+		Types
+
+			Command
+
+				-
+					A command polyglot call takes a string specifying a terminal command, executes
+					it, and returns the contents of stdout upon its completion.
+				-
+
+			Compile
+
+				-
+					A compile polyglot call takes a string specifying the code for a program
+					written in a different language, and may optionally take a list of string
+					arguments for said program.
+
+					It dynamically interprets or compiles said code, runs the resulting program
+					with the provided arguments if there are any, and then returns the contents of
+					stdout upon its completion.
+				-

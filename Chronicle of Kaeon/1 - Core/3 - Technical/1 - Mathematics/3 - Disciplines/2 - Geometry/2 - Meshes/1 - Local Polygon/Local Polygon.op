@@ -1,0 +1,31 @@
+Local Polygon
+
+	Philosophy
+
+		-
+			In a given N dimensional space containing an indefinite set of N dimensional points,
+			a given point's local polygon could be said to have the N nearest points to said point
+			acting as its vertices.
+			
+			If there are N or fewer than N points in said space, then all of the available points
+			shall be used.
+
+			If multiple points close enough to define the local polygon are the same distance from
+			the central point, all of said points shall be used.
+		-
+
+	Principles
+
+		Polygon Space
+
+			-
+				A polygon space is a N-dimensional rectangular prism space defined by the extremes
+				of the values of verticies of a given polygon.
+			-
+
+		Polygon Interpolation
+
+			-
+				Polygon interpolation derives an N dimensional value from an N-1 dimensional point
+				being projected onto an N dimensional polygon.
+			-

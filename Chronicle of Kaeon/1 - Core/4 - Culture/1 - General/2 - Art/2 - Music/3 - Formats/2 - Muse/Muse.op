@@ -1,0 +1,79 @@
+Muse
+	
+	Philosophy
+		
+		-
+			Muse is a ONE dialect for encoding audio.
+		-
+	
+	Principles
+		
+		Structure
+			
+			Notes
+				
+				-
+					A muse document must contain an element at the root level containing the
+					content "Notes". Every twelve children of said element will represent a note,
+					numbered in order starting at one.
+					
+					The content of the first element of a note specifies the time the note begins
+					in seconds.
+					
+					The content second element of a note the specifies the duration of the note in
+					seconds.
+					
+					The content of all elements following the second element of a note and
+					excluding the the eighth element, the tenth element, and the twelfth of said
+					note will be a number between zero and one. The content eighth element and the
+					tenth element of given note will be a number between negative one and one. The
+					content of the twelfth element will be a number specifying a time in seconds.
+					
+					The content of the third element of a note specifies the pitch of the note when
+					it starts. The content of the fourth element of a note specifies the volume of
+					the note when it starts.
+					
+					The content of the fifth element of a note specifies the pitch of the note when
+					it starts. The content of the sixth element of a note specifies the volume of
+					the note when it starts.
+					
+					The content of the seventh element of a note specifies the location of the
+					bulge of the volume arc between the start and the end of the note. The content
+					of the eighth element of a note specifies the size of the bulge of said volume
+					arc.
+					
+					The content of the ninth element of a note specifies the location of the bulge
+					of the pitch arc between the start and the end of the note. The content of the
+					tenth element of a note specifies the size of the bulge of said pitch arc.
+					
+					The content of the eleventh element of a note specifies the location of the
+					bulge of the temporal arc between the start and the end of the note. The
+					content of the twelfth element of a note specifies the size of the bulge of
+					said temporal arc.
+				-
+			
+			Figures
+			
+				-
+					A muse document must contain an element at the root level containing the
+					content "Figures". Every three children of said element will represent a
+					figure, numbered in order starting at one.
+					
+					The three elements of a figure will be integer numbers specifying the index of
+					a note, where the endpoints of the three specified notes connect to form a
+					single contiguous shape.
+				-
+			
+			Tracks
+			
+				-
+					A muse document must contain an element at the root level containing the
+					content "Tracks". Every child of said element will represent a track.
+					
+					The content of a child of the tracks element, called a track element, will be a
+					string specifying the intended output device of the track. If no specific
+					output device is required, the content will be "Default".
+					
+					A track element may have an indefinite number of children, each of which with
+					content containing an integer number specifying the index of a figure.
+				-

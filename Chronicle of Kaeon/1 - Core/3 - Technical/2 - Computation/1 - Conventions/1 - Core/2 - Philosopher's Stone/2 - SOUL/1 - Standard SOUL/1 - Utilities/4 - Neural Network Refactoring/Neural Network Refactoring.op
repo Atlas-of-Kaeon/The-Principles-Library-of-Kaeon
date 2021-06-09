@@ -1,0 +1,13 @@
+Neural Network Refactoring
+
+	Philosophy
+
+		-
+			Neural network refactoring is the act of altering the structure of a neural network to
+			either increase or decrease its complexity while preventing it from producing a
+			different output for any given input.
+
+			Alternatively, to alter the structure of a neural network while allowing for a mimimal
+			amount of alteration in it output for any given input is referred to as neural network
+			pseudorefactoring.
+		-

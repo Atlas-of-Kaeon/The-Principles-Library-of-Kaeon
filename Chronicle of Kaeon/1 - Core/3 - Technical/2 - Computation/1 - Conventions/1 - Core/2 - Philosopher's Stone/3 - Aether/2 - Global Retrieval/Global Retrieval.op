@@ -1,0 +1,9 @@
+Global Retrieval
+
+	Philosophy
+
+		-
+			Global retrieval is when Philosopher's Retrieval is used to retrieve a set of files
+			and directories from within a specified directory, where the path or content of said
+			files and directories matches a given regular expression.
+		-

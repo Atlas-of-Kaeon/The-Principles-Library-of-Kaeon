@@ -1,0 +1,10 @@
+JSON to Dynamic List
+
+	Philosophy
+
+		-
+			The JSON to dynamic list command is a command with the content "JSON to Dynamic List".
+			It shall have one child which returns a JSON string.
+
+			It shall return a dynamic list corresponding to the specified JSON.
+		-

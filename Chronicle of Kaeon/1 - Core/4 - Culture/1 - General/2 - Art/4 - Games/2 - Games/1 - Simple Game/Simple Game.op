@@ -1,0 +1,102 @@
+Simple Game
+
+	Philosophy
+	
+		-
+			The simple game is a single player turn based game in which the player assumes the role
+			of a fighter opposing a monster.
+		-
+	
+	Principles
+	
+		Gameplay
+			
+			Hit Points
+			
+				-
+					The player and the monster each have hit points, representing their vitality.
+
+					At the start of the game, both parties will have some number of hit points.
+				-
+			
+			Moves
+			
+				-
+					The player and the opponent will each have some number of moves, each of which
+					will reduce the other's hit points by a different amount when used.
+				-
+			
+			Turns
+			
+				-
+					Every turn, the remaining hit points for each party will be displayed, and the
+					player will be prompted to select one of the available moves, which will then
+					be used.
+					
+					If the opponent's hit points are still greater than zero after the player's
+					move, they will select one of their moves at random and use it.
+				-
+			
+			End Condition
+				
+				-
+					The game ends when either party's hit points are reduced to zero or lower. At
+					that point, the party with the greater number of hit points remaining will be
+					declared the victor.
+				-
+
+		Standards
+
+			Display
+
+				-
+					The game shall be text based and shall display a message at the beginning
+					welcoming the player to the game and displaying said game's name.
+				-
+
+			Hit Points
+
+				-
+					The player and the opponent shall each start with the same number of hit
+					points.
+				-
+
+			Moves
+
+				-
+					The player shall have two moves, one of which does more damage than the other.
+
+					The opponent shall have one move, which shall do more damage than the player's
+					weaker move and less damage than the player's stronger move.
+				-
+
+		Defaults
+
+			Hit Points
+
+				-
+					The player and the opponent shall each start with one hundred hit points.
+				-
+
+			Moves
+
+				-
+					The player shall have two moves, one of which does twenty points of damage and
+					the other of which does ten points of damage.
+
+					The opponent shall one move which does fifteen points of damage.
+				-
+
+		Variations
+
+			-
+				Different versions of the simple game may be created, some of which may have
+				different mechanics or which may be multiplayer.
+			-
+
+		Teaching
+
+			-
+				The creation of the simple game, or some variant of it, is an ideal challenge for
+				teaching the basics of programming.
+			-

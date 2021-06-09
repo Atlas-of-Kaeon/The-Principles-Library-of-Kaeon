@@ -1,0 +1,24 @@
+Effect
+
+	Philosophy
+	
+		-
+			An effect element is a first order Kaeon ACE subcomponent that represents a graphical
+			effect attached to the entity it belongs to.
+
+			It must have the content "Effect".
+		-
+	
+	Principles
+		
+		Children
+		
+			-
+				The element may have an indefinite number of transform elements as children, and up
+				to one color element.
+
+				The element must have a child with the content "Type", which itself must have a
+				child with the content "Background Color", "Light", or "Fog". The element may also
+				have a child with the content "Intensity", which shall have a single child that has
+				a number as its content.
+			-

@@ -1,0 +1,11 @@
+Standard Dynamic Bit
+
+	Philosophy
+
+		-
+			A standard dynamic bit is a list of numbers between zero and one, inclusive, where zero
+			represents a false value and one represents a true value. Said list must have at least
+			one element.
+
+			By default, the length of said list is one.
+		-

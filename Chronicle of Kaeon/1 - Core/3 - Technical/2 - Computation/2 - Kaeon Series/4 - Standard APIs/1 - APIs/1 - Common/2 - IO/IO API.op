@@ -1,0 +1,39 @@
+IO API
+
+	Philosophy
+
+		-
+			The IO API is an api for general purpose IO tasks involving the console and the file
+			system.
+		-
+
+	Principles
+
+		Open
+
+			-
+				The open function takes a string specifying either a file path or URL and returns
+				the string content from said location.
+			-
+
+		Save
+
+			-
+				The save function takes a string specifying the content of a file as its first
+				argument and a string specifying a file path as its second argument, and writes the
+				content to a new file at said path.
+			-
+
+		Get Input
+
+			-
+				The get input function takes a string specifying a user prompt, opens a user prompt
+				displaying said string, and then returns whatever text the user enters.
+			-
+
+		Run
+
+			-
+				The run function takes a string specifying a command line operation, and executes
+				said command.
+			-

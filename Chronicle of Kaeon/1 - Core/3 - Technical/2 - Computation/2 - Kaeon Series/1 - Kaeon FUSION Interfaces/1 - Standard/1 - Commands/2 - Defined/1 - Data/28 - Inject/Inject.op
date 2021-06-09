@@ -1,0 +1,11 @@
+Inject
+
+	Philosophy
+	
+		-
+			The inject command contains the content "Inject". It has one child, which shall return
+			a ONE element, either as a ONE+ string or in ONE list form.
+			
+			It will replace itself within the script it belongs to with the element returned by its
+			child.
+		-

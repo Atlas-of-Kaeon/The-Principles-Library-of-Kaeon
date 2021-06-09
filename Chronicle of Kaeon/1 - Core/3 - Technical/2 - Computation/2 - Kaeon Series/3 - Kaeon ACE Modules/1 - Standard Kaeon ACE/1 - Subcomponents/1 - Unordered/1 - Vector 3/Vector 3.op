@@ -1,0 +1,19 @@
+Vector 3
+	
+	Philosophy
+		
+		-
+			A vector 3 element is an ACE element that represents a three dimensional vector.
+			
+			It must have the content "Vector 3".
+		-
+	
+	Principles
+		
+		Children
+			
+			-
+				The element must have three children with the content "X", "Y", and "Z"
+				respectively. Each child will itself have a single child with a number as said
+				child's content.
+			-

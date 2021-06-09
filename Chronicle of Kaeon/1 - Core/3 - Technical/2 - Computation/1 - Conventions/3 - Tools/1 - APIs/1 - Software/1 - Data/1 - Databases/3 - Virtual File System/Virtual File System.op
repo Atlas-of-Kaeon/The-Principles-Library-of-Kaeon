@@ -1,0 +1,45 @@
+Virtual File System
+
+	Philosophy
+
+		-
+			A virtual file system is a vitual interface to an indefinite number of file storage
+			systems.
+
+			Each of said systems shall have an alias.
+		-
+
+	Principles
+
+		Resource Paths
+
+			-
+				Each file storage system managed by a virtual file system shall be treated as a
+				disk, and every resource therein shall either be a file or a folder, with disks in
+				said systems being treated as folders.
+
+				Given the afoemention conventions, a path for a resource within a virtual file
+				system shall follow the format of a UNIX style path.
+			-
+
+		Get Resource Function
+
+			-
+				Each file storage system interface within a virutal file system shall have a get
+				resource function, which shall take an absolute path not including the disk and,
+				for a file, shall return its content, and for a folder, shall return an array
+				containing two arrays, the first containing the aliases of all of the sub folders
+				in said folder and the second containing all of the aliases of the files in said
+				folder.
+			-
+
+		Set Resource Function
+
+			-
+				Each file storage system interface within a virutal file system shall have a set
+				resource function, which shall take an absolute path not including the disk and,
+				for a file, a string, for a folder, an object representation of a folder and its
+				contents, and to delete an existing resource, a null value, and shall place the
+				specified resource at the specified location and shall overwrite any existing
+				resource sharing the same path.
+			-

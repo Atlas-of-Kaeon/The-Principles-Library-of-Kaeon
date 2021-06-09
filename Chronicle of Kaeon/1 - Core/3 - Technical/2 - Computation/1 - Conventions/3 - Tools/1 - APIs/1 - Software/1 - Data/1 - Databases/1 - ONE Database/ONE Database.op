@@ -1,0 +1,37 @@
+ONE Database
+
+	Philosophy
+
+		-
+			A ONE database is a database that stores data in a ONE document structure.
+		-
+
+	Principles
+
+		Relational Databse Implementation
+
+			-
+				A ONE database can be emulated using a single relational database table wherein
+				every record represents an element, and where each record has five columns.
+
+				The ID column, of type integer serial, specifies a unique ID for each element,
+				where said ID is greater than one, and serves as the identifying column.
+
+				The content column, of type string or text, specifies the string content of each
+				element.
+
+				The parent column, of type integer, specifies the ID of each element's parent
+				element, and if the element has no parent, it shall contain zero.
+
+				The index column, of type integer, specifies the index of each element parent among
+				its parent's children starting at one, and if the element has no parent, it shall
+				contain zero.
+
+				The metadata column, of type string or text, specifies additional metadata
+				regarding each element.
+
+				Additionally, the database may be set up such that the data is spread across
+				multiple tables, in which case information about the relationships between said
+				tables shall be encoded within the content of the metadata column, and a single
+				table within the database shall serve as the root or master table.
+			-

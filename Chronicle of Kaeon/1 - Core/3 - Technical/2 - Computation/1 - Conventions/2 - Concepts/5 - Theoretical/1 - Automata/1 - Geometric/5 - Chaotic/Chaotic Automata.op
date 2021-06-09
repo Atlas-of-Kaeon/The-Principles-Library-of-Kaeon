@@ -1,0 +1,18 @@
+Chaotic Automata
+
+	Philosophy
+
+		-
+			Chaotic automata is a form of geometric automata in which the state of a point in the
+			space in which the simulation takes place may, when the rules gives multiple
+			possibilities for valid states, change to one of the valid options arbitrariliy.
+		-
+
+	Principles
+
+		Bias
+
+			-
+				Certain factors may influence the odds of an otherwise entirely arbitrary
+				selection.
+			-

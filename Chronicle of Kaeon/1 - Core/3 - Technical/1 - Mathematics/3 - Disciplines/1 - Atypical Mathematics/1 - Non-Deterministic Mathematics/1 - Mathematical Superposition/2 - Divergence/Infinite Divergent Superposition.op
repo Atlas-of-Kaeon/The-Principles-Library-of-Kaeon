@@ -1,0 +1,32 @@
+Infinite Divergent Superposition
+
+	Philosophy
+
+		-
+			The sum of an infinite divergent series can be defined as a mathematical superposition.
+		-
+
+	Principles
+
+		Grandi~'s Series
+
+			-
+				Grandi's Series is defined as:
+
+					The sum of x at n from 0 to infinity where x = (-1)^n
+
+				Grandi's series is divergent, with the sum at each index alternating between 0 and
+				1 all the way to infinity, so its true sum, as opposed to its Cesaro sum of 0.5,
+				can be said to be a mathematical superposition of 0 and 1.
+
+				This calls into question the commonly cited proof that the sum of all natural
+				numbers is -1/12, which relies on the Cesaro sum of Grandi's series.
+			-
+
+		Non-Deterministic Physics
+
+			-
+				If infinite divergent series have any bearing on physics, the possibility of
+				mathematical superpositions at play in scenarios where such series are relevant may
+				imply the existence of truly non-deterministic physical phenomena.
+			-

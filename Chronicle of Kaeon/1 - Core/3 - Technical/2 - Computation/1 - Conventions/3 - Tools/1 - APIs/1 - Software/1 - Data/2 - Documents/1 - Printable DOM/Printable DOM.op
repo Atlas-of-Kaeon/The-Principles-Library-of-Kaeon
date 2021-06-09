@@ -1,0 +1,46 @@
+Printable DOM
+
+	Philosophy
+
+		-
+			A printable DOM document, or PDOM document, uses existing HTML specification to form an
+			open and simple standard for encoding the content of a multi-page printable document.
+		-
+
+	Principles
+
+		Structure
+
+			-
+				A printable DOM document is represented as a list of objects, each of which
+				represents a page in said document, ordered according to their order in the
+				document.
+				
+				Each object page object contains the virtual pixel dimensions of the page so as to
+				callibrate the size of content scaled by pixels and to specify the shape of the
+				page.
+
+				Each page object shall also contain the DOM of an HTML document, which shall
+				specify its content.
+			-
+
+		Standards
+		
+			Encoding
+
+				-
+					The standard method of encoding a PDOM document in as a JSON document, where a
+					JSON list serves as the container of the document, and where each page object
+					within it is represented as a JSON object.
+
+					Each page object shall thus have three fields, a number field for each the of 
+					the virtual pixel dimensions with the keys "width" and "height" respectively,
+					and a string field with the key "content" containing the DOM content of the
+					page as a DOM JSON string.
+				-
+
+			File Extension
+
+				-
+					The standard file extension for a PDOM document is ".pdom".
+				-

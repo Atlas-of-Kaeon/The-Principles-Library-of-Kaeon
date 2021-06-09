@@ -1,0 +1,37 @@
+Build Dialect
+
+	Philosophy
+	
+		-
+			A build dialect is a ONE dialect used to represent another file format.
+		-
+
+	Principles
+
+		Meta Command
+
+			Philosophy
+
+				-
+					A meta command is a ONE element with the content "Meta".
+
+					A meta command may be placed into a build dialect document to specify
+					miscellaneous information to any program interpreting said document using its
+					children.
+				-
+			
+			Scope
+				
+				-
+					Any effect specified by a meta command will act on commands that follow said
+					command.
+					
+					An effect of a command is said to have extended scope if said effect trickles
+					down to elements within the scope of the affected elements.
+					
+					A meta command effect is said to have reduced scope if it only applies to the
+					element immediately following said command.
+					
+					If two meta commands specify effects that contradict one another, the effects
+					of the more recent command shall be applied.
+				-

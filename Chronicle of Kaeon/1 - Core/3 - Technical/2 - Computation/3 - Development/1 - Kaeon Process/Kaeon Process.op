@@ -1,0 +1,149 @@
+Kaeon Process
+
+	Philosophy
+	
+		-
+			The Kaeon process is a software development methodology focused on separating concerns,
+			on dividing a product into modular units each of which is a product in its own right,
+			on defining the concept of a product as a product itself, on allowing for designs and
+			requirements to change and evolve during development, and on continuous deployment.
+			
+			As the Kaeon process is designed with large organizations in mind, should an abridged
+			version of the Kaeon process be practiced by single developers or by small teams it may
+			be referred to as the Lite Kaeon process.
+		-
+	
+	Principles
+		
+		Projects
+		
+			-
+				The Kaeon process revolves around projects. The goal of a project is to define,
+				develop, and maintain a product.
+			-
+			
+			Constitution
+			
+				-
+					The project constitution is a document that specifies the nature of the product
+					the project is to produce. The Constitution itself can be considered a product
+					in its own right.
+				-
+		
+		Mission
+			
+			-
+				A mission is a specification that guides the work of a team. Missions consist of
+				tasks. Missions are complete when the terms of their master tasks have been met.
+			-
+			
+			Task
+			
+				-
+					A task is a document that defines the goal of a team. Tasks may be modified as
+					the needs of a project evolve. If a task is deemed unnecessary for the project
+					it may be declared defunct. A defunct task may still be worked on.
+				-
+				
+				Log
+				
+					-
+						The log is a document that details how close the team is to meeting the
+						terms of a task document.
+					-
+				
+				Master Task
+				
+					-
+						The master task is a task that dictates the overall goal for a given
+						product. If the master task is declared defunct, then the mission will be
+						declared defunct.
+					-
+				
+				Sub Tasks
+					
+					-
+						Sub tasks dictate short term goals for the team to achieve that assist in
+						meeting the terms of the master task.
+					-
+					
+		Development
+			
+			-
+				Development is segmented across teams spanning various domains. Teams may be spread
+				between different projects should the needs of multiple projects overlap.
+			-
+			
+			Directives
+			
+				-
+					Directives are requests issued by one team to another. Directives are optional
+					for the recipient unless enforced by the management team.
+				-
+			
+			Teams
+			
+				Management
+				
+					-
+						The management team handles the business and human resource aspects of a
+						project, and may issue directives to any team.
+					-
+				
+				Development
+					
+					-
+						Members of the development teams may switch freely between said teams and
+						may work within multiple teams simultaneously so long as they have the
+						approval of the management team.
+					-
+					
+					Product
+						
+						Design
+						
+							-
+								The design team is responsible for defining the product, and as
+								such define the project's constitution. They may issue directives
+								to the frontend teams.
+							-
+						
+						Deployment
+						
+							-
+								The deployment team is responsible for taking units developed by
+								the engineering teams and releasing them to the public.
+							-
+					
+					Engineering
+						
+						-
+							Each engineering team has its own missions.
+						-
+		
+		Stable and Edge Builds
+		
+			-
+				Every unit of a project should have one stable build and multiple edge builds.
+				Stable builds are the builds available to the rest of the project and for
+				deployment at any given time. Edge builds are builds that are in development to
+				integrate new feature or optomize existing ones. Builds that are in development to
+				combine edge builds or combine edge builds with the stable build are called merge
+				builds. Edge builds may ignore the structure of the existing stable build. Edge and
+				merge build may replace the existing stable build once they exceed its
+				capabilities.
+			-
+		
+		Salvaging
+		
+			-
+				Salvaging refers to the process of taking units that were not developed with the
+				Kaeon process and integrating them into a Kaeon process project.
+			-
+			
+		Mining
+		
+			-
+				Mining refers to developing projects without necessarily having a particular
+				process or goal. Anything that may come of such projects may be salvaged later on.
+			-

@@ -1,0 +1,19 @@
+Color
+
+	Philosophy
+	
+		-
+			A color element is an ACE element that represents an alpha-red-green-blue color.
+			
+			It must have the content "Color".
+		-
+	
+	Principles
+		
+		Children
+		
+			-
+				The element must have children with the content "Alpha", "Red", "Green", and "Blue"
+				respectively, each of which must have a child with a number between zero and one as
+				said child's content.
+			-

@@ -1,0 +1,12 @@
+Virtual Hardware
+
+	Philosophy
+
+		-
+			Virtual hardware is a simulation of a given physical machine that software may interact
+			with in the same manner that it would the real equivalent.
+			
+			Among other things, this would allow one to conserve the resources needed to build said
+			machine at least until said resources are availble and the concept has been
+			sufficiently proven.
+		-

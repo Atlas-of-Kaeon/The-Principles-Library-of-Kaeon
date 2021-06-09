@@ -1,0 +1,10 @@
+Synchronous Map
+
+	Philosophy
+
+		-
+			A synchronous map is a data map vector in which each data map has the same number of
+			input-output pairs, with the same input vectors across each corresponding input-ouptut
+			pair, while not necessarily sharing the same output values across each corresponding
+			input-output pair.
+		-

@@ -1,0 +1,195 @@
+Open Universe Core
+
+	Philosophy
+
+		-
+			This document specifies the core principles of the general open universe standard.
+		-
+
+	Principles
+
+		Global Values
+
+			Core Seed
+
+				-
+					The core seed is the number used to seed the algorithm responsible for
+					generating the procedurally generated content of the simulation.
+
+					If no core seed is specified, it shall be set to zero.
+				-
+
+			Universal Time
+
+				-
+					The universal time is the amount of time that has lapsed since the big bang
+					relative to a hypothetical point in space where the rate at which time passes
+					has remained constant.
+				-
+
+		Entities
+
+			Types
+
+				Independant Entities
+
+					-
+						An independant entity is generally defined as any entity that a human could
+						escape the gravitational pull of by jumping.
+					-
+
+				Celestial Entities
+
+					-
+						A celestial entity is generally defined as any entity that a human could
+						not escape the gravitational pull of by jumping.
+					-
+
+				Cluster Entities
+
+					-
+						Groups of entities that act as singular units shall be referred to as
+						cluster entities.
+					-
+
+				Cosmic Entities
+
+					-
+						Cluster entities and celestial can collectively be referred to as cosmic
+						entities.
+					-
+
+			Relations
+
+				Parent-Child Relations
+
+					-
+						A cosmic entity that sits within a cluster entity or orbits a celestial
+						entity shall be a child of the entity to which it is bound.
+					-
+
+				ID
+
+					-
+						All cosmic entities, save for the universe, shall have a unique numerical
+						ID relative to their immediate siblings, and the universe shall have an ID
+						of zero.
+					-
+
+				Dependant Cosmic Entities
+
+					-
+						A dependant cosmic entity is any cosmic entity that descends from a
+						celestial entity via parent-child connections.
+
+						All other cosmic entities shall
+					-
+
+			Properties
+
+				All
+
+					Position
+
+						-
+							The position of the center of a cosmic entity, save for the universe,
+							shall be defined relative to its parent.
+						-
+
+					Tilt
+
+						-
+							Each cosmic entity, save for the universe, shall have an axis along
+							which it is tilted relative to its parent.
+						-
+
+				Cluster Entities
+
+					Dimensions
+
+						-
+							The dimensions of a cluster entity may either be defined as a point or
+							a path.
+
+							If it is defined as a point, it shall be spherical and must have its
+							diameter defined.
+
+							If it is defined as a path, it must have its width defined at each
+							point on said path.
+						-
+
+				Celestial Entities
+
+					All
+
+						Mass
+
+							-
+								Each celestial entity shall have a mass property.
+							-
+
+						Diameter
+
+							-
+								Each celestial entity shall have a diameter property.
+							-
+
+					Dependant
+
+						Orbit
+
+							Path
+
+								-
+									Each dependant celestial entity shall have a tilted ellipse
+									that defines the path of its orbit around its parent.
+								-
+
+							Speed
+
+								-
+									Each dependant celestial entity shall also have its average
+									orbital speed defined.
+								-
+
+							Start
+
+								-
+									Each dependant celestial entity shall have the point along its
+									orbital path, where it is located where no time has passed
+									according the universal time, defined.
+								-
+
+						Rotation
+
+							-
+								Each dependant celestial entity shall have the speed at which it
+								rotates defined.
+							-
+
+		General Coordinate System
+
+			-
+				The general coordinate system shall be used to define the exact location of content
+				within the simulation.
+
+				It shall define the position of objects on a three dimensional cartesian coordinate
+				system, with its origin set at the center of the resulting grid.
+			-
+
+		Relative Coordinate Systems
+
+			-
+				A relative coordinate system is a system that may be used to define the position of
+				objects relative to a given entity.
+			-
+
+		Generation
+
+			-
+				After certain entities have been placed into the simulation manually, procedural
+				content shall be generated according to the core seed.
+				
+				The positions of celestial entities within the simulation should be determined by
+				the universal time value.
+			-

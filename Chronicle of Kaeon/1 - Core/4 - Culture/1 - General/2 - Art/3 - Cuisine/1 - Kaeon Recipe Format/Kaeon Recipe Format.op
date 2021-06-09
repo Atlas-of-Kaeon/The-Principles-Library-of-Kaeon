@@ -1,0 +1,100 @@
+Kaeon Recipe Format
+
+	Philosophy
+	
+		-
+			The Kaeon recipe format is a ONE format for encoding a cooking recipe.
+			
+			The format is an extension of the Kaeon document format.
+		-
+	
+	Principles
+	
+		Structure
+		
+			-
+				The philosophy section of the document will contain a written description of the
+				recipe contained within the document.
+				
+				The principles section may either have a child with the content "Reference", or any
+				combination of children with the following content: "Parameters", "Tags", "Yield",
+				"Time", "Ingredients", "Equipment", "Directions", "Nutrition", and "Notes".
+				
+				Each child of the element with the content "Parameters" contains content that
+				defines the alias of a field that may be redefined if the recipe is referenced in
+				another document. Each of said children may optionally have a child with content
+				specifying the default value for said field. If not all fields have default values,
+				the recipe can only be used when referenced such that the undefined fields are
+				given.
+				
+				Each child of the element with the content "Tags" contains content that specifies
+				that the recipe has a certain attribute.
+				
+				Each child of the element with the content "Yield" represents a product of the
+				recipe in the recipe. The content of each child will be the name of the product,
+				and each will have a child with the content "Amount". The amount element will have
+				a child with content specifying the amount of the product the recipe produces.
+				
+				The element with the content "Time" may have one or both of a child with the
+				content "Total" and a child with the content "Phases". The element with the content
+				"Total" will have one child with content specifying the total time it takes to
+				prepare the recipe. Each child of the element with the content "Phases" represents
+				the time a given set of steps will take to perform. Each of said children contain
+				content specifying the of a sequence of steps, and will have two children, one of
+				which with the content "Steps" and the other of which with the content "Time". The
+				element with the content "Steps" may have either one or two children with each
+				have content that contains the number of a step. One child means the phase only
+				accounts for a single step, and two children, in which case the second number must
+				be larger than the first, means the phase spans from the step specified by the
+				first number to the step specified by the second number. The element with the
+				content "Time" has a single child with content specifying the amount of time the
+				phase takes to complete. No children two phases specified by the children of the
+				phases element may have overlapping steps, and they must be arranged in the order
+				the occur in.
+				
+				Each child of the element with the content "Ingredients" represents an ingredient
+				in the recipe. The content of each child will be the name of the ingredient, and
+				each will have a child with the content "Amount". The amount element will have a
+				child with content specifying the amount of the ingredient the recipe requires.
+				Each child may also optionally have a child with the content "Arguments", which
+				indicates that the ingredient is the yield from a recipe with parameters. Each
+				child of the arguments element shall have content specifying the name of a given
+				field in the referenced recipe and a child with content specifying the value of
+				said field.
+				
+				Each child of the element with the content "Equipment" represents an piece of
+				equipment required to prepare the recipe. The content of each child will be the
+				name of the piece of equipment, and each may optionally have a child with the
+				content "Amount". The amount element will have a child with content specifying how
+				many pieces of the equipment the recipe requires.
+				
+				Each child of the element with the content "Directions" represents a step in the
+				recipe. They will have content containing a number specifying the order the step
+				occurs in, and will have one child containing content describing the step.
+				
+				Each child of the element with the content "Nutrition" will contain content
+				specifying the name of a unit of the product yielded by the recipe, will have a
+				child containing the content "Amount" with a child containing content specifying
+				the size of the unit, and may have one or both of a child with the content
+				"Contents", and a child with the content "Warnings". Each child of the contents
+				element represents a nutrient present in the unit produced by the recipe. The
+				content of said children will be the name of the nutrient, and each of said
+				children will have a child with the content "Amount". Said amount element will have
+				a child with content specifying the amount of the ingredient the recipe requires.
+				Each child of the warnings element will have children specifying the name of a
+				potentially hazardous or offensive attribute of the unit produced by the recipe.
+				
+				Each child of the notes element will have content specifying miscellaneous
+				information regarding the recipe.
+
+				If the element with the content "Reference" is present, it indicates that the
+				is a variation of another recipe with parameters. It shall have one child with the
+				content "Recipe", and another child with the content "Arguments". The recipe
+				element shall have a child specifying the name or location of the referenced
+				recipe. Each child of the arguments element shall have content specifying the name
+				of a given field in the referenced recipe and a child with content specifying the
+				value of said field.
+				
+				Any of the aforementioned elements in the principles section may be omitted if they
+				are irrelevant.
+			-

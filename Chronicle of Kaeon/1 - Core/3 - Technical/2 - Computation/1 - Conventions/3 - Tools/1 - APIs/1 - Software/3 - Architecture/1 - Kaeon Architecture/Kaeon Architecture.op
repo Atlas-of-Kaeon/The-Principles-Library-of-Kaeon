@@ -1,0 +1,57 @@
+Kaeon Architecture
+
+	Philosophy
+
+		-
+			Kaeon Architecture is a system for constructing modules in a manner that maximizes
+			modularity and fault tolerance.
+
+			A module designed using the Kaeon architecture is referred to as a Kaeon module.
+		-
+	
+	Principles
+
+		Utilities
+
+			-
+				Utilities are functions and modules that are publicly available and statically
+				accessible.
+			-
+
+		Processes
+
+			-
+				Processes are persistenly running modules that serve solely to govern the calling
+				of functions within utilities.
+			-
+
+		Network
+
+			-
+				A module designed using the Kaeon architecture is formed of a group of modules
+				connected together in a Philosopher's Atlas.
+			-
+
+		Data
+
+			-
+				All data stored by a module designed using the Kaeon architecture should be stored
+				in internal or external databases that are globally accesible to the utilities.
+			-
+
+		Layers
+
+			-
+				The network of a module designed using the Kaeon architecture shall be spearated
+				into two sections: the application layer for processing the internal logic of the
+				module, and the interface layer for communicating with external modules.
+			-
+
+		Core
+
+			-
+				The network of a module designed using the Kaeon architecture may have a single
+				module placed between the application layer and the interface layer of the network
+				known as the core module, which if present shall serve as a reference point for the
+				whole module.
+			-

@@ -1,0 +1,11 @@
+Game Recorder
+
+	Philosophy
+
+		-
+			A game recorder is a module for a game engine that, while a game engine is running a
+			game, records each rendered frame as an image.
+
+			As such, the scene's physics and scripts should be updated at a fixed rate per rendered
+			frame.
+		-

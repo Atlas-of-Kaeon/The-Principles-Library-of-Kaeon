@@ -1,0 +1,18 @@
+Texture
+
+	Philosophy
+	
+		-
+			A texture element is an ACE element that represents a texture map.
+			
+			It must have the content "Texture".
+		-
+	
+	Principles
+		
+		Data Section
+		
+			-
+				The element must have a single child with the file path to an image or texture file
+				as its content.
+			-

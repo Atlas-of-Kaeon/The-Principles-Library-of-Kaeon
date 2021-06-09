@@ -1,0 +1,8 @@
+Variable Interpolation
+
+	Philosophy
+
+		-
+			Variable interpolation occur when the route a process takes to get from one pre-defined
+			state to another may vary non-deterministically.
+		-

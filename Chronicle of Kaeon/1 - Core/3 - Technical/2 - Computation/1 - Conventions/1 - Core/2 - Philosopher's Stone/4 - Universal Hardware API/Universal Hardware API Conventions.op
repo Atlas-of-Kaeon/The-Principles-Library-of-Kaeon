@@ -1,0 +1,63 @@
+Universal Hardware API Conventions
+
+	Philosophy
+
+		-
+			This document lists several conventions for the universal hardware API.
+		-
+
+	Principles
+
+		Recommendations
+
+			Documentation
+
+				-
+					An HTTP GET request to the base route of the server of a device that follows
+					the protocol shall return a string containing a document file specifying the
+					routes provided by said device's server.
+				-
+
+			Modification
+
+				-
+					Ideally, a device that follows the protocol should have some sort of secure
+					mechanism in place to manually override its hard coded settings.
+				-
+
+		Options
+
+			Autonomous Behavior
+
+				-
+					A device that follows the protocol may act autonomously or according to other
+					stimuli when not being directly controlled via HTTP calls.
+				-
+
+			GUI Pages
+
+				-
+					A device that follows the protocol may use its server to serve web pages that
+					provide graphical interfaces for some or all of its functionality.
+				-
+
+			Security
+
+				-
+					A device that follows the protocol may restrict the use of some or all of its
+					functionality to specific users, who must provide credentials in order to prove
+					their identity.
+				-
+
+			Search
+
+				-
+					A device that follows the protocol may make itself publicly discoverable via
+					certain search engines.
+				-
+
+		Acronym
+
+			-
+				The universal hardware API can be referred to as UHAPI ("you-happy") for short.
+			-

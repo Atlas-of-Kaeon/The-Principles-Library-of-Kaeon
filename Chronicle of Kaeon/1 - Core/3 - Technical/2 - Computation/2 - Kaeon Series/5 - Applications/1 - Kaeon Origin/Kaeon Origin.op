@@ -1,0 +1,54 @@
+Kaeon Origin
+
+	Philosophy
+	
+		-
+			Kaeon Origin is an online in-browser default virtual system.
+		-
+
+	Principles
+
+		Virtual System Specification
+
+			-
+				A URL argument may be passed to Kaeon Origin specifying a path containing a file
+				with additional virtual system commands to incorporate into the virtual system.
+			-
+
+		Startup Processes Specification
+
+			-
+				A URL argument may be passed to Kaeon Origin specifying a path containing a file
+				specifying a sequence of virtual system commands to execute upon startup.
+			-
+
+		Shell Specification
+
+			-
+				The shell in use may be specified as a URL argument.
+
+				If no shell is specified, Kaeon Origin shall use the default shell for the default
+				virtual system.
+			-
+
+		File Access
+
+			-
+				By default, Kaeon Origin's virtual file system shall use a disk defined by a file
+				JSON object stored in a browser cookie with the alias "Origin", and shall also
+				allow the use of HTTP and HTTPS via disks with the aliases "HTTP" and "HTTPS"
+				respectively, and shall include utilities for adding and removing disks from the
+				file system.
+
+				Additionally, Kaeon Origin shall have a optional complimentary plugin which, if
+				installed, shall allow the browser to access the local system directly and for the
+				virtual file system to use it as a disk, and for the virtual system to execute
+				commands directly on it.
+			-
+
+		Kaeon United
+
+			-
+				Kaeon Origin's virtual system shall provide access to the CLI functionality of
+				Kaeon United.
+			-

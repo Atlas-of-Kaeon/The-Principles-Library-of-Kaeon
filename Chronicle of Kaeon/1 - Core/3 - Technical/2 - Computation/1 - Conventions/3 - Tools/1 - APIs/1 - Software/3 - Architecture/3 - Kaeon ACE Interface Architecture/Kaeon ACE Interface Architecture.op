@@ -1,0 +1,149 @@
+Kaeon ACE Interface Architecture
+
+	Philosophy
+	
+		-
+			A Kaeon ACE Interface is a middleware application that interprets a Kaeon ACE document
+			and renders its content to a specific platform.
+		-
+	
+	Principles
+
+		Platforms
+
+			-
+				Given the nature of Kaeon ACE documents, the platforms that Kaeon ACE is rendered
+				to will usually be game engines.
+			-
+
+		Philosopher~'s Atlas
+
+			-
+				A Kaeon ACE Interface will be embedded into a Philosopher's Atlas running within
+				the platform that the content is being rendered to.
+			-
+
+		Core
+
+			-
+				A Kaeon ACE interface shall store a "core" object which shall serve as a bus to
+				various parts of the interface.
+
+				It shall contain, among other things, and object representation of the component
+				entity tree described by the source document, as well as references to key
+				components of the host platform and to the Philosopher's Atlas in which the
+				interface is embedded.
+
+				It shall itself be a node within the Philosopher's Atlas that the interface is
+				embedded within.
+			-
+
+		Modules
+
+			-
+				The functionality of a Kaeon ACE interface shall be embedded within nodes, called
+				Kaeon ACE modules, connected to the Philosopher's Atlas in which said interface is
+				embedded.
+
+				Each module shall have the tag "Kaeon ACE".
+
+				Each module may have any combination of the Kaeon ACE module functions.
+			-
+
+		Entity Object
+
+			-
+				An entity object shall contain two lists, one being a list of its child entity
+				objects, and the other being a list of its component objects, which may be of any
+				type, and shall contain a reference to its parent entity.
+
+				The core node shall contain a reference to an entity object which shall serve as
+				the root of the engine's entity tree.
+			-
+
+		Module Functions
+
+			On Call
+
+				-
+					The on call function takes the core node and a string as arguments.
+
+					It may perform any action based on its arguments and may either return a string
+					or a null value.
+
+					By default, the string should be a ONE+ document.
+
+					It may be called manually at any time.
+				-
+
+			On Default
+
+				-
+					The on default function takes the core node as an argument.
+
+					It is called when the engine first detects the module's presence and may
+					perform any operation.
+				-
+
+			On Deserialize
+
+				-
+					The on deserialize function takes the core node, a ONE element that corresponds
+					to a Kaeon ACE component, and an entity object as arguments.
+
+					It is called when the engine deserializes the source Kaeon ACE document for
+					each component element, where said component element is the passed in ONE
+					element, and may perform any operation and modify the content of the entity
+					object, which corresponds to the entity that the component belongs to.
+				-
+
+			On Entity
+
+				-
+					The on entity takes the core node, an entity object, and a time delta value as
+					arguments.
+
+					It is called once per engine tick for every entity in the entity tree, where
+					said entity is the passed in entity object, and where the passed in time delta
+					value is the time that has passed since the last engine tick.
+				-
+
+			On Serialize
+
+				-
+					The on serialize function takes the core node and a component object as
+					arguments.
+
+					It may be called manually at any time, and shall either a Kaeon ACE ONE
+					representation of said object in ONE list form, or shall return a value of
+					null.
+				-
+
+			On Update
+
+				-
+					The on entity takes the core node and a time delta value as arguments.
+
+					It is called once per engine tick, where the passed in time delta value is the
+					time that has passed since the last engine tick.
+				-
+
+		Actions
+
+			Calling
+
+				-
+					To call a Kaeon ACE interface is to take a string and to pass it to the on call
+					function in every Kaeon ACE module in said interface, and to return all of the
+					strings returned by said calls as a list.
+				-
+
+			Serializing
+
+				-
+					To serialize a Kaeon ACE application is to take every entity in its entity tree
+					the their components and to render their properties to a Kaeon ACE document
+					such that if said document were used as the source for another Kaeon ACE
+					application, it would produce the same application with the properties of the
+					serialized application at the time it was serialized.
+				-

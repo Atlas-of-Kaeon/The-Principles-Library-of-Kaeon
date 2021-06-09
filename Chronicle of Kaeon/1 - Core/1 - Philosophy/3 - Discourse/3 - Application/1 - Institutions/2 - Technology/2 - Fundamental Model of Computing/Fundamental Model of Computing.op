@@ -1,0 +1,53 @@
+Fundamental Model of Computing
+
+	Philosophy
+
+		-
+			The fundamental model of computing defines computing as the execution of a sequence of
+			steps, where each step is to retrieve data from an external source, transform data, or
+			to transfer data to an external source.
+		-
+
+	Philosophy
+
+		Definitions
+
+			Program
+
+				-
+					A program is a set of data from which a sequence of steps may be derived.
+				-
+
+			Programming Language
+
+				-
+					A programming language is a method of deriving a set of steps from a set of
+					data.
+				-
+
+			Code
+
+				-
+					Code is the visual or physical representation of a program.
+				-
+
+			Computer
+
+				-
+					A computer is a mechanism that performs computation.
+				-
+
+			Memory
+
+				-
+					Memory is an external mechanism that a computer can connect to through which
+					data can be stored and retrieved.
+					
+					Data within memory may be organized.
+				-
+
+			Programmer
+
+				-
+					A programmer is one who creates programs via constructing code.
+				-

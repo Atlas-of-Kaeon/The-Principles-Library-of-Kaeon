@@ -1,0 +1,25 @@
+Frame Properties
+
+	Philosophy
+		
+		-
+			A frame properties element is a second order Kaeon ACE subcomponent that represents the
+			frame properties of the GUI of its host environment.
+
+			It must have the content "Frame Properties", and must be the child of a Kaeon ACE
+			directive.
+		-
+	
+	Principles
+		
+		Children
+
+			-
+				The element may have a child with the content fullscreen.
+
+				The element may also have a child with the content "Icon", which if present shall
+				have a child containing the file path to an image as its content.
+
+				The element may also have a child with the content "Title", which if present shall
+				have a child containing any string.
+			-

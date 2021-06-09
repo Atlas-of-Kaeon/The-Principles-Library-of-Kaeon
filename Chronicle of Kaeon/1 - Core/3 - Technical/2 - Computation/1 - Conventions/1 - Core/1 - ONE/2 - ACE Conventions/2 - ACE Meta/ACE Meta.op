@@ -1,0 +1,24 @@
+ACE Meta
+	
+	Philosophy
+		
+		-
+			An ACE Meta is a type of ACE element that establishes a common interface between
+			various unrelated environments.
+		-
+	
+	Principles
+		
+		Structure
+			
+			-
+				An ACE Meta element must the content "ACE Meta", and must have two children, the
+				first of which must have the content "Source", and the second of which must have
+				the content "Data".
+				
+				The source element must have a child with content that specifies a certain software
+				environment.
+				
+				The data element must have content that contains saved data for the environment
+				specified by the child of the source element.
+			-

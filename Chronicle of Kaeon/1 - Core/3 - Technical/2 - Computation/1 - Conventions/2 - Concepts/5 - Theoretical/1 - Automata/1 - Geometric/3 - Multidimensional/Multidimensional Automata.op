@@ -1,0 +1,25 @@
+Multidimensional Automata
+
+	Philosophy
+
+		-
+			Multidimensional automata is a form of geometric automata in which the space in which
+			the simulation takes place operates in at least three dimensions.
+		-
+
+	Principles
+
+		Subdimensional Automata
+
+			-
+				Subdimensional automata is a form of geometric automata in which the space in which
+				the space in which the the simulation takes place operates in either zero or one
+				dimensions.
+			-
+
+		Varying Dimensonal Automata
+
+			-
+				Varying dimensional automata is a form of geometric automata in which the
+				simulation takes place in a verying dimensional space.
+			-

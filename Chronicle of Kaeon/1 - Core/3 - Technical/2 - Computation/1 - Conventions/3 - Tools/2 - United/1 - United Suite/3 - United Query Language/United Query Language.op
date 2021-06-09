@@ -1,0 +1,44 @@
+United Query Language
+
+	Philosophy
+
+		-
+			The United Query Language is a JSON based database query language.
+		-
+
+	Principles
+
+		Requests
+
+			-
+				A United Query Language request takes the form of a JSON object.
+				
+				Said object must have a field with the alias "operation", and may optionally have
+				fields with the aliases "location" and "type".
+
+				The operation field specifies the database operation to perform. Its value may
+				either be a JSON object specifying the operation in a format designed for the
+				United Query Language, or a string specifying the operation in the format that the
+				target database natively accepts.
+
+				The location field, if present, shall contain a string specifying the URL of the 
+				target database.
+
+				The type field, if present, shall specify the type of database that the target
+				database is.
+
+				If the location and type fields are not present, their values shall be implicitly
+				assumed.
+
+				Executing the request shall return a JSON object or array, containing a field with
+				the alias "data", which contains a JSON object specifying any data returned, and a
+				field with the alias "error", which shall contain a null value if there was no
+				error and shall contain a string specifying the error that occured if there was
+				one.
+			-
+
+		Acronym
+
+			-
+				United Query Language can be referred to as UQL.
+			-

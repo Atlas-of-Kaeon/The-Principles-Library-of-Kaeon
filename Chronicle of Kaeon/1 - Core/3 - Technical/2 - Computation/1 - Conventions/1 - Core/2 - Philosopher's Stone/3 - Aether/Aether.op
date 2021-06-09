@@ -1,0 +1,17 @@
+Aether
+
+	Philosophy
+	
+		-
+			Aether is a system that allows the interface of a regulated Philosopher's Stone module
+			to be attatched to modules that exist within systems running in entirely different
+			environments.
+		-
+	
+	Principles
+	
+		Alias
+		
+			-
+				An Aether module may be identified via a unique string alias or path.
+			-

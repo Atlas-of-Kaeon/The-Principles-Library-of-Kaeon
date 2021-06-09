@@ -1,0 +1,12 @@
+Kaeon ACE Metagame
+	
+	Philosophy
+	
+		-
+			The Kaeon ACE Metagame is a convention that establishes a type of ACE element that
+			can store save data for a game in a user's library, where such an element has the
+			content "Kaeon ACE Meta" and two children, one with the content "Source" which has a
+			child containing the name of a given game, and one with the content "Data" which may
+			have an indefinite number of children each containing the name of a save file as its
+			content having a child with the content of said save file as its content.
+		-

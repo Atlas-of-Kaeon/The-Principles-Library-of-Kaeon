@@ -1,0 +1,18 @@
+Force
+
+	Philosophy
+	
+		-
+			A force element is a first order Kaeon ACE subcomponent that represents a force
+			attached to the entity it belongs to.
+
+			It must have the content "Force".
+		-
+	
+	Principles
+			
+		Children
+		
+			-
+				The element must have a vector 3 element as a child.
+			-

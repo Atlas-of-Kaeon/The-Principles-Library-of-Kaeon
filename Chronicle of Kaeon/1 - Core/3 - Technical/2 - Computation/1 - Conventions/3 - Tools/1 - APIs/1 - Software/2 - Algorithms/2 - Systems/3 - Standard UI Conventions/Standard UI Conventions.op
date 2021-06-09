@@ -1,0 +1,55 @@
+Standard UI Conventions
+
+	Philosophy
+
+		-
+			The standard UI conventions are a set of conventions for handling GUIs and user
+			input in applications.
+		-
+
+	Principles
+
+		GUI
+
+			2D Central Dimensions
+
+				-
+					Under the standard UI conventions, the dimensions of 2D GUI items are to be
+					specified according to a coordinate system where the center of the reference
+					area is the origin and the edges of the reference area are positive or negative
+					one.
+
+					If an aspect ratio is to be maintained, the smaller of the reference area
+					dimensions, those being the width and the height, shall define a measurement of
+					two units which shall apply to both dimensions.
+
+					3D properties may be applied to 2D objects for pseudo-3D effects.
+				-
+
+			Transforms
+
+				-
+					Under the standard UI conventions, the position, orientation, and size of GUI
+					items are to be specified using a stacked series of transforms, which shall
+					include translations, rotations, and scales.
+					
+					Translations and scales are to be defined using 3D vectors, 2D rotations are to
+					be defined using either scalars that represent rotation on the Z axis for
+					normal 2D rotation, or quaternions for pseudo-3D effects, and 3D rotations are
+					to be defined using quaternions.
+				-
+
+			Standard Asset Size
+
+				-
+					The default size of any object should be defined such that, in keeping with its
+					default proportions, the vector defined by its lengths in all relavent
+					dimensions should have a magnitude of one.
+				-
+
+		Input
+
+			-
+				Under the standard UI conventions, there is to be a global index specifying the
+				current positions and held buttons of all input devices.
+			-

@@ -1,0 +1,11 @@
+Geometric Automata
+
+	Philosophy
+
+		-
+			Geometric automata is an umbrella term for computational processes that simulate some
+			geometric in which, as time passes, the states of various points in said space may
+			change according to some set of rules.
+
+			Cellular automata is a form of geometric automata.
+		-

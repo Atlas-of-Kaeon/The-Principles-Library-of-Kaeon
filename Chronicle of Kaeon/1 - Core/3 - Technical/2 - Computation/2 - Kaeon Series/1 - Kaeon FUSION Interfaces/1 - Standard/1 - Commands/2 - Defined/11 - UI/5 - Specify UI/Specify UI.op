@@ -1,0 +1,18 @@
+Specify UI
+
+	Philosophy
+
+		-
+			The specify UI command is a command with the content "Specify UI". It shall have an
+			indefinite number of children, each of which return a list containing a string
+			specifying a CSS selector as its first element and either a dynamic list representing a
+			DOM element in DOM JSON format or a null value as its second element.
+
+			Every returned list shall establish a rule in the host DOM, if present, that any
+			element matching the specified selector in the host DOM shall have the specified
+			properties of the specified element, if said element is not null.
+
+			Subsequent uses of this command may override rules established by previous uses of it
+			if the same selector is used, and said rules may be erased if the specified elements
+			are null.
+		-

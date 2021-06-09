@@ -1,0 +1,52 @@
+Kaeon Stack
+
+	Philosophy
+	
+		-
+			The Kaeon stack is a development stack that consists solely of Kaeon FUSION,
+			JavaScript, United C, and assembly or machine code.
+		-
+
+	Principles
+
+		Kaeon FUSION
+
+			-	
+				Under the conventions of the Kaeon stack, the runtime environment for Kaeon FUSION
+				will be powered by JavaScript and may be embedded into HTML and CSS environments.
+				
+				Kaeon FUSION may also be cross compiled to JavaScript, C, or CSB if needed.
+
+				It is also an option to have the Kaeon stack consist of Kaeon FUSION alone.
+			-
+
+		Defaults
+
+			-
+				By default, the JavaScript used shall be United JavaScript, the C used shall be
+				United C, and the machine code used shall be written in CSB.
+			-
+
+		Kaeon Suite
+
+			-
+				The Kaeon suite is a tool stack consisting of Node.js, git, the GNU compilers, and
+				make.
+
+				It is also a convention according to the Kaeon stack to use VS Code and Kaeon
+				Origin as one's primary code editors and terminal interfaces.
+			-
+
+		Branding
+
+			Kaeon FUSION
+			
+				-
+					The tag line for Kaeon FUSION is "A language without limits!".
+				-
+
+			Kaeon United
+
+				-
+					The tag line for Kaeon United is "It just works."
+				-

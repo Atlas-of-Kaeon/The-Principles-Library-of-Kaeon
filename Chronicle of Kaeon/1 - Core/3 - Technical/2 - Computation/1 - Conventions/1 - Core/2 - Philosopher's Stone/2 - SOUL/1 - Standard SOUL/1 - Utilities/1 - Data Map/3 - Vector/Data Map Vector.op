@@ -1,0 +1,10 @@
+Data Map Vector
+
+	Philosophy
+
+		-
+			A data map vector is a list of data maps.
+
+			If the same input vector is used to approximate an output for all of them, then the
+			outputs may be combined into an output vector.
+		-

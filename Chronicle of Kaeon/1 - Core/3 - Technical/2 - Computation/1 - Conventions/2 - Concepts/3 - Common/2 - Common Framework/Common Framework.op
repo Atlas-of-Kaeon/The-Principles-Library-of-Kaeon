@@ -1,0 +1,8 @@
+Common Framework
+
+	Philosophy
+
+		-
+			A common framework is a framework that provides an interface for constructing an
+			application such that the application may be recreated in other frameworks.
+		-

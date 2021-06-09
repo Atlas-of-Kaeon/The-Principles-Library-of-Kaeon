@@ -1,0 +1,63 @@
+Dynamic Binary Headers
+
+	Philosophy
+
+		-
+			Dynamic binary headers allow metadata in binary files to be specified using a standard
+			that can scale to varying lengths.
+		-
+
+	Principles
+
+		Structure
+
+			-
+				Dynamic binary headers shall occur at the beginning of a binary file, and their
+				content, which itself shall be in trinary, shall be specified using "11" to
+				represent "2", "10" to represent "1", and "01" to represent "0", and shall end with
+				"00".
+
+				Following a header may be another header, the main content of the file, or the end
+				or the file. No more headers may be placed into the file following the beginning of
+				the main content.
+			-
+
+		Count Header
+
+			-
+				A count header, which if present must be the first header in the file, shall
+				specify, as a trinary number, the number of headers present in the file, not
+				counting itself.
+			-
+
+		Sequence Headers
+
+			-
+				If a count header is present, the headers that follow it may be sequence headers,
+				each of which specify, as a trinary number, the length of a sequence of bits in the
+				main content.
+
+				The sequences defined by the sequence headers shall start at the beginning of the
+				main content and shall be adjacent to one another, ordered according to the order
+				of their corresponding headers.
+				
+				Any bits that follow the last sequence in the main content may be used for another
+				purpose, if it is not junk data.
+			-
+
+		Sequence Objects
+
+			-
+				A binary file separated into sequences using sequences headers may itself be
+				separated into sequences called sub-sequences using sequence headers.
+
+				Sub-sequences may be used as references to the sibling sequences of their parent.
+
+				If being used this way, each subsequence should have a header defining itself as
+				either a reference or as raw data. The header for a reference should be "0100", and
+				the header for raw data should be "1000".
+
+				The content following a reference header should be a binary number specifying the
+				index of the sibling sequence being referenced, starting at zero, and the content
+				following a raw data header should be raw data in binary.
+			-

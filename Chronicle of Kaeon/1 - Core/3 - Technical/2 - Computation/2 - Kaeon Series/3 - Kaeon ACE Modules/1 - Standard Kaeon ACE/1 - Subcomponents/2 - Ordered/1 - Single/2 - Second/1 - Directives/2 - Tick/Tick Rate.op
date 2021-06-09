@@ -1,0 +1,18 @@
+Tick Rate
+
+	Philosophy
+		
+		-
+			A tick rate element is a second order Kaeon ACE subcomponent that represents the tick
+			rate of the script processor of its host environment.
+
+			It must have the content "Tick Rate", and must be the child of a Kaeon ACE directive.
+		-
+	
+	Principles
+		
+		Children
+		
+			-
+				The element must have a single child that contains a number as its content.
+			-

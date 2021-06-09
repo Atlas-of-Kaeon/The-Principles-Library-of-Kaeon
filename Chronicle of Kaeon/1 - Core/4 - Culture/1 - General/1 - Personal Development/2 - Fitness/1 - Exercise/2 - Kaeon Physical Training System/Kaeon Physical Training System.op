@@ -1,0 +1,46 @@
+Kaeon Physical Training System
+
+	Philosophy
+	
+		-
+			The Kaeon Physical Training System, Kaeon PTS, or PTS, is a set of components that
+			together compose a general purpose resistance training apparatus.
+		-
+	
+	Principles
+	
+		Components
+		
+			Motors
+				
+				-
+					The PTS motors are motorized modules capable of being mounted to any stable
+					surface.
+					
+					When activated, they reel in a cable using an amount of force that can be
+					customized using a digital terminal.
+					
+					They will cease pulling if their cables reel in too far.
+					
+					A typical PTS setup should have two motor units.
+				-
+				
+			Switch
+			
+				-
+					The PTS switch is a button that can be strapped to a barbell or dumbbell bar.
+					
+					They can be synced with an indefinite number of motor units using said motor
+					unit's terminal.
+					
+					When pressed, the motors the switch is synced with will gradually escalate the
+					force they reel in with from zero to the force they are set to, and will stop
+					outputting force immediately when the switch is released.
+				-
+			
+			Hooks
+			
+				-
+					A hook is a unit that connects the end of a motor's cable to a barbell of
+					dumbbell bar.
+				-

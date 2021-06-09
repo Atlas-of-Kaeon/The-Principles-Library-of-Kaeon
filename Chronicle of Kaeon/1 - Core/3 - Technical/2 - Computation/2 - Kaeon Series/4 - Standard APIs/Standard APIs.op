@@ -1,0 +1,17 @@
+Standard APIs
+
+	Philosophy
+
+		-
+			The standard APIs are a set of specifications for utility modules that may be
+			implemented in any language unless stated otherwise in such a specification.
+		-
+
+	Principles
+
+		Kaeon Suite
+
+			-
+				The Kaeon Suite is a module that contains all of the standard APIs available for a
+				given language.
+			-

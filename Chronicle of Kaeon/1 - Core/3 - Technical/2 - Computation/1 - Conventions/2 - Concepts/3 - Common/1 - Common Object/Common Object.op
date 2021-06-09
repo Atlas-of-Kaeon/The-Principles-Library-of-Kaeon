@@ -1,0 +1,8 @@
+Common Object
+
+	Philosophy
+
+		-
+			A common object is a specification for the data structure needed to represent a given
+			type of object, such that it may be implmented in different languages and environments.
+		-

@@ -1,0 +1,17 @@
+Multistate Automata
+
+	Philosophy
+
+		-
+			Multistate automata is a form of geometric automata in which there are more than two
+			states that may be assigned to given points in space.
+		-
+
+	Principles
+
+		Infinite State Automata
+
+			-
+				Infinite state automata is a form of multistate automata in which there is an
+				indefinite number of states that may be assigned to given points in space.
+			-

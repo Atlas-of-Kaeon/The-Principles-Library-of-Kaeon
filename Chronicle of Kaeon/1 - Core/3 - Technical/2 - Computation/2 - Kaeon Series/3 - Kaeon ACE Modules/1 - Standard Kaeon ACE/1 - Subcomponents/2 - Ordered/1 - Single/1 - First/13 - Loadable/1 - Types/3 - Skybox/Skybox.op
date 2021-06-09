@@ -1,0 +1,9 @@
+Skybox
+	
+	Philosophy
+		
+		-
+			A skybox is a type of loadable represents the mesh and texture of a skybox.
+
+			The type child of the loadable element must have a child with the content "Skybox".
+		-

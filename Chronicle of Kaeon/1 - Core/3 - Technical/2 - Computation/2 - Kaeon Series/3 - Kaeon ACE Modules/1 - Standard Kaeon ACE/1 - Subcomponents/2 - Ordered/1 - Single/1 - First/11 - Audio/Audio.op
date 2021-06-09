@@ -1,0 +1,18 @@
+Audio
+
+	Philosophy
+	
+		-
+			An audio element is a first order Kaeon ACE subcomponent that represents an audio clip.
+			
+			It must have the content "audio".
+		-
+	
+	Principles
+		
+		Children
+		
+			-
+				The element must have a single child with the file path to an audio file as its
+				content.
+			-

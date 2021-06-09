@@ -1,0 +1,12 @@
+Shadow Module
+
+	Philosophy
+
+		-
+			A shadow module is a module that is attached to a pre-existing module referred to as
+			the host module.
+
+			A shadow module will dynamically modify its host module at runtime. A unit of code that
+			is inserted into a host module to act as a interface to a shadow module is called a
+			shadow point.
+		-

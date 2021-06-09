@@ -1,0 +1,48 @@
+True Flight
+	
+	Philosophy
+		
+		-
+			True Flight is a mechanic that governs controlling a moving object in free flight.
+		-
+	
+	Principles
+		
+		Basic Movement
+			
+			-
+				An object controlled using the true flight mechaning shall have a front facing side,
+				and whatever direction it faces vector, called the target rotation, in combination
+				with said vector shall define a quaternion called the target.
+				
+				The object may move back and forth along the target vector and may pan along the
+				plane for which the target vector is the normal, relative to the target rotation.
+
+				The movement of the object will be scaled to a fixed magnitude in the case that
+				multiple vectors are used to calculate its movement.
+				
+				The object may change which way it faces, which will redefine the target.
+			-
+
+		Avatar Control
+
+			-
+				An avatar controlled using the true flight mechanic shall be able to enable and
+				disable flight.
+				
+				If in flight, the avatar will be able to rotate upside down.
+
+				In the case that flight is not enabled, the avatar will not move vertically and
+				will rotate so as to be perpendicular to the ground and oriented right side up.
+				
+				If flight is disabled, the avatar will fall to the ground. Flight may only be
+				re-enabled while in the air. While on the ground, the avatar may jump. After
+				jumping, flight may be re-enabled before the avatar lands.
+				
+				Whenever the avatar changes velocity, it should gradually accelerate or decelerate
+				to the desired velocity.
+				
+				The same rules regarding movement that apply during flight apply while swimming in
+				bodies of fluid, but unless flight is enabled, the avatar will not be able to
+				re-enter the air from the fluid.
+			-

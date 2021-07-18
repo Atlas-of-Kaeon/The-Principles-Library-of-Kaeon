@@ -3,11 +3,11 @@ Host
 	Philosophy
 
 		-
-			The host command is a command with the content "Host". It shall between two and four
-			children, the first of which returns a list of lists, the second of which returns a
-			number specifying a port, the third of which, if present, shall return either a null
-			value or a list containing two strings, and the fourth of which, if present, shall
-			return either a boolean or a string specifying a domain name.
+			The host command is a command with the content "Host". It shall have between two and
+			four children, the first of which returns a list of lists, the second of which returns
+			a number specifying a port, the third of which, if present, returns either a null value
+			or a list containing two strings, and the fourth of which, if present, returns either a
+			boolean or a string specifying a domain name.
 
 			The host command shall establish a server with routes defined by each of the
 			aforementioned lists running at the specified port. If the third child, if present,

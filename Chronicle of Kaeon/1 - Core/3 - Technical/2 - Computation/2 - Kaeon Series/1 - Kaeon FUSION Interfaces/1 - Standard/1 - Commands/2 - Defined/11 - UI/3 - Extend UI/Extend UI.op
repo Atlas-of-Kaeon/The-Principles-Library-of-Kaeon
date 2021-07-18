@@ -3,10 +3,12 @@ Extend UI
 	Philosophy
 
 		-
-			The extend UI command is a command with the content "Extend UI". Its first child shall
+			The extend UI command is a command with the content "Extend UI". Its first child may
 			return a string containing a CSS selector, and it may have an indefinite number of
 			other children which return dynamic lists representing DOM elements in DOM JSON format.
 
-			It shall append all of the specified elements to the first existing element matching
-			the specified selector in the host DOM, if present.
+			If the first child returned a string, it shall append all of the specified elements to
+			the first existing element matching the specified selector in the host DOM, if present,
+			and if the first child did not return a string, it shall append said elements to the
+			root of the host DOM, if present.
 		-

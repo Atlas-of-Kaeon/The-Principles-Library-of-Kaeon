@@ -1,0 +1,10 @@
+DOM to HTML
+
+	Philosophy
+
+		-
+			The DOM to HTML command is a command with the content "DOM to HTML". It shall have a
+			single child which returns a dynamic list representing an HTML element in DOM JSON.
+
+			It shall return an HTML string representing the specified element.
+		-

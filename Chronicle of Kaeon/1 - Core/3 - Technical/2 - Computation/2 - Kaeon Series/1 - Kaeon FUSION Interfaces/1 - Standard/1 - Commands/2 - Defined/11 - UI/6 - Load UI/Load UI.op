@@ -3,7 +3,7 @@ Load UI
 	Philosophy
 
 		-
-			The load UI command is a command with the content "load UI". It shall have an
+			The load UI command is a command with the content "Load UI". It shall have an
 			indefinite number of children, each of which shall return a string specifying a path
 			to either a JavaScript script or to a CSS stylesheet.
 

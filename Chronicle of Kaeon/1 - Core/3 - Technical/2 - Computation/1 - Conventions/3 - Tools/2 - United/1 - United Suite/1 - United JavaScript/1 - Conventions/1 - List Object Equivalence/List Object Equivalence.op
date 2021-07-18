@@ -9,3 +9,14 @@ List Object Equivalence
 			making each element a field value with the keys of said field being the respective
 			indicies.
 		-
+
+	Principles
+
+		Dynamic List Field
+
+			-
+				The aliases for a dynamic list where said list is represented by a JavaScript list
+				may be stored in a list assigned to a field of said JavaScript list with the alias
+				"dynamicAliases", where a non-null value within the dynamicAliases list corresponds
+				to the alias of the element at the same index in the corresponding dynamic list.
+			-

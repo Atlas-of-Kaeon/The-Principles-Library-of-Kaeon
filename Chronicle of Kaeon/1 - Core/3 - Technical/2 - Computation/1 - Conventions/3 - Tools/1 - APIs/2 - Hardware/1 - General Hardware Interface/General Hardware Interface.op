@@ -1,0 +1,78 @@
+General Hardware Interface
+
+	Philosophy
+
+		-
+			The General Hardware Interface (GHI) is a convention for mediating communication
+			between IoT devices and control software, such that said control software can precisely
+			control the exact output of said devices and can read all data collected by said
+			devices in an unabridged form.
+		-
+	
+	Principles
+
+		Device
+
+			-
+				A device hosting a means of communication with the control software is referred to
+				as a receptor module.
+
+				A device that is connected to a receptor module is referred to as a branch module.
+
+				A receptor module, together with all branch modules connected to it, is referred to
+				as the module cluster of said receptor module.
+
+				Every device in a given module cluster shall have a unique ID assigned to it.
+			-
+
+		Calls
+
+			-
+				A call from control software to a device through the general hardware interface
+				shall be directed to a given receptor module and shall include output settings for
+				devices in the target receptor module's cluster, and may also scripts to be
+				executed autonomously by said devices, labelled according to the IDs of said
+				devices.
+
+				Each call should return data to the control software specifying the input signals
+				that were recieved by each device at the time of said call, along with their IDs
+				and device types.
+			-
+
+		Auto-Adapter
+
+			-
+				Auto-adapters are units of software designed to configure devices to comply with
+				the general hardware interface on startup and as they are connected to one another.
+			-
+
+		Module Types
+
+			GPIO
+
+				-
+					A call to a set of GPIO pins shall specify the output signals of each output
+					pin, according to the numerical labels of said pins, and shall return the
+					readings of each input pin, also labelled accordingly.
+				-
+
+			Camera
+
+				-
+					A call to a camera shall return a path from with the video stream of said
+					camera may be accessed.
+				-
+
+			Drone
+
+				-
+					A call to a drone shall include a set of motions to perform, and shall return
+					gyroscope and accelorometer data.
+				-
+
+		Communication Mechanisms
+
+			-
+				Communication with devices through the general hardware interface may be performed
+				through UHAPI, through local wireless connection, or through a USB connection.
+			-

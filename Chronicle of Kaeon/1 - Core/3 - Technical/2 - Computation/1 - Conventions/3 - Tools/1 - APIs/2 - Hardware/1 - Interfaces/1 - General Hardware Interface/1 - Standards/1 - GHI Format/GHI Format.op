@@ -45,9 +45,10 @@ GHI Format
 
 					The code string shall specify the code of a function which takes the current
 					state of the receptor module's module cluster in the receptor output format as
-					a stringified object in its parameters, and which may return a stringified
-					object in the receptor output format, specifying a new output state for the
-					module cluster.
+					a stringified object in its parameters, as well as a number specifying the time
+					in seconds since the last execution of said function, and which may return a
+					stringified object in the receptor output format, specifying a new output state
+					for the module cluster.
 					
 					If the language field is present, it shall specify the language that the code
 					is written in, which shall otherwise be auto-detected.
@@ -82,8 +83,13 @@ GHI Format
 		Call
 
 			-
-				An HTTP call made to a receptor module using the general hardware interface format
-				shall include a stringified receptor input format object in the URL within a REST
-				argument labelled "data", and shall return a stringified receptor output format
-				object in the body of its response.
+				An HTTP request made to a receptor module using the general hardware interface
+				format shall use the POST method, and its body shall consist of a stringified
+				receptor input format object.
+				
+				It shall return a stringified receptor output format object in the body of its
+				response.
+
+				For security and accessibility purposes, the server which recieves the calls should
+				have a static IP and should utilize HTTPS.
 			-

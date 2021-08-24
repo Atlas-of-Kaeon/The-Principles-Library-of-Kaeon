@@ -27,7 +27,7 @@ GHI GPIO
 					between zero, exclusive, and one, inclusive, specifying an exact level of
 					output.
 
-					If a binary pin is assigned a number, its value with default to true.
+					If a binary pin is assigned a number, its value will default to true.
 				-
 
 		Default State

@@ -1,0 +1,12 @@
+GHI Sub-Modules
+
+	Philosophy
+
+		-
+			GHI sub-modules are devices which are not directly accessible by the GHI, but which are
+			controlled by devices that are directly accessible via the GHI.
+
+			GHI sub-modules may be listed as their own devices and may have special high-level
+			commands dedicated to them which allow for easier control than by manually programming
+			their controller devices.
+		-

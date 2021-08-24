@@ -1,0 +1,30 @@
+Kaeon Complex
+
+	Philosophy
+
+		-
+			Kaeon Complex is an online service accessible through the command line which allows
+			various programming languages to be compiled and executed without having to manually
+			install their compilers or runtime environments, save for Kaeon Complex itself.
+		-
+
+	Principles
+
+		Command Structure
+
+			-
+				Kaeon United shall take as its first command line argument the name of the language
+				it is to work with, and shall take the path to the main file of the program it is
+				to compile or execute as its second argument.
+				
+				Whether it compiles or executes the program is dependant on the language specified.
+
+				Every argument following the second shall serve as command line arguments for
+				executed programs.
+			-
+
+		Standard Distrobution Method
+
+			-
+				By default, Kaeon Complex shall be accessible via npx.
+			-

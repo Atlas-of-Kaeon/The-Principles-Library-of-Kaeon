@@ -6,3 +6,58 @@ GHI Receptor
 			GHI Receptor is a convention used to relay information regarding receptor modules
 			through the GHI.
 		-
+
+	Principles
+
+		Options
+
+			Script Interval
+
+				-
+					A script Interval is the minimum time that passes between the execution of
+					script functions.
+				-
+
+			State Preservation
+
+				-
+					State preservation is a boolean flag that, if true, causes the output state and
+					scripts associated with each module in the module cluster to be preserved
+					following a reboot of the device.
+				-
+
+		Default State
+
+			-
+				By default, the script interval is one sixtieth of a second, and the state
+				preservation flag is set to false.
+			-
+
+		Branch Formats
+
+			Input
+
+				-
+					The branch data input format for a receptor module shall be a JSON object,
+					which may have the fields "interval", and "preservation".
+
+					The interval field, if present, shall contain a number, specifying the time of
+					the script interval in seconds.
+
+					The preservation field, if present, shall contain a boolean specifying the
+					status of the state preservation flag.
+				-
+
+			Output
+
+				-
+					As the receptor module itself collects no data, the branch data output format
+					for receptor modules shall be a null value.
+				-
+
+		Type
+
+			-
+				The type of receptor modules shall be specified as "receptor" in the receptor
+				output format.
+			-

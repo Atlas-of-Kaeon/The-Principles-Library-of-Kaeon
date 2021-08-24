@@ -6,3 +6,58 @@ GHI GPIO
 			GHI GPIO is a convention used to relay information regarding pinout devices through the
 			GHI.
 		-
+
+	Principles
+
+		Options
+
+			Pins
+
+				-
+					All programmable output pins of a GPIO device shall be grouped together and
+					labelled in order relative to each other based on their ordering when taking
+					all pins into account, starting at zero. Said order shall be referred to as the
+					output pin map.
+					
+					All input pins shall themselves be grouped together in the same manner. Said
+					order shall be referred to as the input pin map.
+
+					The status of a pin may be set to false, indicating that it is generating no
+					output, to true, indicating that is is on and set to high, or to a number
+					between zero, exclusive, and one, inclusive, specifying an exact level of
+					output.
+
+					If a binary pin is assigned a number, its value with default to true.
+				-
+
+		Default State
+
+			-
+				The default state of all output pins is set to off.
+			-
+
+		Branch Formats
+
+			Input
+
+				-
+					The branch data input format of a GPIO device is a list of booleans and numbers
+					between zero, exclusive, and one, inclusive, where each value corresponds to
+					the value of a programmable output pin according to its index via the output
+					pin map.
+				-
+
+			Output
+
+				-
+					The branch data output format of a GPIO device is a list of numbers
+					between zero, inclusive, and one, inclusive, where each value corresponds to
+					the value of an input pin according to its index via the input pin map.
+				-
+
+		Type
+
+			-
+				The type of GPIO modules shall be specified as "gpio" in the receptor output
+				format.
+			-

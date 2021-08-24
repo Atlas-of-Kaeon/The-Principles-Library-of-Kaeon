@@ -6,3 +6,12 @@ GHI WiFi
 			GHI WiFi is a convention used to relay information regarding WiFi communication through
 			the GHI.
 		-
+
+	Principles
+
+		Type
+
+			-
+				The type of WiFi modules shall be specified as "wifi" in the receptor output
+				format.
+			-

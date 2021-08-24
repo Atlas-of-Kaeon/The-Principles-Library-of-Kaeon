@@ -3,7 +3,7 @@ General IoT Module
 	Philosophy
 
 		-
-			A general IoT module is a devices that may recieve communication through the Universal
+			A general IoT module is a device that may recieve communication through the Universal
 			Hardware API and can relay instructions to and relay information from other devices in
 			accordance with the General Hardware Interface.
 		-

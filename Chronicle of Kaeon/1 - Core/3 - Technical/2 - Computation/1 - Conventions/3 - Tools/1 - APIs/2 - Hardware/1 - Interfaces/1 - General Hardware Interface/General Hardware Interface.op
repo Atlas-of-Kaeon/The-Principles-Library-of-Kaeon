@@ -23,20 +23,23 @@ General Hardware Interface
 				as the module cluster of said receptor module.
 
 				Every device in a given module cluster shall have a unique ID assigned to it.
+
+				A branch module may constitute either the entirety of a unit of hardware or
+				individual modules within a unit of hardware.
 			-
 
 		Calls
 
 			-
 				A call from control software to a device through the general hardware interface
-				shall be directed to a given receptor module and shall include output settings for
-				devices in the target receptor module's cluster, and may also scripts to be
+				shall be directed to a given receptor module and may include output settings for
+				devices in the target receptor module's cluster, and may also include scripts to be
 				executed autonomously by said devices, labelled according to the IDs of said
 				devices.
 
 				Each call should return data to the control software specifying the input signals
-				that were recieved by each device at the time of said call, along with their IDs
-				and device types.
+				that were recieved by each device at the time of said call, along with their IDs,
+				device types, and current output states.
 			-
 
 		Auto-Adapter
@@ -44,35 +47,4 @@ General Hardware Interface
 			-
 				Auto-adapters are units of software designed to configure devices to comply with
 				the general hardware interface on startup and as they are connected to one another.
-			-
-
-		Module Types
-
-			GPIO
-
-				-
-					A call to a set of GPIO pins shall specify the output signals of each output
-					pin, according to the numerical labels of said pins, and shall return the
-					readings of each input pin, also labelled accordingly.
-				-
-
-			Camera
-
-				-
-					A call to a camera shall return a path from with the video stream of said
-					camera may be accessed.
-				-
-
-			Drone
-
-				-
-					A call to a drone shall include a set of motions to perform, and shall return
-					gyroscope and accelorometer data.
-				-
-
-		Communication Mechanisms
-
-			-
-				Communication with devices through the general hardware interface may be performed
-				through UHAPI, through local wireless connection, or through a USB connection.
 			-

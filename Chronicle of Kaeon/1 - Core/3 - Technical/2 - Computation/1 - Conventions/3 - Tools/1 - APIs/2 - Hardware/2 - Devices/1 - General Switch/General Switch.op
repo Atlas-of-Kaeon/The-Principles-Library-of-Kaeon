@@ -14,11 +14,19 @@ General Switch
 
 			-
 				A standard general switch is a general switch fully encased in a non-conductive
-				shell with an outlet port on either side corresponding to input and output
-				respectively, and with a third port to which control wires can be attached.
+				shell with input, output, and ground ports on either side, with each side
+				corresponding to power input and power output respectively, and with a third port
+				to which control wires can be attached.
 
 				The default state of a standard general switch shall have its power output set to
 				zero volts, and should have its current flow in the default direction.
 
 				A standard general switch should be able to handle high voltages.
+			-
+
+		Port Adapters
+
+			-
+				A port adapter is a module that can be pluged into either end of a standard general
+				switch to convert it to the male or female form of a given outlet type.
 			-

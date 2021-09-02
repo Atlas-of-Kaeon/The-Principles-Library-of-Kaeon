@@ -7,7 +7,7 @@ List Object Equivalence
 			interpreted as a list by taking the values of every field and ordering them in the
 			order of their respective keys, and allows any list to be interpreted as an object by
 			making each element a field value with the keys of said field being the respective
-			indicies.
+			indices.
 		-
 
 	Principles

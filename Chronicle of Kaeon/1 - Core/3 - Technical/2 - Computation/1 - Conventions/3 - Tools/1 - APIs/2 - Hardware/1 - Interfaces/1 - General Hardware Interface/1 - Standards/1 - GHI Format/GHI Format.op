@@ -90,6 +90,6 @@ GHI Format
 				It shall return a stringified receptor output format object in the body of its
 				response.
 
-				For security and accessibility purposes, the server which recieves the calls should
+				For security and accessibility purposes, the server which receives the calls should
 				have a static IP and should utilize HTTPS.
 			-

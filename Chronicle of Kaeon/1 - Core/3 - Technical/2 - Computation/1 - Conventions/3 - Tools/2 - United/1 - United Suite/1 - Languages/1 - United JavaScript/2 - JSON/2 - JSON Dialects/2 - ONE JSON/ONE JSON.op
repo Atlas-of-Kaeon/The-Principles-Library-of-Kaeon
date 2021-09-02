@@ -39,7 +39,7 @@ ONE JSON
 				format for said literal.
 
 				However, literal new lines and tabs may appear in string literals, and will
-				corrspond to "\n" and "\t" respectively.
+				correspond to "\n" and "\t" respectively.
 
 				Furthermore, a string literal does not have to be encased in quotation marks except
 				to differentiate it from other types of values.

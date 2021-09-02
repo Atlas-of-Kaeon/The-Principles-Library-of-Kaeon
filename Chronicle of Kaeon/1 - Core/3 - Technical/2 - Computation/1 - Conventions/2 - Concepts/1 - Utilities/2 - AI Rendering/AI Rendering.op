@@ -22,6 +22,6 @@ AI Rendering
 
 			-
 				Prudent playback is when frames that repeat exactly in a sequence are stored only
-				once, and the playback seuqence itself is stored as a sequence of references to
+				once, and the playback sequence itself is stored as a sequence of references to
 				said frames.
 			-

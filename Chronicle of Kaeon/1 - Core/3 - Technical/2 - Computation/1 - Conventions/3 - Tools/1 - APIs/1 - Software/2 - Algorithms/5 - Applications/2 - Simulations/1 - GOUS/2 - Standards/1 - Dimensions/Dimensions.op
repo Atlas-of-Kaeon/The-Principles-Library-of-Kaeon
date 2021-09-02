@@ -46,8 +46,8 @@ Open Universe Dimensions
 				Position
 
 					-
-						Dependant cosmic entities shall have their positions defined in meters, and
-						independant cosmic entities shall have their positions defined in light
+						Dependent cosmic entities shall have their positions defined in meters, and
+						independent cosmic entities shall have their positions defined in light
 						years.
 					-
 
@@ -62,8 +62,8 @@ Open Universe Dimensions
 				Dimensions
 
 					-
-						Dependant cluster entities shall have their dimensions defined in meters,
-						and independant cluster entities shall have their dimensions defined in
+						Dependent cluster entities shall have their dimensions defined in meters,
+						and independent cluster entities shall have their dimensions defined in
 						light years.
 					-
 
@@ -75,8 +75,8 @@ Open Universe Dimensions
 
 							-
 								A path used to define the form of a cluster entity may be defined
-								using a seqeuence of points, with the path flowing from one point
-								to the next in order.
+								using a sequence of points, with the path flowing from one point to
+								the next in order.
 								
 								Each point shall have the width for the cluster entity at itself
 								defined, with the width at all other points derived by
@@ -118,7 +118,7 @@ Open Universe Dimensions
 
 							The position of an entity within the defined cluster entity is defined
 							by specifying a distance from the starting point along the path and
-							by specfying the x and y coordinates of the child entity on a plane
+							by specifying the x and y coordinates of the child entity on a plane
 							that intersects the path at that point.
 						-
 
@@ -148,14 +148,14 @@ Open Universe Dimensions
 							Celestial entity diameter shall be defined in meters.
 						-
 
-				Dependant
+				Dependent
 
 					Orbit
 
 						Path
 
 							-
-								The orbital path of a dependant celestial entity shall have its
+								The orbital path of a dependent celestial entity shall have its
 								tilt defined in radians on the x and z axes, and its dimensions
 								specified in meters, with its length and the position of its
 								length-wise center relative to the center of the parent entity on
@@ -166,14 +166,14 @@ Open Universe Dimensions
 						Speed
 
 							-
-								The average orbital speed of a dependant celestial entity shall be
+								The average orbital speed of a dependent celestial entity shall be
 								defined in meters per second
 							-
 
 						Start
 
 							-
-								The starting position of a dependant celestial entity along its
+								The starting position of a dependent celestial entity along its
 								orbital path where the universal time is zero shall be defined in
 								radians, projected from a unit circle to a point on the ellipse.
 							-

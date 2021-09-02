@@ -38,7 +38,7 @@ General Hardware Interface
 				devices.
 
 				Each call should return data to the control software specifying the input signals
-				that were recieved by each device at the time of said call, along with their IDs,
+				that were received by each device at the time of said call, along with their IDs,
 				device types, and current output states.
 			-
 

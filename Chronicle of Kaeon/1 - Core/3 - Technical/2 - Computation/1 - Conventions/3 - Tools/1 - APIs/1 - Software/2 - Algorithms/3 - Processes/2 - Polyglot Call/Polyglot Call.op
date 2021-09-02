@@ -3,7 +3,7 @@ Polyglot Call
 	Philosophy
 
 		-
-			A polyglot call is an operation which, from one language or envrionment, dynamically
+			A polyglot call is an operation which, from one language or environment, dynamically
 			executes an operation in another, and returns the result to whatever it was called
 			from.
 		-

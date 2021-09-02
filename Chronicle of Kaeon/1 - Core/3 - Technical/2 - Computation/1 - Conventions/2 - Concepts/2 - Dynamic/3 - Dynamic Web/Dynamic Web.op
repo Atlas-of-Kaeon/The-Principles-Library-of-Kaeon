@@ -16,7 +16,7 @@ Dynamic Web
 				different type of file that would normally be used in order to bypass obstacles
 				that would otherwise hinder its use.
 
-				One type of resourse encoding, called CORS bypass encoding, is to encode text in an
+				One type of resource encoding, called CORS bypass encoding, is to encode text in an
 				audio or visual resource and to then extract said text from said resource in order
 				to bypass CORS restrictions without using a CORS proxy. One of the simplest ways to
 				do this, which can be called bitmap bypassing, would be to use the RGB values in a

@@ -17,13 +17,13 @@ Kaeon Complex
 				it is to work with, and shall take the path to the main file of the program it is
 				to compile or execute as its second argument.
 				
-				Whether it compiles or executes the program is dependant on the language specified.
+				Whether it compiles or executes the program is dependent on the language specified.
 
 				Every argument following the second shall serve as command line arguments for
 				executed programs.
 			-
 
-		Standard Distrobution Method
+		Standard Distribution Method
 
 			-
 				By default, Kaeon Complex shall be accessible via npx.

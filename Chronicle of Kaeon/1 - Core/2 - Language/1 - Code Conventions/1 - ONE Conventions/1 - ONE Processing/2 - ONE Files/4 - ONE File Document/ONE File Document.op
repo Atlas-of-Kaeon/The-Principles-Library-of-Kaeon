@@ -18,6 +18,6 @@ ONE File Document
 				A file shall correspond to a ONE element where the name of said file is its content
 				and where, if said file is not a ONE document, said element has one child where the
 				content of said child is the content of said file, and if said file is a ONE
-				document, said element has the childen of the root element of said ONE document as
+				document, said element has the children of the root element of said ONE document as
 				its children.
 			-

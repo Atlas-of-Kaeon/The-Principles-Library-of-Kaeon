@@ -7,7 +7,7 @@ Neural Network Refactoring
 			either increase or decrease its complexity while preventing it from producing a
 			different output for any given input.
 
-			Alternatively, to alter the structure of a neural network while allowing for a mimimal
+			Alternatively, to alter the structure of a neural network while allowing for a minimal
 			amount of alteration in it output for any given input is referred to as neural network
 			pseudorefactoring.
 		-

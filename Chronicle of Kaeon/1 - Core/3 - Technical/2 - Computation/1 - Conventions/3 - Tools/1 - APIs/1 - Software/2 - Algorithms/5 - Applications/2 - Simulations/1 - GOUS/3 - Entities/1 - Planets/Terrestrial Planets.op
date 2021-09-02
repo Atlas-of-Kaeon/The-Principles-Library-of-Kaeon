@@ -72,7 +72,7 @@ Open Universe Terrestrial Planets
 				Terrain
 
 					-
-						A terrain map specifes the terrain properties of certain regions on the
+						A terrain map specifies the terrain properties of certain regions on the
 						global map.
 					-
 
@@ -95,7 +95,7 @@ Open Universe Terrestrial Planets
 				Weather
 
 					-
-						A weather map specifies the atmoshperic temperatures and cloud formations
+						A weather map specifies the atmospheric temperatures and cloud formations
 						at certain points on the planet.
 					-
 

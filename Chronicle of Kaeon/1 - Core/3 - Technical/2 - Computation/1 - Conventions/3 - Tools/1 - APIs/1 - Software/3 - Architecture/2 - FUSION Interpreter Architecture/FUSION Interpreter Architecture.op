@@ -103,7 +103,7 @@ FUSION Interpreter Architecture
 					Remove Thread
 
 						-
-							The remove thread fucntion takes an element and terminates the thread
+							The remove thread function takes an element and terminates the thread
 							processing said element.
 						-
 

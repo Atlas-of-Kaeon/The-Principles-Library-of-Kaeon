@@ -71,7 +71,7 @@ GHI Receptor
 
 					The password field, which must be present in external calls if the password has
 					been set, specifies the current password of the system. Failure to include the
-					correct password shall result in the call not being proccessed and a null value
+					correct password shall result in the call not being processed and a null value
 					being returned to the source of the call.
 
 					The preservation field, if present, shall contain a boolean specifying the

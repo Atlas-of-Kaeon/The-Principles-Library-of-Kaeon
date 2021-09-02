@@ -55,7 +55,7 @@ United C
 			Type Detection
 
 				-
-					The token "var" may be in lieu of the data type of a varaible, in which case
+					The token "var" may be in lieu of the data type of a variable, in which case
 					the type of said variable shall be predicted based on the value assigned to it.
 				-
 

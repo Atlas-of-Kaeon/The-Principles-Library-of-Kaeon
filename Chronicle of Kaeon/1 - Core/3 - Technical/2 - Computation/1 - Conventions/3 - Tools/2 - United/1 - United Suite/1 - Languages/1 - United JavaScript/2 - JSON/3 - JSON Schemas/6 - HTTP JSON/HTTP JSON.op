@@ -22,7 +22,7 @@ HTTP JSON
 				HTTP request or response.
 
 				For a request, a definition object shall have a field with the key "method", where
-				the value shall be the method of the request, and shall havea field with the key
+				the value shall be the method of the request, and shall have a field with the key
 				"uri", where the value shall be the URI of the request, and may optionally have a
 				field with the key "version", where the value shall be the version of the HTTP
 				protocol.

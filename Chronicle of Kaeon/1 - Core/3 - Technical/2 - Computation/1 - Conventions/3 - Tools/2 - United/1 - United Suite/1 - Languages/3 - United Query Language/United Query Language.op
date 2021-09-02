@@ -33,7 +33,7 @@ United Query Language
 				Executing the request shall return a JSON object or array, containing a field with
 				the alias "data", which contains a JSON object specifying any data returned, and a
 				field with the alias "error", which shall contain a null value if there was no
-				error and shall contain a string specifying the error that occured if there was
+				error and shall contain a string specifying the error that occurred if there was
 				one.
 			-
 

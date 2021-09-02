@@ -5,7 +5,7 @@ Chaotic Automata
 		-
 			Chaotic automata is a form of geometric automata in which the state of a point in the
 			space in which the simulation takes place may, when the rules gives multiple
-			possibilities for valid states, change to one of the valid options arbitrariliy.
+			possibilities for valid states, change to one of the valid options arbitrarily.
 		-
 
 	Principles

@@ -31,10 +31,10 @@ Open Universe Core
 
 			Types
 
-				Independant Entities
+				Independent Entities
 
 					-
-						An independant entity is generally defined as any entity that a human could
+						An independent entity is generally defined as any entity that a human could
 						escape the gravitational pull of by jumping.
 					-
 
@@ -76,10 +76,10 @@ Open Universe Core
 						of zero.
 					-
 
-				Dependant Cosmic Entities
+				Dependent Cosmic Entities
 
 					-
-						A dependant cosmic entity is any cosmic entity that descends from a
+						A dependent cosmic entity is any cosmic entity that descends from a
 						celestial entity via parent-child connections.
 
 						All other cosmic entities shall
@@ -134,28 +134,28 @@ Open Universe Core
 								Each celestial entity shall have a diameter property.
 							-
 
-					Dependant
+					Dependent
 
 						Orbit
 
 							Path
 
 								-
-									Each dependant celestial entity shall have a tilted ellipse
+									Each dependent celestial entity shall have a tilted ellipse
 									that defines the path of its orbit around its parent.
 								-
 
 							Speed
 
 								-
-									Each dependant celestial entity shall also have its average
+									Each dependent celestial entity shall also have its average
 									orbital speed defined.
 								-
 
 							Start
 
 								-
-									Each dependant celestial entity shall have the point along its
+									Each dependent celestial entity shall have the point along its
 									orbital path, where it is located where no time has passed
 									according the universal time, defined.
 								-
@@ -163,7 +163,7 @@ Open Universe Core
 						Rotation
 
 							-
-								Each dependant celestial entity shall have the speed at which it
+								Each dependent celestial entity shall have the speed at which it
 								rotates defined.
 							-
 

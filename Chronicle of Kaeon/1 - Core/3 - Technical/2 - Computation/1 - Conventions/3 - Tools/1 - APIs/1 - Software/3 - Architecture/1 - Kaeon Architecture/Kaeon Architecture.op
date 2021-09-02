@@ -21,7 +21,7 @@ Kaeon Architecture
 		Processes
 
 			-
-				Processes are persistenly running modules that serve solely to govern the calling
+				Processes are persistently running modules that serve solely to govern the calling
 				of functions within utilities.
 			-
 
@@ -36,13 +36,13 @@ Kaeon Architecture
 
 			-
 				All data stored by a module designed using the Kaeon architecture should be stored
-				in internal or external databases that are globally accesible to the utilities.
+				in internal or external databases that are globally accessible to the utilities.
 			-
 
 		Layers
 
 			-
-				The network of a module designed using the Kaeon architecture shall be spearated
+				The network of a module designed using the Kaeon architecture shall be separated
 				into two sections: the application layer for processing the internal logic of the
 				module, and the interface layer for communicating with external modules.
 			-

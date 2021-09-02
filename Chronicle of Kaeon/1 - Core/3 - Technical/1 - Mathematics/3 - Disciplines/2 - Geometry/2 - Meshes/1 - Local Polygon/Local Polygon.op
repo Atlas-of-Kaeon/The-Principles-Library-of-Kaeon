@@ -20,7 +20,7 @@ Local Polygon
 
 			-
 				A polygon space is a N-dimensional rectangular prism space defined by the extremes
-				of the values of verticies of a given polygon.
+				of the values of vertices of a given polygon.
 			-
 
 		Polygon Interpolation

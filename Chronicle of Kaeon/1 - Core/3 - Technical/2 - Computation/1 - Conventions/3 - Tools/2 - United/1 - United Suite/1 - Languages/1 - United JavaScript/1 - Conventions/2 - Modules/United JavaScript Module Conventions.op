@@ -25,7 +25,7 @@ United JavaScript Module Conventions
 				A link reference is a JavaScript object declared at the beginning of a module's
 				code which contains the paths to said module's dependencies.
 
-				This object may be used to reconfigure said paths without drasitically altering the
+				This object may be used to reconfigure said paths without drastically altering the
 				module's code.
 			-
 

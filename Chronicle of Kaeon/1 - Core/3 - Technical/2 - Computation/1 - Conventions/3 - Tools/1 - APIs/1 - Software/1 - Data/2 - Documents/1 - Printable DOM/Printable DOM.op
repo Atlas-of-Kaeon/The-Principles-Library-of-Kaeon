@@ -17,7 +17,7 @@ Printable DOM
 				document.
 				
 				Each object page object contains the virtual pixel dimensions of the page so as to
-				callibrate the size of content scaled by pixels and to specify the shape of the
+				calibrate the size of content scaled by pixels and to specify the shape of the
 				page.
 
 				Each page object shall also contain the DOM of an HTML document, which shall

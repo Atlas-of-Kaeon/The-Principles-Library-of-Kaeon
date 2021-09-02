@@ -43,7 +43,7 @@ Standard UI Conventions
 
 				-
 					The default size of any object should be defined such that, in keeping with its
-					default proportions, the vector defined by its lengths in all relavent
+					default proportions, the vector defined by its lengths in all relevant
 					dimensions should have a magnitude of one.
 				-
 

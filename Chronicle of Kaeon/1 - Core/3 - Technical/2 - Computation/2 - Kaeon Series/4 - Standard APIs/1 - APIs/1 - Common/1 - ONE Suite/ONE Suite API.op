@@ -42,9 +42,9 @@ ONE Suite API
 					its first argument, and may optionally take an object representing a saved
 					state of a Kaeon FUSION interpreter, which may be an empty object.
 
-					If it recieved an interpreter state as an argument, it shall load said state
+					If it received an interpreter state as an argument, it shall load said state
 					into a Kaeon FUSION interpreter, and if not shall load a default Kaeon FUSION
-					interpreter, and then shall use said interpreter to process the recieved ONE
+					interpreter, and then shall use said interpreter to process the received ONE
 					document as Kaeon FUSION code.
 
 					After running the Kaeon FUSION script, it shall return the return value of the

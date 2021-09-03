@@ -10,6 +10,6 @@ Write Bytes
 
 			It writes the bytes specified by the returned assembly dialect document to the file
 			specified by the returned path. If the returned number is present, it shall start
-			writing the bytes to the file at the index specified by said number where indicies
-			start at one.
+			writing the bytes to the file at the index specified by said number where indices start
+			at one.
 		-

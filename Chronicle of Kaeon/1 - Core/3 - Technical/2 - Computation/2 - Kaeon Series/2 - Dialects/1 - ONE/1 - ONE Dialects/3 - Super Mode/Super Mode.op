@@ -258,8 +258,8 @@ Super Mode
 							The token "/=" indicates the presence of a command that divides its
 							left hand value by its right hand value.
 							
-							The token "%=" indicates the presence of a command that modulos its
-							left hand value by its right hand value.
+							The token "%=" indicates the presence of a command that calculates the
+							remainder of its left hand value divided by its right hand value.
 							
 							The token "&=" indicates the presence of a command that concatenates
 							its right hand value to its left hand value.

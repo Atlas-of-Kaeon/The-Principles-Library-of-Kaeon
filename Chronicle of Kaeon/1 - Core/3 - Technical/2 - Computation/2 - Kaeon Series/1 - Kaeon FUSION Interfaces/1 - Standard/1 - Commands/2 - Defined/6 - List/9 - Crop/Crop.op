@@ -7,8 +7,8 @@ Crop
 			children, the first of which returns a list and the second of which, and the third of
 			which if present, return numbers.
 
-			The number retruned by the second child is referred to as the second number, and the
-			numberreturned by the third child is referred to as the third number. If the third
+			The number returned by the second child is referred to as the second number, and the
+			number returned by the third child is referred to as the third number. If the third
 			child is not present, the third number shall be equal to the length of the list plus
 			one.
 			

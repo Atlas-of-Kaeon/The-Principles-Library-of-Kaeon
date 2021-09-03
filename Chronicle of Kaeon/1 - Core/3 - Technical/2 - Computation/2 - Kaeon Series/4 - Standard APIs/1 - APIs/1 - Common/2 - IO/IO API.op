@@ -3,7 +3,7 @@ IO API
 	Philosophy
 
 		-
-			The IO API is an api for general purpose IO tasks involving the console and the file
+			The IO API is an API for general purpose IO tasks involving the console and the file
 			system.
 		-
 

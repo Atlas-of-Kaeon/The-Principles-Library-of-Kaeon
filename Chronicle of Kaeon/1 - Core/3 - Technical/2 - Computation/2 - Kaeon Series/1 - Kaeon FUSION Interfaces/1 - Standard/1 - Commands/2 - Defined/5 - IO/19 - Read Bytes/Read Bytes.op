@@ -12,5 +12,5 @@ Read Bytes
 			them as an assembly dialect document where the mode is binary. If the second number is
 			present, it shall start reading at the index specified by said number, and if the third
 			number is present, it shall stop reading at the index specified by said number, where
-			indicies start at one.
+			indices start at one.
 		-

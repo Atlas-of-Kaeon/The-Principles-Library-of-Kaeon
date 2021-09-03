@@ -3,7 +3,7 @@ Dynamic Bit
 	Philosophy
 
 		-
-			A dynamic bit is a value that can be used as a bit in a vitrual circuit.
+			A dynamic bit is a value that can be used as a bit in a virtual circuit.
 
 			Dynamic bits may be of any type, and can be interpreted, either alone or in groups, to
 			either produce a new value of any type or to produce a boolean value. Any operation

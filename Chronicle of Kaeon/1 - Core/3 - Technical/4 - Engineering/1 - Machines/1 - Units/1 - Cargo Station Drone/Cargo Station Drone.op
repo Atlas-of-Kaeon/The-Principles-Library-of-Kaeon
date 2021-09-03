@@ -4,6 +4,6 @@ Cargo Station Drone
 
 		-
 			A cargo station drone is a drone that patrols a given location while carrying
-			resourses, and uses said resources to replenish those of other drones or manned vessels
+			resources, and uses said resources to replenish those of other drones or manned vessels
 			passing through the area that it patrols, either automatically or on demand.
 		-

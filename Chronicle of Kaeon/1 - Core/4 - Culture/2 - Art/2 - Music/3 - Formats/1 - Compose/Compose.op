@@ -16,7 +16,7 @@ Compose
 				seconds that the sound is to played.
 				
 				A sound may specify the time in seconds that the sound is to continue playing once
-				it has started, which if not specified shall indicate that the sund is to continue
+				it has started, which if not specified shall indicate that the sound is to continue
 				to play for its entire duration.
 
 				Optionally, a sound may also specify the time in seconds within the referenced

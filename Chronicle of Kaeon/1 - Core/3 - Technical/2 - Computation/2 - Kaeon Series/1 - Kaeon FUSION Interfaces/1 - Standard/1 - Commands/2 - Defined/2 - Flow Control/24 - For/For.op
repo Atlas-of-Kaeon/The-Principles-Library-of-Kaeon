@@ -13,5 +13,5 @@ For
 			iteration, starting at one. If the value returned by the first child is a list, it will
 			execute the returned ONE element as Kaeon FUSION code for each element in the returned,
 			where upon each iteration it shall pass to said code the element of the list
-			corresponding to the current iteration. 
+			corresponding to the current iteration.
 		-

@@ -33,7 +33,7 @@ Printable DOM
 					JSON list serves as the container of the document, and where each page object
 					within it is represented as a JSON object.
 
-					Each page object shall thus have three fields, a number field for each the of 
+					Each page object shall thus have three fields, a number field for each the of
 					the virtual pixel dimensions with the keys "width" and "height" respectively,
 					and a string field with the key "content" containing the DOM content of the
 					page as a DOM JSON string.

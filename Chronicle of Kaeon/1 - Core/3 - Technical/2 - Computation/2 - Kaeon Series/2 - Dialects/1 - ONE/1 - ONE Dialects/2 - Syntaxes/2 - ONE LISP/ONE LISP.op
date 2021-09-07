@@ -13,7 +13,7 @@ ONE LISP
 			-
 				The document represents a list in ONE list form representing an element with no
 				content. All elements at the root of the document are implicitly assumed to be in a
-				list. 
+				list.
 			-
 		
 		Syntax

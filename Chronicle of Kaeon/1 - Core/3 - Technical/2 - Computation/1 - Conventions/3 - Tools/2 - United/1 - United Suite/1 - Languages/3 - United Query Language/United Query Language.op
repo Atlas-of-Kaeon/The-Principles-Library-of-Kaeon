@@ -21,7 +21,7 @@ United Query Language
 				United Query Language, or a string specifying the operation in the format that the
 				target database natively accepts.
 
-				The location field, if present, shall contain a string specifying the URL of the 
+				The location field, if present, shall contain a string specifying the URL of the
 				target database.
 
 				The type field, if present, shall specify the type of database that the target

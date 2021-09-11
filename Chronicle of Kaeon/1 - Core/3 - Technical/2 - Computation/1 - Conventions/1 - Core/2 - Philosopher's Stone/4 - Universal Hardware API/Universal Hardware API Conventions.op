@@ -8,6 +8,22 @@ Universal Hardware API Conventions
 
 	Principles
 
+		Standards
+
+			HTTP
+
+				-
+					A server upon which the universal hardware API operates shall operate on HTTP
+					calls.
+				-
+
+			Cellular
+
+				-
+					A device upon which the universal hardware API operates shall receive data
+					through a cellular network.
+				-
+
 		Recommendations
 
 			Documentation

@@ -13,8 +13,8 @@ Universal Hardware API Conventions
 			HTTP
 
 				-
-					A server upon which the universal hardware API operates shall operate on HTTP
-					calls.
+					An endpoint upon which the universal hardware API operates shall be implemented
+					as an HTTP server.
 				-
 
 			Cellular
@@ -39,6 +39,12 @@ Universal Hardware API Conventions
 				-
 					Ideally, a device that follows the protocol should have some sort of secure
 					mechanism in place to manually override its hard coded settings.
+				-
+
+			HTTPS
+
+				-
+					For security purposes, universal hardware API servers should run use HTTPS.
 				-
 
 		Options

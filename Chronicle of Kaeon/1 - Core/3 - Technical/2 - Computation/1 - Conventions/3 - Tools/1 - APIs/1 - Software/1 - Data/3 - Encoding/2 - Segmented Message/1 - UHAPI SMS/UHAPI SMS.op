@@ -1,0 +1,8 @@
+UHAPI SMS
+
+	Philosophy
+
+		-
+			An alternative to using an HTTP server for UHAPI is to use segmented messages sent over
+			SMS to a phone number belonging to the targeted device.
+		-

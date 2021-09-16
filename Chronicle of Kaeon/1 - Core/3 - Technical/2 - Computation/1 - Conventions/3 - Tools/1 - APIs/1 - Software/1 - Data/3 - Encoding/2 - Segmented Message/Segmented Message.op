@@ -1,0 +1,38 @@
+Segmented Message
+
+	Philosophy
+
+		-
+			A segmented message is a message sent in pieces so as to avoid exceeding the size
+			limits of messages sent across certain mediums.
+		-
+
+	Principles
+
+		Properties
+
+			-
+				Each segmented message shall have a numerical ID, and each chunk shall have an
+				index, starting at one, representing its order relative to the other chunks.
+
+				The final message shall be derived by concatenating the content of the chunks
+				together in order as specified by their indexes.
+			-
+
+		Standard Segmented Message Format
+
+			-
+				The standard format for a segmented message chunk is the ID of the message,
+				followed by a non-numerical character, followed by the index of the chunk, followed
+				by a non-numerical character, followed by the total number of chunks in the
+				message, followed by a non-numerical character, followed by the content of the
+				chunk itself.
+			-
+
+		Standard Format Separators
+
+			-
+				The standard separators used by the standard segmented message format are a hyphen
+				for the first separator, a forward slash for the second separator, and a new line
+				for the third separator.
+			-

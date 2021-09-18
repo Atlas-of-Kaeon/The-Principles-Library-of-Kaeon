@@ -1,0 +1,58 @@
+SMS Relay
+
+	Philosophy
+
+		-
+			An SMS relay is an HTTP server for which can send the content of a request using
+			segmented messages sent over SMS to a phone number belonging to a targeted device.
+
+			Once a the content has been relayed, the server may wait for a response from the
+			targeted device, sent to said server using either segmented messages or HTTP, before
+			returning a response to the caller containing the response from said device.
+		-
+
+	Principles
+
+		Formats
+
+			Initial Request
+
+				-
+					A request sent to an SMS relay shall use the POST method, and the body shall
+					be a JSON object containing two fields, called "number", "content", and
+					"return" respectively.
+
+					The number field shall contain a string specifying the international phone
+					number of the targeted device, the content field shall contain a string
+					specifying the message to be sent to said device, and the return field, which
+					is optional, shall contain a boolean specifying whether or not the server must
+					return a response from the device, with true indicating that it must and false
+					indicating that it does not have to. If the return field is absent, it shall be
+					set to true by default.
+				-
+
+			Relayed Request
+
+				-
+					The content of a segmented message sent from and SMS relay to a device shall
+					specify the protocol for returning a response to the relay along with the
+					content of the message.
+
+					The message shall consist of the protocol, followed by two new line characters,
+					followed by the content of the message.
+
+					If the protocol is to return a segmented message to a phone number, the
+					protocol shall consist of one line specifying the international phone number to
+					send the message to.
+
+					If the protocol is to return an HTTP request, the protocol shall consist of the
+					lines of an HTTP request containing the method, the URI, and the headers.
+
+					If a response is not required, there shall be no protocol section.
+				-
+
+			UHAPI
+
+				-
+					An SMS relay may be used to as an endpoint for UHAPI applications.
+				-

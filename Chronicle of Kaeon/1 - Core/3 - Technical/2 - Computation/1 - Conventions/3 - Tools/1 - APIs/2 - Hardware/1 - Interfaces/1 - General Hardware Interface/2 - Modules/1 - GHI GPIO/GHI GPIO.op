@@ -22,8 +22,12 @@ GHI GPIO
 					All input pins shall themselves be grouped together in the same manner. Said
 					order shall be referred to as the input pin map.
 
+					Optionally, all pins may, using the aforementioned ordering convention, be
+					placed together in a single pin map referred to as a dual pin map, which may
+					act as both the output pin map and the input pin map.
+
 					The status of a pin may be set to false, indicating that it is generating no
-					output, to true, indicating that is is on and set to high, or to a number
+					output, to true, indicating that it is on and set to high, or to a number
 					between zero, exclusive, and one, inclusive, specifying an exact level of
 					output.
 

@@ -32,33 +32,25 @@ Kaeon United
 
 		Functionality
 
+			Reference Router
+
+				-
+					Kaeon United shall reference an external file known as the reference router,
+					which shall allow its functionality to be extended.
+
+					It shall reference various CommonJS modules, Kaeon FUSION interfaces, and
+					command scripts.
+				-
+
 			Command Line
 
 				-
-					Running Kaeon United from the command line shall allow for the used of the
-					United suite in the terminal.
+					Running Kaeon United from the command line shall allow for the used of various
+					utilities in the terminal.
 
-					It shall take the following arguments:
-
-					The first argument shall be the name of the utility within the united suite
-					being used.
-					
-					Said utilities include "process", which runs Kaeon FUSION code, "parse", which
-					converts ONE+ code to ONE, "preprocess", which runs the Universal Preprocessor,
-					"js", which runs United JavaScript, "ucc", which runs the United C compiler,
-					"assemble", which compiles CSB, and "disassemble", which disassembles CSB.
-
-					To dynamically specify source text to the utility, the second argument must be
-					"read", and the third argument must be said text itself.
-
-					To load the source text to the utility from a file, the second argument must be
-					"open", and the third argument must be the file path.
-
-					To save the output of the utility to a file, there must be a fourth argument
-					specifying the path of said file.
-
-					Both the process and js utilities, if run without specified source text, will
-					run as console REPLs.
+					The first argument shall be the name of the command script being used, as
+					defined in the reference router. All other arguments shall serve as arguments
+					for said command script.
 				-
 
 			HTML Script
@@ -75,13 +67,16 @@ Kaeon United
 					-
 						As a Kaeon FUSION interface, Kaeon United shall have the module alias
 						"Kaeon United".
+
+						Said interface shall integrate all of the Kaeon FUSION interfaces
+						referenced by the reference router when used.
 					-
 
 				CommonJS Module
 
 					-
-						Importing Kaeon United as a CommonJS module shall return an object containing
-						all of the CommonJS modules relevant to the United suite.
+						Importing Kaeon United as a CommonJS module shall return an object
+						containing various CommonJS modules referenced in the reference router.
 					-
 
 				United C Module
@@ -138,4 +133,36 @@ Kaeon United
 
 					If none of the aforementioned arguments are present, a page displaying a user
 					guide for Kaeon United shall be rendered.
+				-
+
+		Reference Router Defaults
+
+			Standard Language Command
+
+				-
+					The standard language command is a convention for command scripts used for
+					compiling and interpreting programming languages.
+
+					To dynamically specify source text to the utility, the first argument must be
+					"read", and the third argument must be said text itself.
+
+					To load the source text to the utility from a file, the first argument must be
+					"open", and the third argument must be the file path.
+
+					To save the output of the utility to a file, there must be a third argument
+					specifying the path of said file.
+				-
+
+			Default Standard Language Commands
+
+				-
+					Kaeon United's default reference router shall include certain standard language
+					command scripts, including "process", which runs Kaeon FUSION code, "parse",
+					which converts ONE+ code to ONE, "preprocess", which runs the Universal
+					Preprocessor, "js", which runs United JavaScript, "ucc", which runs the United
+					C compiler, "assemble", which compiles CSB, and "disassemble", which
+					disassembles CSB.
+
+					Both the process and js utilities, if run without specified source text, will
+					run as console REPLs.
 				-

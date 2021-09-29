@@ -1,0 +1,9 @@
+Devops API
+
+	Philosophy
+
+		-
+			A devops API is an API to which a developer may pass the source files of a project,
+			which said API shall compile the build for, after which it may return said build to the
+			user, deploy said build to production, or both.
+		-

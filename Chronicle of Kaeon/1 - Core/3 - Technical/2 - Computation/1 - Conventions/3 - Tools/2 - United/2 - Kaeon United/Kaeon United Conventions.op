@@ -38,8 +38,8 @@ Kaeon United
 					Kaeon United shall reference an external file known as the reference router,
 					which shall allow its functionality to be extended.
 
-					It shall reference various CommonJS modules, Kaeon FUSION interfaces, and
-					command scripts.
+					It shall reference various CommonJS modules, Kaeon FUSION interfaces, command
+					scripts, and online applications.
 				-
 
 			Command Line
@@ -133,6 +133,17 @@ Kaeon United
 
 					If none of the aforementioned arguments are present, a page displaying a user
 					guide for Kaeon United shall be rendered.
+				-
+
+			Applications
+
+				-
+					Kaeon United may redirect to other applications.
+
+					If Kaeon United is accessed in the browser with the URL argument "app", and
+					said argument contains an alias to the URL of an application referenced in the
+					reference router, Kaeon United shall redirect to said application, and shall
+					pass along all URL arguments passed to it except for "app".
 				-
 
 		Reference Router Defaults

@@ -3,8 +3,9 @@ Printable DOM
 	Philosophy
 
 		-
-			A printable DOM document, or PDOM document, uses existing HTML specification to form an
-			open and simple standard for encoding the content of a multi-page printable document.
+			A printable DOM document, or PDOM document, uses the existing HTML specification to
+			form a simple and open standard for encoding the content of a multi-page printable
+			document.
 		-
 
 	Principles
@@ -25,6 +26,14 @@ Printable DOM
 			-
 
 		Standards
+
+			Overflow
+
+				-
+					If the content of a given page overflows its bounds, new pages shall appear in
+					the rendered document containing the overflowing content, with horizontal
+					overflow given priority over vertical overflow.
+				-
 		
 			Encoding
 

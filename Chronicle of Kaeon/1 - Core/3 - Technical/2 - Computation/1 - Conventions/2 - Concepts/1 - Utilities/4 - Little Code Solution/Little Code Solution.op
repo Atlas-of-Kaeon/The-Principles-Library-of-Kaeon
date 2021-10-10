@@ -1,0 +1,22 @@
+Little Code Solution
+
+	Philosophy
+
+		-
+			A little code solution is a software development platform that provides the ease of use
+			provided by low-code and no-code platforms through plain text files alone.
+
+			As such, the text file formats used by little code solutions should be easy to
+			understand for non-technical audiences.
+		-
+
+	Philosophy
+
+		Little Code Adapter
+
+			-
+				A little code adapter is a plain text file format designed to emulate the
+				functionality of an existing low-code or no-code platform through a little code
+				solution, such that applications written in either may be seamlessly converted from
+				one format to the other.
+			-

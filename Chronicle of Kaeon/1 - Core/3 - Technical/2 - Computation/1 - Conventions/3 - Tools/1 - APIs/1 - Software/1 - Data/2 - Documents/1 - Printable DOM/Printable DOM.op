@@ -52,4 +52,20 @@ Printable DOM
 
 				-
 					The standard file extension for a PDOM document is ".pdom".
+
+					Said acronym may be pronounced "pea-dom".
+				-
+
+			Zipped PDOM
+
+				-
+					A printable DOM file may be distributed with the resources it is dependent on
+					in a zipped file.
+
+					The PDOM file itself shall be located at the root of the zipped folder and
+					shall be named "index.pdom". Said file shall reference the resources in the
+					zipped file using relative paths.
+
+					The zipped file itself shall have the extension ".zpdom", which may be
+					pronounced "zip-dom".
 				-

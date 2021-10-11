@@ -1,0 +1,55 @@
+GHI Wi-Fi
+
+	Philosophy
+
+		-
+			GHI Wi-Fi is a convention used to relay information regarding Wi-Fi communication
+			through the GHI.
+		-
+
+	Principles
+
+		Branch Formats
+
+			Input
+
+				-
+					The branch data input format of a Wi-Fi device shall either be an object
+					containing a field with the alias "credentials", and may optionally have a
+					field with the alias "data".
+
+					The credentials field shall contain an object. Said object shall have a field
+					with the alias "ssid", containing a string specifying the SSID of a Wi-Fi
+					network, and may optionally have the fields "password", containing a string
+					specifying the password of said Wi-Fi network, "host", containing a string
+					specifying a host IP to direct communication to over said Wi-Fi network, and
+					"port", containing a number specifying a host port to direct communication to
+					over said Wi-Fi network.
+
+					If the data field is not present, the device shall act as a WIFI router using
+					the specified SSID and password.
+
+					If the data field is present, it shall contain a string which shall be passed
+					to the Wi-Fi endpoint with the specified SSID and password at the specified
+					host IP and port. If the either the host IP or host port are not specified,
+					they shall be set to default values.
+				-
+
+			Output
+
+				-
+					The branch data output format of a Wi-Fi device is a list objects representing
+					any messages it received from external devices over its Wi-Fi connection.
+
+					Each of said objects shall contain two fields, a field with the alias "time",
+					containing a number specifying the time in seconds that the message was
+					received, and a field with the alias "data", containing a string specifying the
+					message that was received.
+				-
+
+		Type
+
+			-
+				The type of Wi-Fi modules shall be specified as "wifi" in the receptor output
+				format.
+			-

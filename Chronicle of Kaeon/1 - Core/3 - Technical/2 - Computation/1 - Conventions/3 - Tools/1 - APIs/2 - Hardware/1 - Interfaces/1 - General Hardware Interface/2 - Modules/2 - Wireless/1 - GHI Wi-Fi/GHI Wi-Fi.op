@@ -39,7 +39,8 @@ GHI Wi-Fi
 
 				-
 					The branch data output format of a Wi-Fi device is a list objects representing
-					any messages it received from external devices over its Wi-Fi connection.
+					any messages it received from external devices over its Wi-Fi connection since
+					the last query for said output.
 
 					Each of said objects shall contain two fields, a field with the alias "time",
 					containing a number specifying the time in seconds that the message was

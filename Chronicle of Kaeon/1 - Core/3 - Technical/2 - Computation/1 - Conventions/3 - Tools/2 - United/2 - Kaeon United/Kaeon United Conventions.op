@@ -32,6 +32,12 @@ Kaeon United
 
 		Functionality
 
+			URL Arguments
+
+				-
+					All URL arguments used by Kaeon United are case insensitive.
+				-
+
 			Reference Router
 
 				-
@@ -40,6 +46,16 @@ Kaeon United
 
 					It shall reference various CommonJS modules, Kaeon FUSION interfaces, command
 					scripts, and online applications.
+
+					A reference router shall be implemented as a CommonJS module that exports a
+					function which may take a string. If no string is given, it shall return a
+					value providing documentation about the available options. If a string is
+					given, it shall either return a CommonJS module or a string specifying a file
+					path, unless the given string matches no references, in which case a null value
+					shall be returned.
+
+					If the user desires to use a reference router other than the default one, they
+					may specify an alternate reference router.
 				-
 
 			Command Line
@@ -48,9 +64,13 @@ Kaeon United
 					Running Kaeon United from the command line shall allow for the used of various
 					utilities in the terminal.
 
-					The first argument shall be the name of the command script being used, as
-					defined in the reference router. All other arguments shall serve as arguments
-					for said command script.
+					If the user is using an alternate reference router, the first argument shall be
+					the file path of said reference router.
+
+					The first argument, if no alternate reference router was specified, and
+					otherwise the second argument, shall be the name of the command script being
+					used, as defined in the reference router. All other arguments shall serve as
+					arguments for said command script.
 				-
 
 			HTML Script
@@ -58,6 +78,10 @@ Kaeon United
 				-
 					Importing Kaeon United into an HTML document through a script tag shall allow
 					the dynamic use of CommonJS on the page.
+
+					A user may specify an alternate reference router for use by the Kaeon United
+					script by passing the URL of said reference router to Kaeon United it its own
+					URL using the URL argument "Router".
 				-
 			
 			Module
@@ -108,43 +132,54 @@ Kaeon United
 
 			Shadow Host
 
-				-
-					If Kaeon United is used as a shadow host, it may have the URL arguments
-					"UnitedJS", "UnitedJSRaw", "UnitedOP", "UnitedOPRaw", "HTML", and "HTMLRaw".
+				Alternate Router
 
-					UnitedJS, if present, shall specify the path to a United JavaScript file which
-					shall be executed.
+					-
+						A user may specify an alternate reference router for use by the Kaeon
+						United shadow host by passing the URL of said reference router to Kaeon
+						United it its own URL using the URL argument "Router".
+					-
 
-					UnitedJSRaw, if present, shall specify United JavaScript code which shall be
-					executed.
+				User Content
 
-					UnitedOP, if present, shall specify the path to a Kaeon FUSION file which shall
-					be executed.
+					-
+						If Kaeon United is used as a shadow host, it may have the URL arguments
+						"UnitedJS", "UnitedJSRaw", "UnitedOP", "UnitedOPRaw", "HTML", and
+						"HTMLRaw".
 
-					UnitedOPRaw, if present, shall specify the path to a Kaeon FUSION file which shall
-					be executed.
+						UnitedJS, if present, shall specify the path to a United JavaScript file
+						which shall be executed.
 
-					HTML, if present, shall specify the path to an HTML file which shall be
-					rendered.
+						UnitedJSRaw, if present, shall specify United JavaScript code which shall
+						be executed.
 
-					If both more than one of the aforementioned arguments are present, the
-					JavaScript, if given, shall execute first, the Kaeon FUSION, if given, shall
-					execute next, and the HTML, if given, shall be rendered last.
+						UnitedOP, if present, shall specify the path to a Kaeon FUSION file which
+						shall be executed.
 
-					If none of the aforementioned arguments are present, a page displaying a user
-					guide for Kaeon United shall be rendered.
-				-
+						UnitedOPRaw, if present, shall specify the path to a Kaeon FUSION file
+						which shall be executed.
 
-			Applications
+						HTML, if present, shall specify the path to an HTML file which shall be
+						rendered.
 
-				-
-					Kaeon United may redirect to other applications.
+						If both more than one of the aforementioned arguments are present, the
+						JavaScript, if given, shall execute first, the Kaeon FUSION, if given,
+						shall execute next, and the HTML, if given, shall be rendered last.
 
-					If Kaeon United is accessed in the browser with the URL argument "app", and
-					said argument contains an alias to the URL of an application referenced in the
-					reference router, Kaeon United shall redirect to said application, and shall
-					pass along all URL arguments passed to it except for "app".
-				-
+						If none of the aforementioned arguments are present, a page displaying a
+						user guide for Kaeon United shall be rendered.
+					-
+
+				Applications
+
+					-
+						Kaeon United may redirect to other applications.
+
+						If Kaeon United is accessed in the browser with the URL argument "app", and
+						said argument contains an alias to the URL of an application referenced in
+						the reference router, Kaeon United shall redirect to said application, and
+						shall pass along all URL arguments passed to it except for "app".
+					-
 
 		Reference Router Defaults
 

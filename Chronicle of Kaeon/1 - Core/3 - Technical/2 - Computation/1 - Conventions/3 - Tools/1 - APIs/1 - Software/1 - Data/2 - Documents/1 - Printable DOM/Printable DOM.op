@@ -45,7 +45,7 @@ Printable DOM
 					Each page object shall thus have three fields, a number field for each the of
 					the virtual pixel dimensions with the keys "width" and "height" respectively,
 					and a string field with the key "content" containing the DOM content of the
-					page as a DOM JSON string.
+					page as either a DOM JSON string or as an HTML string.
 				-
 
 			File Extension
@@ -68,4 +68,14 @@ Printable DOM
 
 					The zipped file itself shall have the extension ".zpdom", which may be
 					pronounced "zip-dom".
+				-
+
+			Slideshow
+
+				-
+					A PDOM document may be used to encode the content of a slideshow, where each
+					page object is interpreted as a slide rather than a page.
+
+					For this case, page objects may contain additional fields specifying metadata
+					regarding slide and content transitions.
 				-

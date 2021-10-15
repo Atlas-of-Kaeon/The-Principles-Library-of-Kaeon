@@ -166,8 +166,8 @@ Kaeon United
 						JavaScript, if given, shall execute first, the Kaeon FUSION, if given,
 						shall execute next, and the HTML, if given, shall be rendered last.
 
-						If none of the aforementioned arguments are present, a page displaying a
-						user guide for Kaeon United shall be rendered.
+						If none of the aforementioned arguments are present, a page containing the
+						Kaeon Origin application shall be rendered.
 					-
 
 				Applications

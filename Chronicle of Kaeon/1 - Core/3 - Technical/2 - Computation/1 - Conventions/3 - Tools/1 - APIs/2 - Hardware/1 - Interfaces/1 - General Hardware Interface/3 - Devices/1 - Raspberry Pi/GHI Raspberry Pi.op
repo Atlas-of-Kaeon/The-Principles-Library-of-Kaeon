@@ -11,27 +11,38 @@ GHI Raspberry Pi
 
 		Devices
 
-			Modules
+			Common
 
-				GPIO Dual Pin Map
-					
-					0: 3
-					1: 5
-					2: 7
-					3: 8
-					4: 10
-					5: 11
-					6: 12
-					7: 13
-					8: 15
-					9: 16
-					10: 18
-					11: 19
-					12: 21
-					13: 22
-					14: 23
-					15: 24
-					16: 26
-					17: 27
-					18: 28
-					19: 29
+				GPIO
+				Display: HDMI Out
+				Recorder: Audio In
+
+			Circumstantial
+
+				Wi-Fi
+				Cellular
+
+		Conventions
+
+			GPIO Dual Pin Map
+				
+				0: 3
+				1: 5
+				2: 7
+				3: 8
+				4: 10
+				5: 11
+				6: 12
+				7: 13
+				8: 15
+				9: 16
+				10: 18
+				11: 19
+				12: 21
+				13: 22
+				14: 23
+				15: 24
+				16: 26
+				17: 27
+				18: 28
+				19: 29

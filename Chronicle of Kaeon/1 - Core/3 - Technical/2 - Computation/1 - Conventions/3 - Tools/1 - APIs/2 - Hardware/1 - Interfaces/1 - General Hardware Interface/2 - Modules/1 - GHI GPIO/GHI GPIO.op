@@ -9,7 +9,14 @@ GHI GPIO
 
 	Principles
 
-		Options
+		Type
+
+			-
+				The type of GPIO modules shall be specified as "gpio" in the receptor output
+				format.
+			-
+
+		Conventions
 
 			Pins
 
@@ -58,10 +65,3 @@ GHI GPIO
 					between zero, inclusive, and one, inclusive, where each value corresponds to
 					the value of an input pin according to its index via the input pin map.
 				-
-
-		Type
-
-			-
-				The type of GPIO modules shall be specified as "gpio" in the receptor output
-				format.
-			-

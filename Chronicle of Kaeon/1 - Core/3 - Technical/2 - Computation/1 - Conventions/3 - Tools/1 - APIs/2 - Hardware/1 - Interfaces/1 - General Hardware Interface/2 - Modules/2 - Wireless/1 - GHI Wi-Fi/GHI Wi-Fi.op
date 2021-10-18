@@ -9,6 +9,13 @@ GHI Wi-Fi
 
 	Principles
 
+		Type
+
+			-
+				The type of Wi-Fi modules shall be specified as "wifi" in the receptor output
+				format.
+			-
+
 		Branch Formats
 
 			Input
@@ -47,10 +54,3 @@ GHI Wi-Fi
 					received, and a field with the alias "data", containing a string specifying the
 					message that was received.
 				-
-
-		Type
-
-			-
-				The type of Wi-Fi modules shall be specified as "wifi" in the receptor output
-				format.
-			-

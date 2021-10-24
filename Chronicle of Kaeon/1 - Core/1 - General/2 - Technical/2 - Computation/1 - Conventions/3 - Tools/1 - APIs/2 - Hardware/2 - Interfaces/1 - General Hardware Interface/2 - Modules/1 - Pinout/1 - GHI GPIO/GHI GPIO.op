@@ -1,0 +1,44 @@
+GHI GPIO
+
+	Philosophy
+
+		-
+			GHI GPIO is a convention used to relay information regarding gpio pinout devices
+			through the GHI.
+		-
+
+	Principles
+
+		Type
+
+			-
+				The type of GPIO modules shall be specified as "gpio" in the receptor output
+				format.
+			-
+
+		Conventions
+
+			Default State
+
+				-
+					The default state of all output pins is set to off.
+				-
+
+		Branch Formats
+
+			Input
+
+				-
+					The branch data input format of a GPIO device is a list of booleans and numbers
+					between zero, exclusive, and one, inclusive, where each value corresponds to
+					the value of a programmable output pin according to its index via the output
+					pin map.
+				-
+
+			Output
+
+				-
+					The branch data output format of a GPIO device is a list of numbers
+					between zero, inclusive, and one, inclusive, where each value corresponds to
+					the value of an input pin according to its index via the input pin map.
+				-

@@ -1,0 +1,64 @@
+GPIO Pin Map
+
+	Philosophy
+
+		-
+			A GPIO pin map is a convention used to organize the pins of a GPIO device so as to
+			simplify the programming of them.
+		-
+
+	Principles
+
+		Map Types
+
+			Output
+
+				-
+					All programmable output pins of a GPIO device shall be grouped together and
+					labelled in order relative to each other based on their ordering when taking
+					all pins into account, starting at zero. Said order shall be referred to as the
+					output pin map.
+				-
+
+			Input
+
+				-	
+					All input pins shall themselves be grouped together in the same manner. Said
+					order shall be referred to as the input pin map.
+				-
+
+			Dual
+
+				-
+					Optionally, all pins may, using the aforementioned ordering convention, be
+					placed together in a single pin map referred to as a dual pin map, which may
+					act as both the output pin map and the input pin map.
+				-
+
+		Pin Settings
+	
+			-
+				The status of a pin may be set to false, indicating that it is generating no
+				output, to true, indicating that it is on and set to high, or to a number between
+				zero, exclusive, and one, inclusive, specifying an exact level of output.
+
+				If a binary pin is assigned a number, its value will default to true.
+			-
+
+		Standard Microcontroller Serial Communication
+
+			-
+				The standard microcontroller serial communication is a convention used to specify
+				how to control a microcontroller's functioning according to its pin map over USB
+				communication.
+
+				A microcontroller abiding by the standard shall be configured to receive signals
+				in the form of binary sequences where each bit corresponds to the value to set a
+				pin to on said device, where the index of the bit corresponds to the pin it maps to
+				according to said device's input pin map.
+
+				Whenever such a device receives such a signal, it shall be send back a binary
+				sequence where each bit corresponds to the current value of a pin on said device,
+				where the index of the bit corresponds to the pin it maps to according to said
+				device's output pin map.
+			-

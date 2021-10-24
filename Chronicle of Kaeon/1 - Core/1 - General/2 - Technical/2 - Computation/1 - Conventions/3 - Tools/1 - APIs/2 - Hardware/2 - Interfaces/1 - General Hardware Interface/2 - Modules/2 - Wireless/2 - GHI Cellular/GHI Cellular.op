@@ -6,3 +6,12 @@ GHI Cellular
 			GHI Cellular is a convention used to relay information regarding cellular communication
 			through the GHI.
 		-
+
+	Principles
+
+		Type
+
+			-
+				The type of cellular modules shall be specified as "cellular" in the receptor
+				output format.
+			-

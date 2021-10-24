@@ -1,0 +1,17 @@
+GHI Bluetooth
+
+	Philosophy
+
+		-
+			GHI Bluetooth is a convention used to relay information regarding bluetooth
+			communication through the GHI.
+		-
+
+	Principles
+
+		Type
+
+			-
+				The type of bluetooth modules shall be specified as "bluetooth" in the receptor
+				output format.
+			-

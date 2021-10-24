@@ -1,0 +1,51 @@
+GHI Serial
+
+	Philosophy
+
+		-
+			GHI serial is a convention used to relay information regarding USB devices through the
+			GHI.
+		-
+
+	Principles
+
+		Type
+
+			-
+				The type of serial modules shall be specified as "serial" in the receptor output
+				format.
+			-
+
+		Branch Formats
+
+			Input
+
+				-
+					The branch data input format of a serial device is a an object with two fields,
+					one of which has the alias "data", and the other of which has the alias
+					"device".
+					
+					The data field contains a list of numbers where each value corresponds to the
+					value of a bit to be sent over the serial interface, with said bits arranged in
+					the order specified by said list.
+
+					The device field contains a string specifying either the PNP ID or the USB path
+					of the device to which the data is to be sent.
+				-
+
+			Output
+
+				-
+					The branch data output format of a serial device is a list of objects, where
+					each of said objects corresponds to a USB device that is connected to the
+					serial device, and where each of said objects has a field with the alias
+					"id", and a field with the alias "data".
+
+					The id field contains an object with a field where the alias is "pnp", and a
+					field with the alias "path". The pnp field contains a string specifying the PNP
+					ID of the corresponding device, and the path field contains a string specifying
+					the USB path of the corresponding device.
+
+					The data field contains a list of numbers corresponding to the bit sequence
+					that was most recently received from the corresponding device.
+				-

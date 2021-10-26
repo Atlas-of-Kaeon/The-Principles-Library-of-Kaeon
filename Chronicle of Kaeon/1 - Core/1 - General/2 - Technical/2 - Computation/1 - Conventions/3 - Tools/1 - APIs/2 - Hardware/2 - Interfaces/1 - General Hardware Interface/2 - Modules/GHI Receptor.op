@@ -53,10 +53,10 @@ GHI Receptor
 
 		Branch Formats
 
-			Input
+			Output
 
 				-
-					The branch data input format for a receptor module shall be a JSON object,
+					The branch data output format for a receptor module shall be a JSON object,
 					which may have the fields "interval", "metadata", "newPassword", "password",
 					and "preservation".
 
@@ -78,10 +78,10 @@ GHI Receptor
 					status of the state preservation flag.
 				-
 
-			Output
+			Input
 
 				-
-					As the receptor module itself collects no data, the branch data output format
+					As the receptor module itself collects no data, the branch data input format
 					for receptor modules shall be a null value.
 				-
 

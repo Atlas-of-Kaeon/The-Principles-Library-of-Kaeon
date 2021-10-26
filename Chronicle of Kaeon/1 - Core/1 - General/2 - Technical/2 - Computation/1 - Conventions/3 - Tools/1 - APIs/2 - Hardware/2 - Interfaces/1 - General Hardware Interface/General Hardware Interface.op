@@ -33,9 +33,9 @@ General Hardware Interface
 			-
 				A call from control software to a device through the general hardware interface
 				shall be directed to a given receptor module and may include output settings for
-				devices in the target receptor module's cluster, and may also include scripts to be
-				executed autonomously by said devices, labelled according to the IDs of said
-				devices.
+				devices in the target receptor module's cluster, labelled according to the IDs of
+				said devices, and may also include a script to be executed autonomously said
+				receptor module.
 
 				Each call should return data to the control software specifying the input signals
 				that were received by each device at the time of said call, along with their IDs,

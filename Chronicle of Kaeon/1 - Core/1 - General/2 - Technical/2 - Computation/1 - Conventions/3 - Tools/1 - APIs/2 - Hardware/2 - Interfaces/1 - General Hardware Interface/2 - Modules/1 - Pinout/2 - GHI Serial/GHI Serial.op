@@ -18,10 +18,10 @@ GHI Serial
 
 		Branch Formats
 
-			Input
+			Output
 
 				-
-					The branch data input format of a serial device is a list of objects, each of
+					The branch data output format of a serial device is a list of objects, each of
 					which has two fields, one of which has the alias "data", and the other of which
 					has the alias "device".
 					
@@ -33,10 +33,10 @@ GHI Serial
 					of the device to which the data is to be sent.
 				-
 
-			Output
+			Input
 
 				-
-					The branch data output format of a serial device is a list of objects, where
+					The branch data input format of a serial device is a list of objects, where
 					each of said objects corresponds to a USB device that is connected to the
 					serial device, and where each of said objects has a field with the alias
 					"id", and a field with the alias "data".

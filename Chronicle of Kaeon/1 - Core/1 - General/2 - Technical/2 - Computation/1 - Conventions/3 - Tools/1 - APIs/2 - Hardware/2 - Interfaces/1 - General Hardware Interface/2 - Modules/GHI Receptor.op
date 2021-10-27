@@ -9,47 +9,75 @@ GHI Receptor
 
 	Principles
 
-		Options
-
-			Metadata
-
-				-
-					The metadata is an value containing miscellaneous data which may be referenced
-					by scripts.
-				-
-
-			Password
-
-				-
-					The password is a string which, if specified, must be included in a call to the
-					GHI.
-
-					The password shall not be included in a receptor output format object, and
-					shall be retained following a system reset regardless of the status of the
-					state preservation flag.
-				-
-
-			Script Interval
-
-				-
-					The script interval is the time that passes between the execution of script
-					functions.
-				-
-
-			State Preservation
-
-				-
-					State preservation is a boolean flag that, if true, causes the output state and
-					scripts associated with each module in the module cluster to be preserved
-					following a reboot of the device.
-				-
-
-		Default State
+		Type
 
 			-
-				By default, the script interval is one sixtieth of a second, and the state
-				preservation flag is set to false.
+				The type of receptor modules shall be specified as "receptor" in the receptor
+				output format.
 			-
+
+		Conventions
+
+			Properties
+
+				Metadata
+
+					-
+						The metadata is a value containing miscellaneous data which may be
+						referenced by the script.
+					-
+
+				Password
+
+					-
+						The password is a string which, if specified, must be included in a call to
+						the GHI.
+
+						The password shall not be included in a receptor output format object, and
+						shall be retained following a system reset regardless of the status of the
+						state preservation flag.
+					-
+
+				Script
+
+					-
+						The script is a string which specifies the body of a function that takes,
+						as arguments, the current state of the receptor module as a string in the
+						receptor input format, followed by the time in seconds since the last
+						execution of the script, and may return a string in the receptor output
+						format which, if returned shall redefine the output state of the module
+						accordingly.
+					-
+
+				Script Language
+
+					-
+						The script language is a string which specifies the language that the
+						script is written in. If the script language is undefined, the script's
+						language shall be auto-detected.
+					-
+
+				Script Interval
+
+					-
+						The script interval is the time that passes between the execution of script
+						functions.
+					-
+
+				State Preservation
+
+					-
+						State preservation is a boolean flag that, if true, causes the output state
+						and scripts associated with each module in the module cluster to be
+						preserved following a reboot of the device.
+					-
+
+			Default State
+
+				-
+					By default, the script interval is one sixtieth of a second, and the state
+					preservation flag is set to false.
+				-
 
 		Branch Formats
 
@@ -57,11 +85,8 @@ GHI Receptor
 
 				-
 					The branch data output format for a receptor module shall be a JSON object,
-					which may have the fields "interval", "metadata", "newPassword", "password",
-					and "preservation".
-
-					The interval field, if present, shall contain a number, specifying the time of
-					the script interval in seconds.
+					which may have the fields "metadata", "newPassword", "password", "script",
+					"scriptInterval", "scriptLanguage", and "statePreservation".
 
 					The metadata field, if present, may contain any value, specifying the contents
 					of the metadata value.
@@ -74,7 +99,16 @@ GHI Receptor
 					correct password shall result in the call not being processed and a null value
 					being returned to the source of the call.
 
-					The preservation field, if present, shall contain a boolean specifying the
+					The script field, if present, shall contain a string, specifying the code of
+					the script.
+
+					The scriptLanguage field, if present, shall contain a string, specifying the
+					language of the script.
+
+					The scriptInterval field, if present, shall contain a number, specifying the
+					time of the script interval in seconds.
+
+					The statePreservation field, if present, shall contain a boolean specifying the
 					status of the state preservation flag.
 				-
 
@@ -84,10 +118,3 @@ GHI Receptor
 					As the receptor module itself collects no data, the branch data input format
 					for receptor modules shall be a null value.
 				-
-
-		Type
-
-			-
-				The type of receptor modules shall be specified as "receptor" in the receptor
-				output format.
-			-

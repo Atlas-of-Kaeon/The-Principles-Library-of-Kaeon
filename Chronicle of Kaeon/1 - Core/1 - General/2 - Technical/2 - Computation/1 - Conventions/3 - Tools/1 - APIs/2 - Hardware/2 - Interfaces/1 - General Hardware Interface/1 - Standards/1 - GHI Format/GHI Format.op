@@ -28,33 +28,13 @@ GHI Format
 					The receptor Output format is a JSON format used to make calls to receptor
 					modules.
 
-					The receptor output format shall consist of a JSON object which shall have a
-					field with the alias "state", and may also have a field with the alias
-					"script".
-					
-					The state field shall contain an object, which may have a field for each module
-					in a given receptor module's module cluster, labelled according to the IDs of
-					their respective modules.
+					The receptor output format shall consist of a JSON object which may have a
+					field for each module in a given receptor module's module cluster, labelled
+					according to the IDs of their respective modules.
 
 					Each of said fields shall contain an object as its value in the branch data
 					input format used by the module it is targeting, which shall set the output
 					state of said module accordingly.
-
-					The script field, if present, shall contain an object, which shall have a field
-					with the alias "code" containing a string, and may also have a field with the
-					alias "language", which shall also contain a string.
-
-					The code string shall specify the code of a function which takes the current
-					state of the receptor module's module cluster in the receptor input format as a
-					stringified object in its parameters, as well as a number specifying the time
-					in seconds since the last execution of said function, and which may return a
-					stringified object in the receptor input format, specifying a new input state
-					for the module cluster.
-					
-					If the language field is present, it shall specify the language that the code
-					is written in, which shall otherwise be auto-detected.
-
-					If a script has been specified, it shall execute at regular intervals.
 				-
 
 			Receptor Input Format
@@ -63,12 +43,9 @@ GHI Format
 					The receptor input format is a JSON format used to specify the current state of
 					the module cluster's receptor modules.
 
-					The receptor input format shall consist of a JSON object which shall have a
-					field with the alias "state", and a field with the alias "script".
-					
-					The state field shall contain an object which may have a field for each module
-					in a given receptor module's module cluster, labelled according to the IDs of
-					their respective modules.
+					The receptor input format shall consist of a JSON object which may have a field
+					for each module in a given receptor module's module cluster, labelled according
+					to the IDs of their respective modules.
 
 					Each of said fields shall contain an object as its value.
 					
@@ -82,23 +59,4 @@ GHI Format
 
 					Finally, said object shall have a field with the alias "type", which shall
 					contain a string specifying the device type of the corresponding module.
-
-					The script field shall contain an object with two fields, one with the alias
-					"code", which shall contain a string containing the code of the current script,
-					and the other with the alias "language", which shall contain a string
-					specifying the language of the current script.
 				-
-
-		Call
-
-			-
-				An HTTP request made to a receptor module using the general hardware interface
-				format shall use the POST method, and its body shall consist of a stringified
-				receptor input format object.
-				
-				It shall return a stringified receptor output format object in the body of its
-				response.
-
-				For security and accessibility purposes, the server which receives the calls should
-				have a static IP and should utilize HTTPS.
-			-

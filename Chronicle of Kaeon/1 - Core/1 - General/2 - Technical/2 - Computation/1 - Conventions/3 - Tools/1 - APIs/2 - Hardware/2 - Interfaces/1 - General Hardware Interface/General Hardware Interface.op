@@ -11,7 +11,7 @@ General Hardware Interface
 	
 	Principles
 
-		Device
+		Devices
 
 			-
 				A device hosting a means of communication with the control software is referred to
@@ -34,17 +34,9 @@ General Hardware Interface
 				A call from control software to a device through the general hardware interface
 				shall be directed to a given receptor module and may include output settings for
 				devices in the target receptor module's cluster, labelled according to the IDs of
-				said devices, and may also include a script to be executed autonomously said
-				receptor module.
+				said devices.
 
 				Each call should return data to the control software specifying the input signals
 				that were received by each device at the time of said call, along with their IDs,
 				device types, and current output states.
-			-
-
-		Auto-Adapter
-
-			-
-				Auto-adapters are units of software designed to configure devices to comply with
-				the general hardware interface on startup and as they are connected to one another.
 			-

@@ -1,0 +1,15 @@
+GHI Call Protocol
+
+	Philosophy
+
+		-
+			An HTTP request made to a receptor module using the general hardware interface format
+			shall use the POST method, and its body shall consist of a stringified receptor input
+			format object.
+			
+			It shall return a stringified receptor output format object in the body of its
+			response.
+
+			For security and accessibility purposes, the server which receives the calls should
+			have a static IP and should utilize HTTPS.
+		-

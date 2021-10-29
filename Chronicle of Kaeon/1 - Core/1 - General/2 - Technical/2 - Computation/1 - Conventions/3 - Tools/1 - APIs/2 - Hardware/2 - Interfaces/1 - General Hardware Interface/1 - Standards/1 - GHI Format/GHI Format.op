@@ -25,7 +25,7 @@ GHI Format
 			Receptor Output Format
 
 				-
-					The receptor Output format is a JSON format used to make calls to receptor
+					The receptor output format is a JSON format used to make calls to receptor
 					modules.
 
 					The receptor output format shall consist of a JSON object which may have a
@@ -33,7 +33,7 @@ GHI Format
 					according to the IDs of their respective modules.
 
 					Each of said fields shall contain an object as its value in the branch data
-					input format used by the module it is targeting, which shall set the output
+					output format used by the module it is targeting, which shall set the output
 					state of said module accordingly.
 				-
 

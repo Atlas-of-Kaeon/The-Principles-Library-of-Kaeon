@@ -1,0 +1,18 @@
+GHI Standard Script
+
+	Philosophy
+
+		-
+			A GHI standard script is a script which my be uploaded to a receptor module through the
+			GHI which may itself enable a higher level interface atop the GHI according to some
+			external standard.
+		-
+
+	Principles
+
+		Standard Script Elements
+
+			-
+				A standard script element is a defined feature that may be incorporated into a
+				given GHI standard script.
+			-

@@ -212,3 +212,13 @@ Kaeon United
 					Both the process and js utilities, if run without specified source text, will
 					run as console REPLs.
 				-
+
+			Other Default Commands
+
+				GHI
+
+					-
+						Kaeon United's default reference router shall include a command called
+						"ghi", which shall install the GHI on the device it is run on when
+						executed.
+					-

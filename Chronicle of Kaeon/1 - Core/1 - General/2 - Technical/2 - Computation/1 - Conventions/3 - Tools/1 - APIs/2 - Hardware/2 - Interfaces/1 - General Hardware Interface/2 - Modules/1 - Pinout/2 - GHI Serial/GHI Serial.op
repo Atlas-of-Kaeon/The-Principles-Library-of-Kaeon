@@ -29,8 +29,23 @@ GHI Serial
 					value of a bit to be sent over the serial interface, with said bits arranged in
 					the order specified by said list.
 
-					The device field contains a string specifying either the PNP ID or the USB path
-					of the device to which the data is to be sent.
+					The device field contains either a string or an object which may contain a
+					field with the alias "serial", may contain a field with the alias "vendor", may
+					contain a field with the alias "product", so long as one of said fields is
+					present.
+
+					The serial, vendor, and product fields shall each, if present, contain numbers.
+
+					The serial field specifies the serial number of a USB device, the vendor field
+					specifies the vendor ID of a USB device, and the product field specifies the
+					product ID of a USB device.
+
+					If the device field contains a string, it shall specify either the PNP ID or
+					the USB path of the device to which the data is to be sent.
+
+					The device field contains an object, it shall specify the USB device to which
+					the data is to be sent as the first device detected which matches all of the
+					information specified by said object.
 				-
 
 			Input

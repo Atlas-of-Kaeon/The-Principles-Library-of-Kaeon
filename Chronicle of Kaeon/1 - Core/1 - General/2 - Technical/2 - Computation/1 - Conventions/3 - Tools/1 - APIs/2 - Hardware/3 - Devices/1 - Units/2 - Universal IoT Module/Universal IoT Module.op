@@ -1,0 +1,9 @@
+Universal IoT Module
+
+	Philosophy
+
+		-
+			A universal IoT module, or UIM for short, is a device that may receive communication
+			through the Universal Hardware API, and can relay instructions to and from other
+			devices in accordance with the General Hardware Interface.
+		-

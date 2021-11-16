@@ -33,7 +33,7 @@ GHI Wi-Fi
 					"port", containing a number specifying a host port to direct communication to
 					over said Wi-Fi network.
 
-					If the data field is not present, the device shall act as a WIFI router using
+					If the data field is not present, the device shall act as a Wi-Fi router using
 					the specified SSID and password.
 
 					If the data field is present, it shall contain a string which shall be passed

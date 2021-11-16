@@ -1,0 +1,47 @@
+Autonomous Weapon Conventions
+
+	Philosophy
+
+		-
+			This document lists conventions intended to prevent the misuse of autonomous weaponry.
+		-
+
+	Principles
+
+		Authorization
+
+			-
+				Producers and customers of autonomous weapons should be cleared by the government
+				to engage in said business, and the application of autonomous weapons should be
+				strictly limited to military and law enforcement spaces.
+
+				Any facility which produces autonomous weapons should be heavily guarded, and
+				should have protocols to destroy the weapons in case of a breach.
+
+				Any business or entity that attempts to produce autonomous weapons without the
+				proper clearance should face severe sanctions.
+			-
+
+		Hardcoding
+
+			-
+				The intended behavior of autonomous weapons should be hardcoded into them at the
+				hardware level by the producers according to the needs of the customers.
+
+				This behavior should include a geographic area in which, and only in which, they
+				are permitted to deliver their payloads.
+			-
+
+		Fail-safe
+
+			-
+				Any attempt to compromise or reverse engineer an autonomous weapon should cause it
+				to self destruct, such that recovery and analysis of it is effectively impossible.
+
+				This functionality should also trigger if communication with ground control is cut
+				for a prolonged period of time, and ground control should also be able to trigger
+				this function manually in the event of an emergency.
+
+				If deemed necessary as a deterrent, the self-destruction process may release toxins
+				sufficient to kill anyone who attempts to manually disassemble them.
+			-

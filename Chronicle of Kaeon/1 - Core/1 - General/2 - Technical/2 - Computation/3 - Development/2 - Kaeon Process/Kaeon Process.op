@@ -14,13 +14,13 @@ The Kaeon Process
 				A project developed under the Kaeon process has three branches, these being the
 				specification, the documentation, and the implementations.
 
-				The specification is a set of written documents that define and specify the nature
-				and aspects of product or service that the developers intend to produce.
+				The specification is a set of written texts that define and specify the nature and
+				aspects of product or service that the developers intend to produce.
 
-				The documentation are the written documents that outline all aspects of the project
-				that lie outside the scope of the specification, including development priorities,
-				resource allocation, timelines, changelogs, records, developer wikis, and user
-				guides, among other things.
+				The documentation are the documents that outline all aspects of the project that
+				lie outside the scope of the specification, including development priorities,
+				resource allocation, timelines, changelogs, records, developer wikis, user guides,
+				and code comments, among other things.
 
 				An implementation, of which there may be many, is a partially or completely
 				developed product or service engineered according to the terms of the
@@ -56,17 +56,17 @@ The Kaeon Process
 					with the most fundamental elements of the project closer to the top and the
 					least fundamental elements of the project closer to the bottom.
 
-					There should be a single item at the top the defines the general idea of the
-					project called the master element.
+					There should be a single term at the top of the hierarchy that defines the
+					overall idea of the project called the master term.
 				-
 
 			Static and Dynamic Terms
 
 				-
-					The terms of the specification may be defined as static, which all
-					implementations must abide by, and dynamic terms, which grant the developers
-					some degree of liberty to decide if, and if so, how to implement certain
-					aspects of the product or service.
+					The terms of the specification may be categorized as either static, which all
+					implementations must abide by, or dynamic, which grants the developers some
+					degree of liberty to decide if, and if so, how to implement certain aspects of
+					the product or service.
 				-
 
 			Crystallization and Fragmentation

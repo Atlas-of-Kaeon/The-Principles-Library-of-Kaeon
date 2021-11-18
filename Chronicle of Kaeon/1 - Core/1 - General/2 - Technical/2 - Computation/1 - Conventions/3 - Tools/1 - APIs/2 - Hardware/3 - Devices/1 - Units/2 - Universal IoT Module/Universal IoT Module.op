@@ -3,7 +3,41 @@ Universal IoT Module
 	Philosophy
 
 		-
-			A universal IoT module, or UIM for short, is a device that may receive communication
-			through the Universal Hardware API, and can relay instructions to and from other
-			devices in accordance with the General Hardware Interface.
+			A universal IoT module, or UIM for short, is a universal module which functions as an
+			IoT gateway that utilizes the General Hardware Interface.
 		-
+
+	Principles
+
+		Communication
+
+			Cellular
+
+				-
+					A UIM shall have a SIM card slot, allowing GHI calls to be relayed to it
+					according to either a phone number or a static IP so long as a SIM card has
+					been inserted into said slot.
+				-
+
+			Wi-Fi
+
+				-
+					When a UIM's Wi-Fi is not in use, the UIM shall function as a hotspot, and
+					shall run a server to which GHI calls may be directed.
+				-
+
+		Configurations
+
+			UIM Model
+
+				-
+					A UIM Model, or UIMM for short, is a given module solution that can operate as
+					a UIM.
+				-
+
+			UIM Adapter
+
+				-
+					A UIM Adapter, or UIMA for short, is a device that allows an MSC of UIMMs to
+					operate as a different type of device.
+				-

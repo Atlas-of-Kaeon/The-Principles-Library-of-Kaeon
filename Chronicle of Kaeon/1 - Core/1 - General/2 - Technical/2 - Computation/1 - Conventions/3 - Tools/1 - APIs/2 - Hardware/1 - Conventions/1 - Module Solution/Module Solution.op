@@ -9,9 +9,22 @@ Module Solution
 
 	Principles
 
+		Module Solution Set
+
+			-
+				A module solution set, or MSS for short, is a defined set of module solutions.
+			-
+
+		Module Solution Application
+
+			-
+				A module solution application, or MSA for short, is a defined method of utilizing
+				module solutions to accomplish a given task.
+			-
+
 		Module Solution Class
 
 			-
 				A module solution class, or MSC for short, is a defined category of module
-				solutions.
+				solutions and concepts predicated upon module solutions.
 			-

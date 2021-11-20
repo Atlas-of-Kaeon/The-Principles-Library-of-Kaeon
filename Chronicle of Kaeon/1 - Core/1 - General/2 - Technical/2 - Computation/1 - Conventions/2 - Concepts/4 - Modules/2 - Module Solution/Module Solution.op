@@ -41,19 +41,25 @@ Module Solution
 				design shall be labelled numerically, where said number is referred to as the mark.
 
 				Any individual implementation of an MS or any related item shall be labelled using
-				a serial number, and may optionally have a codename.
+				a serial number.
+
+				Any MS or any related item, or any individual implementation thereof may optionally
+				have codenames.
 
 				The full title of an MS or any related item shall consist of any MSC it belongs to,
 				arranged in order, followed by its name, followed by its mark, and if applicable,
-				followed by its serial number, which itself shall be followed by its nickname if it
+				followed by its serial number. which itself shall be followed by its nickname if it
 				has one.
 
 				The standard rendering of the mark number shall have it as a Roman numeral preceded
 				by the word "Mark".
 
 				The standard rendering of the serial number shall have it separated from the mark
-				by a colon, and the standard rendering of the nickname shall have it separated from
-				the serial number by a hyphen.
+				by a colon.
+
+				A codename for any such title may follow said title, from which it shall be
+				separated by a hyphen, and any such title have be wholly or partially abbreviated
+				by codenames where applicable.
 
 				Each separate word, number, or punctuation mark should be separated from the
 				preceding and following elements by a single space, save for the colon when

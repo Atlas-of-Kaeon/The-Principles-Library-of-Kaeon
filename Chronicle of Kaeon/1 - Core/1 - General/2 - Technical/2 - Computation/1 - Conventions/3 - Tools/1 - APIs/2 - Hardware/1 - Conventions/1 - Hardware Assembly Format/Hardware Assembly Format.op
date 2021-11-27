@@ -1,0 +1,102 @@
+Hardware Assembly Format
+
+	Philosophy
+
+		-
+			The hardware assembly format is a format for ONE documents used to describe certain
+			assemblies of hardware, specifically electronic hardware, and the software installed on
+			them.
+
+			A document that abides by the hardware assembly format shall be called a hardware
+			assembly document.
+		-
+	
+	Principles
+
+		Sections
+
+			-
+				The Principles section of a hardware assembly document may have any combination of
+				the following elements: an element with the content "Hardware", and element with
+				the content "Software", and an element with the content "Notes".
+			-
+
+		Hardware
+
+			-
+				The hardware element shall have a child with the content "Components", and may also
+				have a child with the content "Connections".
+			-
+
+		Hardware Components
+
+			-
+				The components element in the hardware section shall have a child for each physical
+				component of the assembly specified by the document.
+				
+				The content of each child of the components element shall be its numerical index
+				within its parent, starting at one. Each of said children shall have a child
+				specifying the type of the component it corresponds to, referred to as a name
+				element.
+
+				If deemed necessary, a name element may have any of the following children: a child
+				with the content "Provider", and an element with the content "Label", both of
+				which, if present, shall have a child with content specifying the details of said
+				child's parent's namesake.
+			-
+
+		Connections
+
+			-
+				The connections element may have a child for any of the connections between the
+				various devices within the assembly specified by the document.
+
+				Each of said children, called a connection element, shall specify a connection
+				between two of the components listed under the components element of the hardware
+				section by their indexes as specified by their content, written starting with the
+				index of the first component, followed by the string " to ", followed by the index
+				of the second component.
+
+				Each connection element may have a child with content specifying additional
+				information about the connection.
+			-
+
+		Software
+
+			-
+				The software element may have a child with the content "Components", and may also
+				have a child with the content "Files".
+			-
+
+		Software Components
+
+			-
+				The components element in the software section may have any children specifying
+				information regarding the software installed on the assembly specified by the
+				document.
+			-
+
+		Files
+
+			-
+				The files element may have a child for any file installed on the assembly specified
+				by the document. Each of said children shall be called a file element.
+
+				A file element's content shall specify the purpose of the file.
+				
+				A file element may have any of the following children: a child with the content
+				"File", which shall have a child with content that specifies the name of the file,
+				a child with the content "Format", which shall have a child with content that
+				specifies a the format of the file, and a child with the content "Link", which
+				shall have a child with content that specifies a link to the file.
+			-
+
+		Notes
+
+			-
+				The notes element may have a child with the content "Cost", which shall have a
+				child with content specifying the cost to purchase the components of the assembly
+				specified by the document, and may also have an element with the content
+				"Miscellaneous" which may have any children specifying additional information about
+				the assembly specified by the document.
+			-

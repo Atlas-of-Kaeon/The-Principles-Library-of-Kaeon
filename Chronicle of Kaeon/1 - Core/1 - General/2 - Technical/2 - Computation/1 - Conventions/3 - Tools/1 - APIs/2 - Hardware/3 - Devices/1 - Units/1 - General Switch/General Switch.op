@@ -5,7 +5,7 @@ General Switch
 		-
 			A general switch is a programmable relay with a single power input and a single power
 			output that can reverse the direction of its current, and can adjust its power output
-			by to any value between zero volts and some arbitrary maximum.
+			by to any value between none and some arbitrary maximum.
 		-
 
 	Principles
@@ -13,15 +13,28 @@ General Switch
 		Standard General Switch
 
 			-
-				A standard general switch is a general switch fully encased in a non-conductive
-				shell with input, output, and ground ports on either side, with each side
-				corresponding to power input and power output respectively, and with a third port
-				to which control wires can be attached.
+				A standard general switch shall have input, output, and ground ports on either
+				side, with each side labelled to distinguish them, and shall have a third area to
+				which control wires can be attached.
+
+				The ports for the control wires shall have a port to receive a digital signal,
+				which if on shall flip the direction of the current and shall have it flow normally
+				if off, shall have a port to receive a PWM signal where the value of the signal
+				from zero to the maximum possible value shall indicate the resistance applied to
+				the current on the same scale, and shall have a port for a ground wire.
 
 				The default state of a standard general switch shall have its power output set to
-				zero volts, and should have its current flow in the default direction.
+				none, and should have its current flow in the default direction.
 
-				A standard general switch should be able to handle high voltages.
+				A standard general switch should be able to handle high amounts of power, and
+				should be fully encased in a non-conductive shell.
+			-
+
+		Rating
+
+			-
+				The rating of a general switch is the maximum amount of current that it is capable
+				of resisting, specified in ohms.
 			-
 
 		Port Adapters

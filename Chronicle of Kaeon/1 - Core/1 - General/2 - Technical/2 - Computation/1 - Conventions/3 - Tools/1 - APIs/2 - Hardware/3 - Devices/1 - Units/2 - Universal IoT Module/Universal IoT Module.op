@@ -41,3 +41,10 @@ Universal IoT Module
 					A UIM Adapter, or UIMA for short, is a device that allows an MSC of UIMMs to
 					operate as a different type of device.
 				-
+
+		Standard Universal IoT Module
+
+			-
+				A standard universal IoT module is a universal IoT module that is also a standard
+				universal module.
+			-

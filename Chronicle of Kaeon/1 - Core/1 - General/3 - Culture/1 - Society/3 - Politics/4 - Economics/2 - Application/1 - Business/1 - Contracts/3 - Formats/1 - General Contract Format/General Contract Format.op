@@ -1,0 +1,51 @@
+General Contract Format
+
+	Philosophy
+
+		-
+			The general contract format is a Kaeon document format that may be used for specifying
+			the terms of contracts between multiple parties.
+		-
+	
+	Principles
+
+		Title
+
+			-
+				The title of a contract shall begin with the string "Contract", which, for every
+				party involved in the contract, shall be followed with the string " - ", followed
+				by the name of said party.
+				
+				In this order, the contractees shall precede the contractors, and shall otherwise
+				be ordered alphabetically. The name of each party shall be rendered as their full
+				legal title, and thus each of said parties must be a legal entity.
+
+				The hyphen between the last contractee and the first contractor shall be replaced
+				with an ampersand.
+
+				The title shall end with the string " - ", followed by a numerical ID unique from
+				all other contracts involving the same combination of contractees and contractors.
+
+				The title of the contract shall serve as the title of the document.
+			-
+
+		Sections
+
+			-
+				The philosophy section of the document shall specify the general purpose of the
+				contract.
+
+				The principles section may either or both of the following: a child with the
+				content "Type", and a child with the content "Specifications".
+
+				The type element, if present, shall have a child specifying the type of the
+				contract, and the specifications element may have any miscellaneous children
+				specifying details about the contract.
+			-
+
+		General Contract Convention
+
+			-
+				A general contract convention is a ruleset specifying which children the
+				specifications element must have for certain contract types.
+			-

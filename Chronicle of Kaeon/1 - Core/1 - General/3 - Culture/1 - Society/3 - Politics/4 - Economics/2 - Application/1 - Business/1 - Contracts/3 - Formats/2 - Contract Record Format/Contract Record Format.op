@@ -1,0 +1,63 @@
+Contract Record Format
+
+	Philosophy
+
+		-
+			The contract record format is a Kaeon document format for logging the acceptance and
+			termination of contracts.
+
+			A contract record format document shall use public key contract verification to
+			authenticate signatures.
+		-
+
+	Principles
+
+		Standards
+
+			-
+				Each party to a given contract using a contract record format document shall keep
+				an up-to-date copy of the latest version of said document, shall keep an archive of
+				any previous versions, and every time someone makes a modification their
+				relationship with the contract, they shall send a record of the modification to all
+				other parties involved with said contract at the time of the modification.
+			-
+
+		Content
+
+			Title
+
+				-
+					The title of the document shall consist of the string "Contract Record - ",
+					followed by the title of the contract.
+				-
+
+			Sections
+
+				-
+					The principles section of a contract record format document shall have a child
+					with the content "Public Keys", and a child with the content "Signatures".
+
+					The public keys element shall have a child for each party to the contract. Said
+					children shall each have content specifying the name of the party they
+					correspond to, and shall each have a child a child with the content
+					"Algorithm", and a child with the content "Key".
+					
+					The algorithm element shall have a child containing the encryption algorithm
+					used by the party that it corresponds to, and the key element shall have a
+					child containing the public key of the party that it corresponds to.
+
+					The signatures element shall have a child for each signature of the contract.
+					Each of said children shall have the name of the signing party as their
+					content, and shall have a child with the content "Purpose", a child with the
+					content "Date/Time", and a child with the content "Signature".
+
+					The purpose element shall have a child containing either "Acceptance" or
+					"Termination" as its content depending on whether the intention of the signer
+					is to accept of terminate their role in the contract.
+
+					The date/time element shall have a child containing the date and time of the
+					signature.
+
+					The signature element shall have a child containing the encrypted text of the
+					signature.
+				-

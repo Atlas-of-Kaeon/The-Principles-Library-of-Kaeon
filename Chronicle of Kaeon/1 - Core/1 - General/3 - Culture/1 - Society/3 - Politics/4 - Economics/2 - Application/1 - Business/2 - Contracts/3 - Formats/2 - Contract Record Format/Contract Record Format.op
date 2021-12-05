@@ -6,7 +6,7 @@ Contract Record Format
 			The contract record format is a Kaeon document format for logging the acceptance and
 			termination of contracts.
 
-			A contract record format document shall use public key contract verification to
+			A contract record format document shall use public key business verification to
 			authenticate signatures.
 		-
 

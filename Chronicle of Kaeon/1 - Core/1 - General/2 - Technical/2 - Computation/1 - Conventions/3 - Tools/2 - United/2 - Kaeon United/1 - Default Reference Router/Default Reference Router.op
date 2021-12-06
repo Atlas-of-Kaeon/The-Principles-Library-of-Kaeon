@@ -1,0 +1,69 @@
+Default Reference Router
+
+	Philosophy
+
+		-
+			This document specifies the standards for the default Kaeon United reference router.
+		-
+
+	Principles
+
+		Standard Language Command
+
+			-
+				The standard language command is a convention for command scripts used for
+				compiling and interpreting programming languages.
+
+				To dynamically specify source text to the utility, the first argument must be
+				"read", and the third argument must be said text itself.
+
+				To load the source text to the utility from a file, the first argument must be
+				"open", and the third argument must be the file path.
+
+				To save the output of the utility to a file, there must be a third argument
+				specifying the path of said file.
+			-
+
+		Default Standard Language Commands
+
+			-
+				Kaeon United's default reference router shall include certain standard language
+				command scripts, including "process", which runs Kaeon FUSION code, "parse", which
+				converts ONE+ code to ONE, "preprocess", which runs the Universal Preprocessor,
+				"js", which runs United JavaScript, "ucc", which runs the United C compiler,
+				"assemble", which compiles CSB, and "disassemble", which disassembles CSB.
+
+				Both the process and js utilities, if run without specified source text, will run
+				as console REPLs.
+			-
+
+		Miscellaneous Default Commands
+
+			GHI
+
+				-
+					Kaeon United's default reference router shall include a command called "ghi",
+					which shall install the GHI on the device it is run on when executed.
+
+					Passing arguments to this command is optional, and said arguments, if present,
+					shall specify user preferences regarding said installation.
+				-
+
+		Default Kaeon United Packages
+
+			Kaeon Control
+
+				-
+					All of the hardware control utilities provided by Kaeon United shall
+					collectively be known as Kaeon Control.
+
+					Kaeon Control aims to be as universal as possible, but places a special focus
+					on compatibility with the general IoT stack.
+				-
+
+			Kaeon Vision
+
+				-
+					All of the UI utilities provided by Kaeon United shall collectively be known as
+					Kaeon Vision.
+				-

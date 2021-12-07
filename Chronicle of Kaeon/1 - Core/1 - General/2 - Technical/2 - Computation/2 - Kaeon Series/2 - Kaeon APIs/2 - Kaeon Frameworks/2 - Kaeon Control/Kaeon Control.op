@@ -1,0 +1,11 @@
+Kaeon Control
+
+	Philosophy
+
+		-
+			All of the hardware control utilities within the Kaeon APIs shall collectively be known
+			as Kaeon Control.
+
+			Kaeon Control aims to be as universal as possible, but places a special focus on
+			compatibility with the general IoT stack.
+		-

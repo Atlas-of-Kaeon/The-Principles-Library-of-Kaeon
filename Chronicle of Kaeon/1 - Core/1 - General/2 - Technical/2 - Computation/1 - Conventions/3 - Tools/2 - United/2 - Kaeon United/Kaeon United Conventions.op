@@ -93,7 +93,8 @@ Kaeon United
 						"Kaeon United".
 
 						Said interface shall integrate all of the Kaeon FUSION interfaces
-						referenced by the reference router when used.
+						referenced by the reference router when used, and shall be referred to as
+						the Kaeon United FUSION Interface.
 					-
 
 				CommonJS Module
@@ -101,6 +102,8 @@ Kaeon United
 					-
 						Importing Kaeon United as a CommonJS module shall return an object
 						containing various CommonJS modules referenced in the reference router.
+
+						Said module shall be referred to as the Kaeon United JavaScript Module.
 					-
 
 				United C Module
@@ -109,6 +112,10 @@ Kaeon United
 						Including Kaeon United as a United C import using the "use" operator shall
 						import all of the standard and Kaeon United C or C++ utilities depending on
 						the language detected.
+
+						The imported libraries shall constitute the Kaeon United C Module. Its
+						contents shall vary for C and C++ respectively, and shall include stdio.h
+						for C and iostream for C++.
 					-
 
 			Shadow Host

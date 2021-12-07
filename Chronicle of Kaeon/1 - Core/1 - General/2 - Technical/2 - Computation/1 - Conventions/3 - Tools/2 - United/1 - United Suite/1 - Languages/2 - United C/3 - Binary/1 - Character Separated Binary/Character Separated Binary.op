@@ -39,7 +39,7 @@ Character Separated Binary
 				than one or zero as separator tokens.
 
 				However, the best practice for the default protocol is to use single new lines to
-				separate the bytes.
+				separate the bytes, and to omit any leading zeros.
 			-
 
 		Abbreviation

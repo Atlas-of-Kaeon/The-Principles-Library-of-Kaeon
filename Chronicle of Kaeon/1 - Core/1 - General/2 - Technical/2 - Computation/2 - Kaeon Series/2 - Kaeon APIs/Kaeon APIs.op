@@ -1,0 +1,29 @@
+Kaeon APIs
+
+	Philosophy
+
+		-
+			The Kaeon APIs are a set of specifications for utility modules that may be implemented
+			in any language unless stated otherwise in such a specification.
+		-
+
+	Principles
+
+		Kaeon Framework
+
+			-
+				A Kaeon framework is a defined collection of Kaeon APIs which serve a common
+				purpose.
+			-
+
+		Kaeon Suite
+
+			-
+				A Kaeon suite is a module that contains all of the Kaeon APIs available for a given
+				language.
+
+				The Kaeon suite for JavaScript shall constitute the Kaeon United JavaScript module.
+
+				The Kaeon suite for Kaeon FUSION shall constitute the Kaeon United FUSION module,
+				and shall include the Kaeon FUSION standard interface.
+			-

@@ -48,22 +48,3 @@ Default Reference Router
 					Passing arguments to this command is optional, and said arguments, if present,
 					shall specify user preferences regarding said installation.
 				-
-
-		Default Kaeon United Packages
-
-			Kaeon Control
-
-				-
-					All of the hardware control utilities provided by Kaeon United shall
-					collectively be known as Kaeon Control.
-
-					Kaeon Control aims to be as universal as possible, but places a special focus
-					on compatibility with the general IoT stack.
-				-
-
-			Kaeon Vision
-
-				-
-					All of the UI utilities provided by Kaeon United shall collectively be known as
-					Kaeon Vision.
-				-

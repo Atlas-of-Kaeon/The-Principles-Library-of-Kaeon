@@ -138,9 +138,24 @@ United C
 			Compiler
 
 				-
-					United C shall have a custom compiler which shall take United C code, run the
-					universal preprocessor on it, and then compile the resulting code as C if said
-					code uses no C++ exclusive utilities, and as C++ otherwise.
+					United C shall have a custom compiler which shall, as an executable take a path
+					to a single United C file as its first argument, run the universal preprocessor
+					on it, and then compile the resulting code as C if said code uses no C++
+					exclusive utilities, and as C++ otherwise.
+
+					Optionally, the file path may be followed by either the argument "auto", or the
+					argument "cpp". If said argument is auto, nothing will happen, but if the
+					argument is cpp, the code will be compiled to C++ even if it could otherwise be
+					compiled to C.
+
+					If desired, the user may pass in an indefinite number of other arguments after
+					the second argument, constitute the miscellaneous arguments list.
+
+					By default, the United C compiler shall pass a string to Universal Preprocessor
+					directives through the list passed to said directives. Said string shall be the
+					first element within said list, followed by the contents of the miscellaneous
+					arguments list, and shall contain "C" if the compiler detects the language to
+					be C, and "C++" if the compiler detects the language to be C++.
 				-
 
 			Compilation

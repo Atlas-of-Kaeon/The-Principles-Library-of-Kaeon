@@ -82,8 +82,26 @@ Kaeon FUSION Standard Interface
 						
 						By default, the build workspace is the local directory.
 					-
+
+				DOM
+
+					-
+						The host environment for the Kaeon FUSION standard interface may provide an
+						HTML DOM with which a Kaeon FUSION script may interface.
+
+						If elements are injected into the DOM in HTTP JSON format or any analogue
+						to it, any objects in function JSON format or any analogue to it shall be
+						converted into functions.
+					-
 		
 		Conventions
+
+			FUSION Process
+
+				-
+					Unless otherwise specified, the effects specified for any command provided by
+					the standard interface shall activate at step three of the FUSION process.
+				-
 		
 			Implicit Casting
 				
@@ -124,33 +142,23 @@ Kaeon FUSION Standard Interface
 						also serve as de facto objects.
 					-
 		
-		Formats
+			Formats
 
-			State Serialization Format
+				State Serialization Format
 
-				-
-					When the state is serialized as a list, said list is encoded in the state
-					serialization format.
+					-
+						When the state is serialized as a list, said list is encoded in the state
+						serialization format.
 
-					Each item in the state is encoded as a list called an item list which has two
-					elements, the first being the alias and the second being the value.
+						Each item in the state is encoded as a list called an item list which has
+						two elements, the first being the alias and the second being the value.
 
-					Each scope in the state will be stored as a scope list, which shall contain an
-					indefinite amount of item lists.
+						Each scope in the state will be stored as a scope list, which shall contain
+						an indefinite amount of item lists.
 
-					The state itself shall be encoded as a list called the state list, with each
-					scope of said state being represented as a scope list, where the first scope
-					list shall represent the global scope, and each subsequent list shall represent
-					a local scope, arranged according to their order on the current scope stack.
-				-
-
-		DOM
-
-			-
-				The host environment for the Kaeon FUSION standard interface may provide an HTML
-				DOM with which a Kaeon FUSION script may interface.
-
-				If elements are injected into the DOM in HTTP JSON format or any analogue to it,
-				any objects in function JSON format or any analogue to it shall be converted into
-				functions.
-			-
+						The state itself shall be encoded as a list called the state list, with
+						each scope of said state being represented as a scope list, where the first
+						scope list shall represent the global scope, and each subsequent list shall
+						represent a local scope, arranged according to their order on the current
+						scope stack.
+					-

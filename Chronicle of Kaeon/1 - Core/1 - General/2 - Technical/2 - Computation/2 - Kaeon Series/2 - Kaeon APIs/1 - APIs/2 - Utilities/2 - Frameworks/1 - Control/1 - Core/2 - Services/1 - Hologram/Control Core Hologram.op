@@ -1,0 +1,28 @@
+Control Core Hologram
+
+	Philosophy
+
+		-
+			Control core hologram is a control core service definition for relaying calls sent over
+			the Hologram network.
+
+			A control core service object formatted according to the control core hologram
+			definition is called a control core hologram object.
+		-
+
+	Principles
+
+		Service
+
+			-
+				The value of the service field for a control core hologram object shall be
+				"hologram".
+			-
+
+		Credentials
+
+			-
+				The credentials object of a control core hologram object shall have a field with
+				the alias "deviceID", containing the device ID of the target device, and a field
+				with the alias "webhookGUID", containing the webhook GUID of the target device.
+			-

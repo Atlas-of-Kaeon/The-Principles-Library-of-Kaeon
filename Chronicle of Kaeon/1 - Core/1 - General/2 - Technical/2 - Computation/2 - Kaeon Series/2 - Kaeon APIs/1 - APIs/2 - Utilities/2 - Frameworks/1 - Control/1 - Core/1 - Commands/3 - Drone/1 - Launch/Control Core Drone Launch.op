@@ -1,0 +1,27 @@
+Control Core Drone Launch
+
+	Philosophy
+
+		-
+			Control core drone launch is a control core command definition used for launching
+			Wi-Fi drones and keeping them airborne until they are instructed or forced to land.
+
+			A control core command object formatted according to the control core drone launch
+			definition is called a control core drone launch object.
+		-
+
+	Principles
+
+		Command
+
+			-
+				The value of the command field for a control core drone launch object shall be
+				"drone launch".
+			-
+
+		Operation
+
+			-
+				The operation object of a control core hologram object shall have a field with
+				the alias "drone", containing the W-Fi SSID of the target drone.
+			-

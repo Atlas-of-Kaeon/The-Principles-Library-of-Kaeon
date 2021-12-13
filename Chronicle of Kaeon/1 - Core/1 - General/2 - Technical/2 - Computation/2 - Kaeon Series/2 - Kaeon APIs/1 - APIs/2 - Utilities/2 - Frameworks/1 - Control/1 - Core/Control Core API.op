@@ -1,0 +1,120 @@
+Control Core API
+
+	Philosophy
+
+		-
+			The control core API is a Kaeon API that serves to format and transmit GHI calls
+			according to prefabricated commands.
+		-
+
+	Principles
+
+		Conventions
+
+			Control Core Command
+
+				-
+					A control core command is a JSON object specifying data to incorporate into a
+					GHI call so as to produce a given effect on a target device.
+
+					A control core command shall contain a field with the alias "command", which
+					contains a string specifying the name of a feature to be incorporated into a
+					GHI call.
+					
+					Depending on what said command is, a control core command may also contain a
+					field with the alias "operation", which, if present, contains a JSON object
+					specifying the details of the feature to be incorporated into a GHI call.
+
+					A control core command may take into account the type of the target device as
+					well as its current state.
+
+					A codified definition for a control core command is called a control core
+					command definition.
+
+					The results of applying a control core command to the contents of a GHI call
+					may vary in terms of how said contents are formatted, and as such, control core
+					command definitions shall be specified in terms of their effects on the target
+					devices.
+				-
+
+			Control Core Device
+
+				-
+					A control core device is a standard governing the available modules on a given
+					device to which GHI calls may be directed.
+
+					If no device is specified, the control core API shall assume the target device
+					to possess the same modules as a Raspberry Pi.
+
+					A codified definition for a control core device is called a control core device
+					definition.
+				-
+
+			Control Core Service
+
+				-
+					A control core service is a JSON object specifying how a GHI call is to be
+					directed to a target device through a given API.
+
+					A control core service shall contain a field with the alias "service", which
+					contains a string specifying the name of an API through which to transmit a GHI
+					call.
+					
+					Depending on what said service is, a control core service may also contain a
+					field with the alias "credentials", which, if present, contains a JSON object
+					specifying the target and authentication keys for a given GHI call.
+
+					A codified definition for a control core service is called a control core
+					service definition.
+				-
+
+		Functions
+
+			Get Message
+
+				-
+					The get message function shall take a list of control core commands, and may
+					also take a string naming the type of a given target device, as well as the
+					current state of a given target device in the receptor input format.
+
+					It shall return a JSON object in the receptor output format, which may be used
+					as the content of a GHI call corresponding to the given control core commands.
+				-
+
+			Send Call
+
+				-
+					The send call function shall take a control core service object and a string,
+					and may also take a callback function.
+
+					It shall send the content of the string to a target device through an API as
+					specified by the control core service object, and if a callback function was
+					provided, shall attempt to retrieve the most recent state of the target device
+					as shall pass said state to the callback function in the receptor input format
+					if successful.
+
+					It may also return any object immediately returned by the API call, and shall
+					return a null value if no such value is generated.
+				-
+
+			Call
+
+				-
+					The call function shall take a JSON object and a list of control core commands,
+					and may also take a callback function.
+
+					The JSON object shall have a field with the alias "contact", containing a
+					control core service object, and may also have a field with the alias "state",
+					containing the state of a target device in the receptor input format, as well
+					as a field with the alias "device", containing a string specifying the type of
+					device to which a given GHI call is to be directed.
+
+					The function shall generate a JSON object in the receptor output format by
+					passing the command list, the device field of the JSON object, if present, and
+					the state field of the JSON object, if present, to the get message function.
+
+					It shall then pass the result of the previous step, along with the contact
+					field of the JSON object and the callback function, if present, to the send
+					call function, and shall then result the value returned by the send call
+					function.
+				-

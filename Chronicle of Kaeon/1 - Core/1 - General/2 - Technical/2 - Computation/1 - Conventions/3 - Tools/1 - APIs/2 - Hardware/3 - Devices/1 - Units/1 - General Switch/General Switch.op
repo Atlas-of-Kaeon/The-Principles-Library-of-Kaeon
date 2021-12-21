@@ -10,25 +10,57 @@ General Switch
 
 	Principles
 
-		Standard General Switch
+		Design
 
-			-
-				A standard general switch shall have input, output, and ground ports on either
-				side, with each side labelled to distinguish them, and shall have a third area to
-				which control wires can be attached.
+			Standard General Switch
 
-				The ports for the control wires shall have a port to receive a digital signal,
-				which if on shall flip the direction of the current and shall have it flow normally
-				if off, shall have a port to receive a PWM signal where the value of the signal
-				from zero to the maximum possible value shall indicate the resistance applied to
-				the current on the same scale, and shall have a port for a ground wire.
+				-
+					A standard general switch shall have input, output, and ground ports on either
+					side, with each side labelled to distinguish them, and shall have a third area
+					to which control wires can be attached.
 
-				The default state of a standard general switch shall have its power output set to
-				none, and should have its current flow in the default direction.
+					The ports for the control wires shall have a port to receive a digital signal,
+					which if on shall flip the direction of the current and shall have it flow
+					normally if off, shall have a port to receive a PWM signal where the value of
+					the signal from zero to the maximum possible value shall indicate the
+					resistance applied to the current on the same scale, and shall have additional
+					ports for any ground wires that may be necessary.
 
-				A standard general switch should be able to handle high amounts of power, and
-				should be fully encased in a non-conductive shell.
-			-
+					The default state of a standard general switch shall have its power output set
+					to none, and should have its current flow in the default direction.
+
+					A standard general switch should be able to handle high amounts of power, and
+					should be fully encased in a non-conductive shell.
+				-
+
+			Alternate General Switch
+
+				-
+					An alternate general switch has a USB port in place of control wires.
+					
+					Through said port, signals, referred to as general switch signals, may be sent
+					consisting of two bytes.
+					
+					The first of said bytes corresponds to the state of the digital signal wire,
+					where a value of zero indicates the equivalent of said wire being on, and any
+					other value indicates the equivalent of said wire being off.
+					
+					The second of said bytes corresponds to the state of the PWM signal wire, where
+					the value, from zero to two hundred and fifty five scales to the value range of
+					said wire.
+				-
+
+			General Switch Hub
+
+				-
+					A general switch hub is a device that integrates multiple general switches into
+					a single unit, where each of said general switches is assigned a unique
+					numerical index relative to one another.
+
+					A general switch hub uses a USB port for control, and may receive signals
+					through it consisting of general switch signals for each switch in the hub,
+					concatenated together and arranged in the order of their indices.
+				-
 
 		Rating
 

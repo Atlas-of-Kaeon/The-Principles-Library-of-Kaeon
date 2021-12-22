@@ -3,5 +3,36 @@ Control Core GPIO Set
 	Philosophy
 
 		-
-			Control core GPIO set is a control core command definition.
+			Control core GPIO set is a control core command definition used for setting the states
+			of GPIO pins on or connected to targeted UIMs.
+
+			A control core command object formatted according to the control core GPIO set
+			definition is called a control core GPIO set object.
 		-
+
+	Principles
+
+		Command
+
+			-
+				The value of the command field for a control core GPIO set object shall be the
+				string "GPIO set".
+			-
+
+		Operation
+
+			-
+				The operation object of a control core GPIO set object shall have a field with
+				the alias "pins", containing an object.
+
+				The pins object shall have a field for every pin for which a value is to be set,
+				where each the alias of each field is the index of its corresponding pin according
+				to the GPIO pin map of the targeted device, and the content of each field is the
+				value to which its corresponding pin is to be set.
+
+				If the operation is aimed at a pinout interface of a device connected to the
+				targeted device via a serial port, the operation object of a control core GPIO set
+				object shall have a field with the alias "board", containing an object matching the
+				value of the device field that the GHI serial convention would use to specify said
+				connected device.
+			-

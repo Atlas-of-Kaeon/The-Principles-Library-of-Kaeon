@@ -22,6 +22,6 @@ Control Core Drone Launch
 		Operation
 
 			-
-				The operation object of a control core hologram object shall have a field with
+				The operation object of a control core drone launch object shall have a field with
 				the alias "drone", containing the W-Fi SSID of the target drone.
 			-

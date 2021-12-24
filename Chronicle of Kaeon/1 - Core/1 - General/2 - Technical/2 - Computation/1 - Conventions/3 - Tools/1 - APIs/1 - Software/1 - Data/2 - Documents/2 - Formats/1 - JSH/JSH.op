@@ -42,7 +42,8 @@ JSH
 				Processes
 
 					-
-						A JSH process is a process which was initiated via a JSH call.
+						A JSH process is a process which was either initiated via a JSH call, or
+						which has otherwise granted permission to a JSH server to access it.
 						
 						Each active JSH process shall have a unique numerical ID.
 					-

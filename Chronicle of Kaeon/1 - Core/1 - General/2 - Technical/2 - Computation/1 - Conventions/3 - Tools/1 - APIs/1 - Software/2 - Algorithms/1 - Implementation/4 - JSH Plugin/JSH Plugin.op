@@ -3,7 +3,24 @@ JSH Plugin
 	Philosophy
 
 		-
-			A JSH plugin is a chrome plugin that, when an HTTP call is made by the browser to
-			localhost, start a JSH server at the port to which said call is directed after asking
-			the user's permission to do so.
+			A JSH plugin is a browser plugin that shall ensure that a JSH server is running on the
+			client machine for each port defined in its settings, unless other applications already
+			occupy said ports.
 		-
+
+	Principles
+
+		Security
+
+			-
+				Every time a user navigates to a page, the plugin shall require the page to ask
+				permission before said page shall be allowed to send any HTTP request to the ports
+				defined in its settings.
+			-
+
+		Defaults
+
+			-
+				The default ports for a JSH plugin to initialize a server consist solely of the
+				port 8080.
+			-

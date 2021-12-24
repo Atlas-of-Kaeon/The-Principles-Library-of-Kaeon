@@ -1,0 +1,9 @@
+JSH Plugin
+
+	Philosophy
+
+		-
+			A JSH plugin is a chrome plugin that, when an HTTP call is made by the browser to
+			localhost, start a JSH server at the port to which said call is directed after asking
+			the user's permission to do so.
+		-

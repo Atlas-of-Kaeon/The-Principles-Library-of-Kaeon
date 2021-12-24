@@ -1,0 +1,10 @@
+GHI JSH
+
+	Philosophy
+
+		-
+			GHI JSH is a convention that enables the use of JSH to facilitate communication with
+			the GHI by implementing the GHI as a JSH module, where the name of said module is
+			"ghi", the receptor output format is said module's JSH module request schema, and the
+			receptor input format is said module's JSH module response schema.
+		-

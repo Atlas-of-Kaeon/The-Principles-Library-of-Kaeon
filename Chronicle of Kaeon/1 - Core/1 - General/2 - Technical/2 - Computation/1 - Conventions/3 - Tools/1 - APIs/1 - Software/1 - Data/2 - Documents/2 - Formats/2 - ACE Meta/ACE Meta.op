@@ -1,0 +1,13 @@
+ACE Meta
+	
+	Philosophy
+	
+		-
+			ACE Meta is a convention that establishes a type of ACE element that can store the
+			saved state for an application running on a user's system, where such an element has
+			the content "ACE Meta", and two children, one with the content "Source", which has a
+			child containing the name of a given application, and one with the content "Data",
+			which may have an indefinite number of children, each containing the name of a saved
+			state for said application as its content and each having a child with the content of
+			said saved state as its content.
+		-

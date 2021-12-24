@@ -1,0 +1,115 @@
+JSH
+
+	Philosophy
+
+		-
+			JSH, which stands for JavaScript Shell, is a JSON format used for relaying command line
+			instructions to devices.
+		-
+
+	Principles
+
+		Conventions
+
+			Communication
+
+				Protocol
+
+					-
+						Calls made to devices using JSH should use POST requests sent over HTTPS.
+					-
+
+				Password
+
+					-
+						A JSH password is a credential required in a JSH call by a JSH server in
+						order for said call to be processed.
+
+						A JSH password may or may not be set at any given time.
+					-
+
+			Operations
+
+				Modules
+
+					-
+						JSH modules are JSON schemas governing messages sent to and from certain
+						applications on targeted systems alongside explicit commands via JSH.
+
+						Each JSH module shall have a name, a request schema, and a response schema.
+					-
+
+				Processes
+
+					-
+						A JSH process is a process which was initiated via a JSH call.
+						
+						Each active JSH process shall have a unique numerical ID.
+					-
+
+		Format
+
+			Request
+
+				-
+					The JSH request format is the JSON object format governing calls made to JSH
+					servers. An object following the JSH request format is referred to as a JSH
+					request object.
+
+					A JSH request object may have any of the following fields: a field with the
+					alias "commands", a field with the alias "processes", a field with the alias
+					"modules", a field with the alias "password", and a field with the alias
+					"newPassword".
+
+					The commands field, if present, shall contain a list of objects, where each
+					object shall have a field with the alias "command", containing a string
+					specifying a command to be executed on the targeted device, and may optionally
+					have a field with the alias "location", containing a string specifying the path
+					to execute said command from.
+
+					The processes field, if present, shall contain a list of objects, where each
+					object shall have a field with the alias "id", containing a string specifying
+					the numerical ID of an active JSH process, and may optionally have a field with
+					the alias "input", containing a string to be sent to said process via command
+					line input, as well as a field with the alias "terminate", which shall contain
+					a boolean that, if true, shall cause said process to terminate.
+
+					The modules field, if present, shall contain a list of objects, each of which
+					shall have a field with the alias "module", containing a string specifying the
+					name of a JSH module, and a field with the alias "request", containing an
+					object in the request schema of said module.
+
+					The password field, if present, shall contain a string specifying the current
+					password of the JSH server. If said password is not provided as required when a
+					password is set, the call shall not be processed.
+
+					The newPassword field, if present, shall contain either a string, which shall
+					change the password to said string, or shall contain a null value, which shall
+					disable the password requirement.
+				-
+
+			Response
+
+				-
+					The JSH response format is the JSON object format governing calls made to JSH
+					servers. An object following the JSH response format is referred to as a JSH
+					response object.
+
+					A JSH response object may have any of the following fields: a field with the
+					alias "commands", a field with the alias "modules".
+
+					The commands field, if present, shall contain a list of objects for each active
+					JSH process, where each object shall have a field with the alias "command",
+					containing a string specifying the command which spawned said process, a field
+					with the alias "location", containing a string specifying the path from which
+					said process is running, a field with the alias "id", containing a string
+					specifying the numerical ID of said process, and a field with the alias "log",
+					containing a string specifying the output logged to the terminal by said
+					process since the last JSH call.
+
+					The modules field, if present, shall contain a list of objects for each JSH
+					module operated by the JSH server, where each object shall have a field with
+					the alias "module", containing a string specifying the name of a JSH module,
+					and a field with the alias "response", containing an object in the response
+					schema of said module, specifying the current state of said module.
+				-

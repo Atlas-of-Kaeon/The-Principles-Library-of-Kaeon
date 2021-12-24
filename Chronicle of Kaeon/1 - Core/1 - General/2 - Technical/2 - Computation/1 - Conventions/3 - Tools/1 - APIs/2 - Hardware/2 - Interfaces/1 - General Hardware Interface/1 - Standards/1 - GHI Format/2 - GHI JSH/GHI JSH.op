@@ -8,3 +8,12 @@ GHI JSH
 			"ghi", the receptor output format is said module's JSH module request schema, and the
 			receptor input format is said module's JSH module response schema.
 		-
+
+	Principles
+
+		Call Type Auto-Detection
+
+			-
+				A server supporting the GHI should auto-detect whether a call made to it uses JSH
+				or the receptor input format on its own.
+			-

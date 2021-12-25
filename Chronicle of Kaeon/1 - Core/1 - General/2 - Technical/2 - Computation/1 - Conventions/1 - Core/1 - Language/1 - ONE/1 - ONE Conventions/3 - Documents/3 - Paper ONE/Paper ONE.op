@@ -8,3 +8,37 @@ Paper ONE
 			It may be used to convert ONE documents into a format more suitable for printable
 			documents.
 		-
+
+	Principles
+
+		ONE Elements
+
+			-
+				A ONE element converted to paper ONE shall have its content unwrapped, and shall
+				have all of its remaining lines with no non-whitespace characters removed.
+
+				If said element has children and originally consisted of only one line, and if said
+				element is not the title of a Kaeon document, then the numbers of its ONE path,
+				defined relative to the title in a Kaeon document and defined relative to the root
+				element otherwise, shall be concatenated together, separated by periods, and the
+				resulting string shall be appended to the beginning of the element's content,
+				separated from said content by a sequence consisting of a space, followed by a
+				hypen, followed by a space.
+			-
+
+		ONE Documents
+
+			-
+				Once all elements in a given ONE document have been converted to paper ONE, said
+				document may be converted to paper ONE by concatenating the content of each of said
+				elements together, separated by new lines.
+			-
+
+		Standard Kaeon Library Books
+
+			-
+				Once all documents in a standard Kaeon library book have been converted to paper
+				ONE, said book may be converted to paper ONE by removing the comment block tokens
+				and leading and trailing whitespace from the title lines, and by removing the blank
+				lines surrounding the title lines.
+			-

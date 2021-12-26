@@ -43,8 +43,7 @@ Paper ONE Markup
 				first order headers to sixth order headers depending on how deeply they are nested
 				within their document, after which they shall be rendered as normal text.
 
-				Title lines of Kaeon libraries shall be rendered in italics, and shall be aligned
-				to the right.
+				Title lines of Kaeon libraries shall be rendered in italics.
 
 				All lines shall be wrapped to fit the page.
 

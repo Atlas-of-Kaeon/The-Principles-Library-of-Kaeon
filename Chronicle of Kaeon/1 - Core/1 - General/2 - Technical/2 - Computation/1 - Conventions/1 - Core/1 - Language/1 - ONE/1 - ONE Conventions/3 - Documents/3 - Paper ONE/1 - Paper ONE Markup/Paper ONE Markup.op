@@ -21,7 +21,9 @@ Paper ONE Markup
 				Title elements of Kaeon documents shall be assigned the class "paper-one-title".
 
 				All elements with children except for the title elements of Kaeon documents shall
-				be assigned the class "paper-one-subtitle".
+				be assigned the class "paper-one-subtitle", as well as a class consisting of the
+				string "paper-one-nest-" followed by a number indicating how many levels the
+				element is nested beneath the root.
 
 				The title lines of Kaeon libraries shall be assigned the class
 				"paper-one-reference".

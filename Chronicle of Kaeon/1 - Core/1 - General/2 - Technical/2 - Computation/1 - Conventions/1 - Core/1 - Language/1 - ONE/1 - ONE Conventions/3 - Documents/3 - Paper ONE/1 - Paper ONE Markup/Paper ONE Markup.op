@@ -14,7 +14,8 @@ Paper ONE Markup
 			-
 				If paper ONE markup is rendered using HTML, every line in the paper ONE document
 				shall be encased in a "p" tag, and shall be assigned a class depending on its
-				relation to the contents of the document.
+				relation to the contents of the document. Any new lines within said the content of
+				said "p" tags shall be replaced with "br" tags.
 
 				Elements with no children shall be assigned the class "paper-one-text".
 

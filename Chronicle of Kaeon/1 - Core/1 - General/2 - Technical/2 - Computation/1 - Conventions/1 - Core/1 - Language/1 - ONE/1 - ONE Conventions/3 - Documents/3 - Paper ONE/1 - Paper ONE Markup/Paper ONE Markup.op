@@ -14,8 +14,10 @@ Paper ONE Markup
 			-
 				If paper ONE markup is rendered using HTML, every line in the paper ONE document
 				shall be encased in a "p" tag, and shall be assigned a class depending on its
-				relation to the contents of the document. Any new lines within said the content of
-				said "p" tags shall be replaced with "br" tags.
+				relation to the contents of the document.
+				
+				Any new lines within said the content of said "p" tags shall be replaced with "br"
+				tags.
 
 				Elements with no children shall be assigned the class "paper-one-text".
 
@@ -34,16 +36,18 @@ Paper ONE Markup
 
 			-
 				The standard styling for paper ONE documents has elements with no children indented
-				by one tab, and has the title elements of Kaeon documents centered.
+				by one tab using a left margin of 40px, and has the title elements of Kaeon
+				documents centered.
 
 				Elements with children shall be rendered in bold as headers, scaling in size from
 				first order headers to sixth order headers depending on how deeply they are nested
 				within their document, after which they shall be rendered as normal text.
 
-				Title lines of Kaeon libraries shall be rendered in italics.
+				Title lines of Kaeon libraries shall be rendered in italics, and shall be aligned
+				to the right.
 
-				All lines shall have 1% padding around them, and shall be wrapped to fit
-				the page.
+				All lines shall be wrapped to fit the page.
 
-				The standard font shall be Arial, and the standard font size shall be 12.
+				The standard font shall be Arial, and the standard font size shall be 12px. The
+				font size of the headers used shall increase from 12px by 2px per level.
 			-

@@ -41,4 +41,7 @@ Paper ONE
 				ONE, said book may be converted to paper ONE by removing the comment block tokens
 				and leading and trailing whitespace from the title lines, and by removing the blank
 				lines surrounding the title lines.
+
+				By default, paper ONE documents should render Kaeon libraries as reduced Kaeon
+				library books.
 			-

@@ -15,11 +15,15 @@ Paper ONE Markup
 				If paper ONE markup is rendered using HTML, every line in the paper ONE document
 				shall be encased in a "p" tag, and shall be assigned a class depending on its
 				relation to the contents of the document.
+
+				All of said "p" tags shall be assigned the class "paper-one".
 				
-				Any new lines within said the content of said "p" tags shall be replaced with "br"
-				tags.
+				Any new lines within the content of said "p" tags shall be replaced with "br" tags.
 
 				Elements with no children shall be assigned the class "paper-one-text".
+
+				Elements with no children and which have siblings that follow them shall be
+				assigned the class "paper-one-precede".
 
 				Title elements of Kaeon documents shall be assigned the class "paper-one-title".
 
@@ -39,6 +43,10 @@ Paper ONE Markup
 				by one tab using a left margin of 40px, and has the title elements of Kaeon
 				documents centered.
 
+				Elements with no children and which have siblings that follow them shall be
+				rendered with an "hr" tag at the end of their content, which shall itself be
+				indented by one tab with a left margin of 40px.
+
 				Elements with children shall be rendered in bold as headers, scaling in size from
 				first order headers to sixth order headers depending on how deeply they are nested
 				within their document, after which they shall be rendered as normal text.
@@ -47,6 +55,31 @@ Paper ONE Markup
 
 				All lines shall be wrapped to fit the page.
 
-				The standard font shall be Arial, and the standard font size shall be 12px. The
-				font size of the headers used shall increase from 12px by 2px per level.
+				The standard font shall be Georgia, the standard font color shall be black, and the
+				standard font size shall be 12px. The font size of the headers used shall increase
+				from 12px by 2px per level.
 			-
+
+		Paginated Documents
+
+			Paper ONE Cover Page
+
+				-
+					A paper ONE cover page is a page that may be used for the cover of a paper ONE
+					document rendered as a paginated document.
+
+					The standard paper ONE cover page consists of an image in the center of the
+					page, occupying the maximum possible width within said page's margins, followed
+					by a 32px blank line, followed by a line containing the title of the document
+					in black 32px Georgia font.
+
+					The standard image for such pages is the Angaian Crest.
+				-
+
+			Page Numbers
+
+				-
+					Pages of paper ONE documents that are rendered as paginated documents, save for
+					the paper ONE cover page, if present, should have their pages numbers written
+					in the bottom left corner
+				-

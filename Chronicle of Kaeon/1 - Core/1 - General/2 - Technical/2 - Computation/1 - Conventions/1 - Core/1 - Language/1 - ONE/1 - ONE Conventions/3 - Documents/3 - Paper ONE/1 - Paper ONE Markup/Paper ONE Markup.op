@@ -20,36 +20,38 @@ Paper ONE Markup
 				
 				Any new lines within the content of said "p" tags shall be replaced with "br" tags.
 
-				Elements with no children shall be assigned the class "paper-one-text".
+				All content elements shall be assigned the class "paper-one-content".
 
-				Elements with no children and which have siblings that follow them shall be
-				assigned the class "paper-one-precede".
+				Content elements which have siblings that follow them shall be assigned the class
+				"paper-one-precede".
 
-				Title elements of Kaeon documents shall be assigned the class "paper-one-title".
+				Section elements shall be assigned the class "paper-one-section", as well as a
+				class consisting of the string "paper-one-nest-" followed by a number indicating
+				how many levels the element is nested beneath the root.
 
-				All elements with children except for the title elements of Kaeon documents shall
-				be assigned the class "paper-one-subtitle", as well as a class consisting of the
-				string "paper-one-nest-" followed by a number indicating how many levels the
-				element is nested beneath the root.
+				Item elements shall be assigned the class "paper-one-item".
 
-				The title lines of Kaeon libraries shall be assigned the class
-				"paper-one-reference".
+				Title elements shall be assigned the class "paper-one-title".
+
+				Title lines of Kaeon libraries shall be assigned the class "paper-one-reference".
 			-
 
 		Standard Styling
 
 			-
-				The standard styling for paper ONE documents has elements with no children indented
-				by one tab using a left margin of 40px, and has the title elements of Kaeon
-				documents centered.
+				The standard styling for paper ONE documents has content elements indented by one
+				tab using a left margin of 40px, and has title elements centered.
 
-				Elements with no children and which have siblings that follow them shall be
-				rendered with an "hr" tag at the end of their content, which shall itself be
-				indented by one tab with a left margin of 40px.
+				Content elements which have siblings that follow them, or item elements which have
+				other item elements as siblings that immediately follow them, shall be rendered
+				with an "hr" tag at the end of their content, which shall itself be indented by one
+				tab using a left margin of 40px.
 
-				Elements with children shall be rendered in bold as headers, scaling in size from
-				first order headers to sixth order headers depending on how deeply they are nested
-				within their document, after which they shall be rendered as normal text.
+				Section elements shall be rendered in bold as headers, scaling in size from first
+				order headers to sixth order headers depending on how deeply they are nested within
+				their document, after which they shall be rendered in the size of normal text.
+
+				Item elements shall be rendered as normal text but shall not be indented.
 
 				Title lines of Kaeon libraries shall be rendered in italics.
 
@@ -81,5 +83,5 @@ Paper ONE Markup
 				-
 					Pages of paper ONE documents that are rendered as paginated documents, save for
 					the paper ONE cover page, if present, should have their pages numbers written
-					in the bottom left corner
+					in the bottom left corner.
 				-

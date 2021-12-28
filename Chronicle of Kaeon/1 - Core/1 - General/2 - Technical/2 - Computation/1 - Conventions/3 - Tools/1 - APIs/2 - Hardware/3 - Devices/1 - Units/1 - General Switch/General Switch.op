@@ -5,7 +5,7 @@ General Switch
 		-
 			A general switch is a programmable relay with a single power input and a single power
 			output that can reverse the direction of its current, and can adjust its power output
-			by to any value between none and some arbitrary maximum.
+			to any value between none and some arbitrary maximum.
 		-
 
 	Principles

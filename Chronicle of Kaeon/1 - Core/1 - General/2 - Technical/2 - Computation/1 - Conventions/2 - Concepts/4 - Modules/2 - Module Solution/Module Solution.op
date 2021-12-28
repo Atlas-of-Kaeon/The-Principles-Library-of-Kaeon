@@ -31,7 +31,7 @@ Module Solution
 					solutions and concepts predicated upon module solutions.
 
 					Module solution classes may be nested within one another, and may be granted
-					numerical orders from the a given class down.
+					numerical orders from a given class down.
 				-
 
 		Labelling
@@ -58,8 +58,8 @@ Module Solution
 				by a hyphen.
 
 				A codename for any such title may follow said title, from which it shall be
-				separated by a hyphen, and any such title have be wholly or partially abbreviated
-				by codenames where applicable.
+				separated by a hyphen, and any such title may be wholly or partially abbreviated by
+				codenames where applicable.
 
 				Each separate word, number, or punctuation mark should be separated from the
 				preceding and following elements by a single space.

@@ -4,7 +4,7 @@ Biased Randomness
 
 		-
 			Biased randomness is when a process that may select a subset of elements from a given
-			set is more likely to effect some elements in said set than others.
+			set is more likely to affect some elements in said set than others.
 		-
 	
 	Principles
@@ -12,6 +12,6 @@ Biased Randomness
 		Bias Factors
 
 			-
-				Bias factors are factors that effect the bias a process uses when selecting
+				Bias factors are factors that affect the bias a process uses when selecting
 				elements from a set.
 			-

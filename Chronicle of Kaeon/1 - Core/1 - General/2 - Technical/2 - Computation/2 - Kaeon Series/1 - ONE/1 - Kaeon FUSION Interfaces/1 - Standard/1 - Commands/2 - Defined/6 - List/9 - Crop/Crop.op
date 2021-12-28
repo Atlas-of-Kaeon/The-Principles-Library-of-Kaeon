@@ -4,8 +4,8 @@ Crop
 		
 		-
 			The crop command contains the content "Crop". It will have between two and three
-			children, the first of which returns a list and the second of which, and the third of
-			which if present, return numbers.
+			children, the first of which returns a list, and the second and third of which, if
+			present, return numbers.
 
 			The number returned by the second child is referred to as the second number, and the
 			number returned by the third child is referred to as the third number. If the third
@@ -24,6 +24,6 @@ Crop
 			the second number, appending each element it runs through to a new list. It will then
 			return the new list.
 			
-			If the returned list list was in the form of a string, the generated list will be
-			returned as a string. Otherwise, it will be returned as a list.
+			If the returned list is in the form of a string, the generated list will be returned as
+			a string. Otherwise, it will be returned as a list.
 		-

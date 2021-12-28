@@ -7,6 +7,6 @@ Shadow Module
 			the host module.
 
 			A shadow module will dynamically modify its host module at runtime. A unit of code that
-			is inserted into a host module to act as a interface to a shadow module is called a
+			is inserted into a host module to act as an interface to a shadow module is called a
 			shadow point.
 		-

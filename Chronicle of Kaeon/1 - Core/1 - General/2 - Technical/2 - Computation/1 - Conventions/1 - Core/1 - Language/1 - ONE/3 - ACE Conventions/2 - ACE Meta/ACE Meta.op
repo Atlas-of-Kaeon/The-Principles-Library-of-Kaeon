@@ -12,9 +12,9 @@ ACE Meta
 		Structure
 			
 			-
-				An ACE Meta element must the content "ACE Meta", and must have two children, the
-				first of which must have the content "Source", and the second of which must have
-				the content "Data".
+				An ACE Meta element must have the content "ACE Meta", and must have two children,
+				the first of which must have the content "Source", and the second of which must
+				have the content "Data".
 				
 				The source element must have a child with content that specifies a certain software
 				environment.

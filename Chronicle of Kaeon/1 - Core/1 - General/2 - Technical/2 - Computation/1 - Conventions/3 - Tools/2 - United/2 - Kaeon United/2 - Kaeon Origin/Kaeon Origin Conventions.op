@@ -40,7 +40,7 @@ Kaeon Origin Conventions
 				respectively, and shall include utilities for adding and removing disks from the
 				file system.
 
-				Additionally, Kaeon Origin shall have a optional complimentary plugin which, if
+				Additionally, Kaeon Origin shall have an optional complimentary plugin which, if
 				installed, shall allow the browser to access the local system directly and for the
 				virtual file system to use it as a disk, and for the virtual system to execute
 				commands directly on it.

@@ -11,19 +11,34 @@ Paper ONE
 
 	Principles
 
+		Element Types
+
+			-
+				Elements with no children and which have no siblings with children are referred to
+				as content elements.
+
+				Elements with children or which have siblings with children and which have no
+				siblings with children are referred to as section elements.
+
+				An element that qualifies to be a section element which has content consisting of
+				more than one line is referred to as an item element rather than a section element.
+
+				An element that qualifies to be a section element which has the root as its parent
+				and no siblings is referred to as a title element rather than a section element.
+			-
+
 		ONE Elements
 
 			-
 				A ONE element converted to paper ONE shall have its content unwrapped, and shall
 				have all of its remaining lines with no non-whitespace characters removed.
 
-				If said element has children and originally consisted of only one line, and if said
-				element is not the title of a Kaeon document, then the numbers of its ONE path,
-				defined relative to the title in a Kaeon document and defined relative to the root
-				element otherwise, shall be concatenated together, separated by periods, and the
-				resulting string shall be appended to the beginning of the element's content,
-				separated from said content by a sequence consisting of a space, followed by a
-				hypen, followed by a space.
+				If said element is a section element and originally consisted of only one line,
+				then the numbers of its ONE path, defined relative to the title element if one is
+				present and defined relative to the root element otherwise, shall be concatenated
+				together, separated by periods, and the resulting string shall be appended to the
+				beginning of the element's content, separated from said content by a sequence
+				consisting of a space, followed by a hyphen, followed by a space.
 			-
 
 		ONE Documents

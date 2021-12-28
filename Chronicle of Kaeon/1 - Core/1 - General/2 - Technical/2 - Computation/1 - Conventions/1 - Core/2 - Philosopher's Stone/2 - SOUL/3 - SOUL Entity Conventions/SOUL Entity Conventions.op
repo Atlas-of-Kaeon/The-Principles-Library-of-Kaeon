@@ -62,15 +62,15 @@ SOUL Entity Conventions
 							-
 								A starter is a pulse module that produces randomized output to
 								send through the output channel when insufficient data is
-								available within whatever records are available.
+								available within whatever records are present.
 							-
 
 						Core
 
 							-
 								A core is a pulse module that produces output to send through the
-								output channel based on the content of whatever records are
-								available is said said contents are sufficient.
+								output channel based on the contents of whatever records are
+								present when said contents are sufficient.
 							-
 
 				External

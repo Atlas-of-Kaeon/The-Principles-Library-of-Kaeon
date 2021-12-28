@@ -39,12 +39,12 @@ C Dialect
 		Array
 			
 			-
-				If the type element has a child with the content "Array", said child may an
+				If the type element has a child with the content "Array", said child may have an
 				indefinite number of children, each of which may have either an integer number or
 				the string "Null" as their content. Each of said children represents a dimension of
 				an array, where a child containing a number represents the length of said dimension
 				and a child with the string "Null" represents a dimension of indeterminate length.
-				If the array element has no children, the array will be assumed be a one
+				If the array element has no children, the array will be assumed to be a one
 				dimensional array of indeterminate length.
 			-
 		

@@ -14,7 +14,7 @@ United C
 			-
 				Common C is a common convention for C and C++.
 				
-				The source code of a common C program muse be written in either C or C++, and said
+				The source code of a common C program must be written in either C or C++, and said
 				code must conform to the conventions of the latest standard of the respective
 				language.
 
@@ -149,7 +149,7 @@ United C
 					compiled to C.
 
 					If desired, the user may pass in an indefinite number of other arguments after
-					the second argument, constitute the miscellaneous arguments list.
+					the second argument, constituting the miscellaneous arguments list.
 
 					By default, the United C compiler shall pass a string to Universal Preprocessor
 					directives through the list passed to said directives. Said string shall be the

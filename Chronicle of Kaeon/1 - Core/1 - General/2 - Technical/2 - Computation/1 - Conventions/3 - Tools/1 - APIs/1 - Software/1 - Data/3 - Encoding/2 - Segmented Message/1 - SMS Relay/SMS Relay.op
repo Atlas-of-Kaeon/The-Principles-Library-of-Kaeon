@@ -6,9 +6,9 @@ SMS Relay
 			An SMS relay is an HTTP server for which can send the content of a request using
 			segmented messages sent over SMS to a phone number belonging to a targeted device.
 
-			Once a the content has been relayed, the server may wait for a response from the
-			targeted device, sent to said server using either segmented messages or HTTP, before
-			returning a response to the caller containing the response from said device.
+			Once the content has been relayed, the server may wait for a response from the targeted
+			device, sent to said server using either segmented messages or HTTP, before returning a
+			response to the caller containing the response from said device.
 		-
 
 	Principles
@@ -34,7 +34,7 @@ SMS Relay
 			Relayed Request
 
 				-
-					The content of a segmented message sent from and SMS relay to a device shall
+					The content of a segmented message sent from an SMS relay to a device shall
 					specify the protocol for returning a response to the relay along with the
 					content of the message.
 
@@ -54,5 +54,5 @@ SMS Relay
 			UHAPI
 
 				-
-					An SMS relay may be used to as an endpoint for UHAPI applications.
+					An SMS relay may be used as an endpoint for UHAPI applications.
 				-

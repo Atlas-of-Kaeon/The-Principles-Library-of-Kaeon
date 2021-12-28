@@ -21,8 +21,8 @@ Latinized Angaian
 			Injection
 
 				-
-					A latinized Angaian sequence in other text can be place following a sequence
-					consisting of an open paren followed a forward slash, and followed by a
+					A latinized Angaian sequence in other text can be placed following a sequence
+					consisting of an open paren followed by a forward slash, and followed by a
 					sequence consisting of a back slash followed by a closed paren.
 				-
 
@@ -30,7 +30,7 @@ Latinized Angaian
 
 				-
 					Characters within a latinized Angaian sequence that do not map to any Angaian
-					characters shall remain unconverted in the sequence is converted to Angaian.
+					characters shall remain unconverted when said sequence is converted to Angaian.
 				-
 		
 		Characters

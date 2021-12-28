@@ -38,16 +38,16 @@ GHI Wi-Fi
 
 					If the data field is present, it shall contain a string which shall be passed
 					to the Wi-Fi endpoint with the specified SSID and password at the specified
-					host IP and port. If the either the host IP or host port are not specified,
-					they shall be set to default values.
+					host IP and port. If either the host IP or host port are not specified, they
+					shall be set to default values.
 				-
 
 			Input
 
 				-
-					The branch data input format of a Wi-Fi device is a list objects representing
-					any messages it received from external devices over its Wi-Fi connection since
-					the last query for said input.
+					The branch data input format of a Wi-Fi device is a list of objects
+					representing any messages it received from external devices over its Wi-Fi
+					connection since the last query for said input.
 
 					Each of said objects shall contain two fields, a field with the alias "time",
 					containing a number specifying the time in seconds that the message was

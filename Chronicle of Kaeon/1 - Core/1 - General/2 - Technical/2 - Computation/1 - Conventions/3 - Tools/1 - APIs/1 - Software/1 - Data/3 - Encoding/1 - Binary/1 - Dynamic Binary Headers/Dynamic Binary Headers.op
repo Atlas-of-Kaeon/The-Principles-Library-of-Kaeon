@@ -48,7 +48,7 @@ Dynamic Binary Headers
 		Sequence Objects
 
 			-
-				A binary file separated into sequences using sequences headers may itself be
+				A binary file separated into sequences using sequence headers may itself be
 				separated into sequences called sub-sequences using sequence headers.
 
 				Sub-sequences may be used as references to the sibling sequences of their parent.

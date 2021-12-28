@@ -12,7 +12,7 @@ Chaotra
 		Chaotrons
 
 			-
-				An chaotron is an individual instance or unit of chaotra.
+				A chaotron is an individual instance or unit of chaotra.
 			-
 
 		Chaoromnys
@@ -46,7 +46,7 @@ Chaotra
 				A chaotron that may influence multiple chaotra resolutions simultaneously can be
 				called a dynamic chaotron.
 				
-				The number of chaotra resolutions that a dynamic chaotron effects at any given
+				The number of chaotra resolutions that a dynamic chaotron affects at any given
 				point in time is called its scope.
 			-
 

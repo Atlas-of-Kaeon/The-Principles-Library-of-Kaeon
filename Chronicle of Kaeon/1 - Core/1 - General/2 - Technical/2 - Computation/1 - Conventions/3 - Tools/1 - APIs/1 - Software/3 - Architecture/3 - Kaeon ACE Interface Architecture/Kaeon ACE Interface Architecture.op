@@ -114,7 +114,7 @@ Kaeon ACE Interface Architecture
 					The on serialize function takes the core node and a component object as
 					arguments.
 
-					It may be called manually at any time, and shall either a Kaeon ACE ONE
+					It may be called manually at any time, and shall either return a Kaeon ACE ONE
 					representation of said object in ONE list form, or shall return a value of
 					null.
 				-

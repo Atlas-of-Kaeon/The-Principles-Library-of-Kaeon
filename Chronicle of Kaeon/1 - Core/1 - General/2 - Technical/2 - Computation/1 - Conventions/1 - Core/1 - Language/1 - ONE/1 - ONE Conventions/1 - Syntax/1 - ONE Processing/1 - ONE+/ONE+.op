@@ -42,14 +42,14 @@ ONE+
 			Blank Plus Sequences
 				
 				-
-					A blank plus sequence is an plus sequence made up entirely of blank sequences.
+					A blank plus sequence is a plus sequence made up entirely of blank sequences.
 					They have no effect on the encoded elements.
 				-
 				
 			Escape Plus Sequences
 				
 				-
-					An escape plus sequence is an plus sequence that consists of an escape sequence
+					An escape plus sequence is a plus sequence that consists of an escape sequence
 					followed by another sequence of characters. If the sequence of characters
 					immediately following the escape sequence would normally have an effect on the
 					document, the effect will be nullified. The escape sequence itself will not be
@@ -59,7 +59,7 @@ ONE+
 			Escape Scope Plus Sequences
 				
 				-
-					An escape scope plus sequence is an plus sequence that begins with an escape
+					An escape scope plus sequence is a plus sequence that begins with an escape
 					scope sequence and ends with another escape scope sequence. If any characters
 					located between the two escape scope sequences would normally have an effect on
 					the document, the effect will be nullified. The escape scope sequences
@@ -69,7 +69,7 @@ ONE+
 			Encoded Escape Scope Plus Sequences
 				
 				-
-					An encoded escape scope plus sequence is an plus sequence that begins with an
+					An encoded escape scope plus sequence is a plus sequence that begins with an
 					encoded escape scope sequence and ends with another encoded escape scope
 					sequence. If any characters located between the two encoded escape scope
 					sequences would normally have an effect on the document, the effect will be
@@ -89,9 +89,9 @@ ONE+
 			Escape Character Plus Sequences
 				
 				-
-					An escape character plus sequence is an plus sequence that consists of an
-					escape sequence followed by either an alternate breaking sequence or an
-					alternate nesting sequence. It will not be encoded into the document.
+					An escape character plus sequence is a plus sequence that consists of an escape
+					sequence followed by either an alternate breaking sequence or an alternate
+					nesting sequence. It will not be encoded into the document.
 					
 					If the escape character plus sequence contains an alternate breaking sequence,
 					a breaking sequence will be encoded into the document in place of the escape
@@ -105,7 +105,7 @@ ONE+
 			Comment Plus Sequences
 				
 				-
-					A comment plus sequence is an plus sequence that starts with a comment sequence
+					A comment plus sequence is a plus sequence that starts with a comment sequence
 					and ends with a breaking sequence. All characters in the plus sequence will
 					have no effect on the document.
 				-
@@ -113,7 +113,7 @@ ONE+
 			Comment Block Plus Sequences
 				
 				-
-					A comment plus sequence is an plus sequence that starts with an open comment
+					A comment plus sequence is a plus sequence that starts with an open comment
 					sequence and ends with a close comment sequence. All characters in the plus
 					sequence will have no effect on the document.
 				-

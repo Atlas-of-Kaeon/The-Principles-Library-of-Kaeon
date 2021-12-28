@@ -27,5 +27,5 @@ Definition Deduction
 				definition, or if anything that is not an instance of said concept does match the
 				definition.
 
-				So long as no such cases can be asserted, the definition can be said to be vaild.
+				So long as no such cases can be asserted, the definition can be said to be valid.
 			-

@@ -15,7 +15,7 @@ The Kaeon Process
 				specification, the documentation, and the implementations.
 
 				The specification is a set of written texts that define and specify the nature and
-				aspects of product or service that the developers intend to produce.
+				aspects of the product or service that the developers intend to produce.
 
 				The documentation are the documents that outline all aspects of the project that
 				lie outside the scope of the specification, including development priorities,
@@ -99,7 +99,7 @@ The Kaeon Process
 
 				-
 					The developers of a project may define milestone release points in the
-					documentation where an implementation may be fit for a initial release or
+					documentation where an implementation may be fit for an initial release or
 					version update once a certain set of features have been developed.
 					
 					Between milestone release points and following project completion, patches may

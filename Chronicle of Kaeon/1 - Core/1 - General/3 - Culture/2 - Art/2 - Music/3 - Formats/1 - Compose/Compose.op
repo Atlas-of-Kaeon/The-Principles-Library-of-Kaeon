@@ -13,7 +13,7 @@ Compose
 
 			-
 				Each sound in a compose document must contain the name of the sound, the time in
-				seconds that the sound is to played.
+				seconds that the sound is to be played.
 				
 				A sound may specify the time in seconds that the sound is to continue playing once
 				it has started, which if not specified shall indicate that the sound is to continue

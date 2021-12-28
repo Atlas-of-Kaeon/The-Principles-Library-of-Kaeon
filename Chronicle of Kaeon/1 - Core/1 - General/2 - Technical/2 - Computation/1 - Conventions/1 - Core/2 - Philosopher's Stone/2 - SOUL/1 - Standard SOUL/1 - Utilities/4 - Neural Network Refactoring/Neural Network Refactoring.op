@@ -8,6 +8,6 @@ Neural Network Refactoring
 			different output for any given input.
 
 			Alternatively, to alter the structure of a neural network while allowing for a minimal
-			amount of alteration in it output for any given input is referred to as neural network
+			amount of alteration in its output for any given input is referred to as neural network
 			pseudorefactoring.
 		-

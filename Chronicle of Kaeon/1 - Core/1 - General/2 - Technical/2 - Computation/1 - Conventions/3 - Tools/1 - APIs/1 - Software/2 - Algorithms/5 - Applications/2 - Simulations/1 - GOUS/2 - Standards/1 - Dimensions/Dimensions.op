@@ -111,7 +111,7 @@ Open Universe Dimensions
 
 							The starting point for a points path is the first point.
 
-							The starting point for a ring path is at zero radians relative the z
+							The starting point for a ring path is at zero radians relative to the z
 							axis of its parent.
 
 							The starting point for a spiral path is at the center of the spiral.

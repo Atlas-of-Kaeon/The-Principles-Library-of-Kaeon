@@ -15,8 +15,8 @@ United JavaScript Module Conventions
 				Platform variance is where the exports of a module are different for certain
 				platforms.
 				
-				The aliases of the contents each platform specific variation of said exports should
-				be the same, but their implementations may differ.
+				The aliases of the contents of each platform specific variation of said exports
+				should be the same, but their implementations may differ.
 			-
 
 		Link Reference

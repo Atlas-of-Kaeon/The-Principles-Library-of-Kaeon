@@ -3,7 +3,7 @@ Open Universe Terrestrial Planets
 	Philosophy
 
 		-
-			This document specifies standards for defining the properties terrestrial planets
+			This document specifies standards for defining the properties of terrestrial planets
 			within an open universe as defined by the general open universe standard.
 		-
 
@@ -15,7 +15,7 @@ Open Universe Terrestrial Planets
 
 				-
 					The global height map is a spherical height map that defines the general height
-					of a the planet at any given location.
+					of a planet at any given location.
 
 					The height at each point on the height map shall correspond to the radius of
 					the base planet plus the point on the global map, a value between zero and one,

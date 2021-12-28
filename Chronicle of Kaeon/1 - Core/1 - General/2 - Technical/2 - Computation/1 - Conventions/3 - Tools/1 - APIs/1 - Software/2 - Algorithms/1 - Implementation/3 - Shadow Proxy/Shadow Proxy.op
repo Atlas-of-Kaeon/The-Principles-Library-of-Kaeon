@@ -24,8 +24,8 @@ Shadow Proxy
 				JSON objects specifying modifications to be made to the response.
 				
 				Each of said objects shall have a "type" field containing a string specifying the
-				type of of modification to be performed, and may optionally have a "data" field,
-				which may have any content.
+				type of modification to be performed, and may optionally have a "data" field, which
+				may have any content.
 
 				The URL argument aliases and the content of the "type" field in the response
 				modification objects are case insensitive.

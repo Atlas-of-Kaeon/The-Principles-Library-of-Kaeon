@@ -17,7 +17,7 @@ Printable DOM
 				represents a page in said document, ordered according to their order in the
 				document.
 				
-				Each object page object contains the virtual pixel dimensions of the page so as to
+				Each page object contains the virtual pixel dimensions of the page so as to
 				calibrate the size of content scaled by pixels and to specify the shape of the
 				page.
 

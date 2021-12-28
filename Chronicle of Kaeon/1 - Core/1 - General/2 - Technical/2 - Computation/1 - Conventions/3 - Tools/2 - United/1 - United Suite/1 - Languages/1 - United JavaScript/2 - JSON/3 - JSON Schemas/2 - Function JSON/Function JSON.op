@@ -8,8 +8,8 @@ Function JSON
 			A function JSON object must have a field with the key "functionJSON" and the value
 			true.
 			
-			The function itself shall be defined according to field with the key "code", containing
-			a string specifying said code, which may or may not include the definition.
+			The function itself shall be defined according to a field with the key "code",
+			containing a string specifying said code, which may or may not include the definition.
 
 			If the definition is included in the function code, the body of the function must be
 			nested under the definition, but the definition does not have to specify the alias of

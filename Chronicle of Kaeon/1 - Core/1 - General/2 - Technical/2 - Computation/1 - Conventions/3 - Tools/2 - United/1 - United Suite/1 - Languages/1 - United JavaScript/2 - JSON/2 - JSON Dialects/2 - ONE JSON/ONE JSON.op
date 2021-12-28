@@ -32,7 +32,7 @@ ONE JSON
 		Literals
 
 			-
-				Any element with any content other that "object" or "list" shall correspond to
+				Any element with any content other than "object" or "list" shall correspond to
 				literals.
 
 				The content of the element shall define said literal, and must follow the JSON

@@ -14,7 +14,8 @@ Mesh
 		Children
 		
 			-
-				The element may have one or both of the geometry element and a color element.
+				The element may have one or both of the following: a geometry element and a color
+				element.
 				
 				The geometry element, if present, shall have the content "Geometry", and may have
 				an indefinite number of vertex elements and polygon elements as children. The order

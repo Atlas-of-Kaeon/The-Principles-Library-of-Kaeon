@@ -39,8 +39,8 @@ Contract Record Format
 
 					The public keys element shall have a child for each party to the contract. Said
 					children shall each have content specifying the name of the party they
-					correspond to, and shall each have a child a child with the content
-					"Algorithm", and a child with the content "Key".
+					correspond to, and shall each have a child with the content "Algorithm", and a
+					child with the content "Key".
 					
 					The algorithm element shall have a child containing the encryption algorithm
 					used by the party that it corresponds to, and the key element shall have a
@@ -53,7 +53,7 @@ Contract Record Format
 
 					The purpose element shall have a child containing either "Acceptance" or
 					"Termination" as its content depending on whether the intention of the signer
-					is to accept of terminate their role in the contract.
+					is to accept or terminate their role in the contract.
 
 					The date/time element shall have a child containing the date and time of the
 					signature.

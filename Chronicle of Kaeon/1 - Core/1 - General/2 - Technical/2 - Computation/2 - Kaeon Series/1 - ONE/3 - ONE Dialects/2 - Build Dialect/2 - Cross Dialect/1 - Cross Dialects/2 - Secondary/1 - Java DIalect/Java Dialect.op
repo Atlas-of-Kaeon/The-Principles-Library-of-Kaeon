@@ -44,7 +44,7 @@ Java Dialect
 		
 			-
 				If the type element has a child with the content "Class", said child must have a
-				single child with content containing an the name of a Java class.
+				single child with content containing the name of a Java class.
 			-
 		
 		Template

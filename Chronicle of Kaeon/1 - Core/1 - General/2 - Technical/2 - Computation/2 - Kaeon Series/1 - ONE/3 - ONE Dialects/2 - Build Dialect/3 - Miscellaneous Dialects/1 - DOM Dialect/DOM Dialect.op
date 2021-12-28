@@ -13,7 +13,7 @@ DOM Dialect
 			Structure
 				
 				-
-					An DOM dialect document will have exactly one XML element at the root level. It
+					A DOM dialect document will have exactly one XML element at the root level. It
 					may also optionally have one or both of a single declaration element and a
 					single document element at the root level, as well as an indefinite number of
 					use elements.

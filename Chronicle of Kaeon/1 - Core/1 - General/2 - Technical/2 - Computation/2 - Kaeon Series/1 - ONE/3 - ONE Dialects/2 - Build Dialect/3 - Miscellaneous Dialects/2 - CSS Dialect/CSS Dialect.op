@@ -46,7 +46,7 @@ CSS Dialect
 					element.
 					
 					The data element's children will each have one child. The content of each child
-					of the data element represent an attribute and the content of each of said
+					of the data element represents an attribute and the content of each of said
 					element's children represent the value assigned to the respective attribute.
 					
 					If a child of the data element has content matching the content of a child of

@@ -20,14 +20,15 @@ Muse
 					The content of the first element of a note specifies the time the note begins
 					in seconds.
 					
-					The content second element of a note the specifies the duration of the note in
-					seconds.
+					The content of the second element of a note specifies the duration of the note
+					in seconds.
 					
 					The content of all elements following the second element of a note and
-					excluding the the eighth element, the tenth element, and the twelfth of said
-					note will be a number between zero and one. The content eighth element and the
-					tenth element of given note will be a number between negative one and one. The
-					content of the twelfth element will be a number specifying a time in seconds.
+					excluding the eighth element, the tenth element, and the twelfth of said note
+					will be a number between zero and one. The content of the eighth element and
+					the tenth element of a given note will be a number between negative one and
+					one. The content of the twelfth element will be a number specifying a time in
+					seconds.
 					
 					The content of the third element of a note specifies the pitch of the note when
 					it starts. The content of the fourth element of a note specifies the volume of

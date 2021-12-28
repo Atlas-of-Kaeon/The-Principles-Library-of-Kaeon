@@ -40,9 +40,9 @@ Kaeon Recipe Format
 				"Total" will have one child with content specifying the total time it takes to
 				prepare the recipe. Each child of the element with the content "Phases" represents
 				the time a given set of steps will take to perform. Each of said children contain
-				content specifying the of a sequence of steps, and will have two children, one of
-				which with the content "Steps" and the other of which with the content "Time". The
-				element with the content "Steps" may have either one or two children with each
+				content specifying a sequence of steps, and will have two children, one of which
+				with the content "Steps" and the other of which with the content "Time". The
+				element with the content "Steps" may have either one or two children which each
 				have content that contains the number of a step. One child means the phase only
 				accounts for a single step, and two children, in which case the second number must
 				be larger than the first, means the phase spans from the step specified by the
@@ -50,7 +50,7 @@ Kaeon Recipe Format
 				content "Time" has a single child with content specifying the amount of time the
 				phase takes to complete. No children two phases specified by the children of the
 				phases element may have overlapping steps, and they must be arranged in the order
-				the occur in.
+				they occur in.
 				
 				Each child of the element with the content "Ingredients" represents an ingredient
 				in the recipe. The content of each child will be the name of the ingredient, and
@@ -62,7 +62,7 @@ Kaeon Recipe Format
 				field in the referenced recipe and a child with content specifying the value of
 				said field.
 				
-				Each child of the element with the content "Equipment" represents an piece of
+				Each child of the element with the content "Equipment" represents a piece of
 				equipment required to prepare the recipe. The content of each child will be the
 				name of the piece of equipment, and each may optionally have a child with the
 				content "Amount". The amount element will have a child with content specifying how
@@ -88,9 +88,9 @@ Kaeon Recipe Format
 				information regarding the recipe.
 
 				If the element with the content "Reference" is present, it indicates that the
-				is a variation of another recipe with parameters. It shall have one child with the
-				content "Recipe", and another child with the content "Arguments". The recipe
-				element shall have a child specifying the name or location of the referenced
+				recipe is a variation of another recipe with parameters. It shall have one child
+				with the content "Recipe", and another child with the content "Arguments". The
+				recipe element shall have a child specifying the name or location of the referenced
 				recipe. Each child of the arguments element shall have content specifying the name
 				of a given field in the referenced recipe and a child with content specifying the
 				value of said field.

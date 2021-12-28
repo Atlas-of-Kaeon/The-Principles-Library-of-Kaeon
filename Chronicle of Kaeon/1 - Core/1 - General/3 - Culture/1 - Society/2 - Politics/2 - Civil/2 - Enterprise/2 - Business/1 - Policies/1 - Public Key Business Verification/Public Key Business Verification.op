@@ -3,7 +3,7 @@ Public Key Business Verification
 	Philosophy
 
 		-
-			Public key business verification is the utilization asymmetric cryptography to
+			Public key business verification is the utilization of asymmetric cryptography to
 			authenticate the signing of business documents where each party has shared their public
 			keys with one another such that there is an online record of said exchange at all ends.
 

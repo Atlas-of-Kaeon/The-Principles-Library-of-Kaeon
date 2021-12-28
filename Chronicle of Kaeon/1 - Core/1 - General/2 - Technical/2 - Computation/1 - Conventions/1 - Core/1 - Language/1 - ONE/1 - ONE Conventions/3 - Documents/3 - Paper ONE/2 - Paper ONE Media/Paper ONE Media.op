@@ -15,7 +15,7 @@ Paper ONE Media
 				A paper ONE media reference is a document which specifies HTML content to be placed
 				above or below specific elements in a paper ONE document.
 
-				If an element has content place below it, and the element that follows it has
+				If an element has content placed below it, and the element that follows it has
 				content placed above it, the content placed below the first element shall be placed
 				above the content placed above the second element.
 			-

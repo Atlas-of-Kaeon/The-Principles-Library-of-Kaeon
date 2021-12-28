@@ -61,7 +61,7 @@ Kaeon United
 			Command Line
 
 				-
-					Running Kaeon United from the command line shall allow for the used of various
+					Running Kaeon United from the command line shall allow for the use of various
 					utilities in the terminal.
 
 					If the user is using an alternate reference router, the first argument shall be
@@ -80,7 +80,7 @@ Kaeon United
 					the dynamic use of CommonJS on the page.
 
 					A user may specify an alternate reference router for use by the Kaeon United
-					script by passing the URL of said reference router to Kaeon United it its own
+					script by passing the URL of said reference router to Kaeon United in its own
 					URL using the URL argument "Router".
 				-
 			
@@ -125,7 +125,7 @@ Kaeon United
 					-
 						A user may specify an alternate reference router for use by the Kaeon
 						United shadow host by passing the URL of said reference router to Kaeon
-						United it its own URL using the URL argument "Router".
+						United in its own URL using the URL argument "Router".
 					-
 
 				User Content
@@ -150,7 +150,7 @@ Kaeon United
 						HTML, if present, shall specify the path to an HTML file which shall be
 						rendered.
 
-						If both more than one of the aforementioned arguments are present, the
+						If more than one of the aforementioned arguments are present, the
 						JavaScript, if given, shall execute first, the Kaeon FUSION, if given,
 						shall execute next, and the HTML, if given, shall be rendered last.
 

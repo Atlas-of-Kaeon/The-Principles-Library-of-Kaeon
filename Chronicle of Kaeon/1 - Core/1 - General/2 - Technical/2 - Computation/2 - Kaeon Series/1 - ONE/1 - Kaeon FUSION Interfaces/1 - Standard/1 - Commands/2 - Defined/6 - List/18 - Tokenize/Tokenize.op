@@ -7,7 +7,7 @@ Tokenize
 			the first of which return a list.
 			
 			It will split the list into several sublists with sublists being formed from each
-			sub-sequence of the list that matches of the object returned by the children following
-			the first child and each sub-sequence that occurs between the aforementioned
-			sub-sequences. Said sub-sequences will then be returned as a list.
+			sub-sequence of the list that matches the object returned by the children following the
+			first child and each sub-sequence that occurs between the aforementioned sub-sequences.
+			Said sub-sequences will then be returned as a list.
 		-

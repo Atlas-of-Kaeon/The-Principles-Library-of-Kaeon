@@ -24,11 +24,11 @@ Standard Genetic Format
 					in the sequenced DNA. This number shall be referred to as the base order.
 					
 					For each nucleotide base present in the DNA, one chunk, called a base index
-					header shall follow the first chunk, specifying the base index of the
+					header, shall follow the first chunk, specifying the base index of the
 					respective nucleotide base. The order in which a base index header is placed
 					relative to the others, starting at zero, is referred to as its base reference.
 
-					Each of the chunks that follow the base index headers, excluding the last one
+					Each of the chunks that follow the base index headers, excluding the last one,
 					shall specify the nucleotide sequence of a given DNA component of an organism's
 					genome using a multistate binary sequence called a standard nucleotide
 					sequence.
@@ -42,7 +42,7 @@ Standard Genetic Format
 				-
 					A standard nucleotide sequence is a multistate binary sequence used to
 					represent a sequence of nucleotides in a DNA molecule. It shall have an order
-					of equivalent to the specified base order.
+					equivalent to the specified base order.
 					
 					Each number specified in the sequence shall be the base reference of the base
 					header for one of the nucleotide bases present in the sequenced DNA.
@@ -103,8 +103,8 @@ Standard Genetic Format
 					The standard genetic format has a human-readable ONE-based counterpart known as
 					the ONE genetic format, which can be abbreviated as "OGF".
 
-					A document in the ONE genetic format should may have an indefinite number of
-					elements, called sequence elements.
+					A document in the ONE genetic format may have an indefinite number of elements,
+					called sequence elements.
 
 					Sequence elements must contain the name of the nucleotide sequence they
 					represent, and may have an indefinite number of children, called nucleotide
@@ -113,6 +113,6 @@ Standard Genetic Format
 					Each nucleotide element corresponds to a given nucleotide, and they must be
 					arranged in the order that they occur in the gene they represent.
 					
-					Nucleotide elements shall contain a the base index of a base nucleotide, in
+					Nucleotide elements shall contain the base index of a base nucleotide, in
 					decimal format, which shall define the nucleotides they represent.
 				-

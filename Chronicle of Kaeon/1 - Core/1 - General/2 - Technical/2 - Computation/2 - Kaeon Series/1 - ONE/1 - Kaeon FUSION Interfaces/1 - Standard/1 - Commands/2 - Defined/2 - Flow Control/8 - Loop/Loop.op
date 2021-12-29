@@ -3,8 +3,8 @@ Loop
 	Philosophy
 		
 		-
-			The loop command contains the content "Loop". It may any combination of a child that
-			returns a boolean and a child that returns a positive integer number.
+			The loop command contains the content "Loop". It may have any combination of a child
+			that returns a boolean and a child that returns a positive integer number.
 			
 			If it has a child that returns a boolean value of false, it will not execute.
 			Otherwise, if it does not have a child that returns a number, it will jump to the first

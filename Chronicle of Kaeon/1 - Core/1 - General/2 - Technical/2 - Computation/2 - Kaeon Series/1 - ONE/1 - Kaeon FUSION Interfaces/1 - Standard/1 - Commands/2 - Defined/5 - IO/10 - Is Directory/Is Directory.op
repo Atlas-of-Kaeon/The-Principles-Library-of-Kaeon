@@ -3,7 +3,7 @@ Is Directory
 	Philosophy
 	
 		-
-			The is directory command contains the content "Is Directory". Is has one child that
+			The is directory command contains the content "Is Directory". It has one child that
 			returns a string in the form of a file path.
 			
 			It will return true if the returned file path leads to a directory and will return

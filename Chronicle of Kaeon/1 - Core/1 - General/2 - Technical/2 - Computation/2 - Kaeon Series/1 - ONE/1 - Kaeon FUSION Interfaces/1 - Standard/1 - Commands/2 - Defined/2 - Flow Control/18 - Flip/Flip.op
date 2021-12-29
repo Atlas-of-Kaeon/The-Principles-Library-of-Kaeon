@@ -3,8 +3,8 @@ Flip
 	Philosophy
 	
 		-
-			The flip command contains the content "Flip". Its first child that returns a boolean,
-			and it may optionally have a second child that also returns a boolean.
+			The flip command contains the content "Flip". Its first child returns a boolean, and it
+			may optionally have a second child that also returns a boolean.
 			
 			If the returned boolean is true, the command will reverse the order of all of the
 			elements in the scope of the root of the elements that FUSION is acting on, causing the

@@ -3,8 +3,8 @@ GHI Standard Script
 	Philosophy
 
 		-
-			A GHI standard script is a script which my be uploaded to a receptor module through the
-			GHI which may itself enable a higher level interface atop the GHI according to some
+			A GHI standard script is a script which may be uploaded to a receptor module through
+			the GHI which may itself enable a higher level interface atop the GHI according to some
 			external standard.
 		-
 

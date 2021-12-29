@@ -13,7 +13,7 @@ Kaeon ACE Babylon Interface
 
 			-
 				Being JS based, Kaeon ACE applications running on the Kaeon ACE Babylon interface
-				my run in any browser environment, and there may also be specialized shadow hosts
+				may run in any browser environment, and there may also be specialized shadow hosts
 				for such applications.
 
 				Due to restrictions on audio autoplay, the Kaeon ACE Babylon interface should show

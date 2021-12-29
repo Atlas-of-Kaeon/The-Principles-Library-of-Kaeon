@@ -207,7 +207,7 @@ Super Mode
 							
 							The token "For Range" with at the least three right hand values, the
 							first of which may have any content and the second and third of which
-							returns numbers, translates to a loop where its children, not including
+							return numbers, translates to a loop where its children, not including
 							the first three right hand values, are processed once for every number
 							between the two returned numbers, inclusive, and the miscellaneous
 							string serves as the alias for the number corresponding to the current
@@ -279,7 +279,7 @@ Super Mode
 					
 						-
 							The token "=" translates to a command that assigns the right hand value
-							to a variable with an alias match its left hand value.
+							to a variable with an alias matching its left hand value.
 							
 							The token "->" translates to a command that performs the functions
 							specified by its right hand values within the object specified by its

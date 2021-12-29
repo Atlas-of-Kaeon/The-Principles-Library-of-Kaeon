@@ -29,7 +29,7 @@ Kaeon ACE Interface Architecture
 				A Kaeon ACE interface shall store a "core" object which shall serve as a bus to
 				various parts of the interface.
 
-				It shall contain, among other things, and object representation of the component
+				It shall contain, among other things, an object representation of the component
 				entity tree described by the source document, as well as references to key
 				components of the host platform and to the Philosopher's Atlas in which the
 				interface is embedded.

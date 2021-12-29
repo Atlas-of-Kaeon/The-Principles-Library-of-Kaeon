@@ -15,7 +15,7 @@ AI Rendering
 			-
 				Prudent rendering is a process where a renderer for a pre-rendered scene determines
 				which sets of frames repeat exactly or can be derived from a single frame and thus
-				avoids rendering certain frame unnecessarily.
+				avoids rendering certain frames unnecessarily.
 			-
 
 		Prudent Playback

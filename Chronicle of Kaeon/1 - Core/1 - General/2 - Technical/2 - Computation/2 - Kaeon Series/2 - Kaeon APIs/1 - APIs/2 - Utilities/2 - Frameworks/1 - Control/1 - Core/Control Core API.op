@@ -115,6 +115,6 @@ Control Core API
 
 					It shall then pass the result of the previous step, along with the contact
 					field of the JSON object and the callback function, if present, to the send
-					call function, and shall then result the value returned by the send call
+					call function, and shall then return the value returned by the send call
 					function.
 				-

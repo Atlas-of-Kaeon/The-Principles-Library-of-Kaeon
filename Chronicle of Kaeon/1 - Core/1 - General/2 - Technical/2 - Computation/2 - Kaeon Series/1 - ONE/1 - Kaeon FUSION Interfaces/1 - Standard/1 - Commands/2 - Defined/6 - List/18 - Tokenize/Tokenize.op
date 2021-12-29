@@ -4,7 +4,7 @@ Tokenize
 	
 		-
 			The tokenize command contains the content "Tokenize". It will have at least one child,
-			the first of which return a list.
+			the first of which returns a list.
 			
 			It will split the list into several sublists with sublists being formed from each
 			sub-sequence of the list that matches the object returned by the children following the

@@ -81,7 +81,7 @@ Cross Dialect
 					
 						-
 							If a meta element has a child with the content "Function", said child
-							may have use one of the following three ways to declare the type of
+							may use one of the following three ways to declare the type of
 							functions declared within the meta command's scope.
 							
 							The function element may have a child with the content "Type". The

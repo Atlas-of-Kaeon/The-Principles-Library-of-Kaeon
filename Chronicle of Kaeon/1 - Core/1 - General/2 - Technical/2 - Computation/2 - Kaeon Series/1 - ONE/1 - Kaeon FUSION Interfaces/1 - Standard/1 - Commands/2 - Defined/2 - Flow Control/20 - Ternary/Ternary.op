@@ -4,7 +4,7 @@ Ternary
 	
 		-
 			The ternary command contains the content "Ternary". It may have either two or three
-			children, the first of which returns a boolean and the second, and third of which if
+			children, the first of which returns a boolean and the second, and third of which, if
 			present, may return any value.
 			
 			If the boolean value returned by its first child is true, it will return the value

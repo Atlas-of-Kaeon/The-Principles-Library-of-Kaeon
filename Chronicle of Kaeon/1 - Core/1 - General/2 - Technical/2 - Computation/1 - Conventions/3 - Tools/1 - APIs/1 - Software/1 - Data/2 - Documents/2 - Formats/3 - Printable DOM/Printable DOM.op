@@ -38,7 +38,7 @@ Printable DOM
 			Encoding
 
 				-
-					The standard method of encoding a PDOM document in as a JSON document, where a
+					The standard method of encoding a PDOM document is as a JSON document, where a
 					JSON list serves as the container of the document, and where each page object
 					within it is represented as a JSON object.
 

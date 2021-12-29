@@ -48,9 +48,9 @@ Kaeon Recipe Format
 				be larger than the first, means the phase spans from the step specified by the
 				first number to the step specified by the second number. The element with the
 				content "Time" has a single child with content specifying the amount of time the
-				phase takes to complete. No children two phases specified by the children of the
-				phases element may have overlapping steps, and they must be arranged in the order
-				they occur in.
+				phase takes to complete. No two phases specified by the children of the phases
+				element may have overlapping steps, and they must be arranged in the order they
+				occur in.
 				
 				Each child of the element with the content "Ingredients" represents an ingredient
 				in the recipe. The content of each child will be the name of the ingredient, and

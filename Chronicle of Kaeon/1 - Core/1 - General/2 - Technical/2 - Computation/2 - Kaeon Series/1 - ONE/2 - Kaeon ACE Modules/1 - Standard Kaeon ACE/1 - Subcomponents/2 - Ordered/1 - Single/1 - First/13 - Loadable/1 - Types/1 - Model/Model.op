@@ -3,8 +3,8 @@ Model
 	Philosophy
 		
 		-
-			A model is a type of loadable element that represents a pre-defined set of meshes,
-			rigs, or colliders.
+			A model is a type of loadable element that represents a predefined set of meshes, rigs,
+			and colliders.
 
 			The type child of the loadable element must have a child with the content "Model".
 		-

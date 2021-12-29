@@ -3,8 +3,8 @@ Break
 	Philosophy
 		
 		-
-			The break command contains the content "Break". It may any combination of a child that
-			returns a boolean and a child that returns a positive integer number.
+			The break command contains the content "Break". It may have any combination of a child
+			that returns a boolean and a child that returns a positive integer number.
 			
 			If it has a child that returns a boolean value of false, it will not execute.
 			Otherwise, it will prevent its siblings from executing, and if it has a child that

@@ -17,7 +17,7 @@ Hardware Assembly Format
 
 			-
 				The Principles section of a hardware assembly document may have any combination of
-				the following elements: an element with the content "Hardware", and element with
+				the following elements: an element with the content "Hardware", and an element with
 				the content "Software", and an element with the content "Notes".
 			-
 

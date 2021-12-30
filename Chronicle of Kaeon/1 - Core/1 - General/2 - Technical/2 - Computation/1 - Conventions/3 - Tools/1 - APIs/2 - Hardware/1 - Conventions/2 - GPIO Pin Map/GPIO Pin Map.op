@@ -57,7 +57,7 @@ GPIO Pin Map
 				pin to on said device, where the index of the bit corresponds to the pin it maps to
 				according to said device's input pin map.
 
-				Whenever such a device receives such a signal, it shall be send back a binary
+				Whenever such a device receives such a signal, it shall be sent back a binary
 				sequence where each bit corresponds to the current value of a pin on said device,
 				where the index of the bit corresponds to the pin it maps to according to said
 				device's output pin map.

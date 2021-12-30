@@ -44,7 +44,7 @@ Universal Hardware API Conventions
 			HTTPS
 
 				-
-					For security purposes, universal hardware API servers should run use HTTPS.
+					For security purposes, universal hardware API servers should use HTTPS.
 				-
 
 		Options

@@ -23,7 +23,7 @@ Universal IoT Module
 
 				-
 					When a UIM's Wi-Fi is not in use, said UIM shall function as a hotspot, and
-					shall run a server to which GHI calls may be directed.
+					shall run a server to which JSH and GHI calls may be directed.
 				-
 
 		Configurations

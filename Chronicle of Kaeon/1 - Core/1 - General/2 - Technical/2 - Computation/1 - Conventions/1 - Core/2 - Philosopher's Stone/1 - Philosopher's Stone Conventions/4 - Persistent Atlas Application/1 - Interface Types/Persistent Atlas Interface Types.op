@@ -1,0 +1,34 @@
+Persistent Atlas Interface Types
+
+	Philosophy
+
+		-
+			This document lists certain groups to which persistent atlas interfaces may belong.
+		-
+
+	Principles
+
+		Serializer
+
+			-
+				A persistent serializer interface is a persistent atlas interface that returns, in
+				string form, data describing some or all of the details regarding the current state
+				of the persistent atlas into which it is integrated.
+			-
+
+		Deserializer
+
+			-
+				A persistent deserializer interface is a persistent atlas interface that takes, in
+				string form, data describing some or all of details regarding the current state of
+				a given persistent atlas, which it may incorporate into the persistent atlas into
+				which it is integrated.
+			-
+
+		Client
+
+			-
+				A persistent client interface is a persistent atlas interface which returns either
+				source data or locations of client applications through which end users may
+				interact with the philosopher's atlas into which it is integrated.
+			-

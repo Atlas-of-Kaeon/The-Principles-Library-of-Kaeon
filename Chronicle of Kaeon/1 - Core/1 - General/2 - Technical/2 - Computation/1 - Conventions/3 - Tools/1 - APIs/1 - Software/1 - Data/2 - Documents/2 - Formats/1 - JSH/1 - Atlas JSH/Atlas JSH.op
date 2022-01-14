@@ -1,0 +1,10 @@
+Atlas JSH
+
+	Philosophy
+
+		-
+			Atlas JSH is a convention that enables the use of JSH to facilitate communication with
+			a persistent atlas through a JSH module, where the name of said module is "atlas",
+			where said module's request schema is a string, and where said module's JSH module
+			response schema is the list of the values returned as a result of the request.
+		-

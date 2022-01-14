@@ -37,6 +37,9 @@ JSH
 						applications on targeted systems alongside explicit commands via JSH.
 
 						Each JSH module shall have a name, a request schema, and a response schema.
+
+						A JSH application may run in restricted mode, in which command line
+						instructions are prohibited, and only JSH modules are permitted.
 					-
 
 				Processes

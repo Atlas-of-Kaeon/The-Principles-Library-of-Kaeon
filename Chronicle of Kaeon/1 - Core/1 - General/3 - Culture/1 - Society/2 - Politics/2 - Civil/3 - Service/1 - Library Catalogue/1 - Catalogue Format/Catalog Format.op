@@ -1,0 +1,49 @@
+Catalogue Format
+
+	Philosophy
+
+		-
+			The catalogue format is a Kaeon document format for specifying collection catalogues.
+		-
+
+	Principles
+
+		Format
+
+			-
+				The content of the title element of the document shall specify the name of the
+				collection.
+				
+				A section element shall define a section of the collection or of another section.
+				Its content shall define the name of said section, and its index shall define the
+				order that said section is to be arranged in relative to those defined by its
+				siblings.
+
+				A section element may have a child with the content "Sections", which may have
+				as children an indefinite number of section elements, representing subsections of
+				the section to which said section element corresponds.
+
+				A section element may have a child with the content "Assets", which may have as
+				children an indefinite number of asset elements, representing assets within the
+				section to which said section element corresponds.
+
+				The principles element shall act as a section element, representing the root
+				section of the collection.
+				
+				An asset element shall define an asset within a section of the collection.
+				Its content shall define the name of said asset, and its index shall define the
+				order that said asset is to be arranged in relative to those defined by its
+				siblings.
+
+				An asset element may have a child with the content "Formats", which shall have a
+				child for each format that the asset to which said asset element corresponds is to
+				be available in, where said format is defined by said child's content.
+
+				An asset element may have a child with the content "Versions", which shall have a
+				child for each version of the asset to which said asset element corresponds that is
+				to be available, where said version is defined by said child's content.
+
+				An asset element may have a child with the content "Info", which shall have a
+				single child containing content specifying any additional information about the
+				asset to which said asset element corresponds.
+			-

@@ -70,10 +70,11 @@ Paper ONE Markup
 					A paper ONE cover page is a page that may be used for the cover of a paper ONE
 					document rendered as a paginated document.
 
-					The standard paper ONE cover page consists of an image in the center of the
+					The standard paper ONE cover page consists of an image at the top of the
 					page, occupying the maximum possible width within said page's margins, followed
-					by a 32px blank line, followed by a line containing the title of the document
-					in black 32px Georgia font.
+					by a line at the bottom of the page containing the title of the document,
+					rendered in all capitals, in black, bold Georgia font, at the largest possible
+					size such that the text of said title does not wrap.
 
 					The standard image for such pages is the Angaian Crest.
 				-
@@ -84,4 +85,14 @@ Paper ONE Markup
 					Pages of paper ONE documents that are rendered as paginated documents, save for
 					the paper ONE cover page, if present, should have their pages numbers written
 					in the bottom left corner.
+
+					The standard font for said page numbers is 9pt Georgia.
+				-
+
+			Dimensions
+
+				-
+					Pages of paper ONE documents that are rendered as paginated documents should
+					have one inch margins on all sides and a width to height ratio of seventeen to
+					twenty-two.
 				-

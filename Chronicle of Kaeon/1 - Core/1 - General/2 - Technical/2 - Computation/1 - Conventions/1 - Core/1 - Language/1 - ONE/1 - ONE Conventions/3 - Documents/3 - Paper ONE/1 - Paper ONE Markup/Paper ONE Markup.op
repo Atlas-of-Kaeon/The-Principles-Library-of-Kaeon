@@ -74,7 +74,8 @@ Paper ONE Markup
 					page, occupying the maximum possible width within said page's margins, followed
 					by a line at the bottom of the page containing the title of the document,
 					rendered in all capitals, in black, bold Georgia font, at the largest possible
-					size such that the text of said title does not wrap.
+					size such that the text of said title does not wrap and is not forced onto the
+					next page by the preceding image.
 
 					The standard image for such pages is the Angaian Crest.
 				-

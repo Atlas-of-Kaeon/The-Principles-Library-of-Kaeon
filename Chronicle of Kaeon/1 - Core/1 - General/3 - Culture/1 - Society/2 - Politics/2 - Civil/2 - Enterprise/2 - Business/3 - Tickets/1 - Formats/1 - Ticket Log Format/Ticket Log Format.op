@@ -12,20 +12,24 @@ Ticket Log Format
 		Ticket Properties
 
 			-
-				A ticket shall have a unique numerical ID, a text description, and a status, being
-				open, meaning that no one is working on it, revoked, meaning that it has been
-				deemed unnecessary, active, meaning that someone is working on it, submitted,
+				A ticket shall have a unique numerical ID, a text description, and a status, which
+				may be open, meaning that no one is working on it, revoked, meaning that it has
+				been deemed unnecessary, active, meaning that someone is working on it, submitted,
 				meaning that whoever was working on it has submitted it for approval, and complete,
 				meaning that it has been successfully completed.
 
 				By default, the status of all tickets is set to open.
 
+				Tickets may be assigned an indefinite number of string tags, indicating which
+				groups they belong to.
+
 				A ticket may also be assigned a numerical class based on its perceived difficulty,
 				from one to any arbitrarily high number, where higher numbers represent higher
 				difficulty.
 
-				An approved ticket may be assigned a numerical grade on a scale from zero to one.
-				If no grade is specified, the grade shall be assumed to be one.
+				A complete ticket may be assigned a numerical grade on a scale from zero to one,
+				corresponding to the quality of the job done, where the higher the number is, the
+				better the job. If no grade is specified, the grade shall be assumed to be one.
 
 				Any time a ticket is created or its status is changed, the event shall be digitally
 				signed using public key business verification, and any change to the status of a
@@ -47,11 +51,13 @@ Ticket Log Format
 				such elements. Said elements shall have a child with the content "Description", and
 				a child with the content "Status Log". If the ticket to which the element
 				corresponds has been assigned a class, then the element shall also have a child
-				with the content "Class".
+				with the content "Class", and if the ticket has been assigned tags, then the
+				element shall also have a child with the content "Tags".
 
 				The description element shall have a child containing a description of the ticket,
-				and the class element, if present, shall have a child containing the class of the
-				ticket.
+				the class element, if present, shall have a child containing the class of the
+				ticket, and the tags element, if present, shall have a child for each tag assigned,
+				which shall contain the tags to which they correspond as their content.
 
 				The status log element shall have a child for every time the status of the ticket
 				has been modified.
@@ -77,4 +83,14 @@ Ticket Log Format
 				The standard business signature agreement shall include the new status, the date,
 				and the time, of the ticket's status change, as well as any comments and the score
 				if applicable.
+			-
+
+		Reduced Ticket Log Format
+
+			-
+				The reduced ticket log format does not require a signature for the status of a
+				ticket to be changed, and as such, ticket elements in the reduced ticket log format
+				are not required to have the status log element in their scope.
+
+				Revoked tickets may be omitted from reduced ticket log documents.
 			-

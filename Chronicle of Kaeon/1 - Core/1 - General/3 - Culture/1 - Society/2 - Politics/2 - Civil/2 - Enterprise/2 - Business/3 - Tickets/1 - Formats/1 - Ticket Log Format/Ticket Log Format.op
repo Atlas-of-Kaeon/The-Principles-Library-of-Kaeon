@@ -40,7 +40,8 @@ Ticket Log Format
 				for the project.
 
 				The content of each of said elements shall be a numerical ID unique from all other
-				such elements. Said elements shall have a child with the content "Description".
+				such elements. Said elements shall have a child with the content "Description", and
+				a child with the content "Status"
 				
 				If the ticket to which the element corresponds has been assigned a class, then the
 				element shall also have a child with the content "Class".
@@ -54,7 +55,8 @@ Ticket Log Format
 				If the ticket has been assigned a due date and time, then the element shall have a
 				child with the content "Due".
 
-				The description element shall have a child containing a description of the ticket.
+				The description element shall have a child containing a description of the ticket,
+				and the status element shall have a child containing the status of the ticket.
 
 				The class element, if present, shall have a child containing the class of the
 				ticket.
@@ -70,14 +72,20 @@ Ticket Log Format
 				at which the ticket is due as its content.
 			-
 
-		Maintenance
+		Ticket Log Library
+
+			-
+				A ticket log library is an organized collection of ticket log documents.
+			-
+
+		Maintenance Protocol
 
 			-
 				All changes to a ticket log document over time should be recorded in such a way
 				that whoever made each modification and the comments the modifiers gave regarding
 				the changes shall be recorded along with the changes themselves.
 
-				By default, only the project owners, or the contractees if the project is under a
-				contract, shall have the authority to create tickets, to determine their class, and
-				to approve or revoke them, though they may transfer this authority to others.
+				Only the project owners, or the contractees if the project is under a contract,
+				should have the authority to create tickets, to determine their class, and to
+				approve or revoke them, though they may transfer this authority to others.
 			-

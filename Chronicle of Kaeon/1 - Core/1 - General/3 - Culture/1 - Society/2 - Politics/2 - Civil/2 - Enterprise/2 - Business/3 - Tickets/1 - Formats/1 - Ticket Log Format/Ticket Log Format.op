@@ -22,8 +22,8 @@ Ticket Log Format
 				By default, the status of all tickets is set to open.
 
 				Tickets may be assigned a due date and time, an indefinite number of prerequisite
-				tickets which must be completed before itself, and an indefinite number of string
-				tags, indicating which groups they belong to.
+				tickets which must be completed before itself, an indefinite number of string tags,
+				indicating which groups they belong to, and an indefinite number of notes.
 
 				A ticket may also be assigned a numerical class based on its perceived difficulty,
 				from one to any arbitrarily high number, where higher numbers represent higher
@@ -46,11 +46,14 @@ Ticket Log Format
 				If the ticket to which the element corresponds has been assigned a class, then the
 				element shall also have a child with the content "Class".
 
+				If the ticket has been assigned prerequisites, then the element shall have a child
+				with the content "Prerequisites".
+
 				If the ticket has been assigned tags, then the element shall have a child with the
 				content "Tags".
 
-				If the ticket has been assigned prerequisites, then the element shall have a child
-				with the content "Prerequisites".
+				If the ticket has been assigned notes, then the element shall have a child with the
+				content "Notes".
 
 				If the ticket has been assigned a due date and time, then the element shall have a
 				child with the content "Due".
@@ -61,12 +64,15 @@ Ticket Log Format
 				The class element, if present, shall have a child containing the class of the
 				ticket.
 				
-				The tags element, if present, shall have a child for each tag assigned, which shall
-				contain the tags to which they correspond as their content.
-				
 				The prerequisites element, if present, shall have a child for each prerequisite
 				assigned, which shall contain the numerical IDs of the tickets to which they
 				correspond as their content.
+				
+				The tags element, if present, shall have a child for each tag assigned, which shall
+				contain the tags to which they correspond as their content.
+				
+				The notes element, if present, shall have a child for each note assigned, which
+				shall contain the notes to which they correspond as their content.
 
 				The due element, if present, shall have a single child containing the date and time
 				at which the ticket is due as its content.

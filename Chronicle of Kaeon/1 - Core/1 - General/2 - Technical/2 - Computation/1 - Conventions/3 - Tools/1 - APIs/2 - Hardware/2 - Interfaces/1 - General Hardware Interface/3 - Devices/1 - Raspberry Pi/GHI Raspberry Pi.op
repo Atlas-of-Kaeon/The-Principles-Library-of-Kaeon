@@ -52,3 +52,11 @@ GHI Raspberry Pi
 				17: 27
 				18: 28
 				19: 29
+
+		Notes
+
+			-
+				A Raspberry Pi must have its Wi-Fi access point disabled in order for calls to its
+				Wi-Fi module to function, unless it is integrated into a setup with more than one
+				Wi-Fi channel.
+			-

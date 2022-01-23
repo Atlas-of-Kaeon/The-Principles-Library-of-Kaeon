@@ -23,16 +23,22 @@ GHI Receptor
 				Access
 
 					-
-						The access object is a JSON object, which may contain fields with the
-						aliases "SSID", "Password", "IP", and "Port", respectively specifying the
-						SSID and password of the receptor module's Wi-Fi access point, as well as
-						the IP address and port of an HTTP server to which JSH or GHI POST calls
-						may be sent.
+						The access object is a JSON object, which may contain the fields "ssid",
+						which, if present, shall contain a string, "password", which, if present,
+						may either contain a string or a null value, "ip", which, if present, shall
+						contain a string, and "port", which if present, shall contain a number.
+						
+						Each of the aforementioned fields shall respectively specify the SSID and
+						password of the receptor module's Wi-Fi access point, as well as the IP
+						address and port of an HTTP server to which JSH or GHI POST calls may be
+						sent. If the password field contains a null value, the access point shall
+						have no password.
 
 						The access object may also be set to null, indicating that the receptor
-						module's Wi-Fi access point is disabled. Some devices may require the Wi-Fi
-						access point to be disabled in order for other Wi-Fi based features to
-						function.
+						module's Wi-Fi access point is disabled.
+						
+						Some devices may require the Wi-Fi access point to be disabled in order for
+						other Wi-Fi based features to function.
 					-
 
 				Metadata
@@ -138,26 +144,6 @@ GHI Receptor
 			Input
 
 				-
-					The branch data input format for a receptor module shall be a JSON object,
-					which shall have the fields "access", "metadata", "script", "scriptInterval",
-					"scriptLanguage", and "statePreservation".
-
-					The access field shall contain either a null value, or a JSON object. If it
-					contains an object, said object may have any of the aforementioned fields,
-					except for the password field. This field shall specify the properties of the
-					Wi-Fi access point according to the aforementioned details.
-
-					The metadata field shall contain a value, specifying the contents of the
-					metadata value.
-
-					The script field shall contain a string, specifying the code of the script.
-
-					The scriptLanguage field shall contain a string, specifying the language of the
-					script.
-
-					The scriptInterval field shall contain a number, specifying the time of the
-					script interval in seconds.
-
-					The statePreservation field shall contain a boolean specifying the status of
-					the state preservation flag.
+					As the receptor module itself collects no data, the branch data input format
+					for receptor modules shall be a null value.
 				-

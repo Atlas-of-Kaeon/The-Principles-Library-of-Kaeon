@@ -1,0 +1,28 @@
+Alternate Kaeon Document Forms
+
+	Philosophy
+
+		-
+			This document lists alternate forms of ONE documents that may be used to encode the
+			content of what would otherwise be a Kaeon document.
+		-
+
+	Principles
+
+		Masked Kaeon Documents
+
+			-
+				A masked Kaeon document uses alternate terms for the philosophy and principles
+				sections.
+
+				The default alternate term for philosophy is "Abstract", and the default term for
+				principles is "Contents".
+			-
+
+		Reduced Kaeon Documents
+
+			-
+				A reduced Kaeon document has the philosophy and principles sections of a Kaeon
+				document removed, and has the children of the principles section as the children
+				of the title element instead.
+			-

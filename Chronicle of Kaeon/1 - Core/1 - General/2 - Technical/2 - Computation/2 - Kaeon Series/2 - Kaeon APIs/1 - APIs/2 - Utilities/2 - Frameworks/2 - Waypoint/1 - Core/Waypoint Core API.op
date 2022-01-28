@@ -5,3 +5,78 @@ Waypoint Core API
 		-
 			The waypoint core API is a Kaeon API that provides functionality for state management.
 		-
+
+	Principles
+
+		Conventions
+
+			State
+
+				-
+					The state object is a global JSON object that stores the state of the
+					application.
+				-
+
+			Subscriptions
+
+				-
+					A subscription is a function that activates whenever a certain variable within
+					the state changes.
+
+					It takes both the previous and current values of the variable that was modified
+					as arguments.
+				-
+
+		Module
+
+			Functions
+
+				Create
+
+					-
+						The create function takes a JSON path array as an argument and returns a
+						string alias for the value of the state specified by said path for a
+						property that does not yet exist within said value.
+					-
+
+				Get
+
+					-
+						The create function takes a JSON path array as an argument and returns the
+						value within the state at the location specified by said path. If no value
+						exists at said location, it shall be created.
+					-
+
+				Set
+
+					-
+						The set function takes a JSON path array as its first argument and a value
+						as its second argument, and sets the state to have the specified value at
+						the location specified by said path. If the specified location does not
+						exist, it will be created.
+					-
+
+				Subscribe
+
+					-
+						The subscribe function takes a JSON path array as its first argument and a
+						function as its second argument.
+
+						Following the execution of the subscribe function, whenever the value
+						within the state at the location specified by said path, or any child of
+						said value, is modified by the set function, the function passed to the
+						subscribe function shall execute with the previous state of said value as 
+						its first argument, and the new state of said value as its second argument.
+
+						The subscribe function shall return a number identifying the function
+						passed to it.
+					-
+
+				Unsubscribe
+
+					-
+						The Unsubscribe function shall take a number identifying a function
+						previously passed to the subscribe function as the subscribe function
+						returned it, and shall undo the effect of the subscribe function created
+						when said number was generated.
+					-

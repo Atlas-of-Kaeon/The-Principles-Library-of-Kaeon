@@ -15,3 +15,11 @@ JSON Path
 
 			If the array has a length of zero, the path shall evaluate to the root object.
 		-
+
+	Principles
+
+		JSON Path Array
+
+			-
+				A JSON path array is a JSON array used to specify a JSON path.
+			-

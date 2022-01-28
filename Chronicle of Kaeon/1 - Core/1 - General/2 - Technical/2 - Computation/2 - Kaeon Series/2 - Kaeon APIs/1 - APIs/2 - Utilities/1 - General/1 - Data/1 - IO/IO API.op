@@ -9,33 +9,36 @@ IO API
 
 	Principles
 
-		Functions
+		Module
 
-			Open
+			Functions
 
-				-
-					The open function takes a string specifying either a file path or URL and
-					returns the string content from said location.
-				-
+				Get Input
 
-			Save
+					-
+						The get input function takes a string specifying a user prompt, opens a
+						user prompt displaying said string, and then returns whatever text the user
+						enters.
+					-
 
-				-
-					The save function takes a string specifying the content of a file as its first
-					argument and a string specifying a file path as its second argument, and writes
-					the content to a new file at said path.
-				-
+				Open
 
-			Get Input
+					-
+						The open function takes a string specifying either a file path or URL and
+						returns the string content from said location.
+					-
 
-				-
-					The get input function takes a string specifying a user prompt, opens a user
-					prompt displaying said string, and then returns whatever text the user enters.
-				-
+				Run
 
-			Run
+					-
+						The run function takes a string specifying a command line operation, and
+						executes said command.
+					-
 
-				-
-					The run function takes a string specifying a command line operation, and
-					executes said command.
-				-
+				Save
+
+					-
+						The save function takes a string specifying the content of a file as its
+						first argument and a string specifying a file path as its second argument,
+						and writes the content to a new file at said path.
+					-

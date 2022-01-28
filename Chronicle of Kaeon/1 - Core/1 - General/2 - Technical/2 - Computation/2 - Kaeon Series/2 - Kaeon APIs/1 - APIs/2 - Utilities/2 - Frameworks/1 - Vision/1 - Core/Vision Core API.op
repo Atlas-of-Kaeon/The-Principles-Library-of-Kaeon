@@ -1,0 +1,225 @@
+Vision Core API
+
+	Philosophy
+
+		-
+			The vision core API is a Kaeon API that provides functionality for HTML DOM management.
+		-
+	
+	Principles
+
+		Conventions
+
+			Script Engine
+
+				-
+					The script engine is a background process which may be started and stopped as
+					needed through the vision core API.
+
+					When active, it runs a script every time a fixed interval passes which performs
+					certain operations on every element on the page.
+					
+					First, if an element has not been operated on before by the script engine and
+					has an "On Start" function, said function shall be executed. Then, if an
+					element has an "On Update" function, said function shall be executed.
+
+					Furthermore, a series of selector rules, each consisting of a rule for
+					selecting elements on a given page, as well as a series of properties to assign
+					to elements matching said criteria.
+
+					When the script engine operates on an element that it has not operated on
+					before, it will find all of the specified selector rules that match said
+					element, and apply the properties specified by said rules to said element.
+
+					The default interval for the script engine is one sixtieth of a second.
+				-
+
+			Value Types
+
+				Element Selector Value
+
+					-
+						An element value is any value that may be used to define an existing DOM
+						element or a group of existing DOM elements.
+
+						The two types of elements that may be used to do this are DOM element
+						objects, and strings containing the CSS selector of a set of elements,
+						where if said strings are taken to specify single elements rather than
+						groups, the desired elements shall be the first among said sets in the
+						hierarchy of the DOM.
+					-
+
+				Element Specification Value
+
+					-
+						An element specification value is any value that may be used to define an
+						element using the vision core API.
+
+						The two types of elements that may be used to do this are DOM JSON objects,
+						and strings containing the outer HTML of a single element. A null value may
+						also be used to define a div with no attributes or child nodes.
+					-
+
+				Element Value
+
+					-
+						An element value is any value that is either an element selector value or
+						an element specification value.
+					-
+
+				Element Group Value
+
+					-
+						An element group value is an array of element values.
+					-
+
+				Variable Element Value
+
+					-
+						A variable element value may either be an element value or an element group
+						value.
+					-
+
+		Module
+
+			Variables
+
+				Selector Rules
+
+					-
+						The selector rules variable is an object, where the alias of each field is
+						a CSS selector, and the value of each field is an DOM JSON object
+						specifying the properties to be assigned to any element matching said
+						selector.
+					-
+
+			Functions
+
+				Create
+
+					-
+						The create function takes an element specification value and returns an
+						element object with the properties defined by said element specification
+						value.
+					-
+
+				Extend
+
+					-
+						The extend function may take an indefinite number of arguments, but must
+						take at least one. From said arguments, one root value and an indefinite
+						number of child values shall be derived.
+
+						If the function receives only one argument, said argument must be a
+						variable element value, which shall define the child values, and the root
+						value shall thus be defined as the root element of the document.
+
+						If the function receives multiple arguments, the first argument must be an
+						element selector value, and every subsequent argument must be a variable
+						element value. The first argument shall define the root value, and the
+						child values shall be the contents of all other arguments concatenated
+						together in the order they are defined.
+
+						The function shall append the child values to the root value in order, and
+						shall return the root value.
+					-
+
+				Get
+
+					-
+						The get function shall take one argument, which may either be a CSS
+						selector string, or a DOM element object.
+
+						If said argument is a CSS selector string, the function shall return all
+						elements in the DOM matching the selector that said string contains.
+
+						If said argument is a DOM element object, an DOM JSON object shall be
+						generated which matches the properties of said object, and shall then be
+						returned.
+					-
+
+				Load
+
+					-
+						The load function shall take an indefinite number of strings or string
+						arrays, concatenate them together in order, producing the load array.
+
+						Every string in the load array shall specify the URL of either a CSS
+						stylesheet or a JavaScript script.
+
+						The function shall load all of the stylesheets and scripts pointed to by
+						the load array into the page.
+					-
+
+				Is Visible
+
+					-
+						The is visible function takes a DOM element object.
+						
+						It returns true if said element is visible on the page, and returns false
+						if not.
+					-
+
+				Remove
+
+					-
+						The remove function takes an indefinite number of variable element selector
+						values, and concatenates them together to produce the removal array.
+
+						The function shall remove every element listed in the removal array from
+						the page.
+					-
+
+				Set
+
+					-
+						The set function shall take an element selector value as its first
+						argument, and an element specification value as its second.
+
+						It shall assign to the element selected by the first argument all of the
+						properties belonging to the element specified by the second argument.
+					-
+
+				Start Script Engine
+
+					-
+						The start script function starts the script engine background process if it
+						has not already been started.
+					-
+
+				Stop Script Engine
+
+					-
+						The stop script function stops the script engine background process if it
+						has already been started.
+					-
+
+				To CSS
+
+					-
+						The to CSS function shall take a style JSON object as an argument, and
+						shall return a CSS string matching the properties of said object.
+					-
+
+				To Element
+
+					-
+						The to element function shall take an HTML string containing the outer HTML
+						of a single element, and shall return an DOM JSON object matching the
+						properties of said element.
+					-
+
+				To HTML
+
+					-
+						The to HTML function shall take a DOM JSON object as an argument, and shall
+						return a string containing the outer HTML of an element matching the
+						properties of said object.
+					-
+
+				To Style
+
+					-
+						The to style function shall take a CSS string as an argument, and shall
+						return a style JSON object matching the properties of said string.
+					-

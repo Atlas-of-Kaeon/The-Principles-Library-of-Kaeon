@@ -68,53 +68,57 @@ Control Core API
 					service definition.
 				-
 
-		Functions
+		Module
 
-			Get Message
+			Functions
 
-				-
-					The get message function shall take a list of control core commands, and may
-					also take a string naming the type of a given target device, as well as the
-					current state of a given target device in the receptor input format.
+				Get Message
 
-					It shall return a JSON object in the receptor output format, which may be used
-					as the content of a GHI call corresponding to the given control core commands.
-				-
+					-
+						The get message function shall take a list of control core commands, and
+						may also take a string naming the type of a given target device, as well as
+						the current state of a given target device in the receptor input format.
 
-			Send Call
+						It shall return a JSON object in the receptor output format, which may be
+						used as the content of a GHI call corresponding to the given control core
+						commands.
+					-
 
-				-
-					The send call function shall take a control core service object and a string,
-					and may also take a callback function.
+				Send Call
 
-					It shall send the content of the string to a target device through an API as
-					specified by the control core service object, and if a callback function was
-					provided, shall attempt to retrieve the most recent state of the target device
-					as shall pass said state to the callback function in the receptor input format
-					if successful.
+					-
+						The send call function shall take a control core service object and a
+						string, and may also take a callback function.
 
-					It may also return any object immediately returned by the API call, and shall
-					return a null value if no such value is generated.
-				-
+						It shall send the content of the string to a target device through an API
+						as specified by the control core service object, and if a callback function
+						was provided, shall attempt to retrieve the most recent state of the target
+						device as shall pass said state to the callback function in the receptor
+						input format if successful.
 
-			Call
+						It may also return any object immediately returned by the API call, and
+						shall return a null value if no such value is generated.
+					-
 
-				-
-					The call function shall take a JSON object and a list of control core commands,
-					and may also take a callback function.
+				Call
 
-					The JSON object shall have a field with the alias "contact", containing a
-					control core service object, and may also have a field with the alias "state",
-					containing the state of a target device in the receptor input format, as well
-					as a field with the alias "device", containing a string specifying the type of
-					device to which a given GHI call is to be directed.
+					-
+						The call function shall take a JSON object and a list of control core
+						commands, and may also take a callback function.
 
-					The function shall generate a JSON object in the receptor output format by
-					passing the command list, the device field of the JSON object, if present, and
-					the state field of the JSON object, if present, to the get message function.
+						The JSON object shall have a field with the alias "contact", containing a
+						control core service object, and may also have a field with the alias
+						"state", containing the state of a target device in the receptor input
+						format, as well as a field with the alias "device", containing a string
+						specifying the type of device to which a given GHI call is to be directed.
 
-					It shall then pass the result of the previous step, along with the contact
-					field of the JSON object and the callback function, if present, to the send
-					call function, and shall then return the value returned by the send call
-					function.
-				-
+						The function shall generate a JSON object in the receptor output format by
+						passing the command list, the device field of the JSON object, if present,
+						and the state field of the JSON object, if present, to the get message
+						function.
+
+						It shall then pass the result of the previous step, along with the contact
+						field of the JSON object and the callback function, if present, to the send
+						call function, and shall then return the value returned by the send call
+						function.
+					-

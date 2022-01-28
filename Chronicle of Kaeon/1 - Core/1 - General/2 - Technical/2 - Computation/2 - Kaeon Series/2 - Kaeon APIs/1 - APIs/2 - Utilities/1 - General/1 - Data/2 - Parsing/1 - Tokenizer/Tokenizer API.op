@@ -9,11 +9,15 @@ Tokenizer API
 
 	Principles
 
-		Tokenize
+		Module
 
-			-
-				The tokenize function takes a string as its first argument and a list of strings
-				representing tokens as its second argument, tokenizes the first string based on the
-				specified tokens, in order of the longest tokens to the shortest, and returns the
-				tokenized string as a list of strings.
-			-
+			Functions
+
+				Tokenize
+
+					-
+						The tokenize function takes a string as its first argument and a list of
+						strings representing tokens as its second argument, tokenizes the first
+						string based on the specified tokens, in order of the longest tokens to the
+						shortest, and returns the tokenized string as a list of strings.
+					-

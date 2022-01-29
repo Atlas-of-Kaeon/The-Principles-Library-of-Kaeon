@@ -1,0 +1,15 @@
+Kaeon Citation
+
+	Philosophy
+
+		-
+			A Kaeon citation is the use of a universal preprocessor comment directive, with the
+			directive language declared using a null sequence, placed into written text, and with
+			the directive content specifying a citation to a resource.
+
+			The directive content shall consist of a ONE element written in ONE+. Said element
+			shall have the content "Citation". Said element shall have a child specifying the name
+			of a resource. If said resource is the document making the citation, said child's
+			content shall be a null sequence. Said child may itself have a child containing the
+			location of the cited information within the resource.
+		-

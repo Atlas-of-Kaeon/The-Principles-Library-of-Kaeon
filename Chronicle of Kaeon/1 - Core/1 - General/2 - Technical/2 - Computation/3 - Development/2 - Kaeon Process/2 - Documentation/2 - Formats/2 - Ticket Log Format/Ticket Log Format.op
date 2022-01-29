@@ -32,6 +32,7 @@ Ticket Log Format
 				A complete ticket may be assigned a numerical grade on a scale from zero to one,
 				corresponding to the quality of the job done, where the higher the number is, the
 				better the job. If no grade is specified, the grade shall be assumed to be one.
+			-
 
 		Ticket Format
 
@@ -82,16 +83,4 @@ Ticket Log Format
 
 			-
 				A ticket log library is an organized collection of ticket log documents.
-			-
-
-		Maintenance Protocol
-
-			-
-				All changes to a ticket log document over time should be recorded in such a way
-				that whoever made each modification and the comments the modifiers gave regarding
-				the changes shall be recorded along with the changes themselves.
-
-				Only the project owners, or the contractees if the project is under a contract,
-				should have the authority to create tickets, to determine their class, and to
-				approve or revoke them, though they may transfer this authority to others.
 			-

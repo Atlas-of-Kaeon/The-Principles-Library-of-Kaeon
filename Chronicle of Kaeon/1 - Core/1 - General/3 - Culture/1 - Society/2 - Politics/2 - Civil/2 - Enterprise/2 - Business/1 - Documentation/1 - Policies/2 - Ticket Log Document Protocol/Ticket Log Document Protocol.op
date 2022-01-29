@@ -1,0 +1,13 @@
+Ticket Log Document Protocol
+
+	Philosophy
+
+		-
+			All changes to a ticket log document over time should be recorded in such a way that
+			whoever made each modification and the comments the modifiers gave regarding the
+			changes shall be recorded along with the changes themselves.
+
+			Only the project owners, or the contractees if the project is under a contract, should
+			have the authority to create tickets, to determine their class, and to approve or
+			revoke them, though they may transfer this authority to others.
+		-

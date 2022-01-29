@@ -1,0 +1,118 @@
+Kaeon Report Format
+
+	Philosophy
+
+		-
+			The Kaeon report format is a Kaeon document format used for chronicling the results of
+			research and development activity.
+
+			A document written in the Kaeon report format is called a Kaeon report.
+		-
+
+	Principles
+
+		Philosophy Section
+
+			-
+				The philosophy section of the document shall serve as the abstract section of the
+				document.
+			-
+
+		Principles Section
+
+			Main Sections
+
+				-
+					The principles section of the document may have a child with the content
+					"Discourse", and a child with the content "Metadata".
+
+					If both are present, the discourse element shall precede the metadata element.
+
+					The discourse element may have a child with the content "Projects", a child
+					with the content "Notes", and a child with the content "Analysis".
+
+					The metadata element may have a child with the content "Figures", and a child
+					with the content "Authors".
+				-
+
+			Discourse
+
+				Projects
+
+					-
+						Each activity undertaken in the scope of the research and development that
+						a given Kaeon report concerns is called a project.
+
+						The documentation of a project in a Kaeon report is modeled after the
+						scientific method.
+
+						Each project shall be catalogued as a child of the projects element, with
+						each of said children being referred to as a project element.
+
+						A project element shall have content containing its numerical index under
+						its parent, where said indices begin at one.
+
+						A project element shall have two children, the first child having the
+						content "Hypothesis", and the third child having the content "Tests".
+
+						The hypothesis element shall have a child with content that describes what
+						those who participated in the project were attempting to do and what they
+						expected to happen following the end of the project.
+
+						The test element may have an indefinite number of children referred to as
+						test elements.
+
+						A test element shall have content containing its numerical index under its
+						parent, where said indices begin at one.
+
+						Each test element shall have a child with the content "Methods", and a
+						child with the content "Results".
+
+						The methods element shall have a child with content specifying the nature
+						of an action taken to test the hypothesis.
+
+						The results element shall have a child with content specifying what
+						happened as a result of said test.
+					-
+
+				Notes
+
+					-
+						The notes element may have any children, which shall serve to provide
+						commentary and analysis on the rest of the report.
+					-
+
+				Analysis
+
+					-
+						The analysis element shall have a child containing content summarizing the
+						key takeaways from the report.
+					-
+
+			Metadata
+
+				Figures
+
+					-
+						The figures element shall have a child for each figure relevant to the
+						report. Said children shall be called figure elements.
+
+						A figure element shall have content containing its numerical index under
+						its parent, where said indices begin at one.
+
+						A figure element shall have two children, one with the content
+						"Description", and the other with the content "Data".
+
+						The description element shall have a child with content specifying what the
+						figure represents.
+
+						The data element may have any children, which shall serve to host the
+						content of the figure.
+					-
+
+				Authors
+
+					-
+						The authors element shall have a child for each author of the report, each
+						containing content specifying the name of said author.
+					-

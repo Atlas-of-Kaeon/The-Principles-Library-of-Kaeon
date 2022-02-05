@@ -100,7 +100,7 @@ JSH
 					response object.
 
 					A JSH response object may have any of the following fields: a field with the
-					alias "commands", a field with the alias "modules".
+					alias "commands", and a field with the alias "modules".
 
 					The commands field, if present, shall contain a list of objects for each active
 					JSH process, where each object shall have a field with the alias "command",

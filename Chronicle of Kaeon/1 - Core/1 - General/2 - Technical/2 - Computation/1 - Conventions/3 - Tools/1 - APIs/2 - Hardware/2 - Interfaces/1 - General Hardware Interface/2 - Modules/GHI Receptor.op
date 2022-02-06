@@ -99,8 +99,8 @@ GHI Receptor
 					By default, the script interval is one sixtieth of a second, the state
 					preservation flag is set to false, and the Wi-Fi access point is enabled, with
 					no password, an SSID set to the string "GHI-", followed by a unique serial
-					number, with the server's IP address set to 192.168.4.1, and its port set to
-					1233.
+					number, with the server's IP address and port set to certain defaults based on
+					the properties of the device it is running on.
 				-
 
 		Branch Formats

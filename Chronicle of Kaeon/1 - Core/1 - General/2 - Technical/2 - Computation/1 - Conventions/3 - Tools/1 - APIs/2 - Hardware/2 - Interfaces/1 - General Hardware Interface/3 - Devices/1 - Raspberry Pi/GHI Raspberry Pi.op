@@ -53,6 +53,11 @@ GHI Raspberry Pi
 				18: 28
 				19: 29
 
+			Wi-Fi Access Point Server Defaults
+
+				IP Address: 192.168.4.1
+				Port: 1233
+
 		Notes
 
 			-

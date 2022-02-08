@@ -1,0 +1,15 @@
+Universal Preprocessor Dialect
+
+	Philosophy
+
+		-
+			A Universal Preprocessor dialect, or PUP dialect, is a defined convention for partially
+			or wholly converting one type of document, or a subsection thereof, into another.
+
+			A universal preprocessor dialect must have an alias. Said alias may act as the alias
+			of a Kaeon FUSION interface which, when integrated into a universal preprocessor tag,
+			allows the dialect to take effect in the document into which said tag is embedded.
+
+			Universal Preprocessor dialects may be used in documents without implementations of
+			them if they are simply meant to act as user-readable markup.
+		-

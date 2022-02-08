@@ -6,3 +6,11 @@ Zero
 			Zero is a file format for encoding a ONE document in a way that optimizes the speed at
 			which data can be extracted and encoded.
 		-
+
+	Principles
+
+		PUP Dialect
+
+			-
+				Zero, when applied as a PUP dialect, uses the alias "Zero".
+			-

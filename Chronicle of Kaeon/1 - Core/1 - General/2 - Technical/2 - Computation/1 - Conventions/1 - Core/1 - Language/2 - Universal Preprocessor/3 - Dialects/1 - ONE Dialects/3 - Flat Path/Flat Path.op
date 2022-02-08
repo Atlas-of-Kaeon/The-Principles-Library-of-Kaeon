@@ -1,0 +1,19 @@
+Flat Path
+
+	Philosophy
+
+		-
+			Flat Path is a PUP dialect which allows Universal Preprocessor tags to be positioned as
+			single line ONE+ elements would be, such that a single element nested beneath them may
+			be moved to an alternate location within the document. If multiple elements are nested
+			beneath said tag, only the first element shall be moved.
+
+			The alias of the flat path dialect is "Flat Path", and a tag which uses the effect must
+			use Kaeon FUSION as its language and must have a command with the alias "Flat Path",
+			which shall have the numbers of the ONE path to which it is to be moved as children,
+			arranged in the order of said path.
+
+			If the resulting placement of the moved elements lies outside the scope of the existing
+			document, elements with empty strings as their content shall be added to fill in the
+			gaps.
+		-

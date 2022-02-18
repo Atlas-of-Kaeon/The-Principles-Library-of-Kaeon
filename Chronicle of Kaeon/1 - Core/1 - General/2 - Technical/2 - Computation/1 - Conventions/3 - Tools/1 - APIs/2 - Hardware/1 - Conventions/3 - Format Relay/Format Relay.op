@@ -1,0 +1,33 @@
+Format Relay
+
+	Philosophy
+
+		-
+			A format relay is the use of an intermediary system to mediate communication between
+			two external systems, where one of said external systems, referred to as the active
+			system, sends a signal using one protocol to the intermediary system, followed by the
+			intermediary system relaying the content of said signal to the other external system,
+			referred to as the reactive system, using a different protocol.
+		-
+
+	Principles
+
+		Labelling
+
+			-
+				A format relay may be labelled according to the protocols that it uses, where said
+				label consists of the name of the protocol used by the active system, followed by
+				the string " to ", followed by the name of the protocol used by the reactive
+				system.
+
+				A sequence of format relays may be labelled using the protocol of the first active
+				system and the protocol of the last reactive system, and may be given a numerical
+				order according to how many relays the sequence consists of.
+			-
+
+		Relay Moderator
+
+			-
+				A relay moderator is a format relay intermediary system which provides multiple
+				options for protocols.
+			-

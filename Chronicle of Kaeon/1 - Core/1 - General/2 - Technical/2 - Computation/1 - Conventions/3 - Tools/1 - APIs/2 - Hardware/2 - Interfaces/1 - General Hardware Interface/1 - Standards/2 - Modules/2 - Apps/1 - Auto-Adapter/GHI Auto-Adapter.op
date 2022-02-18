@@ -1,0 +1,17 @@
+GHI Auto-Adapter
+
+	Philosophy
+
+		-
+			GHI auto-adapters are units of software designed to configure devices to comply with
+			the general hardware interface on startup and as they are connected to one another.
+		-
+
+	Principles
+
+		GHI Server
+
+			-
+				A GHI server is an HTTP server which acts as a GHI auto-adapter for receptor
+				modules.
+			-

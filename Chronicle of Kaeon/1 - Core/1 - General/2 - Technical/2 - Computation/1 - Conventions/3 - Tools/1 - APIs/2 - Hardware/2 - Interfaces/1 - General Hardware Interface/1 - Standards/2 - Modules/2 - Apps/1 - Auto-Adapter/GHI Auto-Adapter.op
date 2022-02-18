@@ -14,4 +14,8 @@ GHI Auto-Adapter
 			-
 				A GHI server is an HTTP server which acts as a GHI auto-adapter for receptor
 				modules.
+
+				A GHI server that may adapt to an indefinite number of devices and configurations
+				is called a general GHI server, and a GHI server that is not a general GHI server
+				is called a specific GHI server.
 			-

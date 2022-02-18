@@ -6,3 +6,27 @@ GHI Monitor Application
 			A GHI monitor application is a piece of software that remotely manages receptor modules
 			through the GHI according to an external standard.
 		-
+
+	Principles
+
+		GHI Receptor Hub
+
+			-
+				A GHI receptor hub is a web application which may be served by a receptor module,
+				and which acts as a GHI monitor application to the device that it is served by.
+
+				A GHI server which may serve a receptor hub is called a GHI receptor hub server.
+			-
+
+		GHI Hub
+
+			-
+				A GHI hub is a web application served by a public domain, which may act as a GHI
+				monitor application to an indefinite number of receptor modules.
+			-
+
+		GHI IoT Hub
+
+			-
+				A GHI IoT hub is a GHI hub which may support protocols other than the GHI.
+			-

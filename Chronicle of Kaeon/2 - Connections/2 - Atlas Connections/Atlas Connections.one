@@ -6,7 +6,7 @@
 	-
 		-
 			Each element in the principles section of this document specifies a resource that this
-			Kaeon library is connected to in the Atlas of Kaeon.
+			Kaeon library is connected to.
 
 			If this Kaeon library is not connected to any other resources, the principles section
 			shall be absent.
@@ -17,18 +17,9 @@
 		-
 			The Core of Kaeon
 		-
-			-
-				https://github.com/Atlas-of-Kaeon/Core-of-Kaeon
-			-
 		-
 			The Sagas of Kaeon
 		-
-			-
-				https://github.com/Atlas-of-Kaeon/Sagas-of-Kaeon
-			-
 		-
 			The Repository of Kaeon
 		-
-			-
-				https://github.com/Atlas-of-Kaeon/Atlas-of-Kaeon.github.io
-			-

@@ -3,8 +3,8 @@ Latinized Angaian
 	Philosophy
 
 		-
-			Latinized Angaian is a convention that establishes characters that correspond to the
-			characters in the standard Angaian dialect which are based off of Latin characters.
+			Latinized Angaian is a transliteration map which maps the standard Angaian dialect to
+			the Latin alphabet.
 		-
 
 	Principles
@@ -31,6 +31,13 @@ Latinized Angaian
 				-
 					Characters within a latinized Angaian sequence that do not map to any Angaian
 					characters shall remain unconverted when said sequence is converted to Angaian.
+				-
+
+			Latinized Angaian Phonetic Notation
+
+				-
+					Latinized Angaian phonetic notation, or LAPN, is the use of latinized Angaian
+					as the phonetic language in phonetic notation.
 				-
 		
 		Characters

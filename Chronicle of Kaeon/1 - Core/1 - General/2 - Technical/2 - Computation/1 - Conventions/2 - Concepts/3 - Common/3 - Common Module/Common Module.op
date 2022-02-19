@@ -1,0 +1,19 @@
+Common Module
+
+	Philosophy
+
+		-
+			A common module is a specification for the interface to a utility or application such
+			that said interface shall remain consistent across various implementations and
+			deployments of said module.
+		-
+
+	Principles
+
+		Common Module Hub
+
+			-
+				A common module hub is a unified means of accessing implementations of a common
+				module such that the appropriate implementation shall be utilized or installed for
+				the application or platform accessing said hub.
+			-

@@ -1,0 +1,36 @@
+Journal Format
+
+	Philosophy
+
+		-
+			The journal format is a Kaeon document format used to record events relevant to a
+			particular task or set of tasks, along with the time at which said event occured.
+
+			A document in the journal log format is called a journal log document.
+		-
+
+	Principles
+
+		Format
+
+			-
+				Every element in the principles section of a journal log document constitutes a
+				journal entry and is thus called an entry element.
+
+				An entry element shall have as its content the date and time at which it was added.
+
+				An entry element shall have a child with the content "Entry", which itself shall
+				have a child containing as its content the content of the entry, and shall have a
+				child with the content "Author", which shall have a child specifying the author of
+				the entry.
+
+				An entry element may also have a child with the content "Tags", which may have an
+				indefinite number of children, each containing as content a string tag relevant to
+				the entry that it belongs to.
+
+				An entry element may additionally have a child with the content "Notes", which may
+				have an indefinite number of children, each of which shall follow the same format
+				as an entry element, but which may not have the tags or notes elements, and which
+				correspond to notes made regarding the entry to which it belongs after said entry
+				itself was made.
+			-

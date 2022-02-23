@@ -3,17 +3,14 @@ Catalogue Format
 	Philosophy
 
 		-
-			The catalogue format is a Kaeon document format for specifying collection catalogues.
+			The catalogue format is a ONE format for specifying collection catalogues.
 		-
 
 	Principles
 
-		Format
+		Section Element
 
 			-
-				The content of the title element of the document shall specify the name of the
-				collection.
-				
 				A section element shall define a section of the collection or of another section.
 				Its content shall define the name of said section, and its index shall define the
 				order that said section is to be arranged in relative to those defined by its
@@ -26,9 +23,6 @@ Catalogue Format
 				A section element may have a child with the content "Assets", which may have as
 				children an indefinite number of asset elements, representing assets within the
 				section to which said section element corresponds.
-
-				The principles element shall act as a section element, representing the root
-				section of the collection.
 				
 				An asset element shall define an asset within a section of the collection.
 				Its content shall define the name of said asset, and its index shall define the
@@ -46,4 +40,28 @@ Catalogue Format
 				An asset element may have a child with the content "Info", which shall have a
 				single child containing content specifying any additional information about the
 				asset to which said asset element corresponds.
+			-
+
+		Abridged Asset Path
+
+			-
+				In order to reduce clutter in the organization of the document, an asset element
+				representing an asset nested within a subsection of a given section may be placed
+				under the assets element of a given section, and in such a case shall have a child
+				with the content "Path".
+
+				The path element shall have a child with content specifying the path from said
+				section to said asset, rendered as the name of each section in said path, in order
+				from least nested to most nested, separated by a comma followed by a space.
+			-
+
+		Catalogue Document
+
+			-
+				A single Kaeon document used to host a library catalogue in the catalogue format is
+				called a catalogue document.
+
+				The content of the title element of such a document shall specify the name of the
+				collection that the document represents, and its principles element shall act as a
+				section element, representing the root section of said collection.
 			-

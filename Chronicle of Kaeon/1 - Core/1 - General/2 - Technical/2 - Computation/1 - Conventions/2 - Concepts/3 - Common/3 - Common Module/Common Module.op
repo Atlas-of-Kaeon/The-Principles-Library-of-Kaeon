@@ -17,3 +17,13 @@ Common Module
 				module such that the appropriate implementation shall be utilized or installed for
 				the application or platform accessing said hub.
 			-
+
+		Common Module API
+
+			-
+				A common module API is a web API that implements the functionality of a common
+				module such that a function within it and the parameters thereof may be specified
+				in the URL and body of a request made to it, with the value returned by said
+				function given said parameters returned as a string in the body of the resulting
+				response.
+			-

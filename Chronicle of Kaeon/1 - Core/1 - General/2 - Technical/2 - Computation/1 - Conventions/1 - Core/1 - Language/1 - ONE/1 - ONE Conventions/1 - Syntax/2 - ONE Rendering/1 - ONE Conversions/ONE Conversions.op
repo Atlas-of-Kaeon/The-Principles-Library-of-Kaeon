@@ -11,15 +11,38 @@ ONE Conversions
 		JSON
 
 			-
-				A ONE document can be represented in JSON using ONE list form, where the elements
+				ONE elements can be represented in JSON using ONE list form, where the elements
 				are encoded as JSON lists and element content is encoded as JSON strings.
+
+				ONE elements can be represented in JSON using JSON objects, where an object may
+				contain a field with the alias "content", containing a string with the content of
+				the element, and a field with the alias "children", containing a list, where each
+				value represents a child of the element, with the order of said values
+				corresponding to the order of said element's children.
+
+				The former format can be called "JSON List ONE", and the latter format can be
+				called "JSON Object ONE".
+
+				An element with no children may be specified as JSON string, number, boolean, or
+				null literal, with the printed form of each literal specifying the element's
+				content. This format can be called "JSON Literal ONE".
+
+				The child values of an element in either JSON List ONE or JSON Object ONE may be in
+				any of the aforementioned formats.
+
+				The use of either format can be called "JSON ONE".
+
+				In certain APIs, a JavaScript-style object representing a JSON Object ONE element
+				may have a field with the content "parent", which may either contain a reference to
+				a value representing the parent element, or a null value indicating that it has no
+				parent. This format can be called "JavaScript ONE", or "JS ONE" for short.
 			-
 
 		XML
 
 			-
-				A ONE document can be represented in XML with the tags "Element" and "Content",
-				where letter case is irrelevant.
+				ONE elements can be represented in XML with the tags "Element" and "Content", where
+				letter case is irrelevant.
 
 				An element tag represents a ONE element and may contain an indefinite number of
 				other element tags and may also contain one content tag.
@@ -27,4 +50,6 @@ ONE Conversions
 				A content tag must be the child of an element tag, and may contain a string
 				representing the content of its parent, which if not present, indicates that its
 				parent contains an empty string as its content.
+
+				This format can be called "XML ONE".
 			-

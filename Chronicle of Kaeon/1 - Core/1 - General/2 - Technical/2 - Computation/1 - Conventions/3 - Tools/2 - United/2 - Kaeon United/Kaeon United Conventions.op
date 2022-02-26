@@ -168,3 +168,12 @@ Kaeon United
 						the reference router, Kaeon United shall redirect to said application, and
 						shall pass along all URL arguments passed to it except for "app".
 					-
+
+		External Systems
+
+			Kaeon United UCM API
+
+				-
+					A Kaeon United UCM API is a UCM API that hosts the modules in Kaeon United's
+					reference router.
+				-

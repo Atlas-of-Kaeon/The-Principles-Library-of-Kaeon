@@ -21,9 +21,15 @@ Common Module
 		Common Module API
 
 			-
-				A common module API is a web API that implements the functionality of a common
-				module such that a function within it and the parameters thereof may be specified
-				in the URL and body of a request made to it, with the value returned by said
-				function given said parameters returned as a string in the body of the resulting
-				response.
+				A common module API, or CM API for short, is a web API that implements the
+				functionality of a common module such that a function within it and the arguments
+				for the parameters thereof may be specified in the URL and body of a request made
+				to it, with the value returned by said function given said arguments returned as a
+				string in the body of the resulting response.
+
+				A universal common module API, or UCM API for short, is a common module API that
+				simultaneously hosts multiple common modules, and shall thus take the name of a
+				given module hosted by it in addition to the name of a function within said module
+				and the arguments for said function's parameters within the URL of a call made to
+				it.
 			-

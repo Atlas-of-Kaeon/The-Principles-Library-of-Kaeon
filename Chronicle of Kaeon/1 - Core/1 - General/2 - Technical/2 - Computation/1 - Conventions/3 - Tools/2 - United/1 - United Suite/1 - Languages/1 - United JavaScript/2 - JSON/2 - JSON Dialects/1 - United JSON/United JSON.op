@@ -3,15 +3,22 @@ United JSON
 	Philosophy
 
 		-
-			United JSON is a file format in which a document shall contain one JavaScript object or
-			array literal, written either in JSON or in vanilla JavaScript syntax, with both
-			JavaScript comments and nested JavaScript function and API calls allowed.
+			United JSON, or UJSON for short, is a file format in which a document shall contain one
+			JavaScript object or array literal, written either in JSON or in vanilla JavaScript
+			syntax, with both JavaScript comments and nested JavaScript functions and expressions
+			allowed.
 		-
 
 	Principles
 
+		Universal Preprocessor
+
+			-
+				UJSON may use the Universal Preprocessor in its text.
+			-
+
 		File Extension
 
 			-
-				United JSON files should use the file extension ".ujs".
+				UJSON files should use the file extension ".ujs".
 			-

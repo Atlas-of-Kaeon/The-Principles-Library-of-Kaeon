@@ -16,6 +16,32 @@ GHI Monitor Application
 				and which acts as a GHI monitor application to the device that it is served by.
 
 				A GHI server which may serve a receptor hub is called a GHI receptor hub server.
+
+				Therefore:
+
+				A GHI receptor hub server which acts as a general GHI server is called a general
+				GHI receptor hub server.
+				
+				A GHI receptor hub server which acts as a specific GHI server is called a specific
+				GHI receptor hub server.
+				
+				A GHI receptor hub server which acts as a standard GHI server is called a standard
+				GHI receptor hub server
+				
+				A GHI receptor hub server which acts as a standard general GHI server is called a
+				standard general GHI receptor hub server.
+				
+				A GHI receptor hub server which acts as a standard specific GHI server is called a
+				standard specific GHI receptor hub server.
+
+				A GHI receptor hub server which acts as a conventional GHI server is called a
+				conventional GHI receptor hub server
+				
+				A GHI receptor hub server which acts as a conventional general GHI server is called
+				a conventional general GHI receptor hub server.
+				
+				A GHI receptor hub server which acts as a conventional specific GHI server is
+				called a conventional specific GHI receptor hub server.
 			-
 
 		GHI Hub

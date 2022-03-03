@@ -18,4 +18,153 @@ GHI Auto-Adapter
 				A GHI server that may adapt to an indefinite number of devices and configurations
 				is called a general GHI server, and a GHI server that is not a general GHI server
 				is called a specific GHI server.
+
+				A GHI server which operates as a standard service is called a standard GHI server.
+
+				Therefore:
+				
+				A standard GHI server which acts as a general GHI server is called a standard
+				general GHI server.
+				
+				A standard GHI server which acts as a specific GHI server is called a standard
+				specific GHI server.
 			-
+
+		GHI Standard Service Conventions
+
+			Overview
+
+				-
+					The GHI standard service conventions are a set of conventions for standard GHI
+					servers.
+
+					A standard GHI server that abides by all of them is called a conventional GHI
+					server.
+					
+					Therefore:
+					
+					A conventional GHI server which acts as a standard general GHI server is
+					called a conventional general GHI server.
+					
+					A conventional GHI server which acts as a standard specific GHI server is
+					called a conventional specific GHI server.
+				-
+
+			Conventions
+
+				Installation
+
+					-
+						A conventional GHI server shall be installable through online package
+						managers via a command line interface, and shall automatically install any
+						of its dependencies.
+					-
+
+				Processes
+
+					Logging
+
+						-
+							A GHI server shall log information in a standard terminal multi-item
+							UJSON document.
+
+							If a GHI server utilizes multiple servers, the main server shall assign
+							its log items the tag of "main". All other servers shall assign their
+							log items a tag unique to them.
+						-
+
+				Operation
+
+					Letter Case
+
+						-
+							The letter case of command line arguments passed to the GHI server
+							shall be held irrelevant.
+						-
+
+					Standard Operation
+
+						Default Operation
+						
+							-
+								The GHI server, when executed with no arguments, shall start the
+								server at a default port, determined by the device that the server
+								is running on.
+							-
+
+						Port Specification
+						
+							-
+								The GHI server, when executed with a number as its first argument,
+								shall start the server at the port specified by said number.
+							-
+
+					Commands
+
+						Clear
+
+							-
+								The GHI server, when executed with the string "clear" as its
+								first argument, shall clear all data logged by the server.
+							-
+
+						Disable
+
+							-
+								The GHI server, when executed with the string "disable" as
+								its first argument, shall stop the execution of the server, and
+								shall prevent it from restarting on boot.
+							-
+
+						Enable
+
+							-
+								The GHI server, when executed with the string "enable" as its first
+								argument, shall start the execution of the server, and shall cause
+								it to restart on boot.
+
+								Furthermore, it shall also automatically install any necessary
+								dependencies if they are not installed already, and shall set
+								certain system settings to the necessary values if they are not
+								already set.
+							-
+
+						Log
+
+							-
+								The GHI server, when executed with the string "log" as its first
+								argument, shall, if it has no further arguments, log the contents
+								of the server's terminal log to the console, and, if it has an
+								additional argument, copy the contents of said terminal log to a
+								file at the path specified by said additional argument.
+							-
+
+						Ping
+
+							-
+								The GHI server, when executed with the string "ping" as its first
+								argument, shall ping itself with a post request containing in its
+								body the content of the second argument.
+
+								If a third argument is specified, the body of the response shall be
+								written to a file at the path specified by said argument.
+
+								Otherwise, the body of said response shall be logged to the
+								console.
+							-
+
+						Reset
+
+							-
+								The GHI server, when executed with the string "reset" as its first
+								argument, shall reset all settings for the server to their default
+								values.
+							-
+
+						Status
+
+							-
+								The GHI server, when executed with the string "status" as its first
+								argument, shall print "On" to the console if the server is
+								currently active, and shall otherwise print "Off" to the console.
+							-

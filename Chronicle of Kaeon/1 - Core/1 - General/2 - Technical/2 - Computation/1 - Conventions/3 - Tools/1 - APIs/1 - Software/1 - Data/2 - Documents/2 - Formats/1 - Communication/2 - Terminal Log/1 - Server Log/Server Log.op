@@ -1,0 +1,32 @@
+Server Log
+
+	Philosophy
+
+		-
+			A server log is a standard terminal item document for a server in which is recorded all
+			requests received by it, all responses served by it, all errors that occured in the
+			course of its operations.
+		-
+
+	Principles
+
+		Tags
+
+			-
+				A request log item shall have the tag "request". A response log item shall have the
+				tag "response". An error log item shall have the tag "error". Any other type of log
+				item shall have the tag "note".
+
+				A response log item shall also have a tag consisting of the string "id-" followed
+				by the log item ID of the corresponding request's log item.
+			-
+
+		Content
+
+			-
+				The content of logged requests and responses shall consist of stringified HTTP JSON
+				objects corresponding to said items.
+
+				The content of logged errors shall consist of the printed form of said error's
+				stack.
+			-

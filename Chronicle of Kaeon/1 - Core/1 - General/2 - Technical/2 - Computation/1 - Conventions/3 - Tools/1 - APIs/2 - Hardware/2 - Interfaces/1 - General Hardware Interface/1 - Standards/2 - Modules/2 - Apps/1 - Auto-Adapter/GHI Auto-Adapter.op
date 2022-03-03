@@ -73,6 +73,12 @@ GHI Auto-Adapter
 							log items a tag unique to them.
 						-
 
+					Updating
+
+						-
+							The GHI server shall make use of an auto-updater.
+						-
+
 				Operation
 
 					Letter Case

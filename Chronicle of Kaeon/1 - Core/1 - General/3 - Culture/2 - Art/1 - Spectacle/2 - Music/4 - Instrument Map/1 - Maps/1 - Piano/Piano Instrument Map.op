@@ -39,11 +39,18 @@ Piano Instrument Map
 				The black keys cover the alphanumerical keys of the button range, and are ordered
 				according to pitch in the order of the zigzag pattern.
 
-				The alphanumerical keys to the left of the 7, y, g, and v keys become black keys
-				while the tilde button is held down, and become white keys when it is not.
+				The alphanumerical keys to the left of the 7, y, g, and v keys, referred to as the
+				left keys, become black keys while the tilde button is held down, and become white
+				keys when it is not.
 
-				All other alphanumerical keys become black keys while the space bar button is held
-				down, and become white keys when it is not.
+				All other alphanumerical keys, called the right keys, become black keys while the
+				space bar button is held down, and become white keys when it is not.
+
+				By pressing the left control button, the left keys can be toggled between white and
+				black, being white by default, without having to hold any key down.
+
+				By pressing the right control button, the right keys can be toggled between white
+				and black, being white by default, without having to hold any key down.
 			-
 
 		Reference

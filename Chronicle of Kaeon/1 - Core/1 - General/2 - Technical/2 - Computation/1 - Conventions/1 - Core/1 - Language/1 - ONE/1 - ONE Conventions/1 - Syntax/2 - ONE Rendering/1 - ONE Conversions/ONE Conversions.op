@@ -40,16 +40,36 @@ ONE Conversions
 
 		XML
 
-			-
-				ONE elements can be represented in XML with the tags "Element" and "Content", where
-				letter case is irrelevant.
+			Standard
 
-				An element tag represents a ONE element and may contain an indefinite number of
-				other element tags and may also contain one content tag.
+				-
+					ONE elements can be represented in XML with the tags "Element" and "Content",
+					where letter case is irrelevant, in a format called "Standard XML ONE".
 
-				A content tag must be the child of an element tag, and may contain a string
-				representing the content of its parent, which if not present, indicates that its
-				parent contains an empty string as its content.
+					An element tag represents a ONE element and may contain an indefinite number of
+					other element tags and may also contain one content tag.
 
-				This format can be called "XML ONE".
-			-
+					A content tag must be the child of an element tag, and may contain a string
+					representing the content of its parent, which if not present, indicates that
+					its parent contains an empty string as its content.
+				-
+
+			General
+
+				-
+					ONE elements can be represented in XML using any XML document structure, in a
+					format called "General XML ONE".
+					
+					In this format, an XML element is interpreted as a child of the ONE element
+					represented by its parent XML element, or of the ONE root element if said XML
+					element has no parent, and the content of said ONE element shall be the tag
+					name of said XML element.
+
+					An XML attribute is interpreted as a ONE element with a single child, where the
+					alias of said attribute is the content of said element, and where the content
+					of said attribute is the content of said child.
+
+					An XML text node is interpreted as a child of the ONE element represented by
+					its parent XML element, and the content of said ONE element shall be the text
+					content of said text node.
+				-

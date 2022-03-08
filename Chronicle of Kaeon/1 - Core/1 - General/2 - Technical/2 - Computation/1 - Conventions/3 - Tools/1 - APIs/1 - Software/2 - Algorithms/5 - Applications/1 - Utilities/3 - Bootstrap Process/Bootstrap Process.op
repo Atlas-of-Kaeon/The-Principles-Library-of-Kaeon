@@ -1,0 +1,41 @@
+Bootstrap Process
+
+	Philosophy
+
+		-
+			A bootstrap process is an application which may execute other applications as specified
+			by the user, which it may externally control and monitor during their execution.
+		-
+
+	Principles
+
+		Bootstrap Subjects
+
+			-
+				The applications specified by a user for a bootstrap process to control and monitor
+				are referred to as the bootstrap subjects of said bootstrap process.
+			-
+
+		Modular Bootstrap Process
+
+			-
+				A modular bootstrap process is a bootstrap process for which its functionality is
+				extensible via plugins.
+			-
+
+		Persistent and Static Bootstrap Processes
+
+			-
+				A persistent bootstrap process is a bootstrap process which runs persistently and
+				may take directives from the user at any time to manage plugins or bootstrap
+				subjects.
+
+				A static bootstrap process is a bootstrap process which takes all relevant user
+				specifications at startup, and runs only until its bootstrap subjects terminate.
+			-
+
+		General Bootstrap Process
+
+			-
+				A general bootstrap process is a bootstrap process that is both modular and static.
+			-

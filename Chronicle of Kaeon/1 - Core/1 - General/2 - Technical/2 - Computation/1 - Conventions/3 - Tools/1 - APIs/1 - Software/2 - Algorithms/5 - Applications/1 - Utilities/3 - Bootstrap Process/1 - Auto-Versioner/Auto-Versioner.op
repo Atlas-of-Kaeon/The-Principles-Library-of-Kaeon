@@ -1,0 +1,14 @@
+Auto-Versioner
+
+	Philosophy
+
+		-
+			An auto-versioner is a bootstrap process that can be manually set to, or to not, check
+			for updates to its bootstrap subjects, and to install said updates if they are
+			available.
+
+			After this, it shall start its bootstrap subjects.
+
+			An auto-versioner may also be used to manually set said application to a different
+			version.
+		-

@@ -17,8 +17,8 @@ Terminal Log
 				An internal logger is a module within an application that generates a terminal log
 				for said application.
 
-				An external logger is an application that captures the output of another
-				application and generates a terminal log for said other application on its behalf.
+				An external logger is a bootstrap process that captures the output of its bootstrap
+				subjects and generates a terminal log for them on their behalf.
 
 				An external logger may alter the form of the log items it captures. The criteria it
 				uses to do this is referred to as a log map.

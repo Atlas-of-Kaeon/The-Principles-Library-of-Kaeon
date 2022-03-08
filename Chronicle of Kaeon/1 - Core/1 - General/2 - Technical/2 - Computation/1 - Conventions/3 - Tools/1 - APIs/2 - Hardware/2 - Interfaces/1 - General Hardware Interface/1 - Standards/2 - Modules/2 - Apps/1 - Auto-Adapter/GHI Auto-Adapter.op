@@ -62,11 +62,20 @@ GHI Auto-Adapter
 
 				Processes
 
+					Auto-Configuration
+
+						-
+							A conventional GHI server shall automatically configure system settings
+							as necessary, on both the system it is running on and any external
+							devices which extend said system, including by installing GHI
+							auto-adapters on said external devices.
+						-
+
 					Logging
 
 						-
-							A GHI server shall log information in a standard terminal multi-item
-							UJSON document.
+							A conventional GHI server shall log information in a standard terminal
+							multi-item UJSON document.
 
 							If a GHI server utilizes multiple servers, the main server shall assign
 							its log items the tag of "main". All other servers shall assign their
@@ -76,7 +85,7 @@ GHI Auto-Adapter
 					Updating
 
 						-
-							The GHI server shall make use of an auto-updater.
+							A conventional GHI server shall make use of an auto-updater.
 						-
 
 				Operation

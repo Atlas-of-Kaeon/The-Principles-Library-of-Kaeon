@@ -1,0 +1,10 @@
+Automation Engine
+
+	Philosophy
+	
+		-
+			An automation engine is a middleware application which serves to mediate communication
+			between its host system and any sensors, actuators, or communication systems connected
+			to said host according to directives specified in real time by external users and
+			systems.
+		-

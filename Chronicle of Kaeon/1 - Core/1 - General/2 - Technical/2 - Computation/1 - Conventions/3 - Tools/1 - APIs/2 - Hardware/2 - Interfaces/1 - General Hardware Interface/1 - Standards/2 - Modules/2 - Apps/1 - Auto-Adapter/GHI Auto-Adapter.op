@@ -13,7 +13,7 @@ GHI Auto-Adapter
 
 			-
 				A GHI server is an HTTP server which acts as a GHI auto-adapter for receptor
-				modules.
+				modules, thereby acting as an automation engine as well.
 
 				A GHI server that may adapt to an indefinite number of devices and configurations
 				is called a general GHI server, and a GHI server that is not a general GHI server
@@ -82,6 +82,16 @@ GHI Auto-Adapter
 							log items a tag unique to them.
 						-
 
+					Plugins
+
+						-
+							Plugins may be dynamically integrated into a conventional GHI server,
+							regardless of whether said server is active or inactive.
+
+							Said plugins may alter the functionality of the server, and each one
+							must have a unique string name.
+						-
+
 					Updating
 
 						-
@@ -144,6 +154,22 @@ GHI Auto-Adapter
 								already set.
 							-
 
+						Install
+
+							-
+								The GHI server, when executed with the string "install" as its
+								first argument, shall, for each additional argument, install the
+								plugin matching the name of said argument from an online repository
+								if it is not installed already. 
+							-
+
+						List
+
+							-
+								The GHI server, when executed with the string "list" as its first
+								argument, shall print the names of all plugins installed on it.
+							-
+
 						Log
 
 							-
@@ -182,4 +208,13 @@ GHI Auto-Adapter
 								The GHI server, when executed with the string "status" as its first
 								argument, shall print "On" to the console if the server is
 								currently active, and shall otherwise print "Off" to the console.
+							-
+
+						Uninstall
+
+							-
+								The GHI server, when executed with the string "uninstall" as its
+								first argument, shall, for each additional argument, uninstall the
+								plugin matching the name of said argument from an online repository
+								if it is installed already. 
 							-

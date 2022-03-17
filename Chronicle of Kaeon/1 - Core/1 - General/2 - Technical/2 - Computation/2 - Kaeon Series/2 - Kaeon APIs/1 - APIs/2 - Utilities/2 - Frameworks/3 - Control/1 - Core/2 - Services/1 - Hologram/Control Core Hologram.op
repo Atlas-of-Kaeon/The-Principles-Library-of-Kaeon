@@ -23,6 +23,8 @@ Control Core Hologram
 
 			-
 				The credentials object of a control core hologram object shall have a field with
-				the alias "deviceID", containing the device ID of the target device, and a field
-				with the alias "webhookGUID", containing the webhook GUID of the target device.
+				the alias "deviceID", containing the device ID of the target device, a field with
+				the alias "webhookGUID", containing the webhook GUID of the target device, a field
+				with the alias "apiKey", containing the API key of the user's account, and a field
+				with the alias "orgID", containing the organization ID of the user's account.
 			-

@@ -72,6 +72,57 @@ Control Core API
 
 			Functions
 
+				Call
+
+					-
+						The call function shall take a JSON object and a list of control core
+						commands, and may also take two callback functions, the first for sending a
+						call, and the second for retrieving calls.
+
+						The JSON object shall have a field with the alias "contact", containing a
+						control core service object, and may also have a field with the alias
+						"state", containing the state of a target device in the receptor input
+						format, as well as a field with the alias "device", containing a string
+						specifying the type of device to which a given GHI call is to be directed.
+
+						The function shall generate a JSON object in the receptor output format by
+						passing the command list, the device field of the JSON object, if present,
+						and the state field of the JSON object, if present, to the get message
+						function.
+
+						It shall then pass the result of the previous step, along with the contact
+						field of the JSON object and the first callback function, if present, to
+						the send call function.
+
+						Finally, it shall call the get calls function with the contact field of the
+						JSON object, no time value, and, if present, the second callback function,
+						and shall return the result.
+					-
+
+				Get Calls
+
+					-
+						The get calls function shall take a control core service object, and may
+						also take an argument specifying a specific time value, either a number
+						specifying a system time value in seconds, or a string specifying a date
+						and time, as well as a callback function.
+
+						It shall retrieve all messages sent to the API and account specified by the
+						control core service object, omitting any that were logged after the passed
+						in time value if said value was specified, and shall log said values in a
+						JSON list, containing an object for each message retrieved, where each
+						object has a field with the alias "data", containing a string specifying
+						the message to which it corresponds, and a field with the alias "time",
+						containing a number specifying the system time in seconds that the message
+						to which it corresponds was logged.
+
+						If no callback function was passed in, the call shall be made synchronously
+						and the function shall return the generated list, but if a callback
+						function was passed in, the call shall be made asynchronously, after which
+						the generated list shall be passed to the callback function and the get
+						calls function shall return an empty list.
+					-
+
 				Get Message
 
 					-
@@ -98,27 +149,4 @@ Control Core API
 
 						It may also return any object immediately returned by the API call, and
 						shall return a null value if no such value is generated.
-					-
-
-				Call
-
-					-
-						The call function shall take a JSON object and a list of control core
-						commands, and may also take a callback function.
-
-						The JSON object shall have a field with the alias "contact", containing a
-						control core service object, and may also have a field with the alias
-						"state", containing the state of a target device in the receptor input
-						format, as well as a field with the alias "device", containing a string
-						specifying the type of device to which a given GHI call is to be directed.
-
-						The function shall generate a JSON object in the receptor output format by
-						passing the command list, the device field of the JSON object, if present,
-						and the state field of the JSON object, if present, to the get message
-						function.
-
-						It shall then pass the result of the previous step, along with the contact
-						field of the JSON object and the callback function, if present, to the send
-						call function, and shall then return the value returned by the send call
-						function.
 					-

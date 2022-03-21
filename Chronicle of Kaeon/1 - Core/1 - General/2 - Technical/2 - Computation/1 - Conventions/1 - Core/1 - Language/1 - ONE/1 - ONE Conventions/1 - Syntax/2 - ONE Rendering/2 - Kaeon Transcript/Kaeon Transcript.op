@@ -1,0 +1,57 @@
+Kaeon Transcript
+
+	Philosophy
+
+		-
+			A Kaeon transcript is a ONE rendered document in the form of a Kaeon document derived
+			from a document meant to be read directly by users.
+		-
+
+	Principles
+
+		Conventions
+
+			Structure
+
+				-
+					The title element of the document shall contain the title of the work.
+
+					The philosophy section of the document shall reiterate the title of the
+					document and specify other relevant metadata, including, but not limited to,
+					the author and version of the work, if applicable.
+
+					The content of the work shall be contained entirely within the principles
+					section of the document.
+				-
+
+			Basic Conversion
+
+				-
+					It is standard practice with Kaeon transcripts to take every newline delineated
+					block of text from the source document and to place it into an element, and to
+					nest said elements such that the resulting structure of the document mirrors
+					the hierarchy of the source document.
+				-
+
+			Notation
+
+				-
+					It is standard practice with Kaeon transcripts to nest each element with no
+					children, or content elements, within another element containing only said
+					content element, called item elements, and to nest item elements within
+					elements which specify sections, called section elements, and to nest section
+					elements either within other section elements or within the principles element.
+
+					The content of a section or item block shall begin with the content of its
+					parent, followed by a colon, followed by a space, followed by a string rendered
+					according to the following paradigm:
+
+					This string shall start with the name of the type of section or item that the
+					element corresponds to, followed by a space, followed by the numerical index of
+					the element. If the section to which the element corresponds has a specific
+					name, the aforementioned string shall be followed with a space, followed by a
+					hyphen, followed by said name.
+
+					If a given Kaeon transcript does not match perfectly to this paradigm, it
+					should strive to abide by it as closely as possible.
+				-

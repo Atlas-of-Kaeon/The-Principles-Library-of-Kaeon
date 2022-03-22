@@ -38,13 +38,20 @@ Kaeon Transcript
 				-
 					It is standard practice with Kaeon transcripts to nest each element with no
 					children, or content elements, within another element containing only said
-					content element, called item elements, and to nest item elements within
+					content element, called an item element, and to nest item elements within
 					elements which specify sections, called section elements, and to nest section
-					elements either within other section elements or within the principles element.
+					elements either within other section elements. For the purposes of nesting, the
+					principles element is considered a section element.
 
-					The content of a section or item block shall begin with the content of its
-					parent, followed by a colon, followed by a space, followed by a string rendered
-					according to the following paradigm:
+					The content of a section or item element, aside from the principles element,
+					shall be determined using the following formula:
+					
+					If said element is not a direct child of the principles element, its content
+					shall begin with the content of its parent, followed by a colon, followed by a
+					space.
+					
+					The content of said element shall end with a string rendered according to the
+					following paradigm:
 
 					This string shall start with the name of the type of section or item that the
 					element corresponds to, followed by a space, followed by the numerical index of
@@ -55,3 +62,13 @@ Kaeon Transcript
 					If a given Kaeon transcript does not match perfectly to this paradigm, it
 					should strive to abide by it as closely as possible.
 				-
+
+		Conventional Kaeon Transcript
+
+			-
+				A Kaeon transcript that perfectly follows all of the aforementioned conventions is
+				referred to as a conventional Kaeon transcript.
+
+				A Kaeon transcript that follows any of the aforementioned conventions to any degree
+				is referred to as a semi-conventional Kaeon transcript.
+			-

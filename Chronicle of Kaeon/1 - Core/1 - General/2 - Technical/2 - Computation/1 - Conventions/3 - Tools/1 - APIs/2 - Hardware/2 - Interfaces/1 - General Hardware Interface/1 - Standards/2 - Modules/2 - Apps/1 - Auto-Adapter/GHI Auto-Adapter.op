@@ -124,6 +124,13 @@ GHI Auto-Adapter
 								shall start the server at the port specified by said number.
 							-
 
+						Global Command
+						
+							-
+								The command to execute the GHI server as a standard service, when
+								it is installed globally, shall be "ghi".
+							-
+
 					Commands
 
 						Clear

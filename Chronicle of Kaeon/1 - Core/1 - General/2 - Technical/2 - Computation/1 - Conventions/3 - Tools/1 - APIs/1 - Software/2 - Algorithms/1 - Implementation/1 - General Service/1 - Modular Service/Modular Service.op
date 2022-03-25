@@ -4,14 +4,15 @@ Modular Service
 	
 		-
 			A modular service is a general service with the ability to integrate plugins, referred
-			to as modular service plugins.
+			to as modular service plugins, which may modify the behavior of the service when acting
+			on command line arguments.
 		-
 
 	Principles
 
 		Management
 
-			Operations
+			Default Operations
 
 				Actions
 

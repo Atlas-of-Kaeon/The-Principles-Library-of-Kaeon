@@ -43,8 +43,8 @@ Default Reference Router
 
 				-
 					Kaeon United's default reference router shall include a command called "ghi",
-					which shall install a conventional general GHI receptor hub server on the
-					device it is run on when executed.
+					which shall install a GHI service distribution on the device it is run on when
+					executed.
 
 					Passing arguments to this command is optional, and said arguments, if present,
 					shall specify user preferences regarding said installation.

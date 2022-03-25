@@ -54,7 +54,9 @@ Modular Service
 				Plugin Packages
 
 					-
-						A plugin package is a group of plugins distributed as a single plugin.
+						A plugin package is a set of plugins.
+
+						A package plugin is a plugin package distributed as a single plugin.
 					-
 
 		Setups
@@ -71,6 +73,13 @@ Modular Service
 				-
 					A default configuration is a group of plugins which are distributed by default
 					with a given modular service.
+				-
+
+			Package Distribution
+
+				-
+					A modular service distributed with a given plugin or plugin package as its
+					default configuration is referred to as a distribution of said package.
 				-
 
 		Variants

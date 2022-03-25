@@ -1,0 +1,8 @@
+Conventional JSH Service
+
+	Philosophy
+
+		-
+			A conventional JSH service is a conventional service for which the API processes JSH
+			requests when submitted in the bodies of POST requests.
+		-

@@ -1,0 +1,21 @@
+GHI Auto-Adapter
+
+	Philosophy
+
+		-
+			GHI auto-adapters are units of software designed to configure devices to comply with
+			the general hardware interface on startup and as they are connected to one another.
+		-
+
+	Principles
+
+		GHI Service
+
+			-
+				A GHI service is a conventional JSH service for which an instance of it may act as
+				a GHI auto-adapter for receptor modules, thereby acting as an automation engine as
+				well.
+
+				A GHI receptor hub is the web application served by a receptor module, and which
+				acts as a GHI monitor application to the device that it is served by.
+			-

@@ -1,0 +1,23 @@
+GHI Monitor Application
+
+	Philosophy
+
+		-
+			A GHI monitor application is a piece of software that remotely manages receptor modules
+			through the GHI according to an external standard.
+		-
+
+	Principles
+
+		GHI Hub
+
+			-
+				A GHI hub is a web application served by a public web domain, which may act as a
+				GHI monitor application to an indefinite number of receptor modules.
+			-
+
+		GHI IoT Hub
+
+			-
+				A GHI IoT hub is a GHI hub which may support protocols other than the GHI.
+			-

@@ -1,0 +1,26 @@
+JSH Plugin
+
+	Philosophy
+
+		-
+			A JSH plugin is a browser plugin that shall ensure that a conventional JSH service
+			instance is running on the client machine for each port defined in its settings, unless
+			other applications already occupy said ports.
+		-
+
+	Principles
+
+		Security
+
+			-
+				Every time a user navigates to a page, the instance shall require the page to ask
+				permission before said page shall be allowed to send any HTTP request to the ports
+				defined in its settings.
+			-
+
+		Defaults
+
+			-
+				The default ports for the instance to initialize a server consist solely of the
+				port 80.
+			-

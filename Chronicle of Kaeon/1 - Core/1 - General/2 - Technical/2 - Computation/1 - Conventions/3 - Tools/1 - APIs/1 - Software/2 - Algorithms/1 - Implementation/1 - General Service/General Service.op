@@ -1,0 +1,9 @@
+General Service
+
+	Philosophy
+
+		-
+			A general service is an application that, if run with no additional command line
+			arguments, shall perform an operation referred to as its default operation, and if run
+			with additional command line arguments, may perform any miscellaneous action.
+		-

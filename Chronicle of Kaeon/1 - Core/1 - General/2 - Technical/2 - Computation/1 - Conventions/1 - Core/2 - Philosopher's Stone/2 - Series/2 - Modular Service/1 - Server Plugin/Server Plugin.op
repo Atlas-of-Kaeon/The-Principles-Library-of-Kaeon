@@ -3,13 +3,13 @@ Server Plugin
 	Philosophy
 
 		-
-			A standard plugin is a modular service plugin that causes the default operation of a
+			A server plugin is a modular service plugin that causes the default operation of a
 			modular service to initiate a process hosting web API that may be interfaced with via
 			HTTP calls.
 
 			A modular service utilizing a server plugin is called a modular server service.
 
-			A server spawned by a server plugin is referred to an instance of said plugin.
+			A server spawned by a server plugin is referred to as an instance of said plugin.
 		-
 
 	Principles

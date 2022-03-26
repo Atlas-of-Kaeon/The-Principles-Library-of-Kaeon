@@ -71,6 +71,14 @@ Kaeon United Conventions
 					otherwise the second argument, shall be the name of the command script being
 					used, as defined in the reference router. All other arguments shall serve as
 					arguments for said command script.
+
+					Integrated into the available commands shall be the functionality of a
+					conventional JSH service.
+					
+					If installed globally via npm, the global command of Kaeon United shall be
+					"Kaeon United".
+
+					All plugins available for Kaeon United shall be made available via npm.
 				-
 
 			HTML Script

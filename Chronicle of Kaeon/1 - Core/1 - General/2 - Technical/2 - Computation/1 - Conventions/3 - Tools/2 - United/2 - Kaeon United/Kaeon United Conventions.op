@@ -8,174 +8,80 @@ Kaeon United Conventions
 	
 	Principles
 
-		United Suite
+		Conventions
 
-			-
-				Kaeon United shall provide a unified interface to the United Suite.
-			-
+			Implementation
 
-		Format
+				-
+					Kaeon United shall be implemented as an HTJS file, which may be executed as a
+					command line utility, imported into an HTML document using a script tag,
+					imported as a CommonJS module, used as a Kaeon FUSION interface, or rendered in
+					the browser, and which shall function as a both conventional service and a
+					conventional shadow host.
+				-
 
-			-
-				Kaeon United shall be implemented as an HTJS file, which may be executed as a
-				command line utility, imported into an HTML document using a script tag, imported
-				as a CommonJS module, used as a Kaeon FUSION interface, or used as a shadow host
-				for other applications.
-			-
+			Hosting
 
-		Hosting
+				-
+					Kaeon United shall be hosted online so that users can use it via CDN regardless
+					of the environment they are operating in.
 
-			-
-				Kaeon United shall be hosted online so that users can use it via CDN regardless of
-				the environment they are operating in.
-			-
+					As such, its CLI functionality shall be made available via npm such that it may
+					be executed via npx, or, if installed globally, via the command "kaeon-united".
+				-
+
+			Auto-Caching
+
+				-
+					Kaeon United, when operating on the backend, shall cache resources fetched from
+					the internet so that they can be used offline.
+				-
 
 		Functionality
-
-			URL Arguments
-
-				-
-					All URL arguments used by Kaeon United are case insensitive.
-				-
-
-			Reference Router
-
-				-
-					Kaeon United shall reference an external file known as the reference router,
-					which shall allow its functionality to be extended.
-
-					It shall reference various CommonJS modules, Kaeon FUSION interfaces, command
-					scripts, and online applications.
-
-					A reference router shall be implemented as a CommonJS module that exports a
-					function which may take a string. If no string is given, it shall return a
-					value providing documentation about the available options. If a string is
-					given, it shall either return a CommonJS module or a string specifying a file
-					path, unless the given string matches no references, in which case a null value
-					shall be returned.
-
-					If the user desires to use a reference router other than the default one, they
-					may specify an alternate reference router.
-				-
 
 			Command Line
 
 				-
-					Running Kaeon United from the command line shall allow for the use of various
-					utilities in the terminal.
-
-					If the user is using an alternate reference router, the first argument shall be
-					the file path of said reference router.
-
-					The first argument, if no alternate reference router was specified, and
-					otherwise the second argument, shall be the name of the command script being
-					used, as defined in the reference router. All other arguments shall serve as
-					arguments for said command script.
-
-					Integrated into the available commands shall be the functionality of a
-					conventional JSH service.
+					When executed via the command line, Kaeon United shall function as a
+					conventional service.
 					
 					If installed globally via npm, the global command of Kaeon United shall be
-					"Kaeon United".
-
-					All plugins available for Kaeon United shall be made available via npm.
+					"kaeon-united".
 				-
 
-			HTML Script
-
-				-
-					Importing Kaeon United into an HTML document through a script tag shall allow
-					the dynamic use of CommonJS on the page.
-
-					A user may specify an alternate reference router for use by the Kaeon United
-					script by passing the URL of said reference router to Kaeon United in its own
-					URL using the URL argument "Router".
-				-
-			
 			Module
 
 				Kaeon FUSION Interface
 
 					-
-						As a Kaeon FUSION interface, Kaeon United shall have the module alias
-						"Kaeon United".
-
-						Said interface shall integrate all of the Kaeon FUSION interfaces
-						referenced by the reference router when used, and shall be referred to as
-						the Kaeon United FUSION Interface.
+						As a Kaeon FUSION interface, Kaeon United shall have the following module
+						alias: "Kaeon United", and shall integrate all of the Kaeon FUSION
+						interfaces defined in the module sections of its JSON interfaces.
 					-
 
 				CommonJS Module
 
 					-
-						Importing Kaeon United as a CommonJS module shall return an object
-						containing various CommonJS modules referenced in the reference router.
-
-						Said module shall be referred to as the Kaeon United JavaScript Module.
+						Importing Kaeon United as a CommonJS module with the alias "kaeon-united"
+						shall return a value referred to as the Kaeon United value.
 					-
 
-				United C Module
+			HTML Script
 
-					-
-						Including Kaeon United as a United C import using the "use" operator shall
-						import all of the standard and Kaeon United C or C++ utilities depending on
-						the language detected.
-
-						The imported libraries shall constitute the Kaeon United C Module. Its
-						contents shall vary for C and C++ respectively, and shall include stdio.h
-						for C and iostream for C++.
-					-
+				-
+					Importing Kaeon United into an HTML document through a script tag shall allow
+					the dynamic use of CommonJS on the page, through which the kaeon-united
+					CommonJS module shall be available.
+				-
 
 			Shadow Host
 
-				Alternate Router
+				-
+					If rendered in the browser, Kaeon United shall operate as a conventional shadow
+					host.
 
-					-
-						A user may specify an alternate reference router for use by the Kaeon
-						United shadow host by passing the URL of said reference router to Kaeon
-						United in its own URL using the URL argument "Router".
-					-
-
-				User Content
-
-					-
-						If Kaeon United is used as a shadow host, it may have the URL arguments
-						"UnitedJS", "UnitedJSRaw", "UnitedOP", "UnitedOPRaw", "HTML", and
-						"HTMLRaw".
-
-						UnitedJS, if present, shall specify the path to a United JavaScript file
-						which shall be executed.
-
-						UnitedJSRaw, if present, shall specify United JavaScript code which shall
-						be executed.
-
-						UnitedOP, if present, shall specify the path to a Kaeon FUSION file which
-						shall be executed.
-
-						UnitedOPRaw, if present, shall specify the path to a Kaeon FUSION file
-						which shall be executed.
-
-						HTML, if present, shall specify the path to an HTML file which shall be
-						rendered.
-
-						If more than one of the aforementioned arguments are present, the
-						JavaScript, if given, shall execute first, the Kaeon FUSION, if given,
-						shall execute next, and the HTML, if given, shall be rendered last.
-
-						If none of the aforementioned arguments are present, a page containing the
-						Kaeon Origin application shall be rendered.
-					-
-
-				Applications
-
-					-
-						Kaeon United may redirect to other applications.
-
-						If Kaeon United is accessed in the browser with the URL argument "app", and
-						said argument contains an alias to the URL of an application referenced in
-						the reference router, Kaeon United shall redirect to said application, and
-						shall pass along all URL arguments passed to it except for "app".
-					-
+					All URL arguments used by the Kaeon United shadow host are case insensitive.
+				-
 
 		External Systems
 
@@ -183,5 +89,5 @@ Kaeon United Conventions
 
 				-
 					A Kaeon United UCM API is a UCM API that hosts the modules in Kaeon United's
-					reference router.
+					default interface.
 				-

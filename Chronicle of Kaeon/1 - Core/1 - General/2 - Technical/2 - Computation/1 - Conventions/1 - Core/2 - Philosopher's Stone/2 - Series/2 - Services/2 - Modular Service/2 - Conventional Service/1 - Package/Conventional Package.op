@@ -1,0 +1,48 @@
+Conventional Package
+
+	Philosophy
+
+		-
+			A conventional package is a plugin package which implements into a modular service the
+			functionality specified in the conventional package conventions, defined by the
+			contents of the principles section of this document.
+		-
+
+	Principles
+
+		Processes
+
+			Auto-Configuration
+
+				-
+					The service shall automatically configure system settings as necessary, on both
+					the system it is running on and any external devices which extend said system.
+				-
+
+			Logging
+
+				-
+					The service shall log information in a standard terminal multi-item UJSON
+					document.
+
+					If the service utilizes multiple processes, the main process shall assign its
+					log items the tag of "main". All other processes shall assign their log items a
+					tag unique to them.
+				-
+
+			Updating
+
+				-
+					The service shall make use of an auto-updater.
+				-
+
+		Commands
+
+			Log
+
+				-
+					The service, when executed with the string "log" as its first argument, shall,
+					if it has no further arguments, log the contents of each of its terminal logs
+					to the console, and, if it has an additional argument, copy the contents of
+					said terminal logs to a file at the path specified by said additional argument.
+				-

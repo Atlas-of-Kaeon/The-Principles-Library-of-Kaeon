@@ -1,23 +1,16 @@
-Conventional Service
+Conventional Server Package
 
 	Philosophy
 
 		-
-			A conventional service is a plugin package that includes a server plugin, and provides
-			said service with the functionality specified in the conventional service conventions,
+			A conventional server package is a conventional package that includes a server plugin,
+			and which includes the functionality specified in the conventional server conventions,
 			specified as the contents of the principles section of this document.
 		-
 
 	Principles
 
 		Operation
-
-			Letter Case
-
-				-
-					The letter case of command line arguments passed to the service shall be held
-					irrelevant.
-				-
 
 			Standard Operation
 
@@ -38,64 +31,6 @@ Conventional Service
 						The service, when executed with a number as its first argument, shall start
 						the server at the port specified by said number.
 					-
-
-				Global Command
-				
-					-
-						The command to execute the default operation of a general service, when it
-						is installed globally, shall be referred to as its global command.
-					-
-
-		Management
-
-			Default Operations
-
-				-
-					If the service is executed with the string "install" as its first command line
-					argument, it shall install all plugins for which the aliases thereof match any
-					of the following command line arguments.
-
-					If the service is executed with the string "uninstall" as its first command
-					line argument, it shall uninstall all plugins for which the aliases thereof
-					match any of the following command line arguments.
-
-					If the service is executed with the string "list" as its first command line
-					argument, it shall log the aliases of all of the plugins currently installed on
-					said service to the console.
-				-
-
-			Package Managers
-
-				-
-					Plugins used by the service should ideally be made available on online package
-					managers.
-				-
-
-		Processes
-
-			Auto-Configuration
-
-				-
-					The service shall automatically configure system settings as necessary, on both
-					the system it is running on and any external devices which extend said system.
-				-
-
-			Logging
-
-				-
-					The service shall log information in a standard terminal multi-item UJSON
-					document.
-
-					If the service utilizes multiple processes, the main process shall assign its
-					log items the tag of "main". All other processes shall assign their log items a
-					tag unique to them.
-				-
-
-			Updating
-
-				-
-					The service shall make use of an auto-updater.
-				-
 
 		Commands
 
@@ -124,15 +59,6 @@ Conventional Service
 					Furthermore, it shall also automatically install any necessary dependencies if
 					they are not installed already, and shall set certain system settings to the
 					necessary values if they are not already set.
-				-
-
-			Log
-
-				-
-					The service, when executed with the string "log" as its first argument, shall,
-					if it has no further arguments, log the contents of each of its terminal logs
-					to the console, and, if it has an additional argument, copy the contents of
-					said terminal logs to a file at the path specified by said additional argument.
 				-
 
 			Ping

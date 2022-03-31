@@ -24,3 +24,9 @@ Universal Preprocessor Language Aliases
 				-
 					JavaScript may use the aliases "JavaScript" and "JS".
 				-
+
+			C
+
+				-
+					C, or any superset thereof, may use the alias "C".
+				-

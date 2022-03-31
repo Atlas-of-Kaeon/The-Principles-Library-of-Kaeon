@@ -3,7 +3,7 @@ JSH Plugin
 	Philosophy
 
 		-
-			A JSH plugin is a browser plugin that shall ensure that a conventional JSH service
+			A JSH plugin is a browser plugin that shall ensure that a conventional JSH package
 			instance is running on the client machine for each port defined in its settings, unless
 			other applications already occupy said ports.
 		-

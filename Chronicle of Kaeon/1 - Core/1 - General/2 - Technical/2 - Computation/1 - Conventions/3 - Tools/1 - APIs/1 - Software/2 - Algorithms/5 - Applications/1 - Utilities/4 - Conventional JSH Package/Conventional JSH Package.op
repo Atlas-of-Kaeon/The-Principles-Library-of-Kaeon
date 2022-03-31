@@ -1,0 +1,8 @@
+Conventional JSH Package
+
+	Philosophy
+
+		-
+			A conventional JSH package is a conventional server package for which the API processes
+			JSH requests when submitted in the bodies of POST requests.
+		-

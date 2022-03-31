@@ -1,0 +1,54 @@
+Conventional Service
+
+	Philosophy
+
+		-
+			A conventional service is a modular service with the default functionality specified in
+			the conventional service conventions, defined by the contents of the principles section
+			of this document.
+		-
+
+	Principles
+
+		Operation
+
+			Letter Case
+
+				-
+					The letter case of command line arguments passed to the service shall be held
+					irrelevant.
+				-
+
+			Standard Operation
+
+				Global Command
+				
+					-
+						The command to execute the default operation of a general service, when it
+						is installed globally, shall be referred to as its global command.
+					-
+
+		Management
+
+			Default Operations
+
+				-
+					If the service is executed with the string "install" as its first command line
+					argument, it shall install all plugins for which the aliases thereof match any
+					of the following command line arguments.
+
+					If the service is executed with the string "uninstall" as its first command
+					line argument, it shall uninstall all plugins for which the aliases thereof
+					match any of the following command line arguments.
+
+					If the service is executed with the string "list" as its first command line
+					argument, it shall log the aliases of all of the plugins currently installed on
+					said service to the console.
+				-
+
+			Plugins
+
+				-
+					Plugins used by the service shall be in the form of JSON interfaces and JSON,
+					and should ideally be made available on online package managers.
+				-

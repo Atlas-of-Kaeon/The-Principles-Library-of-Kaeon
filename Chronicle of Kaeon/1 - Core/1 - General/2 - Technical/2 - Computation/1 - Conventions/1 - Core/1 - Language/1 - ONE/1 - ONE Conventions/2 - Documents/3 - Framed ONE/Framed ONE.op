@@ -1,0 +1,33 @@
+Framed ONE
+
+	Philosophy
+
+		-
+			Framed ONE is a variant of ONE where, for each terminating sequence which defines the
+			bounds of a ONE element, a sequence of characters called the framing sequence is placed
+			following said terminating sequence and either the next breaking sequence or the end of
+			the document.
+
+			The framing sequence shall consist of whitespace sufficient to match the length of the
+			nesting sequence plus the length of the longest line in the content of the element to
+			which it belongs, followed by the terminating sequence.
+
+			The rectangle defined by the two terminating sequences that define the bounds of a
+			given element, and the two terminating sequences of the corresponding framing
+			sequences, shall constitute the frame of the element to which they belong.
+
+			A document consisting entirely of framed ONE elements shall be called a framed ONE
+			document.
+		-
+
+	Principles
+
+		Ornamentation
+
+			-
+				Textual and visual content may be placed outside the frames of framed ONE elements
+				for ornamental renderings.
+
+				A framed ONE document surrounded by such ornamentation is called a decorated ONE
+				document.
+			-

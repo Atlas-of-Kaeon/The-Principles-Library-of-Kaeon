@@ -63,10 +63,10 @@ Interface JSON Conventions
 			JSON Interface Module
 
 				-
-					An JSON interface module is an importable module for a given language which
+					A JSON interface module is an importable module for a given language which
 					serves as a wrapper for an interface JSON object.
 				
-					A packaged interface JSON module is an JSON interface module packaged with all
+					A packaged interface JSON module is a JSON interface module packaged with all
 					of its dependencies.
 				-
 

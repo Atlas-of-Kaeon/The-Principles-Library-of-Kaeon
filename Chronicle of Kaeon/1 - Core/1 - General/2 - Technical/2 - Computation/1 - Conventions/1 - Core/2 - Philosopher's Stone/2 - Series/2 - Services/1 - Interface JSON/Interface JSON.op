@@ -68,7 +68,7 @@ Interface JSON
 
 					Each of said objects shall have a field called "path", and an array of strings,
 					called the package path, where the first string represents the root package of
-					dependency to which the object corresponds, the last string represents the
+					the dependency to which the object corresponds, the last string represents the
 					alias of said dependency, and each intermediate string represents a sub-package
 					of the package represented by the preceding string.
 

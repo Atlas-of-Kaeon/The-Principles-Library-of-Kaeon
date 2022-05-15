@@ -35,6 +35,13 @@ Kaeon United Conventions
 				-
 					Kaeon United, when operating on the backend, shall cache resources fetched from
 					the internet so that they can be used offline.
+
+					The text of said resources shall be kept in a JSON file, containing an object
+					with a field for each of said resources, where the alias of the field is the
+					URL of the corresponding resource, and the value of the field is a string
+					containing the text of the corresponding resource.
+					
+					Said file shall be stored locally and shall be called kaeonUnited.json.
 				-
 
 		Functionality

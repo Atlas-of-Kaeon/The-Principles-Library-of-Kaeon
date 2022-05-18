@@ -58,4 +58,31 @@ MITI
 					of a vocal track. If a note element has both a modifier and a lyric assigned to
 					it, the child specifying the modifier shall precede the child specifying the
 					lyric.
+
+					If multiple notes are to be played at the same time, the content of a note
+					element shall consist of the number for each note arranged in ascending order
+					and concatenated together with a period separating them.
+
+					Likewise, if multiple modifiers are to be applied to a given note, the content
+					of the child of the note element representing said note which specifies the
+					modifier applied to it shall consist of the number for each modifier arranged in
+					ascending order and concatenated together with a period separating them.
+				-
+
+		Conventions
+
+			Linear MITI Map
+
+				-
+					Any instrument for which the notes which may be played on it can be arranged in
+					a one dimensional sequence may use a linear MITI map, where the notes are
+					arranged from lowest to highest and numbered in ascending order from one to the
+					total number of available notes.
+				-
+
+			Vocal Piano Convention
+
+				-
+					A track written for a human singer may use the linear MITI map of a standard 88
+					key piano.
 				-

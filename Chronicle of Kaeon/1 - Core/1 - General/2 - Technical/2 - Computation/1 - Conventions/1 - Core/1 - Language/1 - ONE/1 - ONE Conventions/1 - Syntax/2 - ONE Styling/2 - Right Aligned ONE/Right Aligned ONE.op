@@ -1,0 +1,14 @@
+Right Aligned ONE
+
+	Philosophy
+
+		-
+			Right aligned ONE is a convention for wrapped ONE elements containing text written in
+			scripts or languages that read right to left.
+
+			Under said convention, for every line in the content of a right aligned ONE element for
+			which the first non-whitespace character is derived from a right to left script, said
+			character shall be preceded with enough whitespace such that the length of said
+			whitespace added to the remaining length of the line shall equal the character limit of
+			the wrapping.
+		-

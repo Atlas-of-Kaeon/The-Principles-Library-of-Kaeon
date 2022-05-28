@@ -1,0 +1,63 @@
+Paper ONE Label Format
+
+	Philosophy
+
+		-
+			Paper ONE label format is a text format which may be the target of ONE derendering.
+
+			It may be used to convert ONE documents into a format more suitable for printable
+			documents.
+		-
+
+	Principles
+
+		Element Types
+
+			-
+				Elements with no children and which have no siblings with children are referred to
+				as content elements.
+
+				Elements with children or which have siblings with children and which have no
+				siblings with children are referred to as section elements.
+
+				An element that qualifies to be a section element which has content consisting of
+				more than one line is referred to as an item element rather than a section element.
+
+				An element that qualifies to be a section element which has the root as its parent
+				and no siblings is referred to as a title element rather than a section element.
+			-
+
+		ONE Elements
+
+			-
+				A ONE element converted to paper ONE label format shall have its content unwrapped,
+				and shall have all of its remaining lines with no non-whitespace characters
+				removed.
+
+				If said element is a section element and originally consisted of only one line,
+				then the numbers of its ONE path, defined relative to the title element if one is
+				present and defined relative to the root element otherwise, shall be concatenated
+				together, separated by periods, and the resulting string shall be appended to the
+				beginning of the element's content, separated from said content by a sequence
+				consisting of a space, followed by a hyphen, followed by a space.
+			-
+
+		ONE Documents
+
+			-
+				Once all elements in a given ONE document have been converted to paper ONE label
+				format, said document may be converted to paper ONE label format by concatenating
+				the content of each of said elements together, separated by new lines.
+			-
+
+		Standard Kaeon Library Books
+
+			-
+				Once all documents in a standard Kaeon library book have been converted to paper
+				ONE, said book may be converted to paper ONE label format by removing the comment
+				block tokens and leading and trailing whitespace from the title lines, and by
+				removing the blank lines surrounding the title lines.
+
+				By default, paper ONE label format documents should render Kaeon libraries as
+				reduced Kaeon library books.
+			-

@@ -3,60 +3,45 @@ Paper ONE
 	Philosophy
 
 		-
-			Paper ONE is a text format which may be the target of ONE derendering.
-
-			It may be used to convert ONE documents into a format more suitable for printable
-			documents.
+			A paper ONE scheme is a convention used to convert ONE to HTML.
+			
+			A paper ONE scheme consists of two functions, a paper ONE element scheme and a paper
+			ONE library scheme.
 		-
 
 	Principles
 
-		Element Types
+		Process
+
+			Element Conversion
+
+				-
+					The HTML generated from a ONE element according to a paper ONE element scheme
+					is called a paper ONE element rendering.
+
+					A paper ONE scheme is implemented as a function which takes the content of an
+					element, the paper ONE element renderings of said element's children according
+					to said scheme, a number indicating how deep said element is nested, a number
+					indicating said element's index.
+				-
+
+			Library Folder Conversion
+
+				-
+					The HTML generated from a Kaeon library folder according to a paper ONE library
+					scheme is called a paper ONE library rendering.
+
+					A paper ONE scheme is implemented as a function which takes the paper ONE
+					element rendering of the root element of a Kaeon library folder's document if
+					it has one, or a null value otherwise, the paper ONE library renderings of said
+					folder's sub-folders according to said scheme, a string in the form of the
+					unwrapped title line that said document would have if rendered in a standard
+					kaeon library book, and other miscellaneous metadata.
+				-
+
+		Documents
 
 			-
-				Elements with no children and which have no siblings with children are referred to
-				as content elements.
-
-				Elements with children or which have siblings with children and which have no
-				siblings with children are referred to as section elements.
-
-				An element that qualifies to be a section element which has content consisting of
-				more than one line is referred to as an item element rather than a section element.
-
-				An element that qualifies to be a section element which has the root as its parent
-				and no siblings is referred to as a title element rather than a section element.
-			-
-
-		ONE Elements
-
-			-
-				A ONE element converted to paper ONE shall have its content unwrapped, and shall
-				have all of its remaining lines with no non-whitespace characters removed.
-
-				If said element is a section element and originally consisted of only one line,
-				then the numbers of its ONE path, defined relative to the title element if one is
-				present and defined relative to the root element otherwise, shall be concatenated
-				together, separated by periods, and the resulting string shall be appended to the
-				beginning of the element's content, separated from said content by a sequence
-				consisting of a space, followed by a hyphen, followed by a space.
-			-
-
-		ONE Documents
-
-			-
-				Once all elements in a given ONE document have been converted to paper ONE, said
-				document may be converted to paper ONE by concatenating the content of each of said
-				elements together, separated by new lines.
-			-
-
-		Standard Kaeon Library Books
-
-			-
-				Once all documents in a standard Kaeon library book have been converted to paper
-				ONE, said book may be converted to paper ONE by removing the comment block tokens
-				and leading and trailing whitespace from the title lines, and by removing the blank
-				lines surrounding the title lines.
-
-				By default, paper ONE documents should render Kaeon libraries as reduced Kaeon
-				library books.
+				A paper ONE element rendering or paper ONE document rendering may be placed into a
+				paginated document according to a paper ONE document scheme.
 			-

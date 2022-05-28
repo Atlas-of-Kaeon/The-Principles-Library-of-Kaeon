@@ -19,4 +19,7 @@ Standard Kaeon Library Book
 
 			The name of the root folder shall be replaced by the name of the Kaeon library within
 			the title line if they do not match.
+
+			If any of the documents in a standard Kaeon library book are wrapped, the title lines
+			shall be wrapped at the highest character limit used to wrap said documents.
 		-

@@ -1,0 +1,68 @@
+Locker Viewer
+
+	Philosophy
+
+		-
+			A locker viewer is a specialized PC for reading and writing encrypted data on external
+			memory units.
+		-
+
+	Principles
+
+		Memory Unit
+
+			-
+				An external memory unit used by a locker viewer, called a locker viewer unit, shall
+				contain only a single plain text file in encrypted form.
+			-
+
+		Configuration
+
+			-
+				A locker viewer shall have no wireless communication capabilities, shall have a
+				single keyboard as its interface, and shall have a monitor, but no speakers.
+
+				All of the above components shall be permanently fixed together, with ports exposed
+				for external memory units, each of which shall have a numerical ID.
+			-
+
+		Software
+
+			Unit Check
+
+				-
+					When a locker viewer unit is inserted into a locker viewer, it shall be scanned
+					to see if its contents follow the guidelines for a locker viewer unit, and if
+					not, the locker viewer unit shall be automatically flashed and its contents
+					shall be replaced with a single blank text file.
+				-
+
+			Algorithms
+
+				-
+					A locker unit may support multiple encryption algorithms, each of which shall
+					be assigned a numerical ID.
+				-
+
+			Interface
+
+				-
+					A locket unit's primary interface shall consist of a terminal which is limited
+					to the following commands edit and copy. Each command shall be cleared from the
+					terminal after execution.
+
+					The edit command shall take as its first argument the ID of a port in which a
+					locker viewer unit is inserted, as its second argument the ID the encryption
+					algorithm used on the contents of the unit, and as its third argument the
+					password used to encrypt the contents of the unit.
+
+					The edit command shall then open a plain text editor displaying the decrypted
+					contents of the specified locker viewer unit. When exiting the text editor, the
+					user may choose to save the changes made to the file, and if they choose to do
+					so, the new text shall be encrypted once more and written to the locker viewer
+					unit, overwriting the pre-existing contents.
+
+					The copy command shall take as its first argument the ID of a port to copy
+					content from, and each subsequent argument shall be the ID of a port to copy
+					said content to.
+				-

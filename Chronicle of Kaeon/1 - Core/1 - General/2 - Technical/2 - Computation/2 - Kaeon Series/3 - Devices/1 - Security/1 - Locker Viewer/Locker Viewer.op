@@ -13,7 +13,9 @@ Locker Viewer
 
 			-
 				An external memory unit used by a locker viewer, called a locker viewer unit, shall
-				contain only a single plain text file in encrypted form.
+				contain only a single plain text file in encrypted form, called a locked file.
+				
+				The default name of a locked file shall be "locked.txt".
 			-
 
 		Configuration
@@ -22,8 +24,11 @@ Locker Viewer
 				A locker viewer shall have no wireless communication capabilities, shall have a
 				single keyboard as its interface, and shall have a monitor, but no speakers.
 
-				All of the above components shall be permanently fixed together, with ports exposed
-				for external memory units, each of which shall have a numerical ID.
+				All of the above components shall be permanently fixed together, with at least two
+				ports exposed for external memory units, each of which shall have a numerical ID.
+
+				The casings of locker viewers and locker viewer units shall integrate faraday cages
+				to protect them from wireless exploits of flaws in their circuitry.
 			-
 
 		Software
@@ -34,7 +39,7 @@ Locker Viewer
 					When a locker viewer unit is inserted into a locker viewer, it shall be scanned
 					to see if its contents follow the guidelines for a locker viewer unit, and if
 					not, the locker viewer unit shall be automatically flashed and its contents
-					shall be replaced with a single blank text file.
+					shall be replaced with a single blank locked file.
 				-
 
 			Algorithms
@@ -48,8 +53,8 @@ Locker Viewer
 
 				-
 					A locket unit's primary interface shall consist of a terminal which is limited
-					to the following commands edit and copy. Each command shall be cleared from the
-					terminal after execution.
+					to the following commands: edit, set, clear, and copy. Each command shall be
+					cleared from the terminal after execution.
 
 					The edit command shall take as its first argument the ID of a port in which a
 					locker viewer unit is inserted, as its second argument the ID the encryption
@@ -62,7 +67,43 @@ Locker Viewer
 					so, the new text shall be encrypted once more and written to the locker viewer
 					unit, overwriting the pre-existing contents.
 
+					The set command shall take as its first argument the ID of a port in which a
+					locker viewer unit is inserted, as its second argument the ID the encryption
+					algorithm used on the contents of the unit, as its third argument the password
+					used to encrypt the contents of the unit, as its fourth argument the ID of an
+					encryption algorithm to re-encrypt the contents of the unit with, and as its
+					fifth argument the password to re-encrypt the contents of the unit with.
+
+					The clear command shall take an indefinite number of arguments, each of which
+					shall be the ID of a port for which the unit inserted into it shall have its
+					contents erased and replaced with a blank locked file.
+
 					The copy command shall take as its first argument the ID of a port to copy
 					content from, and each subsequent argument shall be the ID of a port to copy
 					said content to.
 				-
+
+			Data Deletion
+
+				-
+					When a locker viewer erases data from an inserted device, it shall perform a
+					physical erasure of its memory by setting all available bits to zero.
+				-
+
+		Compliance
+
+			-
+				Locker viewers and locker viewer units that follow all of the criteria specified in
+				this document are referred to as compliant, and those that do not are referred to
+				as non-compliant.
+			-
+
+		Best Practices
+
+			-
+				Locker viewer units, when not being used, should be kept in a guarded location and
+				sealed in a vault that requires both a physical key and a password to open.
+				
+				Said vault should integrate a faraday cage and its locking mechanisms should be
+				analog, and thus should not require any electricity.
+			-

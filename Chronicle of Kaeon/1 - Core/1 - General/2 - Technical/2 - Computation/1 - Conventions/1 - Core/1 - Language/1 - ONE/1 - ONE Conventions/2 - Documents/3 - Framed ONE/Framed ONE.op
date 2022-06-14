@@ -27,9 +27,6 @@ Framed ONE
 			-
 				A framed ONE book is a modified standard Kaeon library book where all of the ONE
 				documents within it are rendered in framed ONE.
-
-				Kaeon library notation lines may be written in proper or improper form so long as
-				they are placed above the document to which they relate and their intent is clear.
 			-
 
 		Ornamentation
@@ -40,4 +37,12 @@ Framed ONE
 
 				A framed ONE document surrounded by such ornamentation is called a decorated ONE
 				document.
+			-
+
+		Unconventional Styling
+
+			-
+				If a document in a framed ONE book is not intended to be machine readable via OCR,
+				its contents may be formatted improperly to some extent so long as the intent
+				remains clear.
 			-

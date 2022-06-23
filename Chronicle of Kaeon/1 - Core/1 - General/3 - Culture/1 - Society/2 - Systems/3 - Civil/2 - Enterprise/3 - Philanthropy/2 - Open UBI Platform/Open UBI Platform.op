@@ -1,0 +1,78 @@
+Open UBI Platform
+
+	Philosophy
+
+		-
+			An open UBI platform, or OUBIP for short, is an online platform for funding and
+			distributing a universal basic income.
+		-
+
+	Principles
+
+		Conventions
+
+			Pool
+
+				-
+					The pool of an OUBIP is the account in which the money with which it funds its
+					payments is stored.
+				-
+
+			Currency
+
+				-
+					The currency of an OUBIP is the currency with which it measures the assets in
+					its pool.
+
+					The standard currency for OUBIPs is USD, measured in cents.
+				-
+
+		Recipients
+
+			Registration
+
+				-
+					Any individual may register as a recipient on an OUBIP by providing proof of
+					ID, so as to limit each individual to one account, along with their residential
+					address or general residential area, an account to which to deposit money, and
+					a currency in which to deposit said money.
+				-
+
+			Deposits
+
+				-
+					Once the pool of an OUBIP reaches one unit of its currency for each of its
+					recipients, it will distribute one unit of said currency to each of its
+					recipients.
+
+					These payments may be localized by recipient address in certain cases.
+				-
+
+		Donations
+
+			Funding
+
+				-
+					Donors may fund an OUBIP by either donating to its pool or to its
+					administrative costs.
+					
+					Anything left over from the needs of the latter shall be deposited into the
+					pool.
+
+					Donations may be made in any currency, but shall be converted to the currency
+					of the pool before being deposited.
+				-
+
+			Localization
+
+				-
+					Donors may choose to have their donations distributed either globally or within
+					a specific geographic range.
+				-
+
+		Transparency
+
+			-
+				An OUBIP shall make public all of its assets, donation amounts, payment amounts,
+				and administrative spending.
+			-

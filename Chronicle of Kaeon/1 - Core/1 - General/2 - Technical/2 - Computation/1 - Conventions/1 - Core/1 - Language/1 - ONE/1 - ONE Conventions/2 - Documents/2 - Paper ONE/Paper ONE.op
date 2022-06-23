@@ -36,7 +36,7 @@ Paper ONE
 					it has one, or a null value otherwise, the paper ONE library renderings of said
 					folder's sub-folders according to said scheme, a string in the form of the
 					unwrapped title line that said document would have if rendered in a standard
-					kaeon library book, and other miscellaneous metadata.
+					Kaeon library book, and other miscellaneous metadata.
 				-
 
 		Documents

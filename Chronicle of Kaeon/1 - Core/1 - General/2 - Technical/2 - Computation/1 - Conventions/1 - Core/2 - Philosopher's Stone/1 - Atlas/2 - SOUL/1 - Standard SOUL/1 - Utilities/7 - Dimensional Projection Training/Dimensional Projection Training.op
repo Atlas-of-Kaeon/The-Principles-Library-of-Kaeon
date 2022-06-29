@@ -1,0 +1,12 @@
+Dimensional Projection Training
+
+	Philosophy
+
+		-
+			Dimensional projection training is the process of simplifying datasets used to train AI
+			models by taking multi-dimensional data points within them and projecting them to lower
+			dimensional vectors.
+
+			If said data points are projected to scalars, then the process may be referred to as
+			scalar projection training.
+		-

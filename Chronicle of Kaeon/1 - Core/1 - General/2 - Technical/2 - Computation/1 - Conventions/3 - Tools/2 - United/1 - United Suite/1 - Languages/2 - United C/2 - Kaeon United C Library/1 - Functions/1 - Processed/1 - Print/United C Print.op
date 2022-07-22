@@ -1,0 +1,13 @@
+United C Print
+
+	Philosophy
+
+		-
+			United C Print is a processed function for United C meant to take the place of printf
+			and cout in situations where the data types of variables can be reasonably inferred.
+
+			It shall have the alias "print", and may take an indefinite number of arguments.
+
+			It shall print each of its arguments in order to the console according to their
+			inferred data type.
+		-

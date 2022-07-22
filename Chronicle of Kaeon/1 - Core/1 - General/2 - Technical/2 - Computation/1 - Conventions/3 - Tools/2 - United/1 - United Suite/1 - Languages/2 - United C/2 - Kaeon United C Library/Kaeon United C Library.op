@@ -1,0 +1,18 @@
+Kaeon United C Library
+
+	Philosophy
+
+		-
+			The Kaeon United C library is a set of standard United C functions and constants, and a
+			standard set of Universal Preprocessor directives for United C, which may be imported
+			into a United C program via the path "kaeonUnited" in a use directive.
+			
+			Its preprocessor directives shall decide which external resources to import based on
+			the usage of the utilities within them in the code into which it is imported.
+
+			It shall include certain functions, called processed functions, which are not
+			implemented in C or C++, but instead are transpiled to one of them by the Universal
+			Preprocessor.
+
+			It shall include stdio.h for both C and C++ code, and iostream for C++ code.
+		-

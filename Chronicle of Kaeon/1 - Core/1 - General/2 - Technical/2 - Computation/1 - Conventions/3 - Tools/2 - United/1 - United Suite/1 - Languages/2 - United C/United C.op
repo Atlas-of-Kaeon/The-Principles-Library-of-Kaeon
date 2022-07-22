@@ -103,6 +103,11 @@ United C
 					If a path has no file extension, the system will check for any matching file
 					with the extension "uc", "c", "h", or "cpp". If the extension cannot be
 					verified, an extension of "uc" shall be inferred.
+
+					Universal Preprocessor directives within imported code shall be executed on
+					both the imported code and the code into which it was imported. The user can
+					disable this for an imported file by encasing the name of said file in square
+					brackets.
 				-
 
 			Online Dependencies

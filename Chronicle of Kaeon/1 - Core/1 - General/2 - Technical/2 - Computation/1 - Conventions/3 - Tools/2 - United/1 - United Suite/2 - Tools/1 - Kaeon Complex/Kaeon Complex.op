@@ -13,7 +13,7 @@ Kaeon Complex
 		Command Structure
 
 			-
-				Kaeon United shall take as its first command line argument the name of the language
+				Kaeon Complex shall take as its first command line argument the name of the language
 				it is to work with, and shall take the path to the main file of the program it is
 				to compile or execute as its second argument.
 				

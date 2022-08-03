@@ -1,0 +1,27 @@
+System JSON
+
+	Philosophy
+	
+		-
+			A system JSON object is a JSON object that represents files to load into a file system
+			and a series of commands to execute within an operating system surrounding said file
+			system.
+		-
+	
+	Principles
+
+		Structure
+
+			-
+				A system JSON object shall have a field with the alias "files", containing a file
+				JSON object specifying files to load into a given file system, and a field with the
+				alias "commands", containing an array of string commands to execute within the
+				operating system surrounding said file system.
+			-
+
+		Protocol
+
+			-
+				By default, the specified files in a system JSON object should be loaded before its
+				commands are executed.
+			-

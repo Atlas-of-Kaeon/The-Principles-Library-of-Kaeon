@@ -8,47 +8,58 @@ Kaeon Origin Conventions
 
 	Principles
 
-		Virtual System Specification
+		Setup
 
-			-
-				A URL argument may be passed to Kaeon Origin specifying a path containing a file
-				with additional virtual system commands to incorporate into the virtual system.
-			-
+			Configurations
 
-		Startup Processes Specification
+				Default Configurations
 
-			-
-				A URL argument may be passed to Kaeon Origin specifying a path containing a file
-				specifying a sequence of virtual system commands to execute upon startup.
-			-
+					-
+						The default content's of Kaeon Origin's file system and the commands it
+						shall execute by default on startup shall be stored in a system JSON file,
+						called the default configuration file, at a fixed online location.
+					-
 
-		Shell Specification
+				User Configurations
 
-			-
-				The shell in use may be specified as a URL argument.
+					-
+						A user may append to the URL of Kaeon Origin arguments for overriding or
+						extending its configurations.
 
-				If no shell is specified, Kaeon Origin shall use the default shell for the default
-				virtual system.
-			-
+						An argument with the alias "config" may contain either a URL, or a JSON
+						list of strings containing URLs, with each URL pointing to a system JSON
+						file, which shall be implemented alongside, or in place of, the default
+						configuration file.
 
-		File Access
+						An argument with the alias "override" may contain either the string "true",
+						or the string "false", and if said argument is present and contains the
+						string "true", then the default configuration file shall not be implemented
+						on startup.
+					-
 
-			-
-				By default, Kaeon Origin's virtual file system shall use a disk defined by a file
-				JSON object stored in a browser cookie with the alias "Origin", and shall also
-				allow the use of HTTP and HTTPS via disks with the aliases "HTTP" and "HTTPS"
-				respectively, and shall include utilities for adding and removing disks from the
-				file system.
+			Disks
 
-				Additionally, Kaeon Origin shall have an optional complimentary plugin which, if
-				installed, shall allow the browser to access the local system directly and for the
-				virtual file system to use it as a disk, and for the virtual system to execute
-				commands directly on it.
-			-
+				-
+					By default, Kaeon Origin's virtual file system shall use a disk defined by a
+					file JSON object stored in a browser cookie with the alias "Origin", shall
+					allow the use of HTTP and HTTPS via disks with the aliases "HTTP" and "HTTPS"
+					respectively, and shall allow access to the local file system using a JSH
+					plugin, if one is in use, via a disk with the alias "Local".
+				-
 
-		Kaeon United
+		Default Configurations
 
-			-
-				Kaeon Origin shall be hosted on Kaeon United, and its virtual system shall provide
-				access to the CLI functionality of Kaeon United.
-			-
+			Commands
+
+				Virtual system
+
+					-
+						Kaeon Origin shall include utilities for adding and removing disks from the
+						file system.
+					-
+
+				Kaeon United
+
+					-
+						Kaeon Origin shall provide access to the CLI functionality of Kaeon United.
+					-

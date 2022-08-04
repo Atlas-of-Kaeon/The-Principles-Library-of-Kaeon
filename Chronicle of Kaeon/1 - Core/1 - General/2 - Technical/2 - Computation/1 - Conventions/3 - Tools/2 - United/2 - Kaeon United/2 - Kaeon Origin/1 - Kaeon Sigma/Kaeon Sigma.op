@@ -8,3 +8,42 @@ Kaeon Sigma
 			Philosopher's Seed to Kaeon Sigma Aether, implemented as a dynamic response platform
 			into Kaeon Origin.
 		-
+
+	Principles
+
+		The Kaeon Sigma Interface
+			
+			Philosophy
+			
+				-
+					The Kaeon Sigma interface is a Kaeon FUSION interface that allows a Kaeon
+					FUSION script to send requests to Kaeon Sigma.
+				-
+			
+			Principles
+				
+				Commands
+					
+					Literals
+					
+						-
+							The Kaeon Sigma interface shall cause any command that would otherwise
+							not return a value to return its content as a string at step three of
+							the FUSION process.
+						-
+					
+					Kaeon Sigma Command
+					
+						-
+							At step three of the FUSION process, an element containing the content
+							"Kaeon Sigma", when processed as a command, shall send each value
+							returned to it to Kaeon Sigma, and may return any value should Kaeon
+							Sigma send a value back in response.
+						-
+				
+				State
+				
+					-
+						Once the Kaeon Sigma interface has been integrated, Kaeon Sigma shall be
+						able to modify the state of the Kaeon FUSION script.
+					-

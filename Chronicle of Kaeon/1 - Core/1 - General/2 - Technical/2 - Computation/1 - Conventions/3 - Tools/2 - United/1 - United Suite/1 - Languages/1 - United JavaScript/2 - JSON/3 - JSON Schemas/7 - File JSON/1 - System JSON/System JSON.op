@@ -14,9 +14,9 @@ System JSON
 
 			-
 				A system JSON object shall have a field with the alias "files", containing a file
-				JSON object specifying files to load into a given file system, and a field with the
-				alias "commands", containing an array of string commands to execute within the
-				operating system surrounding said file system.
+				JSON object or array specifying files to load into a given file system, and a field
+				with the alias "commands", containing an array of string commands to execute within
+				the operating system surrounding said file system.
 			-
 
 		Protocol

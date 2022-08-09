@@ -4,9 +4,11 @@ Conventional Virtual System
 
 		-
 			A conventional virtual system is a standard virtual system which provides an interface
-			to an indefinite number of file storage systems.
+			to an indefinite number of file storage systems, and which may use various UI shells as
+			interfaces to it.
 
-			Each of said file storage systems shall have an alias.
+			Each of said file storage systems shall have an alias, and commands shall be provided
+			for dynamically changing the shell in use.
 		-
 
 	Principles

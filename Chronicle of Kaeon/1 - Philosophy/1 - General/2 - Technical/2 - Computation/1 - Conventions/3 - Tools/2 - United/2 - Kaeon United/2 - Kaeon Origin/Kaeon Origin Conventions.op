@@ -44,7 +44,7 @@ Kaeon Origin Conventions
 					file JSON object stored in a browser cookie with the alias "Storage", shall
 					allow the use of HTTP and HTTPS via disks with the aliases "HTTP" and "HTTPS"
 					respectively, and shall allow access to the local file system using a JSH
-					plugin, if one is in use, via a disk with the alias "Local".
+					plugin, if one is in use, via a disk with the alias "File".
 				-
 
 		Default Configurations

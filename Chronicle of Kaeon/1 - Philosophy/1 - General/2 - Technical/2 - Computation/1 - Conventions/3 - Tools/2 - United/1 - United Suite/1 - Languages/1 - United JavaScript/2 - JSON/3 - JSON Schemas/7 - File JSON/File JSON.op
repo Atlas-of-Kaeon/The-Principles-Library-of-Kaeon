@@ -17,16 +17,28 @@ File JSON
 				string containing the content of said file.
 			-
 
-		Alternate Form
+		Alternate Forms
 
-			-
-				The contents of a file JSON object may alternatively be represented as a JSON
-				array, called a file JSON array, where each file is represented by an object in
-				said array, and where each of said objects contain a field with the alias "path",
-				containing an array of strings specifying, in order, the names of the folders that
-				the file that a given object represents is nested within, and where each of said
-				objects either contain a field with the alias "location", containing a string
-				specifying a file path or URL at which to find the file that said given object
-				represents, or contain a field with the alias "content", containing a string
-				specifying a the content of the file that said given object represents.
-			-
+			Array Form
+
+				-
+					The contents of a file JSON object may alternatively be represented as a JSON
+					array, called a file JSON array, where each file is represented by an object in
+					said array, and where each of said objects contain a field with the alias
+					"path", containing an array of strings specifying, in order, the names of the
+					folders that the file that a given object represents is nested within, and
+					where each of said objects either contain a field with the alias "location",
+					containing a string specifying a file path or URL at which to find the file
+					that said given object represents, or contain a field with the alias "content",
+					containing a string specifying a the content of the file that said given object
+					represents.
+				-
+
+			Directory Form
+
+				-
+					A file JSON object may be used to represent the items within a single directory
+					without specifying their content, by assigning each field representing a folder
+					the value of an empty object, and by assigning each field representing a folder
+					the value of an empty string.
+				-

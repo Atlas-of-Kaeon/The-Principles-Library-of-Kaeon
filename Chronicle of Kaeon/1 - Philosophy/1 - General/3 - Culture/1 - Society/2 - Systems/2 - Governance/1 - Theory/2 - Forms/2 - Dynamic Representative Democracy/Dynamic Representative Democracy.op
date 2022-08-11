@@ -1,0 +1,146 @@
+Dynamic Representative Democracy
+
+	Philosophy
+
+		-
+			Dynamic representative democracy, or DRD for short, is a form of democratic government.
+		-
+
+	Principles
+
+		Structure
+
+			Region Bodies
+
+				-
+					A body of elected representatives that operate the legislative branch for a
+					given district is called a region body.
+
+					Region bodies that represent multiple smaller regions are called super region
+					bodies, and those that do not are called district bodies.
+
+					A state shall have a single super region body serving as its central
+					government, called the state body.
+				-
+
+			Bicameral Houses
+
+				-
+					Each super region body shall be composed of two houses, those being an upper
+					house in which each of its sub bodies elects the same number of
+					representatives, and the lower house, in which each of its sub bodies elects a
+					certain number of representatives based on their population.
+				-
+
+			Elections
+
+				-
+					Constituents shall vote on representatives to be assigned to a fixed number of
+					seats in their district body, with the runner ups being assigned the role of
+					deputy representative, who shall take a seat as a representative should a given
+					representative resign or move to another office.
+
+					The order in which deputy representatives are chosen from among the runner ups
+					shall be by order of their performance in the polls.
+
+					Each sub-body of a super region body shall elect from among itself
+					representatives to serve in their respective super region body, and each region
+					body shall also elect from among itself a chief executive to implement the law,
+					and a certain number of judges to interpret the law, with the deputy
+					representatives taking the vacated seats.
+				-
+
+		Legislation
+
+			Creation and Activation
+
+				-
+					Any representative or constituent of a given region body can put a law on the
+					books, but the law shall by default be inactive. At any time, a representative
+					can declare their stance on a given law to be positive, negative, or neutral,
+					with it being neutral by default.
+
+					For a law to activate, it must have a non-zero number of representatives
+					declare their stance as positive regarding it, and the number of positive
+					stances must be greater than the number of negative stances.
+
+					A law may be assigned a score by first dividing the number of negative stances
+					on it by the number of positive stances on it, subtracting the resulting number
+					from one, then by dividing the number of neutral stances on it by the number of
+					non-neutral stances on it, subtracting the resulting number from one, and
+					finally by multiplying the two resulting number together.
+
+					If two laws with conflicting terms are active, the terms of the one with a
+					higher score shall override the terms of the law with a lower score. If their
+					scores are equal, their terms shall mutually cancel out.
+
+					The terms of any laws passed by a super region body shall override the terms of
+					laws passed by its respective sub-bodies.
+				-
+
+			Representative Override
+
+				-
+					Any constituent may declare their stance on a law in any of the bodies that
+					represent them, from their district body to the state body, in the same manner
+					as a representative.
+
+					If at more than a certain percentage of the constituents, said percentage being
+					defined by the state body, in a given region declare their stance on a given
+					law to be non-neutral, their representatives will be forced to side with the
+					majority of the non-neutral stances.
+
+					The same principle shall apply to the assignment of representatives from
+					sub-bodies to super region bodies, and from legislative seats to executive and
+					judge positions.
+				-
+
+		Terms
+
+			Term Length
+
+				-
+					Each region body in a state shall define the length of terms according to a
+					time set by the state body.
+				-
+
+			Term Sequence Limit
+
+				-
+					Any given elected official shall be limited to a consecutive sequence of a
+					certain number of terms, as defined by the state body, before being to resign,
+					and after leaving office, shall be forced to wait through a certain number of
+					consecutive terms, as defined by the state body, before seeking re-election.
+				-
+
+			Implementation Delay
+
+				-
+					Any changes to the status of which laws are active, and which are not, made
+					during a given term, shall only take effect during the next, though the chief
+					executive of a given region body may call upon emergency powers, as defined by
+					the state body, to override this if deemed necessary.
+				-
+
+		Defaults
+
+			Representative Override Percentage
+
+				-
+					The default percentage for representative override is ten percent.
+				-
+
+			Terms
+
+				Term Time
+
+					-
+						The default term time is two years.
+					-
+
+				Consecutive Term Limit
+
+					-
+						The default consecutive term limit is three, and the default number of
+						terms one must wait after leaving elected office is three.
+					-

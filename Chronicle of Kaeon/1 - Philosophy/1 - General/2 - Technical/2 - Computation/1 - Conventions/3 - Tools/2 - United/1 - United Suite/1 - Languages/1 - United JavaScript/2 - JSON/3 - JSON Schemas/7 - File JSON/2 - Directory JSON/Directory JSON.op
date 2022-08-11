@@ -1,0 +1,10 @@
+Directory JSON
+
+	Philosophy
+
+		-
+			A directory JSON list is a JSON list containing two lists, each of which contain only
+			strings, where the strings of the first list specify the names of the folders in a
+			given directory, and where the strings of the second list specify the names of the
+			files in said directory.
+		-

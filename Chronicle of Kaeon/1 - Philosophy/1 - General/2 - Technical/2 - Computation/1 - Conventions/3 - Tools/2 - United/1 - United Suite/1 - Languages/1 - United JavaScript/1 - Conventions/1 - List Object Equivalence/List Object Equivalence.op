@@ -20,3 +20,11 @@ List Object Equivalence
 				"dynamicAliases", where a non-null value within the dynamicAliases list corresponds
 				to the alias of the element at the same index in the corresponding dynamic list.
 			-
+
+		Schema Generalization
+
+			-
+				Any schema for a JSON list or object may be applied to any other language or data
+				exchange format by representing the objects in said structure, if there are any, as
+				lists according to list object equivalence.
+			-

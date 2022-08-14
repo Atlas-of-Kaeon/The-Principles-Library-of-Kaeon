@@ -13,35 +13,142 @@ Conventional Virtual System
 
 	Principles
 
-		Resource Paths
+		General Conventions
 
-			-
-				Each file storage system managed by a conventional virtual system shall be treated
-				as a disk, and every resource therein shall either be a file or a folder, with
-				disks in said systems being treated as folders.
+			Disks
 
-				Given the aforementioned conventions, a path for a resource within a conventional
-				virtual system shall follow the format of a UNIX style path.
-			-
+				-
+					Each file storage system managed by a conventional virtual system shall be
+					treated as a disk, and every resource therein shall either be a file or a
+					folder, with disks in said systems being treated as folders.
 
-		Get Resource Function
+					Given the aforementioned conventions, a path for a resource within a
+					conventional virtual system shall follow the format of a UNIX style path.
+				-
 
-			-
-				Each file storage system interface within a conventional virtual system shall have
-				a get resource function, which shall take an absolute path not including the disk
-				and, for a file, shall return its content, and for a folder, shall return an array
-				containing two arrays, the first containing the aliases of all of the sub folders
-				in said folder and the second containing all of the aliases of the files in said
-				folder.
-			-
+			Disk Interface
 
-		Set Resource Function
+				Functions
 
-			-
-				Each file storage system interface within a conventional virtual system shall have
-				a set resource function, which shall take an absolute path not including the disk
-				and, for a file, a string, for a folder, an object representation of a folder and
-				its contents, and to delete an existing resource, a null value, and shall place the
-				specified resource at the specified location and shall overwrite any existing
-				resource sharing the same path.
-			-
+					Get Resource Function
+
+						-
+							Each disk interface within a conventional virtual system shall have a
+							get resource function, which shall take an absolute path not including
+							the disk and, for a file, shall return its content as a string, and for
+							a folder, shall return its contents as a directory JSON array.
+						-
+
+					Set Resource Function
+
+						-
+							Each disk interface within a conventional virtual system shall have a
+							set resource function, which shall take an absolute path not including
+							the disk and, for a file, a string, for a folder, a file JSON object of
+							a folder and its contents, and to delete an existing resource, a null
+							value, and shall place the specified resource at the specified location
+							and shall overwrite any existing resource sharing the same path.
+						-
+
+					Label Resource Function
+
+						-
+							Each disk interface within a conventional virtual system shall have a
+							label resource function, which shall take two absolute paths not
+							including the disks and assigning any existing resource located at the
+							first path to the location and alias specified by the second path.
+						-
+
+					Serialize Function
+
+						-
+							Each disk interface within a conventional virtual system shall have a
+							serialize function, which shall return the contents of said disk in the
+							form of a file JSON object. The serialization process may omit contents
+							that cannot reasonably be serialized.
+						-
+
+				Top Level Interface
+
+					-
+						Any of the disk interface functions may be executed on the file system as a
+						whole, with each disk being treated as a folder, but with disks needing to
+						be separated from any nested files and folders in file paths with the
+						sequence "://" as opposed to a normal slash as a path separator.
+					-
+
+			System Conventions
+
+				Commands
+
+					Disks
+
+						-
+							Conventional virtual systems shall include commands for adding and
+							removing disks from the file system.
+						-
+
+					Shells
+
+						-
+							Conventional virtual systems shall include commands for changing the UI
+							shell in use.
+						-
+
+		Online Conventions
+
+			User Configurations
+
+				-
+					When accessing a conventional virtual system operating in a web browser, the
+					user may append, to its URL, arguments for overriding or extending its
+					configurations.
+
+					An argument with the alias "config" may contain either a URL, or a JSON list of
+					strings containing URLs, with each URL pointing to a system JSON file, which
+					shall be implemented alongside, or in place of, the default configuration file.
+
+					An argument with the alias "override" may contain either the string "true", or
+					the string "false", and if said argument is present and contains the string
+					"true", then the default configuration file shall not be implemented on
+					startup.
+				-
+
+			Disks
+
+				-
+					By default, the virtual file system of a conventional virtual system operating
+					in a web browser shall use a disk defined by a file JSON object stored in a
+					browser cookie with the alias "Storage", shall allow the use of HTTP and HTTPS
+					via disks with the aliases "HTTP" and "HTTPS" respectively, and shall allow
+					access to the local file system using a JSH plugin, if one is in use, via a
+					disk with the alias "File".
+				-
+
+			Code
+
+				-
+					Executable files in conventional virtual systems operating in web browsers
+					shall be written in JavaScript and shall use a ".js" file extension.
+				-
+
+		Interface Conventions
+
+			Shells
+
+				Terminal
+
+					-
+						The default shell for a conventional virtual system is a terminal
+						interface, where commands submitted via the terminal are executed within
+						the virtual system, and where output from processes initiated by said
+						commands is logged to said terminal.
+
+						The terminal shall at any given time operate within a given folder, and
+						commands built into the virtual file system shall allow the terminal to
+						navigate among the file system.
+
+						The terminal may be assigned an indefinite number of file paths in which
+						executable files may be placed and referenced by their file names alone as
+						opposed to their absolute or relative paths.
+					-

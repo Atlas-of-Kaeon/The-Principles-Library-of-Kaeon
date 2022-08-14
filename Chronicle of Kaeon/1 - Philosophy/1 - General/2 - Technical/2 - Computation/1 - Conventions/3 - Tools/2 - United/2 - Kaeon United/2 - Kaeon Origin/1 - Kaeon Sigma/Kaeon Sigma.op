@@ -5,8 +5,8 @@ Kaeon Sigma
 		-
 			Kaeon Sigma is an Aether Union, called Kaeon Sigma Aether, with an Aether Interface to
 			Kaeon Sigma Aether, called Kaeon Sigma Oracle, which can also function as a Genesis
-			Philosopher's Seed to Kaeon Sigma Aether, implemented as a dynamic response platform
-			into Kaeon Origin.
+			Philosopher's Seed to Kaeon Sigma Aether, implemented as a conventional dynamic
+			response platform into Kaeon Origin.
 		-
 
 	Principles
@@ -46,4 +46,21 @@ Kaeon Sigma
 					-
 						Once the Kaeon Sigma interface has been integrated, Kaeon Sigma shall be
 						able to modify the state of the Kaeon FUSION script.
+					-
+
+		Conventions
+
+			Sigma Oracle
+
+				Core Module
+
+					-
+						The core module of Sigma Oracle shall have the alias "sigma" when executed
+						as a command via the virtual system.
+					-
+
+				Wake Phrase
+
+					-
+						Sigma Oracle's speech observer shall use the wake phrase "Hey Sigma".
 					-

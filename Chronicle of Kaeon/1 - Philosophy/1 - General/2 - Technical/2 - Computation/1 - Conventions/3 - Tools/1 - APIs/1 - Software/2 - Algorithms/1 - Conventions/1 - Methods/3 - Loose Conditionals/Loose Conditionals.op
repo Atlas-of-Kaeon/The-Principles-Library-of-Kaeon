@@ -1,0 +1,31 @@
+Loose Conditionals
+
+	Philosophy
+
+		-
+			A loose conditional is a conditional operation that first uses an algorithm to assign a
+			similarity score between two values, usually strings, based on their size and content,
+			said score being between zero and one, inclusive, and then executes based on whether
+			said score falls within a certain threshold.
+
+			A conditional that is not loose can be called rigid.
+		-
+
+	Principles
+
+		Expert Systems
+
+			-
+				Loose conditionals can be used to construct expert systems that are more robust
+				than those constructed with rigid conditionals.
+			-
+
+		Machine Learning
+
+			-
+				By default, algorithms used to assign similarity scores shall not use machine
+				learning models to do so.
+
+				If however, machine learning is used in a loose conditional, it can be called a
+				smart loose conditional, or a basic loose conditional if not.
+			-

@@ -3,7 +3,7 @@ Minimal API
 	Philosophy
 
 		-
-			A minimal API is a service that receives http and https requests, and performs tasks
+			A minimal API is a service that receives HTTP and HTTPS requests, and performs tasks
 			and returns data based solely on the content of the request's URL.
 		-
 

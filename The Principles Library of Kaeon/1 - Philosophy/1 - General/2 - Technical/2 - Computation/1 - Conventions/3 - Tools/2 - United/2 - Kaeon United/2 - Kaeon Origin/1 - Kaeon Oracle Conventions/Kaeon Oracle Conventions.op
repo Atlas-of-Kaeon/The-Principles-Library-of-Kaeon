@@ -1,0 +1,23 @@
+Kaeon Oracle Conventions
+
+	Philosophy
+
+		-
+			This document lists conventions for Kaeon Oracle, which shall be implemented as a
+			conventional dynamic response platform.
+		-
+
+	Principles
+
+		Core Module
+
+			-
+				The core module of Kaeon Oracle shall have the alias "meta" when executed as a
+				command via the virtual system.
+			-
+
+		Wake Phrase
+
+			-
+				Kaeon Oracle's speech observer shall use the wake phrase "Hey Meta".
+			-

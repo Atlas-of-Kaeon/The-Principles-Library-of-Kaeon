@@ -74,11 +74,8 @@ Kaeon Poetry Conventions
 		The Language Convention
 
 			-
-				Each verse in a Kaeon poem should consist of only a single sentence.
-
-				The text of a verse should use formal language conventions and, while generally
-				written in prose, should utilize wordplay to a fairly large degree relative to
-				conventional prose.
+				Each verse in a Kaeon poem should be an integrated poem, and thus a Kaeon poem
+				should be a macro integrated poem.
 
 				The word that begins a verse should indicate the function of it relative to the
 				other verses, and as such they should generally use one of the following words,

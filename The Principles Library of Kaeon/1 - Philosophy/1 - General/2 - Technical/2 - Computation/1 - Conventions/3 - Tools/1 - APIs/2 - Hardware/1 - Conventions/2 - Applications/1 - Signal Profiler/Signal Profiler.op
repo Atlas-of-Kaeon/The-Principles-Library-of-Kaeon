@@ -1,0 +1,21 @@
+Signal Profiler
+
+	Philosophy
+
+		-
+			A signal profiler is an application that, through external hardware, listens for
+			wireless communication passing through a given area, and then identifies distinct
+			patterns in said communication, using said patterns to create possible profiles of
+			devices in its assigned area, including their properties, the targets of their
+			communication, and the contents of their communication.
+		-
+
+	Principles
+
+		Applications
+
+			-
+				A signal profiler may be used to create programmable interfaces for third party
+				wirelessly controlled devices for which the communication protocol thereof is not
+				easily obtained.
+			-

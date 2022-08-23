@@ -1,0 +1,27 @@
+Common Cache
+
+	Philosophy
+
+		-
+			A common cache is an object to which properties may be dynamically assigned, and from
+			which properties may be read, by various external applications.
+		-
+
+	Principles
+
+		Common Cache Server
+
+			-
+				A common cache server is a server that hosts a common cache.
+
+				A conventional common cache server is a publicly accessible server that takes GET
+				requests with a URL argument with the alias "key", and may optionally take a URL
+				argument with the alias "value". If it does receive the value argument, it will
+				assign to its common cache a field with the string key and string value specified
+				in the arguments passed to it. In all cases, it will write to the response a
+				stringified JSON object with a field that has the alias "value", containing the
+				string value assigned to said key, and a field that has the alias "time",
+				containing a number specifying the time in milliseconds that said value was
+				assigned. It shall store its common cache in volatile memory, and may deallocate
+				memory if necessary, starting with the oldest values assigned to it.
+			-

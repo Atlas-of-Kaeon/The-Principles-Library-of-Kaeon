@@ -1,0 +1,10 @@
+Shared Memory Unit
+
+	Philosophy
+
+		-
+			A shared memory unit, or SMU, is a digital storage unit with may simultaneously connect
+			to, be read from, and be written to by multiple devices.
+
+			An external non-volatile SMU is called a shared memory drive, or SMD.
+		-

@@ -1,0 +1,40 @@
+Kaeon Cast
+
+	Philosophy
+
+		-
+			Kaeon Cast is a cache directed application which may be used to project videos and
+			video streams from separate applications and devices.
+		-
+
+	Principles
+
+		Common Cache
+
+			-
+				Kaeon Cast shall, on regular intervals, fetch a value from a predetermined
+				conventional common cache server.
+			-
+
+		Channel Specification
+
+			-
+				The key to fetch from the server shall be specified in a URL argument with the
+				alias "key".
+			-
+
+		Playback
+
+			-
+				Kaeon Cast shall operate in fullscreen mode by default, and shall display a blank
+				white screen when not playing anything.
+
+				When the value fetched from the server is updated by an external application as
+				indicated by the accompanying time value, Kaeon Cast shall load the video or video
+				stream at the URL or video ID specified by the retrieved value and play it until it
+				ends or until said value changes.
+				
+				If the video is embedded in a page served by a video or video stream hosting
+				service, Kaeon Cast shall only play said media after extracting and isolating it
+				from any background elements.
+			-

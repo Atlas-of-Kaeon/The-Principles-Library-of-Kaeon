@@ -9,19 +9,65 @@ Common Cache
 
 	Principles
 
-		Common Cache Server
+		Applications
 
-			-
-				A common cache server is a server that hosts a common cache.
+			Common Cache Server
 
-				A conventional common cache server is a publicly accessible server that takes GET
-				requests with a URL argument with the alias "key", and may optionally take a URL
-				argument with the alias "value". If it does receive the value argument, it will
-				assign to its common cache a field with the string key and string value specified
-				in the arguments passed to it. In all cases, it will write to the response a
-				stringified JSON object with a field that has the alias "value", containing the
-				string value assigned to said key, and a field that has the alias "time",
-				containing a number specifying the time in milliseconds that said value was
-				assigned. It shall store its common cache in volatile memory, and may deallocate
-				memory if necessary, starting with the oldest values assigned to it.
-			-
+				-
+					A common cache server is a server that hosts a common cache.
+				-
+
+		Conventions
+
+			Conventional Common Cache Server
+
+				-
+					A conventional common cache server is a publicly accessible server that takes
+					GET and POST requests, which may optionally take URL arguments with the aliases
+					"key" and "persistent".
+
+					POST requests may have a header with the alias "password", and any text value
+					may be encoded in the body.
+
+					If a request is sent without the key argument, a key shall be assigned to it
+					that is not currently in use by the server's common cache.
+					
+					If it receives a POST request, it will assign to its common cache a field with
+					the specified key and the value defined by the body of the request
+					
+					In all cases, it will write to the response a stringified JSON object with a
+					field that has the alias "value", containing the string value assigned to the
+					specified key, a field that has the alias "time", containing a number
+					specifying the time in milliseconds that said value was assigned, and a field
+					with the alias "key", containing the specified key.
+					
+					It shall store its common cache in volatile memory, and may deallocate memory
+					if necessary, starting with the oldest values assigned to it, unless it
+					receives a request where the persistent argument has a value of "true", in
+					which case it shall store any value assigned by said request indefinitely in a
+					persistent database.
+
+					If a value is assigned by a POST request with a password header, it may only be
+					reassigned by a POST request with a password header containing the same
+					password, and if a persistent value was assigned without a password header, it
+					may never be reassigned.
+
+					When retrieving the value of a key without reassigning its value, a
+					conventional common cache server shall first look for a key in its common cache
+					matching the letter case of the specified key, and if said key is not found, it
+					shall then look for said key without taking letter case into account.
+
+					A conventional common cache server that does not allow for persistent values to
+					be created is called a non-persistent conventional common cache server.
+				-
+
+			Common Cache Channel
+
+				-
+					A common cache channel is a key for a common cache pointing to a value used to
+					exchange information between applications.
+
+					An online application which uses common cache channels, called cache directed
+					applications, may have both the common caches and the common cache channels to
+					be used by them set in their URL arguments.
+				-

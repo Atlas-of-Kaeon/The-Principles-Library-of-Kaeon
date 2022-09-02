@@ -1,0 +1,17 @@
+Alarm Service
+
+	Philosophy
+
+		-
+			An alarm service is an application that pings another application  on regular intervals
+			solely to keep said application from going into sleep mode.
+		-
+
+	Principles
+
+		Alarm Service Loop
+
+			-
+				An alarm service loop is where two or more alarm services ping each other on
+				regular intervals to keep each other awake.
+			-

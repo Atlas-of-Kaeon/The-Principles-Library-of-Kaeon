@@ -1,0 +1,110 @@
+Kaeon Origin Utilities
+
+	Philosophy
+
+		-
+			This document lists commands and utilities for Kaeon Origin and Kaeon Oracle.
+		-
+
+	Principles
+
+		Conventions
+
+			Case Sensitivity
+
+				-
+					Kaeon Origin and Kaeon Oracle commands shall be case insensitive unless
+					otherwise specified.
+				-
+
+			Dependencies
+
+				Default Cache
+
+					-
+						The default cache is the default common cache server used by all Kaeon
+						Origin and Kaeon Oracle commands as needed unless otherwise specified.
+					-
+
+		Commands
+
+			Kaeon Origin Commands
+
+				Clear
+
+					-
+						If Kaeon Origin receives the command "clear" from a terminal interface, the
+						contents of said terminal shall be cleared.
+					-
+
+				Code
+
+					-
+						If Kaeon Origin receives the command "code", it shall open the Kaeon Code
+						application.
+					-
+
+				Cast
+
+					-
+						If Kaeon Origin receives the command "cast", it may have one or two
+						arguments, the first being a common cache key, and the second, if present,
+						being a value to assign to said key.
+
+						If only the first argument is received, Kaeon Cast shall be opened and set
+						to listen to the specified key.
+
+						If both arguments are received, the value of the specified key shall be set
+						to the specified value.
+					-
+
+			Kaeon Oracle Commands
+
+				Play -
+
+					-
+						If a dynamic response command received by Kaeon Oracle starts with "Play",
+						Kaeon Oracle shall take the text of said command following the first word,
+						search for a video using said text as a query, and play the audio from the
+						first video it finds.
+
+						If audio from a previous use of the play command is already playing, it
+						shall be stopped.
+					-
+
+				Stop
+
+					-
+						If a dynamic response command received by Kaeon Oracle is "Stop", the audio
+						from any previous use of the play command that is currently playing shall
+						be stopped.
+					-
+
+				Cast -
+
+					-
+						If a dynamic response command received by Kaeon Oracle starts with "Cast",
+						and does not contain the word "to", Kaeon Oracle shall take the text of
+						said command following the first word, and execute the Kaeon Origin cast
+						command with said text as the first argument.
+					-
+
+				Cast - to -
+
+					-
+						If a dynamic response command received by Kaeon Oracle starts with "Cast",
+						and does contain the word "to", Kaeon Oracle shall take the text of said
+						command following the first word and prior to the first instance of the
+						word "to", and the text following the first instance of the word "to", and
+						execute the Kaeon Origin cast command with the former text as the first
+						argument, and the latter text as the second argument.
+					-
+
+				Tell me about -
+
+					-
+						If a dynamic response command received by Kaeon Oracle starts with "Tell me
+						about", Kaeon Oracle shall take the text of said command following the
+						three words, search for an article using said text as a query, and audibly
+						recite the first paragraph of said article.
+					-

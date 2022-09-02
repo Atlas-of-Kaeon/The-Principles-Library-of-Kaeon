@@ -1,0 +1,37 @@
+General State Conventions
+
+	Philosophy
+
+		-
+			This document lists conventions regarding the general state theorem.
+		-
+
+	Principles
+
+		General State Function Maps
+
+			-
+				A general state function map is a set of two functions which take a value greater
+				than or equal to zero corresponding to the cardinality of a systems state relative
+				to its initial state, where one function, called the lower bound function, outputs
+				the lowest possible general state numbers at each state, and where the other,
+				called the upper bound function, outputs the highest possible general state numbers
+				at each state, and the range of values between said results is called the general
+				state range.
+
+				For a purely deterministic system, the output of each function shall equal the
+				input.
+				
+				For discrete systems, only integer numbers shall be used, but non-integer numbers
+				may be used as inputs for continuous systems.
+
+				It may not be possible to use a general state function map with all systems.
+			-
+
+		Static System
+
+			-
+				A system that does not change over time can be called a static system, and can be
+				represented by the general state theorem as a single unchanging general state
+				number, which, given that its initial state is its only state, shall be zero.
+			-

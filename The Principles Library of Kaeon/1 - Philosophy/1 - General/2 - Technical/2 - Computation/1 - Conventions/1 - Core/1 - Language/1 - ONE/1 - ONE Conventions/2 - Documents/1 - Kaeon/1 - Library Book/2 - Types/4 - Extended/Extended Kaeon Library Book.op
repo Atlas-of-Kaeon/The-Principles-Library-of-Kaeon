@@ -23,7 +23,8 @@ Extended Kaeon Library Book
 				content "This asset is readable.", or "This asset is not readable." respectively.
 
 				For a document representing a readable asset, the principles section shall have a
-				single child containing the content of said asset as its own content.
+				single child containing the content of said asset as its own content, and the text
+				of said child shall not be wrapped.
 
 				For a document representing a non-readable asset, the principles section shall be
 				optional, but if present, it may have an indefinite number of children, each of

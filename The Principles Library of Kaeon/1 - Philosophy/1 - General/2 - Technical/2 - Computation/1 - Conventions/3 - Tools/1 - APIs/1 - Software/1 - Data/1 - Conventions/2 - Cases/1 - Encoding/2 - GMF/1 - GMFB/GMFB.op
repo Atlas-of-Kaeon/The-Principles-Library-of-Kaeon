@@ -1,0 +1,27 @@
+GMFB
+
+	Philosophy
+
+		-
+			GMFB, or GMF-Block, is a GMF metadata convention for specifying the content and
+			connections of a node in a regressive linked tree, where the body of the document
+			specifies the content of the node.
+		-
+
+	Principles
+
+		Type
+
+			-
+				The type of a GMFB document shall be specified as "Block".
+			-
+
+		Previous
+
+			-
+				A GMFB block shall have a header with the alias "Previous", containing a JSON array
+				of arrays, where each nested array represents a possible previous node and contains
+				an indefinite number of strings specifying general identifiers indicating where to
+				locate said node, and where the order of the nested arrays determines their
+				priority, if applicable.
+			-

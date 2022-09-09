@@ -1,0 +1,42 @@
+GMF
+
+	Philosophy
+
+		-
+			GMF, or General Metadata Format, is a text format for encoding a plain text document
+			alongside an indefinite number of metadata fields.
+		-
+
+	Principles
+
+		Format
+
+			-
+				GMF follows the same structure as an HTTP POST call, where the method is specified
+				as "GMF", where the URI is absent or irrelevant, where the metadata items are
+				encoded as headers, the alias of the headers being the names of the metadata items
+				and the values of the headers being the content of the metadata items, and where
+				the body is the plain text document to which said metadata applies.
+
+				A GMF document may either be serialized as a raw HTTP style request, or in any
+				other format that can be mapped to an HTTP style request, however, the former
+				method is considered standard.
+			-
+
+		GMF Metadata Conventions
+
+			-
+				A standardized convention for a GMF metadata item is called a GMF metadata
+				convention.
+
+				The GMF escape convention allows the aliases and values of any GMF header to which
+				it applies, and it applies to all GMF headers by default, to use the same string
+				escape conventions as JSON strings, to avoid conflicts over colons and new lines.
+
+				The GMF validation convention allows the aliases any GMF header to which it
+				applies, and it applies to all GMF headers by default, to ignore letter case and
+				whitespace.
+
+				The GMF type convention allows the type of data encoded in a GMF document to be
+				specified by the value of a header with the alias "Type".
+			-

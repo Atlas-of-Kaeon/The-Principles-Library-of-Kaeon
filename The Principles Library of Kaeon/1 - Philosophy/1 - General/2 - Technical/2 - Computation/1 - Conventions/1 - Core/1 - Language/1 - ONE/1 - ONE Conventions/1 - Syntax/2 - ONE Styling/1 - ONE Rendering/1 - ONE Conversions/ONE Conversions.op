@@ -8,68 +8,96 @@ ONE Conversions
 	
 	Principles
 
+		Plain Text
+
+			ONE to Plain Text
+
+				-
+					A ONE document may be converted to plain text by unwrapping the contents of all
+					elements within it, placing all of said elements in the order of their position
+					within the text of said document when rendered in the standard ONE language,
+					and concatenating the unwrapped content of said elements together in said
+					order, with each adjacent pair of elements for which the content of both
+					neither begins nor ends with a new line separated by a new line.
+				-
+
+			Plain Text to ONE
+
+				-
+					A plain text document can be converted to a ONE document by trimming all lines
+					in the source document, removing all remaining empty lines, and placing each
+					remaining non-empty line in order as an element into a new ONE document where
+					said line is the content of said element and is wrapped as needed.
+				-
+
 		JSON
 
-			-
-				ONE elements can be represented in JSON using ONE list form, where the elements
-				are encoded as JSON lists and element content is encoded as JSON strings.
+			ONE to JSON
 
-				ONE elements can be represented in JSON using JSON objects, where an object may
-				contain a field with the alias "content", containing a string with the content of
-				the element, and a field with the alias "children", containing a list, where each
-				value represents a child of the element, with the order of said values
-				corresponding to the order of said element's children.
+				-
+					ONE elements can be represented in JSON using ONE list form, where the elements
+					are encoded as JSON lists and element content is encoded as JSON strings.
 
-				The former format can be called "JSON List ONE", and the latter format can be
-				called "JSON Object ONE".
+					ONE elements can be represented in JSON using JSON objects, where an object may
+					contain a field with the alias "content", containing a string with the content
+					of the element, and a field with the alias "children", containing a list, where
+					each value represents a child of the element, with the order of said values
+					corresponding to the order of said element's children.
 
-				An element with no children may be specified as JSON string, number, boolean, or
-				null literal, with the printed form of each literal specifying the element's
-				content. This format can be called "JSON Literal ONE".
+					The former format can be called "JSON List ONE", and the latter format can be
+					called "JSON Object ONE".
 
-				The child values of an element in either JSON List ONE or JSON Object ONE may be in
-				any of the aforementioned formats.
+					An element with no children may be specified as JSON string, number, boolean,
+					or null literal, with the printed form of each literal specifying the element's
+					content. This format can be called "JSON Literal ONE".
 
-				The use of either format can be called "JSON ONE".
+					The child values of an element in either JSON List ONE or JSON Object ONE may
+					be in any of the aforementioned formats.
 
-				In certain APIs, a JavaScript-style object representing a JSON Object ONE element
-				may have a field with the content "parent", which may either contain a reference to
-				a value representing the parent element, or a null value indicating that it has no
-				parent. This format can be called "JavaScript ONE", or "JS ONE" for short.
-			-
+					The use of either format can be called "JSON ONE".
+
+					In certain APIs, a JavaScript-style object representing a JSON Object ONE
+					element may have a field with the content "parent", which may either contain a
+					reference to a value representing the parent element, or a null value
+					indicating that it has no parent. This format can be called "JavaScript ONE",
+					or "JS ONE" for short.
+				-
 
 		XML
 
-			Standard
+			ONE to XML
 
-				-
-					ONE elements can be represented in XML with the tags "Element" and "Content",
-					where letter case is irrelevant, in a format called "Standard XML ONE".
+				Standard
 
-					An element tag represents a ONE element and may contain an indefinite number of
-					other element tags and may also contain one content tag.
+					-
+						ONE elements can be represented in XML with the tags "Element" and
+						"Content", where letter case is irrelevant, in a format referred to as
+						"Standard XML ONE".
 
-					A content tag must be the child of an element tag, and may contain a string
-					representing the content of its parent, which if not present, indicates that
-					its parent contains an empty string as its content.
-				-
+						An element tag represents a ONE element and may contain an indefinite
+						number of other element tags and may also contain one content tag.
 
-			General
+						A content tag must be the child of an element tag, and may contain a string
+						representing the content of its parent, which if not present, indicates
+						that its parent contains an empty string as its content.
+					-
 
-				-
-					ONE elements can be represented in XML using any XML document structure, in a
-					format called "General XML ONE".
-					
-					In this format, an XML element is interpreted as a child of the ONE element
-					represented by its parent XML element, or of the ONE root element if said XML
-					element has no parent, and the content of said ONE element shall be the tag
-					name of said XML element.
+				General
 
-					An XML attribute is interpreted as a ONE element with a single child, where the
-					alias of said attribute is the content of said element, and where the content
-					of said attribute is the content of said child.
+					-
+						ONE elements can be represented in XML using any XML document structure, in
+						a format called "General XML ONE".
+						
+						In this format, an XML element is interpreted as a child of the ONE element
+						represented by its parent XML element, or of the ONE root element if said
+						XML element has no parent, and the content of said ONE element shall be the
+						tag name of said XML element.
 
-					An XML text node is interpreted as a child of the ONE element represented by
-					its parent XML element, and the content of said ONE element shall be the text
-					content of said text node.
-				-
+						An XML attribute is interpreted as a ONE element with a single child, where
+						the alias of said attribute is the content of said element, and where the
+						content of said attribute is the content of said child.
+
+						An XML text node is interpreted as a child of the ONE element represented
+						by its parent XML element, and the content of said ONE element shall be the
+						text content of said text node.
+					-

@@ -1,0 +1,28 @@
+DOM to Text
+
+	Philosophy
+
+		-
+			An HTML document may be converted to a plain text document by getting the inner text
+			property of the root element of the rendered document.
+		-
+
+	Principles
+
+		Excess Whitespace
+
+			-
+				When doing DOM to text conversion, excess whitespace, including leading and
+				trailing whitespace on each line, and new lines leading and trailing the
+				non-whitespace content of the document, should be eliminated, and then sequences of
+				three or more new lines in a row should each be replaced with sequences of two new
+				lines.
+			-
+
+		Rich Text Conversion
+
+			-
+				Any rich text document, paginated or otherwise, may be converted to a plain text
+				document by first converting said document to HTML and then by performing DOM to
+				text conversion on it.
+			-

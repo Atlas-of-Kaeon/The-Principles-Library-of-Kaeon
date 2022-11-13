@@ -1,0 +1,10 @@
+Dependency Queue
+
+	Philosophy
+
+		-
+			A dependency queue is a queue of dependencies fulfilling the same function within a
+			given system, such that if one dependency in said queue fails, the system may attempt
+			to use the next dependency in said queue, with the first dependency in said queue being
+			used first.
+		-

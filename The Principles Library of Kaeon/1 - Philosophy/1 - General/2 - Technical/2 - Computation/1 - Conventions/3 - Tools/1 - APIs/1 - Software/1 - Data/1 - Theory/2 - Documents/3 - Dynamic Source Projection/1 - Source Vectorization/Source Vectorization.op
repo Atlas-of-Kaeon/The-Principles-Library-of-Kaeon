@@ -1,0 +1,35 @@
+Source Vectorization
+
+	Philosophy
+
+		-
+			Source vectorization is a process in which text in a given format is converted to a
+			vector of numbers.
+		-
+
+	Principles
+
+		Process
+
+			-
+				Source vectorization shall, by default, tokenize the source text into an array of
+				strings, and convert said strings to numbers to produce the vector.
+			-
+
+		Number Assignment
+
+			-
+				As strings are converted to numbers as the process is repeated with numerous
+				inputs, a log shall be kept of each string converted.
+
+				When a new string that has not yet been encountered is converted, it shall be
+				assigned a number within the log according to the order it is added to the log,
+				after which said string shall always be converted to said number.
+			-
+
+		Vector Serialization
+
+			-
+				Vector serialization is the process of serializing a vector to source text by
+				reversing the process of source vectorization.
+			-

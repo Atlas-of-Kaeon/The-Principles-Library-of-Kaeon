@@ -1,0 +1,109 @@
+Open Host
+
+	Philosophy
+
+		-
+			An open host is a server that accepts external submissions for processes to host within
+			itself.
+		-
+
+	Principles
+
+		Operations
+
+			Features
+
+				Processes
+
+					-
+						An open host may run subroutines specified in user submissions at regular
+						intervals.
+
+						Said subroutines should have certain restrictions placed on them so as to
+						avoid security issues.
+					-
+
+				Routes
+
+					-
+						An open host may execute functions which take HTTP requests and return HTTP
+						responses when said open host is queried by an end user with certain types
+						of HTTP requests as specified by user submissions.
+					-
+
+			Format
+
+				Management
+
+					Submissions
+
+						-
+							A submission to an open host shall consist of a GET request with the
+							URL arguments "type" and "source".
+
+							The type argument shall contain either the string "process" or the
+							string "route", for a process or route submission respectively.
+
+							The source argument shall contain a file path linking to a text file
+							containing JavaScript code.
+							
+							For a process submission, said code shall contain the body of a
+							function to execute as often as possible given the server's resources.
+
+							For a route submission, said code shall contain the body of a function
+							which takes an HTTP JSON object representing an HTTP request, and
+							returns an HTTP JSON object representing an HTTP response.
+
+							A route submission may optionally have an additional URL argument
+							called "route", which may contain a string with which to uniquely
+							identify said route.
+
+							A JSON object shall be returned in string form in the response body.
+
+							Said object shall contain a field with the alias "id", containing a
+							unique string id with which to identify the submission, called the
+							submission ID.
+
+							For a route submission, said object shall contain a field with the
+							alias "route", containing a string with which to access said route as
+							an end user, called the route ID.
+
+							If a route is submitted with a route argument that is not currently in
+							use for another route, its route ID shall be as specified in said
+							argument, and shall otherwise be randomly generated.
+						-
+
+					Deletions
+
+						-
+							A submission may be deleted from an open host with a GET request
+							containing a URL argument with the alias "delete", containing the
+							submission ID of the submission to be deleted.
+						-
+
+				Route Access
+
+					-
+						A route may be accessed by an end user with a GET request containing a URL
+						argument with the alias "access", containing the route ID of the route to
+						be accessed.
+					-
+
+		Conventions
+
+			Standards
+
+				-
+					A conventional open host shall be publically available and shall accept
+					anonymous submissions for free.
+
+					An open host may be initiated with certain processes and routes already active
+					by default.
+				-
+
+			Common Open Host
+
+				-
+					A common open host is an open host server that also operates as a conventional
+					common cache server.
+				-

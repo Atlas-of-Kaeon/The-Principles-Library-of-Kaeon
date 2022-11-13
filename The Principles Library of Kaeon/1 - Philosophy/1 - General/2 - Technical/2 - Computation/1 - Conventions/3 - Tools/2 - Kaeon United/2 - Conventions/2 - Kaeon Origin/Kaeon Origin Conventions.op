@@ -8,13 +8,28 @@ Kaeon Origin Conventions
 
 	Principles
 
-		Default Configurations
+		Conventions
 
-			-
-				The default content's of Kaeon Origin's file system and the commands it shall
-				execute by default on startup shall be stored in a system JSON file, called the
-				default configuration file, at a fixed online location.
-			-
+			Default Configurations
+
+				-
+					The default content's of Kaeon Origin's file system and the commands it shall
+					execute by default on startup shall be stored in a system JSON file, called the
+					default configuration file, at a fixed online location.
+				-
+
+			Functionality
+
+				Offline
+
+					-
+						When Kaeon United is executed as a command line application with no
+						additional arguments, it shall execute Kaeon Origin, which shall operate as
+						a conventional virtual system with a command line interface.
+						
+						Within said virtual system, a common open host shall operate as a
+						background process.
+					-
 
 		Kaeon United
 

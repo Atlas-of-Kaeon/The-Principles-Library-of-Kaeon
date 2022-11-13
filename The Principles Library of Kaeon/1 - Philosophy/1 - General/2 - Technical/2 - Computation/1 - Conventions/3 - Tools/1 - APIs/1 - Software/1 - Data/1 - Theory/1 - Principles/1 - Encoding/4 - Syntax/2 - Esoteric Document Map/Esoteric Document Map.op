@@ -1,0 +1,44 @@
+Esoteric Document Map
+
+	Philosophy
+
+		-
+			An esoteric document map is a convention that allows a document serialized in a
+			specific format to be derived from a source which is not in said format.
+
+			A document intentionally serialized in a manner consistent with an esoteric document
+			map can be called an esoteric document.
+		-
+
+	Principles
+
+		Visual to Plain Text
+
+			-
+				A visual which contains legible text may be transcripted to a plain text file where
+				distinct contiguous sequences of characters in said visual are transcribed to lines
+				in said file and arranged in order of their location in the visual, which by
+				default shall be from left to right and from top to bottom.
+			-
+
+		Unstructured ONE to Kaeon Document
+
+			-
+				An unstructured ONE document may be converted to a Kaeon document by taking the
+				content of the first child of the root and making it the content of the title
+				element, and by taking the content of the second child of the root and making it
+				the content of the Philosophy section.
+
+				Once this has been done, any children of the first and second children of the root
+				shall be added in order to the Kaeon document as children of the Principles
+				section, and any remaining children of the root in the original document shall be
+				added in order to the Principles section afterward.
+
+				In an alternate approach however, all children of the root of the original document
+				may be added in order to the Principles section of the Kaeon document.
+
+				If there is only one child of the root in the original document, the title element
+				and the Philosophy section of the Kaeon document shall both have the content of the
+				sole child, and if the original document is empty, the title element and the
+				Philosophy section shall have empty strings as content.
+			-

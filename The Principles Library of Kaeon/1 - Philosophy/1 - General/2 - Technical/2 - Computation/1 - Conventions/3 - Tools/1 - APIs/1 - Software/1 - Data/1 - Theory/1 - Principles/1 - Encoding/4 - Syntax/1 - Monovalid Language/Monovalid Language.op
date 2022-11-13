@@ -1,0 +1,19 @@
+Monovalid Language
+
+	Philosophy
+
+		-
+			A monovalid language is a language in which, for any given content, there is only one
+			way to serialize it.
+
+			A language that is not monovalid is called a multivalid language.
+		-
+
+	Principles
+
+		Input-Output Alignment Validity Test
+
+			-
+				In a monovalid language, when input is deserialized and then immediately
+				reserialized, the output should be exactly the same as the input.
+			-

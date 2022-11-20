@@ -76,6 +76,10 @@ Dynamic Representative Democracy
 
 					The terms of any laws passed by a super region body shall override the terms of
 					laws passed by its respective sub-bodies.
+
+					When a region body is founded, certain laws may be set in place from the
+					beginning by a founding charter, called charter laws, which have a one hundred
+					percent approval rate by default.
 				-
 
 			Representative Override
@@ -93,6 +97,13 @@ Dynamic Representative Democracy
 					The same principle shall apply to the assignment of representatives from
 					sub-bodies to super region bodies, and from legislative seats to executive and
 					judge positions.
+				-
+
+			Deactivation Barriers
+
+				-
+					Certain implementations of DRD may have safeguards in place to prevent certain
+					basic laws from being overridden without a supermajority vote.
 				-
 
 		Terms
@@ -121,6 +132,44 @@ Dynamic Representative Democracy
 					executive of a given region body may call upon emergency powers, as defined by
 					the state body, to override this if deemed necessary.
 				-
+
+		Flag Council
+
+			-
+				Each region body shall, during each term, appoint one official to a flag council.
+
+				To select said official, called a flag officer, each representative shall nominate
+				a candidate, and then all representatives shall vote for their selection, with none
+				being allowed to vote for their own nominee.
+
+				Said candidates must be willing participants selected from among the constituents
+				of the region body who have never served in any elected office, but should ideally
+				be individuals who have made great civil contributions to their region or state.
+
+				Once a flag official is selected, they shall retain their tenure for life or until
+				they resign, and one flag official at any given time shall hold the title of flag
+				bearer, who shall serve as the chief representative for the region body.
+
+				Flag officials shall be assigned certain ceremonial and diplomatic duties, shall
+				receive a salary for their work, and shall also be given an periodic budget with
+				which they may fund public works of their choosing. The salary, budget, and duties
+				of the flag bearer shall exceed those of the other flag officials, called flag
+				guards.
+
+				Flag officials must resign their position if they wish to pursue elected office.
+
+				A flag official appointed to the flag council when no other flag officials are
+				currently serving shall be given the title of flag bearer. If the current flag
+				bearer resigns, is removed due to misconduct, or passes away while other flag
+				officials are currently serving, the remaining flag officials shall elect a new
+				flag bearer from amongst themselves, with none being allowed to vote for
+				themselves.
+
+				The purpose of the flag council is to serve a similar function to the role served
+				by a royal family in a constitutional monarchy, and thus to relieve government
+				officials from having to act as celebrities in addition to politicians, but to do
+				so in a democratic and egalitarian manner as opposed to a hereditary manner.
+			-
 
 		Defaults
 

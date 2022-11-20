@@ -1,0 +1,19 @@
+Tree Root Inversion
+
+	Philosophy
+
+		-
+			Tree root inversion is the process of rotating node connections on a given tree such
+			that a given node becomes the root.
+		-
+
+	Principles
+
+		Uses
+
+			Element Analysis
+
+				-
+					Tree root inversion can be used to analyze a specific element in a tree-based
+					document or DOM such that the surrounding content is taken into account.
+				-

@@ -1,0 +1,20 @@
+Context Session
+
+	Philosophy
+
+		-
+			A context session is a record kept by a process of the state of a given external
+			entity's activities with regards to said process.
+		-
+
+	Principles
+
+		Conventions
+
+			-
+				A context session shall be identified by a unique string ID.
+
+				A new context session may be requested by an external entity, in which case the
+				process hosting said session shall return the unique string ID of the session,
+				after which said entity may use said ID to identify said session.
+			-

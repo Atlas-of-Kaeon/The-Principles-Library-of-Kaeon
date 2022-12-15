@@ -1,0 +1,17 @@
+Context Module
+
+	Philosophy
+
+		-
+			A context module is a value within a given process which acts as a reference point to a
+			set of data relevant to a given context within said process.
+		-
+
+	Principles
+
+		Context Module Map
+
+			-
+				A context module map is a map of context modules, where each context module in said
+				map is assigned a unique string ID.
+			-

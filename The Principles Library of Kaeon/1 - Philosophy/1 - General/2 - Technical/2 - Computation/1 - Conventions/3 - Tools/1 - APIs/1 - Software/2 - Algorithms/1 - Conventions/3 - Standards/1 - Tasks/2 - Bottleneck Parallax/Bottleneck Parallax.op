@@ -1,0 +1,12 @@
+Bottleneck Parallax
+
+	Philosophy
+
+		-
+			When multiple processes are iterating on shared threads, processes that take less time
+			to execute may iterate multiple times to make up for time lost to more intensive
+			processes which act as bottlenecks on said threads, according to an ideal tick rate for
+			each process running on said threads.
+
+			This process can be called bottleneck parallax.
+		-

@@ -1,0 +1,18 @@
+Pre-Render Protocol
+
+	Philosophy
+
+		-
+			A pre-render protocol is a protocol for real-time audiovisual applications where, for
+			each frame rendered, the image and sound are recorded, and then compiled into a video
+			or audio track according to a pre-specified framerate.
+		-
+
+	Principles
+
+		Kaeon ACE
+
+			-
+				Pre-render protocols may be used in conjunction with Kaeon ACE to produce
+				pre-rendered audiovisual media.
+			-

@@ -1,0 +1,63 @@
+General Flow Protocol
+
+	Philosophy
+
+		-
+			The General Flow Protocol (GFP) is a convention for constructing diagrams of entities
+			and their relationships.
+		-
+
+	Principles
+
+		Protocol
+
+			-
+				Documents constructed in GFP consist of entities and connections.
+
+				Entities each have the following properties: a type, and a name.
+
+				Connections each have the following properties: a primary entity, a secondary
+				entity, a format, a type, and a name.
+				
+				The format of a connection may be "bidirectional", meaning that the connection
+				denotes a bidirectional link between its primary and secondary entities,
+				"monodirectional", meaning that the connection denotes a one-way link from the
+				primary entity to the secondary entity, or "parent", meaning that the connection
+				denotes that the secondary entity is a child of the primary entity.
+			-
+
+		Conventions
+
+			General Flow JSON
+
+				-
+					A General Flow JSON object is a JSON object with two fields, one with the alias
+					"entities" and an object value, and one with the alias "connections" and an
+					array value containing objects.
+
+					The entities object shall have a field for each entity, with each alias serving
+					as an ID for the entity represented by the object in its value.
+
+					Said object shall have a field with the alias "name", and a field with the
+					alias "type", each of which shall contain strings.
+
+					Each object in the connections array shall represent a connection between two
+					entities specified by the entities object.
+
+					Said objects shall each have a field with the alias "primary", a field with the
+					alias "secondary", a field with the alias "format", a field with the alias
+					"type", and a field with the alias "name", all of which must contain string
+					values, except for type and name, which may be null as well.
+
+					The primary and secondary fields shall specify the IDs of the entities to which
+					they correspond as specified by the keys of the entities object, and the values
+					of the format field shall be limited to "bidirectional", "monodirectional", and
+					"parent".
+				-
+
+			Rendering Schemes
+
+				-
+					A GFP rendering scheme is a codified convention for how to visualize a GFP
+					document given the properties of its elements.
+				-

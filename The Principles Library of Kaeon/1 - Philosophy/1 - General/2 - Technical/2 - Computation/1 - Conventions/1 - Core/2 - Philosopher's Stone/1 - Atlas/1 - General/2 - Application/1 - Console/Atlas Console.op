@@ -1,0 +1,8 @@
+Atlas Console
+
+	Philosophy
+
+		-
+			An atlas console is a text input channel which may be used to interact with an active
+			Philosopher's Atlas, where every line of input is passed to said Atlas as a call.
+		-

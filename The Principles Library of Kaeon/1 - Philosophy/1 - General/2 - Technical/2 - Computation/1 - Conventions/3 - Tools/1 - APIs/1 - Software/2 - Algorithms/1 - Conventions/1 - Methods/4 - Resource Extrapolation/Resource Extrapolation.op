@@ -1,0 +1,42 @@
+Resource Extrapolation
+
+	Philosophy
+
+		-
+			Resource extrapolation is a process wherein reusable assets are generated or identified
+			via analysis of the state of a given process or application.
+		-
+
+	Principles
+
+		Extrapolation Improvisation
+
+			-
+				Extrapolation improvisation is where an extracted asset is assigned certain
+				liberties in its behavior to account for uncertainties regarding the source from
+				which it was derived.
+			-
+
+		Record Extrapolation
+
+			-
+				Record extrapolation is a process wherein code and media dependencies of a given
+				process are identified and sorted into groups by type.
+
+				A file recording said information may be used in building other instances of said
+				process, or variants thereof.
+
+				Said record may take the form of an asset JSON object, which has a field for each
+				type of asset, where the alias of said field identifies the type of asset, and the
+				value of the field contains a list of strings identifying the location of each
+				asset of said type.
+			-
+
+		Types
+
+			Script Extrapolation
+
+				-
+					Script extrapolation is the process of deriving scripts for entities in
+					simulations based on their observed behavior.
+				-

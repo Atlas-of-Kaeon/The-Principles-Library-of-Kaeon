@@ -1,0 +1,11 @@
+Polyglot Sequence
+
+	Philosophy
+
+		-
+			A polyglot sequence is a string that constitutes valid code in more than one language.
+
+			For a given set of languages, a polyglot sequence that operates the same way in each of
+			said languages is referred to as convergent, and one that does not is referred to as
+			divergent.
+		-

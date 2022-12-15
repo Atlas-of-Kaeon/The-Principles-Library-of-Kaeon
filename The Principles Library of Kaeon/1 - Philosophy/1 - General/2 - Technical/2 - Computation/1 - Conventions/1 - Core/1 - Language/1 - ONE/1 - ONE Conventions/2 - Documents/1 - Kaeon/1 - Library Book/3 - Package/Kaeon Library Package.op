@@ -1,0 +1,28 @@
+Kaeon Atlas Package
+
+	Philosophy
+
+		-
+			A Kaeon Atlas Package (KAP) is a folder which represents the contents of a Kaeon
+			library atlas.
+		-
+
+	Principles
+
+		Format
+
+			-
+				A Kaeon Atlas Package contains a file containing an extended Kaeon library book of
+				the Kaeon library atlas, and a folder for each Kaeon library in said atlas,
+				labelled by number in the meta-order of said libraries.
+
+				Each of said folders shall contain the contents of the wonders folder of its
+				library, but shall only contain the non-readable files.
+			-
+
+		Storage
+
+			-
+				A Kaeon Atlas Package may be stored as a zip file, and may use the file extension
+				".kap".
+			-

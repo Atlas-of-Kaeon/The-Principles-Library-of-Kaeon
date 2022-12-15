@@ -1,0 +1,8 @@
+Recycling Iteration
+
+	Philosophy
+
+		-
+			Recycling iteration is when a function that is executed repeatedly returns a value,
+			called a recycled value, which is passed to it as an argument in the next iteration.
+		-

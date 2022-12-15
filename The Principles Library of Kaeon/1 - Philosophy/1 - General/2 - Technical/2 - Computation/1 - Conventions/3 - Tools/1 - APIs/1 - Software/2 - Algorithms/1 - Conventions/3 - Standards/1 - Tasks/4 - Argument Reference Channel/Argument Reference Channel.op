@@ -1,0 +1,43 @@
+Argument Reference Channel
+
+	Philosophy
+
+		-
+			An argument reference channel is an alias passed to its application through its
+			arguments which specifies a channel through which to communicate with external
+			entities.
+		-
+
+	Principles
+
+		WARC
+
+			-
+				A WARC (Web Argument Reference Channel), is an argument reference channel for web
+				applications.
+
+				A WARC uses a URL argument with the alias "WARC" (case insensitive) to specify a
+				JSON array of string aliases for values in local storage which it may use to
+				communicate with applications that share the same domain, whether it is operating,
+				in a different window or in an iframe.
+
+				The standard form of said values is the stringified form of a JSON object which
+				contains two string fields: "incoming", to be modified by external entities, and
+				"outgoing", to be modified by the application to which the WARC applies.
+
+				WARCs may be used as a method for multitasking by enabling communication across
+				multiple windows, in addition to web workers.
+			-
+
+		Static Reference Channel
+
+			-
+				A static reference channel is a mechanism through which an application can access
+				updates to itself.
+
+				A static reference channel consists of a server hosted at a static address which
+				assigns an ID to each application it hosts updates for, and which allows developers
+				of said applications to change the update assigned to a given ID.
+
+				Said updates shall consist of plain text files, which may be interpreted as needed.
+			-

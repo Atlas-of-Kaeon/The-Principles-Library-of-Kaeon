@@ -1,0 +1,9 @@
+Alias Recycling
+
+	Philosophy
+
+		-
+			Alias recycling is an optimization technique where memory and aliases assigned to one
+			variable are used for another when the aforementioned variable is no longer needed, so
+			as to spare minor amounts of time, memory, and code length.
+		-

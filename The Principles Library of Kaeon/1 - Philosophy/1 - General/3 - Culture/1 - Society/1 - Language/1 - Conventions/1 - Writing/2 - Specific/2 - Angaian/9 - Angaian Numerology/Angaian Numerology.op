@@ -1,0 +1,15 @@
+Angaian Numerology
+
+	Philosophy
+
+		-
+			Angaian words can be represented as numbers by converting each letter to its character
+			value and concatenating them together.
+
+			This may optionally be done by padding the resulting numbers with leading zeroes to
+			ensure that each word forms a unique number, with the resulting length of each number
+			being four digits, followed by the removal of leading zeroes.
+
+			Numbers generated with added zeros are referred to as padded, and those generated
+			without added zeroes are referred to as unpadded.
+		-

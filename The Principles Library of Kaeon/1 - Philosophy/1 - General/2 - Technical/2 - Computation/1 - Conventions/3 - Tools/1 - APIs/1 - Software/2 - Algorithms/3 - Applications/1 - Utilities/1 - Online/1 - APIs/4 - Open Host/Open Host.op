@@ -13,6 +13,12 @@ Open Host
 
 			Features
 
+				Contexts
+
+					-
+						An open host may store context modules using a context module map.
+					-
+
 				Processes
 
 					-
@@ -48,11 +54,24 @@ Open Host
 							containing JavaScript code.
 							
 							For a process submission, said code shall contain the body of a
-							function to execute as often as possible given the server's resources.
+							function which takes a context utility object and a recycled value, and
+							returns a recycled value, to execute as often as possible given the
+							server's resources.
 
 							For a route submission, said code shall contain the body of a function
-							which takes an HTTP JSON object representing an HTTP request, and
-							returns an HTTP JSON object representing an HTTP response.
+							which takes an HTTP JSON object representing an HTTP request, and a
+							context utility object, and returns an HTTP JSON object representing an
+							HTTP response.
+
+							A context utility object shall have a create context function, which
+							creates a new context module in the form of an empty JavaScript object,
+							and returns a unique string ID to identify said object, and a get
+							context function, which takes a the string ID of a context object
+							created by the create context function, and returns the corresponding
+							context module.
+
+							Context modules may be deleted by an open host if too much time has
+							passed without them being used.
 
 							A route submission may optionally have an additional URL argument
 							called "route", which may contain a string with which to uniquely

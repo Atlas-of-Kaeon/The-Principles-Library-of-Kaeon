@@ -1,0 +1,20 @@
+Alias Metadata Format
+
+	Philosophy
+
+		-
+			The alias metadata format is a convention for file names, and other aliases that follow
+			the same conventions as file names, to specify additional metadata about the files or
+			items they reference.
+
+			Under the alias metadata format, an alias shall have at least two periods, and shall
+			consist of an ID sequence, spanning from the beginning of the alias to before the first
+			period, a content sequence, spanning from after the first period to before the last
+			period, and an extension sequence, spanning from after the last period to the end of
+			the alias.
+
+			The content sequence shall be divided into segments by periods which represent
+			key-value pairs, and each segment shall be divided by hyphens, with the section prior
+			to the hyphen denoting the key, and with the section after the hyphen denoting the
+			value.
+		-

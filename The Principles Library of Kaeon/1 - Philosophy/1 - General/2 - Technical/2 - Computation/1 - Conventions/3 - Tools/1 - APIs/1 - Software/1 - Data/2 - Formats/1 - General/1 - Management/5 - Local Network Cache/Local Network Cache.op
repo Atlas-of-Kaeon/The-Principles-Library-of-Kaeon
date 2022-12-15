@@ -1,0 +1,43 @@
+Local Network Cache
+
+	Philosophy
+
+		-
+			A local network cache is a file or database that stores files retrieved from the
+			internet during the operation of a given process so that the same resources may be used
+			even when the internet is not available.
+		-
+
+	Principles
+
+		Conventions
+
+			Pre-Cache
+
+				-
+					To pre-cache resources for a given process is to load any resources said process
+					may require into a local network cache before said process is ever executed.
+				-
+
+			Auto-Cache Protocol
+
+				-
+					An auto-cache protocol, when applied to a given process, causes said process to
+					automatically load resources into a local network cache when retrieving
+					resources from the internet, and to automatically retrieve said resources from
+					the local cache when the internet is unavailable.
+				-
+
+		Standard Network Cache
+
+			-
+				A standard network cache is a field JSON object where each key is the location of a
+				resource and each value is the content of the resource referenced by the
+				corresponding key.
+
+				A standard network cache shall, unless specified otherwise, be stored as a file
+				with the name "localCache.json"
+
+				An auto-cache protocol that uses a standard network cache is called a standard
+				auto-cache protocol.
+			-

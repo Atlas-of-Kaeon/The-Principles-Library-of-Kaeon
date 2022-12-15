@@ -1,0 +1,24 @@
+The One-Bound Standard
+
+	Philosophy
+
+		-
+			The one-bound standard is a convention for mathematical simulations that limits all
+			values to a range spanning from negative one to one, inclusive.
+
+			Scaling values that exceed the one-bound standard to the one-bound standard is called
+			one-bound scaling.
+		-
+
+	Principles
+
+		Cartesian Geometry
+
+			-
+				The one-bound standard, when applied to geometric simulation, acts on the
+				coordinates of points in space.
+
+				A mesh which spans from negative one to one on at least one dimension while
+				remaining within the one-bound standard in all dimensions is called a one-bound
+				mesh.
+			-

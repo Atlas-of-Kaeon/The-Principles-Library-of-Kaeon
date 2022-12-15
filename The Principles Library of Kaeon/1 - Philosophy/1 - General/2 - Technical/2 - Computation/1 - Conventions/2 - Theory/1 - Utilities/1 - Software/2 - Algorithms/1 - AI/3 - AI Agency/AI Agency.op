@@ -15,3 +15,13 @@ AI Agency
 				During the Turing test, one should watch for the presence of AI agency, treating it
 				as a success criterion.
 			-
+
+		Techniques
+
+			Bot Feedback Loops
+
+				-
+					A crude way to achieve a degree of AI agency is to engage multiple bots in a
+					feedback loop with each other, and assign an additional monitor process to
+					derive actionable commands from the resulting conversation.
+				-

@@ -3,12 +3,47 @@ Right Aligned ONE
 	Philosophy
 
 		-
-			Right aligned ONE is a convention for wrapped ONE elements containing text written in
-			scripts or languages that read right to left.
-
-			Under said convention, for every line in the content of a right aligned ONE element for
-			which the first non-whitespace character is derived from a right to left script, said
-			character shall be preceded with enough whitespace such that the length of said
-			whitespace added to the remaining length of the line shall equal the character limit of
-			the wrapping.
+			Right aligned ONE is a set of conventions for wrapped ONE elements containing text
+			written in scripts or languages that read right to left.
 		-
+
+	Principles
+
+		Conventions
+
+			Application
+
+				-
+					The forms which right aligned ONE may take apply to the lines of an element's
+					content which derive from lines that were right aligned prior to wrapping.
+
+					Said lines are referred to as right content lines, the first non-whitespace
+					characters of which are referred to as the origins of said lines.
+				-
+
+		Forms
+
+			Reverse Indented
+
+				-
+					In the reverse indented form of right aligned ONE, for every right content
+					line, the origins of said lines shall be preceded with enough whitespace such
+					that the resulting length of said lines shall equal the character limit of the
+					wrapping minus the combined length of the nesting sequences used to nest said
+					line within the document.
+				-
+
+			Flat
+
+				-
+					In the flat form of right aligned ONE, for every right content line, the
+					origins of said lines shall be preceded with enough whitespace such that the
+					resulting length of said lines shall equal the character limit of the wrapping.
+				-
+
+			Unshifted
+
+				-
+					In the unshifted form of right aligned ONE, the right content lines shall not
+					be modified.
+				-

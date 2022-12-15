@@ -1,0 +1,39 @@
+Section Map
+
+	Philosophy
+
+		-
+			A section map is a process in which a document's content is divided into ordered
+			sections according to a desired number of sections, called a section divisor.
+
+			For tree based documents, this should be done according to the global tree node indices
+			of its elements.
+
+			A group of section maps is called a section map collection.
+		-
+
+	Principles
+
+		Section Cycle
+
+			-
+				A section cycle is the process of iterating through the sections of a document as
+				specified by a section map assigned to it on a set schedule, according to a unit of
+				time called the section interval.
+
+				Any convention that specifies an origin point for a section cycle is called a
+				section origin.
+
+				Any convention that disrupts a section cycle is called a section override.
+			-
+
+		Standard Section Cycle
+
+			-
+				A standard section cycle applies a section map to a document using a section
+				divisor of 365 and a section interval of one day, with a section origin of January
+				1st, and a section override specifying that February 29th is to be skipped.
+
+				A standard section cycle may be modified by multiplying the section divisor by a
+				number called a degree.
+			-

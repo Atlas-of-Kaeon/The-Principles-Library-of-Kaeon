@@ -1,0 +1,11 @@
+Omnievent
+
+	Philosophy
+
+		-
+			An omnievent is a function that triggers whenever any external input is detected by a
+			given application.
+
+			Omnievents can be used to bypass certain restrictions in certain operating
+			environments.
+		-

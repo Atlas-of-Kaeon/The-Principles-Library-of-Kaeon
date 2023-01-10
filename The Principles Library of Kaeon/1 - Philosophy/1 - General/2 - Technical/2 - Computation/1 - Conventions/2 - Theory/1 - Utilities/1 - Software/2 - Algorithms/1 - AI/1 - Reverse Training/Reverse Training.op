@@ -8,3 +8,12 @@ Reverse Training
 			relevant metadata, so as to reproduce, and possibly combine, the behavior of existing
 			AI models into new ones.
 		-
+
+	Principles
+
+		Inference Extraction
+
+			-
+				Inference extraction refers to any process used to derive or approximate the data
+				used to train a trained machine learning model from said model.
+			-

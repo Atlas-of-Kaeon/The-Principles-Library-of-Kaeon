@@ -1,0 +1,14 @@
+Correlation Testing
+
+	Philosophy
+
+		-
+			Correlation testing is the testing of an AI model where each input output pair is
+			assigned a correlation value between zero and one, inclusive, where the generated
+			output is assigned a similar correlation value based on the its similarity to the
+			specified output, and then judged based on how close said correlation value is to the
+			specified correlation value.
+
+			Correlation testing where all specified correlation values are set to zero is called
+			anti-testing.
+		-

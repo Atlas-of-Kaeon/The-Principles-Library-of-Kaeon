@@ -1,0 +1,11 @@
+Dual Map
+
+	Philosophy
+
+		-
+			A dual map is a key-value map where each value may act as the key to access its key as
+			a value, returning a list of keys if multiple keys have the same value.
+
+			Using a value as the key for a key or set of keys is called reverse access, and should
+			be implemented to allow for O(1) execution time.
+		-

@@ -14,13 +14,15 @@ Source Vectorization
 			-
 				Source vectorization shall, by default, tokenize the source text into an array of
 				strings, and convert said strings to numbers to produce the vector.
+
+				The tokens used to divide said text are referred to as a vectorization set.
 			-
 
 		Number Assignment
 
 			-
 				As strings are converted to numbers as the process is repeated with numerous
-				inputs, a log shall be kept of each string converted.
+				inputs, a log, called a token registry, shall be kept of each string converted.
 
 				When a new string that has not yet been encountered is converted, it shall be
 				assigned a number within the log according to the order it is added to the log,

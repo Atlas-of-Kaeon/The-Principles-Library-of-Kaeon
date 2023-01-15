@@ -1,0 +1,18 @@
+Input Assignment
+
+	Philosophy
+
+		-
+			Input assignment is the process of taking an output value, and possibly a correlation
+			value, intended for a machine learning dataset, and generating possible input values
+			which could reasonably correspond to said output and correlation values.
+		-
+
+	Principles
+
+		Reverse Dataset
+
+			-
+				A reverse dataset is a machine learning dataset generated from another machine
+				learning dataset by reversing the input and output values.
+			-

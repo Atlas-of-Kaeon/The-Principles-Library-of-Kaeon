@@ -1,0 +1,17 @@
+Model Analyzer
+
+	Philosophy
+
+		-
+			A model analyzer tests the accuracy of multiple AI models on a given dataset and ranks
+			them according to their performance on said dataset.
+		-
+
+	Principles
+
+		Auto-Selection
+
+			-
+				An AI system may train and test multiple models with a split dataset, and may
+				automatically identify and utilize the model with the best results.
+			-

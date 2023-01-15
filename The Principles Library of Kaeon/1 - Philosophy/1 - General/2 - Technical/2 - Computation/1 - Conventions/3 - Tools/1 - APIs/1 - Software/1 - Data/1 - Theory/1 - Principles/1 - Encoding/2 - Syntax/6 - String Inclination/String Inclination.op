@@ -3,8 +3,20 @@ String Inclination
 	Philosophy
 
 		-
-			The inclination of a given string refers to whether the first character of a string
-			which is not punctuation or whitespace hails from a script that read left to right,
-			rendering the inclination of said string as left, or from a script that reads right to
-			left, rendering said the inclination of said string as right.
+			The inclination of a given string refers to the properties that can be implicitly
+			inferred from its content to apply to it.
+
+			These include the natural and constructed languages to which it may belong, called the
+			language inclination.
 		-
+
+	Principles
+
+		Alignment Inclination
+
+			-
+				The alignment inclination of a given string refers to whether the first character
+				of a string which is not punctuation or whitespace hails from a script that read
+				left to right, rendering the inclination of said string as left, or from a script
+				that reads right to left, rendering said the inclination of said string as right.
+			-

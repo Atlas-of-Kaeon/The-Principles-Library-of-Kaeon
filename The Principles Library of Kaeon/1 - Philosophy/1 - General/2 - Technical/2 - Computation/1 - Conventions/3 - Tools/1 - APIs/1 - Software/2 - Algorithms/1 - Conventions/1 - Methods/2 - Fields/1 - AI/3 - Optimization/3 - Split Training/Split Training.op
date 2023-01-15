@@ -1,0 +1,17 @@
+Split Training
+
+	Philosophy
+
+		-
+			Split training is where when a dataset is passed into a process which trains a machine
+			learning model, said dataset is split into two sets, the training set, which the model
+			is trained on, and the testing set, which the model is tested on following the
+			training.
+
+			The original dataset is called the source set, and the resulting training and testing
+			set are collectively called a split set.
+
+			The ratio of the length of the training set relative to the length of the testing set
+			is called the split ratio, and the way items are sorted into a split set from a
+			source set according to the split ratio is called the split scheme.
+		-

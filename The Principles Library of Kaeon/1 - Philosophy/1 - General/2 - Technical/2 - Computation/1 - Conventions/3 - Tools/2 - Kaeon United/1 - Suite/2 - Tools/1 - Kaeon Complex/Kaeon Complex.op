@@ -3,9 +3,9 @@ Kaeon Complex
 	Philosophy
 
 		-
-			Kaeon Complex is an online service accessible through the command line which allows
-			various programming languages to be compiled and executed without having to manually
-			install their compilers or runtime environments, save for Kaeon Complex itself.
+			Kaeon Complex is a service integrated into Kaeon United and available via the command
+			line which allows various programming languages to be compiled and executed without
+			having to manually install their compilers or runtime environments.
 		-
 
 	Principles
@@ -21,10 +21,4 @@ Kaeon Complex
 
 				Every argument following the second shall serve as command line arguments for
 				executed programs.
-			-
-
-		Standard Distribution Method
-
-			-
-				By default, Kaeon Complex shall be accessible via npx.
 			-

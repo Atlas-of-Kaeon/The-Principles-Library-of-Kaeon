@@ -1,0 +1,16 @@
+Meta JSON
+
+	Philosophy
+
+		-
+			A meta JSON object is a JSON object which serves to give context to another JSON value.
+
+			A meta JSON object shall have a field with the alias "type", which shall contain a
+			string specifying the type of the value according to its intended use, and a value with
+			the alias "value", which shall contain the value itself, and may also have a field with
+			the alias "data", which may contain any JSON value used to specifying additional
+			information about said value, though it should, unless otherwise specified, be an
+			object.
+
+			A codified protocol for formatting a meta JSON object is called a meta JSON convention.
+		-

@@ -1,0 +1,15 @@
+Function JSON
+
+	Philosophy
+
+		-
+			A function JSON object is a meta JSON object that corresponds to a function.
+
+			A function JSON object must have a its type specified as "function", and shall have its
+			code, which may or may not include the definition if applicable, assigned to the value
+			field as a string.
+
+			The data object may have a field with the alias "language", containing a string
+			specifying the language of the function, and if this field is not present then a
+			program may attempt to auto-detect the language based on the function code.
+		-

@@ -1,0 +1,22 @@
+Forum JSON
+
+	Philosophy
+
+		-
+			A forum JSON object is a JSON object used to represent the content of a query in a chat
+			forum, along with responses to said query.
+
+			A forum JSON object shall have a field with the alias "text", which contains the
+			content of the query, and may optionally have a field with the alias "responses", which
+			contains an array of forum JSON objects, each of which represents a response to said
+			query, arranged in the order said responses were submitted.
+		-
+
+	Principles
+
+		Chat Array
+
+			-
+				A chat array is an array of strings, where the first string represents a query, and
+				each subsequent string represents a response to the previous string.
+			-

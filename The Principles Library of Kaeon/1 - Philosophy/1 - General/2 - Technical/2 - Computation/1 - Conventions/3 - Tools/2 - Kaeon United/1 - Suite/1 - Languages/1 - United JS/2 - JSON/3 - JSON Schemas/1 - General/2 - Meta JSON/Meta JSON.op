@@ -14,3 +14,12 @@ Meta JSON
 
 			A codified protocol for formatting a meta JSON object is called a meta JSON convention.
 		-
+
+	Principles
+
+		Meta JSON Preprocessing
+
+			-
+				A document containing meta JSON objects may be preprocessed by replacing each meta
+				JSON object in the document with the value of its value field.
+			-

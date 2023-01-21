@@ -1,0 +1,34 @@
+Filter Router
+
+	Philosophy
+
+		-
+			A filter router uses an AI model to place inputs into types, after which a secondary AI
+			model, assigned according to the predicted type, can be assigned to generate a matching
+			output.
+		-
+
+	Principles
+
+		Type Catalogue
+
+			-
+				The set of types that may be assigned to an input by a filter router is called the
+				type catalogue of said filter router.
+
+				Each type shall have a model mapped to it.
+			-
+
+		Nesting
+
+			-
+				Filter routers may be nested within one another by assigning filter routers to
+				types within another's type catalogue.
+			-
+
+		Auto-Generation
+
+			-
+				A process capable of generating a filter router and its corresponding type
+				catalogue given a set of pre-existing models is called a filter generator.
+			-

@@ -1,0 +1,10 @@
+Schema JSON
+
+	Philosophy
+
+		-
+			A schema JSON object is a JSON object which serves to define formatting conventions for
+			other JSON values.
+
+			A method for formatting a schema JSON object is called a schema JSON convention.
+		-

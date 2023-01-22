@@ -32,3 +32,13 @@ Filter Router
 				A process capable of generating a filter router and its corresponding type
 				catalogue given a set of pre-existing models is called a filter generator.
 			-
+
+		Sequential Filter Router
+
+			-
+				A sequential filter router is a filter router that takes into account previous
+				inputs it received and the types it assigned to them within a given usage context.
+
+				A sequential filter router that can use auto-generation to modify itself
+				mid-sequence is called an auto-generating sequential filter router.
+			-

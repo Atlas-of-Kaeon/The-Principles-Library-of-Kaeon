@@ -37,3 +37,15 @@ Section Map
 				A standard section cycle may be modified by multiplying the section divisor by a
 				number called a degree.
 			-
+
+		Library Cycle
+
+			-
+				A library cycle is the application of section cycles to groups of documents rather
+				than to a single document.
+
+				A library cycle of documents that themselves have section cycles is referred to as
+				a zodiac cycle.
+
+				Library cycles may be nested within one another.
+			-

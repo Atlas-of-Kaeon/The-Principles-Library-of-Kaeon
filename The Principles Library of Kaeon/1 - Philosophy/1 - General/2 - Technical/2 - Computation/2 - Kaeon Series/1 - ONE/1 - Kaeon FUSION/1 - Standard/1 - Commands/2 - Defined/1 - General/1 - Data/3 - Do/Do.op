@@ -1,0 +1,17 @@
+Do
+
+	Philosophy
+
+		-
+			The do command contains the content "Do". It shall have between one and three children,
+			the first of which shall return an element in ONE list form, the second of which, if
+			present, shall return a list, the contents of which may be anything, and the third of
+			which, if present, shall return a boolean.
+
+			It shall virtually execute the element defined by the first list with its own return
+			value and a new state, sharing the values stored in the global state, with the second
+			list, if present, defining arguments for the element to execute with. After the
+			execution, the do command shall return the value of the new return value. If the third
+			child is present and returned true, the command shall execute asynchronously and shall
+			return a promise which shall resolve to the aforementioned value.
+		-

@@ -1,0 +1,12 @@
+Retroscaled Transforms
+
+	Philosophy
+
+		-
+			Retroscaled transforms are transforms of sequential data where data more relevant to
+			earlier points in said sequence is transformed to a greater degree than data more
+			relevant to later points in said sequence.
+
+			Retroscaled transforms can be used in generative AI to help it retain awareness of the
+			earliest states in a given context despite having limited input capacity.
+		-

@@ -1,0 +1,9 @@
+Kaeon META Command
+
+	Philosophy
+
+		-
+			The Kaeon META command implemented in the standard Kaeon FUSION interface shall
+			override the version of it specified in the Kaeon META interface, and shall return a
+			promise which shall resolve to the value it would have otherwise returned.
+		-

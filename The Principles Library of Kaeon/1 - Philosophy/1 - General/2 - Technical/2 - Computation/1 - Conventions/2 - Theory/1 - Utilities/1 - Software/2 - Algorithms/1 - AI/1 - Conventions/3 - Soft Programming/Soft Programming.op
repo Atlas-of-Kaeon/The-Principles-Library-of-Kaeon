@@ -1,0 +1,32 @@
+Soft Programming
+
+	Philosophy
+
+		-
+			Soft programming is the use of AI in place of hardcoded functions within programs.
+
+			Reflective soft programming is where soft programming is used to generate code that the
+			program then executes.
+
+			A soft programming algorithm is an algorithm specifically designed for soft
+			programming.
+		-
+
+	Principles
+
+		Prompt Protocols
+
+			-
+				Prompt protocols are codified conventions for how to phrase questions posed to
+				intelligent systems in order to receive a specific sort of response.
+
+				Reflective soft programming may be used to derive prompts for steps to further the
+				goals posed by a previous prompt. Said prompts are referred to as reflective
+				prompts.
+
+				Soft programming algorithms consist of hierarchical prompt protocols consisting of
+				initial prompts and reflective prompts. Initial prompts that are hardcoded are
+				referred to as seed prompts, and initial prompts that are provided by a user are
+				referred to as request prompts. In a soft programming algorithm with a single
+				initial prompt, said prompt is referred to as the master prompt.
+			-

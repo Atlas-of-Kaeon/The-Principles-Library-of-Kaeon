@@ -1,0 +1,11 @@
+Await
+
+	Philosophy
+
+		-
+			The await command contains the content "Await", and has one child which returns a
+			promise.
+			
+			It will pause the execution of the program until the promise returned to it has
+			resolved.
+		-

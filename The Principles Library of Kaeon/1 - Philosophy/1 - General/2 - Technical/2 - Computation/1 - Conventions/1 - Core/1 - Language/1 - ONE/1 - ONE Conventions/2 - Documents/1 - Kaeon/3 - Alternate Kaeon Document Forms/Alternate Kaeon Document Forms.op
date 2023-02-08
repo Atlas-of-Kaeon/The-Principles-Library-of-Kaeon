@@ -3,26 +3,53 @@ Alternate Kaeon Document Forms
 	Philosophy
 
 		-
-			This document lists alternate forms of ONE documents that may be used to encode the
-			content of what would otherwise be a Kaeon document.
+			This document lists alternate forms of ONE content that use similar but different
+			conventions relative to those of Kaeon documents.
 		-
 
 	Principles
 
-		Masked Kaeon Documents
+		Semi Kaeon Documents
+
+			Conventions
+
+				-
+					A semi Kaeon document is a ONE document that uses a format similar to a Kaeon
+					document to encode content in a similar manner to a Kaeon document, but that
+					does not follow the Kaeon document format exactly.
+				-
+
+			Types
+
+				Masked Kaeon Documents
+
+					-
+						A masked Kaeon document is a semi Kaeon document that uses alternate terms
+						for the philosophy, principles, and wonders sections.
+
+						The default alternate term for philosophy is "Abstract", the default term
+						for principles is "Contents", and the default term for wonders is
+						"Program".
+					-
+
+				Reduced and Flattened Kaeon Documents
+
+					-
+						A reduced Kaeon document has the philosophy, principles, and wonders
+						sections of the document removed, and has the children of the principles
+						section as the children of the title element instead.
+
+						A flattened Kaeon document is a reduced Kaeon with the title element
+						removed, and with the children of the principles section as the children of
+						the root instead of the title.
+					-
+
+		Masked Kaeon Libraries
 
 			-
-				A masked Kaeon document uses alternate terms for the philosophy and principles
-				sections.
+				A masked Kaeon library is a Kaeon library that uses alternate terms for the
+				philosophy, principles, and wonders sections.
 
-				The default alternate term for philosophy is "Abstract", and the default term for
-				principles is "Contents".
-			-
-
-		Reduced Kaeon Documents
-
-			-
-				A reduced Kaeon document has the philosophy and principles sections of a Kaeon
-				document removed, and has the children of the principles section as the children
-				of the title element instead.
+				The default alternate term for philosophy is "Contents", the default term for
+				principles is "References", and the default term for wonders is "Archive".
 			-

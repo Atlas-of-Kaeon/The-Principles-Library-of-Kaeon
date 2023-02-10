@@ -1,0 +1,10 @@
+Messaging Interface
+
+	Philosophy
+
+		-
+			A messaging interface is an API that allows an external entity to interface with a
+			process via communications formed according to a codified protocol and sent according
+			to a codified protocol over a messaging or communications service, such as email, SMS,
+			or telephone.
+		-

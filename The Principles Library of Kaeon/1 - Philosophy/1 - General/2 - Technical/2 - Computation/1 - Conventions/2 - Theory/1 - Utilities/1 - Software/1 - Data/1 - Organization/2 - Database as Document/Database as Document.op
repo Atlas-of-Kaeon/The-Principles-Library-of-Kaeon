@@ -1,0 +1,21 @@
+Database as Document
+
+	Philosophy
+
+		-
+			Under the database as document model, when designing a database, its contents and rules
+			should be conceived of as the contents of a single document rendered in a pre-existing,
+			general-purpose data interchange format.
+
+			Any interface to such a database should be designed as though its conception matched
+			its implementation.
+		-
+
+	Principles
+
+		Query as Document
+
+			-
+				Under the query as document model, queries to databases should take the form of
+				documents rendered in a pre-existing, general purpose data interchange format.
+			-

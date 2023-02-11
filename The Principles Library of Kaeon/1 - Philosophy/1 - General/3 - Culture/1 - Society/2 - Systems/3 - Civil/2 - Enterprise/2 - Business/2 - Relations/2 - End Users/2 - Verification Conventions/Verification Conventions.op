@@ -1,0 +1,261 @@
+Verification Conventions
+
+	Philosophy
+
+		-
+			This document specifies methods for verifying user authenticity and details.
+		-
+
+	Principles
+
+		Methods
+
+			Automatic
+
+				Authenticity
+
+					Digital Checks
+
+						Basic Information
+
+							-
+								A service with any non-zero concern threshold should require any
+								prospective user to submit, at minimum, their first name, last
+								name, and date of birth, plus an email address and a phone number.
+							-
+
+						Activity
+
+							IP
+
+								-
+									User activity may be tracked by IP address, which may be used
+									to verify suspicious patterns of behavior.
+								-
+
+							Anti-Spam Measures
+
+								-
+									User activity may be monitored via third party services, with
+									suspicious users being blocked automatically, or with them
+									being forced to demonstrate that they are not bots.
+								-
+
+						Accounts
+
+							Account Confirmation
+
+								-
+									When signing up, a user may be asked to submit an email address
+									and a phone number, which may each be verified by asking the
+									user to respond in some way to a prompt sent by the service
+									they are subscribing to.
+								-
+
+							Account Exclusivity
+
+								-
+									To prevent more than one account per user, no phone number or
+									email address should be allowed to be used more than once
+									across the platform.
+								-
+
+							Personal Phone Confirmation
+
+								-
+									Phone numbers may be looked up and classed into certain types,
+									and users should only be permitted to use numbers that can
+									reasonably be assumed to be for personal use.
+								-
+
+					ID Submissions
+
+						Retention and Verification
+
+							-
+								Users may submit 3rd party records which affirm their identity.
+
+								A platform may merely retain said records and verify them if a
+								conflict emerges or if suspicion is raised, or may verify them by
+								default before granting a user access. Verification, however, tends
+								to be a difficult and expensive process.
+
+								Regardless, the psychological aspects of submitting an ID may deter
+								users from attempting to defraud the service whether or not all IDs
+								are verified.
+							-
+
+						Formats
+
+							Public
+
+								SSN
+
+									-
+										One's Social Security Number (SSN) is one method by which
+										a user may affirm their identity.
+									-
+
+								Photo ID
+
+									-
+										Submission of a scan of a government issued photo ID, such
+										as a driver's license or passport, is one method by which a
+										user may affirm their identity.
+									-
+
+							Third Party
+								
+								Background Checks
+
+									-
+										Submission of the documentation of a 3rd party background
+										check, such as a credit check, is one method by which a
+										user may affirm their identity.
+									-
+
+								Services
+
+									Rationale
+
+										-
+											Many existing services perform extensive background
+											checks on users before allowing them onto their
+											platform, thus, a new service may confirm a user's
+											authenticity by confirming that they are registered
+											with such an existing service.
+										-
+
+									Methods
+
+										Email
+
+											-
+												One method to confirm registration with an external
+												service is to have the user forward an email from
+												them.
+
+												Said email may need to contain some reference to
+												the user's identity, and should be verified via
+												checking the headers of the forwarded message.
+											-
+
+										Link
+
+											-
+												One method to confirm registration with an external
+												service is to have the user link an account they
+												have with said existing service to the new service.
+											-
+
+										Open Reference
+
+											-
+												One method to confirm registration with an external
+												service is, if said service openly publishes
+												subscriber information, to have the user reference
+												their information, and preferably to confirm it via
+												a private key.
+											-
+
+				Details
+
+					Location
+
+						-
+							A user's location may be identified via geolocation.
+
+							While this may be spoofed, the average user is unlikely to be capable
+							of doing so, whereas it would be fairly easy if all they had to do was
+							enter it manually.
+							
+							To discourage attempts at spoofing the platform may limit how many
+							times one's location may be changed within a certain time frame.
+						-
+
+			Manual
+
+				Contact
+
+					Collisons
+
+						-
+							If suspicious patterns are detected due to overlaps in user
+							information, called user collisions, the service may reach out to the
+							users whose information conflicts and verify their identities and
+							intentions manually.
+						-
+
+					Confusion
+
+						-
+							A hotline may be established for legitimate users who have difficulty
+							signing up due to the platform raising false alarms.
+						-
+
+		Tools
+
+			Anti-Spam Measures: Captcha, Cloudflare
+
+			Phone Number Lookup: 'https://github.com/google/libphonenumber'
+
+			Third Party Service
+
+				Email: Robinhood, Coinbase, Banks
+				Link: Plaid
+
+			Open Reference: Kleros - Proof of Humanity
+
+		Conventions
+
+			Notes
+
+				Flexibility
+
+					-
+						A service may choose to allow prospective users to verify their identity in
+						multiple ways.
+
+						Furthermore, a service should have a protocol in place if they update their
+						verification policy and thus require users to reverify themselves.
+					-
+
+				Third Party Requests
+
+					-
+						If a 3rd party service does not offer any method through which a new
+						service may verify one of said 3rd party service's existing users, the new
+						service may reach out to the existing service and request that they
+						implement such functionality.
+
+						One way of convincing them to do this may be to agree only to use said
+						existing service for this purpose, thus requiring prospective users of the
+						new platform to also subscribe to the existing platform.
+					-
+
+				Warnings
+
+					-
+						To deter attempts at fraud, a service may place warnings when signing up
+						that attempts to defraud the platform may result in prosecution.
+
+						This should only be used for platforms with very high concern thresholds,
+						such as financial services.
+					-
+
+			Standard Method
+
+				-
+					The standard of user verification is to require the user, in addition to
+					submitting their basic information, to validate their email address and their
+					phone number, to validate that said phone number is most likely a personal
+					phone number, and to enforce a policy of account exclusivity for email
+					addresses, phone numbers, and SSNs, if applicable. If the service uses
+					geolocation to verify user location, redefining one's location should be
+					limited to once per year.
+
+					Under the enhanced standard method, the SSN of the user should also be
+					collected and retained, but not verified unless necessary, a prosecution
+					warning should be displayed, and a contact service should be established for
+					dealing with errors in user submissions and with suspicious activity.
+				-

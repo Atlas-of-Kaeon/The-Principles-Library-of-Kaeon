@@ -243,19 +243,41 @@ Verification Methods
 						such as financial services.
 					-
 
-			Standard Method
+			Methods
 
-				-
-					The standard of user verification is to require the user, in addition to
-					submitting their basic information, to validate their email address and their
-					phone number, to validate that said phone number is most likely a personal
-					phone number, and to enforce a policy of account exclusivity for email
-					addresses, phone numbers, and SSNs, if applicable. If the service uses
-					geolocation to verify user location, redefining one's location should be
-					limited to once per year.
+				Standard Method
 
-					Under the enhanced standard method, the SSN of the user should also be
-					collected and retained, but not verified unless necessary, a prosecution
-					warning should be displayed, and a contact service should be established for
-					dealing with errors in user submissions and with suspicious activity.
-				-
+					-
+						The standard method of user verification is to require the user, in
+						addition to submitting their basic information, to validate their email
+						address and their phone number, to validate that said phone number is most
+						likely a personal phone number, and to enforce a policy of account
+						exclusivity for email addresses and phone numbers, as well as SSNs, if
+						applicable.
+					-
+
+				Conventional Standard Method
+
+					-
+						The conventional standard method expands upon the standard method, and
+						under it, anti-spam measures shall be in place, and if the service uses
+						geolocation to verify user location, redefining one's location shall, by
+						default, be limited to once per year.
+					-
+
+				Enhanced Standard Method
+
+					-
+						The enhanced standard method expands upon the conventional standard method,
+						and under it, the SSN of the user shall be collected and retained, but not
+						verified unless necessary.
+					-
+
+				Conventional Enhanced Standard Method
+
+					-
+						The conventional enhanced standard method expands upon the enhanced
+						standard method, and under it, a prosecution warning shall be displayed on
+						the sign-up form, and a contact service shall be established for dealing
+						with errors in user submissions and with suspicious activity.
+					-

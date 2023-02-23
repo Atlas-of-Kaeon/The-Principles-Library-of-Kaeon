@@ -1,0 +1,8 @@
+K-Auth Core API
+
+	Philosophy
+
+		-
+			The K-Auth core API is a Kaeon API for integrating the level 3 standard method of user
+			verification on both the front and back ends of web services.
+		-

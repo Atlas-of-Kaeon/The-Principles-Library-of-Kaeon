@@ -1,0 +1,14 @@
+K-Auth
+
+	Philosophy
+
+		-
+			All of the user verification and profile management utilities within the Kaeon APIs
+			shall collectively be known as K-Auth.
+		-
+
+	Principles
+
+		APIs
+
+			K-Auth Core

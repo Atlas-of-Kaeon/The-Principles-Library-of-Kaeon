@@ -243,12 +243,12 @@ Verification Methods
 						such as financial services.
 					-
 
-			Methods
+			Standard Method
 
-				Standard Method
+				Base
 
 					-
-						The standard method of user verification is to require the user, in
+						The base standard method of user verification is to require the user, in
 						addition to submitting their basic information, to validate their email
 						address and their phone number, to validate that said phone number is most
 						likely a personal phone number, and to enforce a policy of account
@@ -256,28 +256,30 @@ Verification Methods
 						applicable.
 					-
 
-				Conventional Standard Method
+				Levels
 
-					-
-						The conventional standard method expands upon the standard method, and
-						under it, anti-spam measures shall be in place, and if the service uses
-						geolocation to verify user location, redefining one's location shall, by
-						default, be limited to once per year.
-					-
+					Level 2
 
-				Enhanced Standard Method
+						-
+							The level 2 standard method expands upon the base standard method, and
+							under it, anti-spam measures shall be in place, and if the service uses
+							geolocation to verify user location, redefining one's location shall,
+							by default, be limited to once per year.
+						-
 
-					-
-						The enhanced standard method expands upon the conventional standard method,
-						and under it, the SSN of the user shall be collected and retained, but not
-						verified unless necessary.
-					-
+					Level 3
 
-				Conventional Enhanced Standard Method
+						-
+							The level 3 standard method expands upon the level 2 standard method,
+							and under it, the SSN of the user shall be collected and retained, but
+							not verified unless necessary.
+						-
 
-					-
-						The conventional enhanced standard method expands upon the enhanced
-						standard method, and under it, a prosecution warning shall be displayed on
-						the sign-up form, and a contact service shall be established for dealing
-						with errors in user submissions and with suspicious activity.
-					-
+					Level 4
+
+						-
+							The level 4 standard method expands upon the level 3 standard method,
+							and under it, a prosecution warning shall be displayed on the sign-up
+							form, and a contact service shall be established for dealing with
+							errors in user submissions and with suspicious activity.
+						-

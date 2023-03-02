@@ -39,17 +39,6 @@ Conventional Virtual System
 							a folder, shall return its contents as a directory JSON array.
 						-
 
-					Set Resource Function
-
-						-
-							Each disk interface within a conventional virtual system shall have a
-							set resource function, which shall take an absolute path not including
-							the disk and, for a file, a string, for a folder, a file JSON object of
-							a folder and its contents, and to delete an existing resource, a null
-							value, and shall place the specified resource at the specified location
-							and shall overwrite any existing resource sharing the same path.
-						-
-
 					Label Resource Function
 
 						-
@@ -68,14 +57,39 @@ Conventional Virtual System
 							that cannot reasonably be serialized.
 						-
 
+					Set Resource Function
+
+						-
+							Each disk interface within a conventional virtual system shall have a
+							set resource function, which shall take an absolute path not including
+							the disk and, for a file, a string, for a folder, a file JSON object of
+							a folder and its contents, and to delete an existing resource, a null
+							value, and shall place the specified resource at the specified location
+							and shall overwrite any existing resource sharing the same path.
+						-
+
 				Top Level Interface
 
-					-
-						Any of the disk interface functions may be executed on the file system as a
-						whole, with each disk being treated as a folder, but with disks needing to
-						be separated from any nested files and folders in file paths with the
-						sequence "://" as opposed to a normal slash as a path separator.
-					-
+					Global Paths
+
+						-
+							Any of the disk interface functions may be executed on the file system
+							as a whole, with each disk being treated as a folder, but with disks
+							needing to be separated from any nested files and folders in file paths
+							with the sequence "://" as opposed to a normal slash as a path
+							separator.
+						-
+
+					Execute Function
+
+						-
+							The file system interface shall have an execute function, which shall
+							take a string identifying the file in the file system to execute by its
+							global path, and a list of string arguments for said command, which
+							shall execute said file as a command with said arguments, and shall
+							return the value returned by the commands, which should be a string,
+							but does not have to be.
+						-
 
 			System Conventions
 

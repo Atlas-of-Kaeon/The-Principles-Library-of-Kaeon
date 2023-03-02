@@ -4,6 +4,7 @@ Kaeon META Command
 
 		-
 			The Kaeon META command implemented in the Kaeon FUSION Standard Interface shall
-			override the version of it specified in the Kaeon META interface, and shall return a
-			promise which shall resolve to the value it would have otherwise returned.
+			override the version of it specified in the Kaeon META interface, and may, rather than
+			returning its return value directly, return a promise which shall resolve to the value
+			it would have otherwise returned.
 		-

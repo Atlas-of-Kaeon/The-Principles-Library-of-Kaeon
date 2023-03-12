@@ -46,3 +46,18 @@ HTJS
 
 					with JavaScript code placed between the two aforementioned lines.
 				-
+
+			Shebang
+
+				-
+					An HTJS file may begin with a shebang line, enabling it to function as a
+					terminal command independently.
+
+					The standard shebang line for an HTJS file is:
+
+						#!/usr/bin/env node
+
+					If the aforementioned line is placed before the content of an HTJS file written
+					using the standard format, the resulting format is called HTJSS, the latter 'S'
+					standing for "shebang".
+				-

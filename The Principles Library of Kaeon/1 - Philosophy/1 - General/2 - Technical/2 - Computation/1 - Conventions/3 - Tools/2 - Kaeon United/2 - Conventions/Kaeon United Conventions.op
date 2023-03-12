@@ -15,7 +15,7 @@ Kaeon United Conventions
 			Implementation
 
 				-
-					Kaeon United shall be implemented as an HTJS file, which may be executed as a
+					Kaeon United shall be implemented as an HTJSS file, which may be executed as a
 					command line utility, imported into an HTML document using a script tag,
 					imported as a CommonJS module, used as a Kaeon FUSION interface, or rendered in
 					the browser, and which shall function as a both conventional service and a

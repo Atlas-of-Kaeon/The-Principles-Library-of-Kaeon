@@ -20,3 +20,10 @@ Little Code Solution
 				solution, such that applications written in either may be seamlessly converted from
 				one format to the other.
 			-
+
+		Visual Map Principle
+
+			-
+				The visual map principle holds that any feature of an application which one may use
+				via a GUI should also be usable through a text-based API.
+			-

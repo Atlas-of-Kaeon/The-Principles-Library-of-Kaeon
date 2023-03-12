@@ -1,0 +1,19 @@
+Usage Tier Scaling
+
+	Philosophy
+
+		-
+			Usage tiers are codified subsets of features provided within a suite of tools.
+
+			Usage tier scaling is when a system which hosts said suite optimizes its performance
+			according to which usage tiers are in use.
+		-
+
+	Principles
+
+		Compiler Scaling
+
+			-
+				Compiler scaling is when code is compiled under different compilers according to
+				the syntactic features in use by the source being compiled.
+			-

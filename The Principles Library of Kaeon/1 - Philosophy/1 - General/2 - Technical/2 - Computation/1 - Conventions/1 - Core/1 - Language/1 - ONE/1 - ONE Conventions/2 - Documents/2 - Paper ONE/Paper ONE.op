@@ -21,8 +21,8 @@ Paper ONE
 
 					A paper ONE scheme is implemented as a function which takes the content of an
 					element, the paper ONE element renderings of said element's children according
-					to said scheme, a number indicating how deep said element is nested, a number
-					indicating said element's index.
+					to said scheme, a number indicating how deep said element is nested, and a
+					number indicating said element's index.
 				-
 
 			Library Folder Conversion

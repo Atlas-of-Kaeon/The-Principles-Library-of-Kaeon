@@ -3,32 +3,15 @@ United C
 	Philosophy
 
 		-
-			United C is a convention for C and C++ that allows them to work together as a hybrid
-			language.
+			United C (UC) is a convention for C and C++ that allows them to work together as a
+			hybrid language.
+
+			United C's features extend and are fully backwards compatible with C3.
 		-
 
 	Principles
 
-		Common C
-
-			-
-				Common C is a common convention for C and C++.
-				
-				The source code of a common C program must be written in either C or C++, and said
-				code must conform to the conventions of the latest standard of the respective
-				language.
-
-				Under the common C convention, C code may not use any language features of C that
-				C++ does not possess.
-			-
-
-		United C
-
-			Common C
-
-				-
-					United C follows the common C convention.
-				-
+		Language Features
 			
 			Main Function
 
@@ -181,8 +164,6 @@ United C
 			Conventions
 
 				-
-					United C may be referred to as "UC".
-
 					United C files should use the file extension ".uc".
 
 					The United C Compiler may be abbreviated as "UCC".

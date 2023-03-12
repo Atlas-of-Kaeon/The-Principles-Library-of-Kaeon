@@ -1,0 +1,11 @@
+Readability Levels
+
+	Philosophy
+
+		-
+			The readability level of a file format is level 1 ("render-only") if the raw content of
+			the file cannot be as plain text, level 2 ("render-favored") if the raw content of
+			the file is readable as plain text but lacking in some fundamental way relative to a
+			rendering of said file, and level 3 ("render-optional") is the file is readable as
+			plain text and is not lacking in any way relative to a rendering of said file.
+		-

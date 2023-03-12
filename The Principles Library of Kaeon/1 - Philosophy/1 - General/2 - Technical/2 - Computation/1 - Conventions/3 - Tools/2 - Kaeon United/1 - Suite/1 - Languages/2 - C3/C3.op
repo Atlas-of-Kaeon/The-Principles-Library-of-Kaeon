@@ -1,0 +1,47 @@
+C3
+
+	Philosophy
+	
+		-
+			The Common C Conventions (C3) are a set of common conventions for C and C++ that allow
+			the two languages to operate as one.
+		-
+
+	Principles
+
+		Conventions
+
+			Common C
+
+				-
+					Under the common C (CC) convention, C code may not use any language features of
+					C that C++ does not possess.
+				-
+
+			Cross C
+
+				-
+					Under the cross C (CX) convention, all features of C and C++ may be used.
+				-
+
+		Standards
+
+			Versions
+
+				-
+					The C or C++ code used must conform to the conventions of the latest standard
+					of the respective language.
+				-
+
+			Scaling
+
+				-
+					If only C features, which C++ shares, are used, or if no C++ features are used,
+					the code will compile as C.
+
+					If only C features which C++ shares, and C++ exclusive features, are used, the
+					code will compile as C++.
+
+					If C++ exclusive features are used, and C features which C++ does not share are
+					used, the code will use a custom CX compiler.
+				-

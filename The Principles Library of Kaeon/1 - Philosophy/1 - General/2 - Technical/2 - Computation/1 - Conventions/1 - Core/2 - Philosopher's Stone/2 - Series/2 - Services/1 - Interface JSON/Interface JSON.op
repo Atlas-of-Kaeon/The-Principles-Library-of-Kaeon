@@ -59,31 +59,6 @@ Interface JSON
 					dynamically.
 				-
 
-			Modules
-
-				-
-					An interface JSON object may have a field with the alias "modules", which
-					contains an array of JSON objects, each representing a dependency for a given
-					language.
-
-					Each of said objects shall have a field called "path", and an array of strings,
-					called the package path, where the first string represents the root package of
-					the dependency to which the object corresponds, the last string represents the
-					alias of said dependency, and each intermediate string represents a sub-package
-					of the package represented by the preceding string.
-
-					Each of said objects shall also have a field with the alias "implementations",
-					containing an array of JSON objects, each representing a different
-					implementation of said dependency, where each of said objects has a field with
-					the alias "reference", containing a string specifying the path or module alias
-					of said implementation, and may optionally have a field with the alias
-					"environment", containing a string specifying the language or environment that
-					said dependency is intended for.
-
-					If the environment is not specified, the program will attempt to deduce it
-					dynamically.
-				-
-
 			Extensions
 
 				-
@@ -114,4 +89,42 @@ Interface JSON
 
 					However, unlike with the interface components defined in the components field,
 					no arguments shall be passed to the components defined in the management field.
+				-
+
+			Modules
+
+				-
+					An interface JSON object may have a field with the alias "modules", which
+					contains an array of JSON objects, each representing a dependency for a given
+					language.
+
+					Each of said objects shall have a field called "path", and an array of strings,
+					called the package path, where the first string represents the root package of
+					the dependency to which the object corresponds, the last string represents the
+					alias of said dependency, and each intermediate string represents a sub-package
+					of the package represented by the preceding string.
+
+					Each of said objects shall also have a field with the alias "implementations",
+					containing an array of JSON objects, each representing a different
+					implementation of said dependency, where each of said objects has a field with
+					the alias "reference", containing a string specifying the path or module alias
+					of said implementation, and may optionally have a field with the alias
+					"environment", containing a string specifying the language or environment that
+					said dependency is intended for.
+
+					If the environment is not specified, the program will attempt to deduce it
+					dynamically.
+				-
+
+			References
+
+				-
+					An interface JSON object may have a field with the alias "references", which
+					contains a switch JSON object.
+
+					Each field of said switch JSON object shall represent an external interface
+					JSON file, the alias of said field being the file path to said interface JSON
+					file, and the value of said field indicating that the contents of said file are
+					to be taken as an extension of the interface JSON object to which said switch
+					JSON object belongs if true, and that said contents are not if false.
 				-

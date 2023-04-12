@@ -3,10 +3,7 @@ Universal Preprocessor Assembler
 	Philosophy
 
 		-
-			The universal preprocessor may be used to produce binary data by running it such that a
-			directive, if it does not return a value of null, may return either a string or a byte
-			array.
-
-			In the latter case, the universal preprocessor shall stop and the output of the process
-			shall be said byte array.
+			The universal preprocessor may be used to produce binary data by running it such that
+			the preprocessor returns either a string in the form of compiled code or returns a
+			number or byte array.
 		-

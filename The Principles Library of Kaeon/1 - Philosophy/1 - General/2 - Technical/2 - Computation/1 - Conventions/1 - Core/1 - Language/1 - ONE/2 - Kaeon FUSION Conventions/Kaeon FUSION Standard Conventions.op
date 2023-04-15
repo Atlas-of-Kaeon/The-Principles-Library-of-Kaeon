@@ -32,16 +32,6 @@ Kaeon FUSION Standard Conventions
 				Kaeon FUSION interfaces may be referenced through aliases as opposed to their file
 				paths. The letter case of said aliases is irrelevant.
 			-
-	
-		Return Value
-		
-			-
-				Whenever a Kaeon FUSION command returns a value, said value may be designated as
-				the return value, which will be returned to Kaeon FUSION's host environment after
-				it terminates.
-				
-				There may only be one return value at a time.
-			-
 		
 		Workspace
 		

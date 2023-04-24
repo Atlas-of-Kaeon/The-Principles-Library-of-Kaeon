@@ -11,9 +11,9 @@ True Flight
 		Basic Movement
 			
 			-
-				An object controlled using the true flight mechanic shall have a front facing side,
-				and whatever direction it faces vector, called the target rotation, in combination
-				with said vector shall define a quaternion called the target.
+				An object controlled using the true flight mechanic shall be oriented according to
+				a quaternion called the target, the first three elements of which shall define the
+				target vector, and the last element of which shall define the target rotation.
 				
 				The object may move back and forth along the target vector and may pan along the
 				plane for which the target vector is the normal, relative to the target rotation.

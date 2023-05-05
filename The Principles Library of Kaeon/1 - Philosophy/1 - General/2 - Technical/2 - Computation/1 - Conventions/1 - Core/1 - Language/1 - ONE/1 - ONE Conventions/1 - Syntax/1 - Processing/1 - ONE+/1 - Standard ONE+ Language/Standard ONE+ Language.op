@@ -141,3 +141,19 @@ Standard ONE+ Language
 					In the standard variant of the ONE+ Language, the blank sequence is either a
 					space or a tab.
 				-
+			
+			Open Minus Sequence
+				
+				-
+					In the standard variant of the ONE+ Language, the open minus sequence is an
+					open angle bracket, followed by a forward slash, followed by a closing angle
+					bracket.
+				-
+			
+			Close Minus Sequence
+				
+				-
+					In the standard variant of the ONE+ Language, the close minus sequence is an
+					open angle bracket, followed by a backslash, followed by a closing angle
+					bracket.
+				-

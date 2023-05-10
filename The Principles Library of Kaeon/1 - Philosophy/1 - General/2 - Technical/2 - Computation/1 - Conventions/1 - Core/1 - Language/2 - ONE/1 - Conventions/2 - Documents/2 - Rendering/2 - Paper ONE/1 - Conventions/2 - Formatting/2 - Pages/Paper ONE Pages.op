@@ -1,0 +1,51 @@
+Paper ONE Pages
+
+	Philosophy
+
+		-
+			This document specifies conventions for generated paginated Paper ONE documents.
+		-
+
+	Principles
+
+		Paper ONE Cover Page
+
+			-
+				A paper ONE cover page is a page that may be used for the cover of a paper ONE
+				document rendered as a paginated document.
+
+				The standard paper ONE cover page consists of a centered image at the top of the
+				page, followed by a line at the bottom of the page containing the title of the
+				document, rendered in all capitals, in black, bold Georgia font.
+				
+				If the image is as wide as, or wider than, it is tall, then the image should occupy
+				the maximum possible width within said page's margins, and the title should be
+				rendered in the largest possible size such that the text of said title does not
+				wrap and is not forced onto the next page by the image.
+				
+				If the image is taller than it is wide, then the title should be rendered in the
+				largest possible size such that the text of said title does not wrap, and the image
+				should occupy the maximum possible height such that it does not force the title
+				onto the next page.
+
+				Ideally, the image used for a Paper ONE cover page should be purely black and
+				white, with well-defined edges.
+			-
+
+		Page Numbers
+
+			-
+				Pages of paper ONE documents that are rendered as paginated documents, save for the
+				paper ONE cover page, if present, should have their page numbers written in the
+				bottom left corner.
+
+				The standard font for said page numbers is 9pt Georgia.
+			-
+
+		Dimensions
+
+			-
+				Pages of paper ONE documents that are rendered as paginated documents should have
+				margins which are one eleventh their height on all sides and a width to height
+				ratio of seventeen to twenty-two.
+			-

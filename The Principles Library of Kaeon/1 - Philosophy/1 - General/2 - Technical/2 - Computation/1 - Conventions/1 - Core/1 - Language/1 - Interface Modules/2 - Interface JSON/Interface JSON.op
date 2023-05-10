@@ -1,0 +1,82 @@
+Interface JSON
+
+	Philosophy
+
+		-
+			Interface JSON is a JSON object schema used to specify the functionality and
+			dependencies of interface modules.
+
+			A JSON file containing a single interface JSON object is called an interface JSON file.
+		-
+
+	Principles
+
+		Structure
+
+			Modules
+
+				-
+					An interface JSON object may have a field with the alias "utilities", which
+					shall contain a package object.
+
+					Each field in a package object shall either contain a package object or a
+					utility object, which shall represent utility packages and utilities
+					respectively, the names of said fields being the names of their respective
+					packages and utilities.
+
+					The sequence of aliases leading from the utilities field to a given package or
+					utility object constitutes its path. However, package and utility objects may
+					each have a field with the alias "path", which contains a list of strings to be
+					appended to their path.
+
+					A utility object may have a field with the content "versions", containing a
+					list of version objects.
+
+					Version objects may either have a field with the alias "locations", which shall
+					contain a list of strings which specify possible locations at which the source
+					of the version may be found, or a field with the alias "source", which contains
+					a string specifying the source of the version.
+
+					Utility objects and version objects may each have a field with the alias
+					"properties", which contains an object, the contents of which specify interface
+					properties of the utility or utility versions to which they pertain.
+
+					A codified protocol regarding how the contents of the properties objects may be
+					used to specify interface properties is referred to as an interface JSON
+					convention.
+				-
+
+			Connections
+
+				-
+					An interface JSON object may have a field with the alias "connections", which
+					may itself have a field with the alias "references", and may have a field with
+					the alias "extensions", both of which contain a list of strings, each of which
+					contains the path to or alias of another interface module.
+
+					The extensions list represents modules for which the contents are to be added
+					to the module to which the list belongs.
+				-
+
+		Standard Interface ACE Conventions
+
+			Utility Properties
+
+				Type
+
+					-
+						To represent the type utility property, the properties object of a utility
+						object may have a field with the alias "type", which itself shall contain a
+						string with the content "library", "component", or "plugin".
+					-
+
+			Version Properties
+
+				Environment
+
+					-
+						To represent the environment utility property, the properties object of a
+						version object may have a child with the content "environment", which
+						itself shall contain a string, the content of which shall specify the
+						environment of the version to which it pertains.
+					-

@@ -1,0 +1,10 @@
+Conventional Shadow Host
+
+	Philosophy
+
+		-
+			A conventional shadow host is a shadow host which may be instructed to integrate
+			external JSON interfaces as shadow host interfaces via a URL argument with the alias
+			"use", which contains a JSON array of strings, each of which specifies the path to one
+			of said interfaces.
+		-

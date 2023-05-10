@@ -1,0 +1,41 @@
+Plugin JSON
+
+	Philosophy
+
+		-
+			Plugin JSON is a JSON object schema for plugin modules.
+		-
+
+	Principles
+
+		Format
+
+			-
+				A plugin JSON object shall either have a field with the alias "locations",
+				containing a list of strings specifying possible locations at which the interface
+				module the object represents may be found, or a field with the alias "module",
+				containing the interface module it represents as an interface JSON object.
+
+				A plugin JSON object may have a field with the alias "protocols", which may have a
+				field with the alias "install", and a field with the alias "uninstall", each
+				containing an object with fields where the aliases specify different environments
+				into which the plugin may be installed, and which contain a list of strings
+				specifying a sequence of commands to install of uninstall said plugin in said
+				environment.
+
+				A plugin JSON object may have a field with the alias "aliases", containing a list
+				of strings, each of which specify an alias for the interface module to which it
+				pertains.
+			-
+
+		Plugin Log JSON
+
+			-
+				Plugin log JSON is a JSON list schema for plugin module logs.
+
+				A plugin module log list consists of a list of strings specifying the locations of
+				the documents containing the plugin JSON objects representing the interface modules
+				currently installed within a given environment.
+
+				The standard name for a plugin log JSON file is "plugins.json".
+			-

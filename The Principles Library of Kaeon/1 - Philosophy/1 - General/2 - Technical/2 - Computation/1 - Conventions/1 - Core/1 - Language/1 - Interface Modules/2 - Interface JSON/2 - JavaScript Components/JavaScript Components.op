@@ -1,0 +1,9 @@
+JavaScript Components
+
+	Philosophy
+
+		-
+			Interface components implemented in JavaScript shall be implemented as CommonJS modules
+			for which the module exports are a single function which takes the argument given by
+			the host application and acts according to it.
+		-

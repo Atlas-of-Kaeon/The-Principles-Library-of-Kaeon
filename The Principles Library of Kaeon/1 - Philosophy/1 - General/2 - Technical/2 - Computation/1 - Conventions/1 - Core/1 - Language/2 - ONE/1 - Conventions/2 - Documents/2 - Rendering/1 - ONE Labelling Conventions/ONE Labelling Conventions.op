@@ -1,0 +1,60 @@
+ONE Labelling Conventions
+
+	Philosophy
+
+		-
+			This document defines conventions for modifying the content of ONE documents for use in
+			printed material.
+
+			A ONE document generated from another using these conventions is referred to as a
+			labelled ONE document.
+		-
+
+	Principles
+
+		Conventions
+
+			Element Types
+
+				-
+					Elements with no children and which have no siblings with children are referred to
+					as content elements.
+
+					Elements with children or which have siblings with children and which have no
+					siblings with children are referred to as section elements.
+
+					An element which has the root as its parent and no siblings is referred to as a
+					title element, even if it would otherwise be a section element.
+				-
+
+			Path Markers
+
+				-
+					Path markers consist of a list of numbers, representing the nesting path of a
+					given element within a tree structure, concatenated together with periods as
+					separators.
+
+					To represent trees nested within trees, path markers themselves may be assigned
+					a hierarchy, and for a given element, concatenated together with a colon
+					followed by a space as a separator, resulting in a poly-path marker.
+
+					Path markers may be generated from ONE paths alone, resulting in ONE path
+					markers, or together with Kaeon library paths preceding them, resulting in
+					library path markers. A path marker generated only from a Kaeon library path is
+					referred to as a library marker.
+				-
+
+		Processing
+
+			-
+				When generating labelled ONE documents, it must be decided whether to use ONE path
+				markers or library path markers, the resulting document being referred to as a
+				labelled library document instead of a labelled ONE document in the latter case.
+
+				For each section element, its content shall be preceded by its path marker,
+				followed by a space, followed by a hyphen, followed by a space.
+
+				In the case of a labelled library document, each title element shall have its
+				content preceded by its library marker, followed by a space, followed by a hyphen,
+				followed by a space.
+			-

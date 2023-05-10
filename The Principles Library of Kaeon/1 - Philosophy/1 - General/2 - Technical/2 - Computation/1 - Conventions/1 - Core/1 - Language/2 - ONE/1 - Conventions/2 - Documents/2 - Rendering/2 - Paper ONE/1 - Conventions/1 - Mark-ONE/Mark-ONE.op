@@ -1,0 +1,35 @@
+Mark-ONE
+
+	Philosophy
+
+		-
+			This document specifies conventions regarding the conversion from ONE to Markdown, the
+			resulting documents being referred to as Mark-ONE documents.
+		-
+
+	Principles
+
+		Conversion
+
+			-
+				Conversion from ONE to Markdown shall begin with all content in the document being
+				unwrapped, and shall borrow conventions from the ONE labelling conventions.
+
+				Each title and section element shall be assigned a nest level, that being the
+				number of periods in a ONE path marker generated for it, plus one.
+
+				When converted to markdown, said elements shall be converted to headings of the
+				level indicated by their nest level, capping at the maximum level for a heading.
+
+				When converted to markdown, content elements shall be converted to text.
+
+				Title lines in Kaeon library books shall have the comment sequences with which they
+				begin and end removed, shall be trimmed, and shall be converted to italicized text.
+			-
+
+		HTML
+
+			-
+				Once a ONE document has been converted to Markdown, said markdown may be converted
+				to HTML, resulting in a Mark-ONE page.
+			-

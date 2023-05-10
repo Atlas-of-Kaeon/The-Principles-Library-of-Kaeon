@@ -29,11 +29,11 @@ Paper ONE Media
 					reference.
 
 					The principles section may have either of the following children: an element
-					with the content "Standalone", specifying the content in the case that a
-					Kaeon library or document is to be rendered alone, and an element with the
-					content "Composite", which shall have a child for each composite Kaeon library
-					to which a given Kaeon library may belong, where said composite Kaeon library
-					is specified by the content of said child.
+					with the content "Standalone", specifying the content in the case that a Kaeon
+					library or document is to be rendered alone, and an element with the content
+					"Composite", which shall have a child for each composite Kaeon library to which
+					a given Kaeon library may belong, where said composite Kaeon library is
+					specified by the content of said child.
 
 					The standalone element and each child of the composite element shall each
 					contain the following:

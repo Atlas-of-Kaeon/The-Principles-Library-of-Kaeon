@@ -1,0 +1,96 @@
+Standard Interface Module Conventions
+
+	Philosophy
+
+		-
+			This document lists interface module conventions and interface ACE conventions.
+		-
+
+	Principles
+
+		Standards
+
+			Interface Components
+
+				-
+					An interface component is a module which takes one argument, which may either
+					be an array of strings or an object for which each field contains a string, and
+					which may perform any miscellaneous action in accordance with the content of
+					said argument.
+
+					An array of strings corresponds to the command line arguments passed to a
+					modular service, and an object in the aforementioned schema corresponds to the
+					URL arguments passed to a shadow host.
+				-
+
+			Identification
+
+				Environments
+
+					-
+						The language or environment of a utility within an interface module may be
+						specified using the Universal Preprocessor's language aliases.
+					-
+
+				Utilities
+
+					-
+						A utility defined in an interface module may be identified by a string,
+						called the utility ID string, created by concatenating the strings that
+						constitute its path together in order, separated by periods.
+
+						A utility may also be identified by any string that ends its utility ID
+						string but does not end the utility ID string of any other utility for the
+						same language or environment in the same interface module.
+					-
+
+		Conventions
+
+			Interface Module Conventions
+
+				Utility Properties
+
+					Type
+
+						-
+							A utility may have the type property, which may have the values
+							library, component, or plugin, among others, with library indicating
+							that the utility is a library to be imported into a program, with
+							component indicating that the utility is a modular service plugin, and
+							with plugin indicating that the utility is a plugin for another type of
+							system.
+						-
+
+				Version Properties
+
+					Environment
+
+						-
+							A utility version may have the environment property, indicating which
+							language or environment said utility version is designed for.
+
+							If an environment is not specified, it may be inferred dynamically.
+						-
+
+			Interface ACE Conventions
+
+				Utility Properties
+
+					Type
+
+						-
+							To represent the type utility property, the properties element of a
+							utility element may have a child with the content "Type", which itself
+							may have a child with the content "Library", "Component", or "Plugin".
+						-
+
+				Version Properties
+
+					Environment
+
+						-
+							To represent the environment utility property, the properties element
+							of a version element may have a child with the content "Environment",
+							which itself may have a child, the content of which shall specify the
+							environment of the version to which it pertains.
+						-

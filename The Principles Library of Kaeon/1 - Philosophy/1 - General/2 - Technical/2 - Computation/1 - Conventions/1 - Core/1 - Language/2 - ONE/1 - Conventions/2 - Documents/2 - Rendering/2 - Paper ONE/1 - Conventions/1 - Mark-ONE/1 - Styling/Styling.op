@@ -3,12 +3,15 @@ Mark-ONE Styling Conventions
 	Philosophy
 
 		-
-			The standard styling for Mark-ONE pages has p elements indented by one tab using a left
-			margin of 40px, has h1 elements centered, and has all heading elements in bold.
+			The standard styling for Mark-ONE pages has h1 elements centered, and has all heading
+			elements in bold.
 
 			All lines shall be wrapped to fit the page.
 
 			The standard font shall be Georgia, the standard font color shall be black, and the
 			standard font size shall be 12pt. The font size of the headings used shall increase
 			from 12pt by 2pt per level.
+
+			The indented standard styling for Mark-ONE pages has p elements indented by one tab
+			using a left margin of 36pt.
 		-

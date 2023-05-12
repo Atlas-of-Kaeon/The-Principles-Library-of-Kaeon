@@ -17,11 +17,11 @@ ONE Labelling Conventions
 			Element Types
 
 				-
-					Elements with no children and which have no siblings with children are referred to
-					as content elements.
+					Elements with no children and which have no siblings with children are referred
+					to as content elements.
 
-					Elements with children or which have siblings with children and which have no
-					siblings with children are referred to as section elements.
+					Elements with children or which have siblings with children are referred to as
+					section elements.
 
 					An element which has the root as its parent and no siblings is referred to as a
 					title element, even if it would otherwise be a section element.

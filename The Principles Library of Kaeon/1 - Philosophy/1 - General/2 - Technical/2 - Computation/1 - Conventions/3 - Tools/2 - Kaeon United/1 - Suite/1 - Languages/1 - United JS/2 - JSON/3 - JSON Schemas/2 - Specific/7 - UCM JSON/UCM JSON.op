@@ -1,0 +1,26 @@
+UCM JSON
+
+	Philosophy
+
+		-
+			UCM JSON is a JSON object schema used for specifying a specific function within a
+			specific utility and arguments to pass to it.
+		-
+
+	Principles
+
+		Structure
+
+			-
+				A UCM JSON object shall have a "utility" field, containing a string the module
+				which is or contains the function to execute, said string being a utility ID string
+				if said utility is within an interface module.
+
+				If the function is to be executed with arguments, the UCM JSON shall have an
+				"arguments" field, containing a list of arguments to pass to the aforementioned
+				function.
+
+				If the specified utility contains said function but is not itself said function,
+				the UCM JSON object shall have a "function" field, containing a string specifying
+				the alias of said function.
+			-

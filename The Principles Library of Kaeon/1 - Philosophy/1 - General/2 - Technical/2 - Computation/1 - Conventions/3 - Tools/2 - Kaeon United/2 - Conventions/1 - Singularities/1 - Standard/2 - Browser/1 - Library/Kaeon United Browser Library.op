@@ -1,0 +1,16 @@
+Kaeon United Browser Library
+
+	Philosophy
+
+		-
+			This document lists conventions regarding the Kaeon United browser library singularity.
+		-
+
+	Principles
+
+		Execute Singularity
+
+			-
+				Within the Kaeon Untied browser library singularity, the executeSingularity
+				function shall be accessible automatically in the global scope.
+			-

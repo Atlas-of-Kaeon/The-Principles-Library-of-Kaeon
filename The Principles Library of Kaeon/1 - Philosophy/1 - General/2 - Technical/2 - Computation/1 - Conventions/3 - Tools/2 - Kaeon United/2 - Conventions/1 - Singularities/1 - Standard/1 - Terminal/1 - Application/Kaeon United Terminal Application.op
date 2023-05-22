@@ -1,0 +1,20 @@
+Kaeon United Terminal Application
+
+	Philosophy
+
+		-
+			This document lists conventions regarding the Kaeon United terminal application
+			singularity.
+		-
+
+	Principles
+
+		Conventional Service
+
+			-
+				When executed via the command line, Kaeon United shall function as a conventional
+				service.
+				
+				If installed globally via npm, the global command of Kaeon United shall be
+				"kaeon-united", and it may also be executed via npx.
+			-

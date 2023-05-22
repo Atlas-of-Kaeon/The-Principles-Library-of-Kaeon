@@ -1,0 +1,12 @@
+Kaeon United UC Singularity
+
+	Philosophy
+
+		-
+			Including Kaeon United as a United C import using the "use" operator on the alias
+			"kaeon-united" shall import all of the standard and Kaeon United C or C++ utilities
+			depending on the language detected.
+
+			The imported libraries shall constitute the Kaeon United C Suite. Its contents shall
+			vary for C and C++ respectively, and shall include stdio.h for C and iostream for C++.
+		-

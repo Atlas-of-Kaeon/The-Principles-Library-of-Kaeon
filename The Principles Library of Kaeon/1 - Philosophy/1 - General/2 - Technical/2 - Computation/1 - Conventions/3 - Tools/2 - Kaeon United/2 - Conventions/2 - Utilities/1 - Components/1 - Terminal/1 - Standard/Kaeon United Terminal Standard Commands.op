@@ -1,0 +1,24 @@
+Kaeon United Terminal Standard Commands
+
+	Philosophy
+
+		-
+			This document lists conventions regarding standard commands made available through the
+			Kaeon United terminal application singularity.
+		-
+
+	Principles
+
+		Commands
+
+			-
+				The Kaeon United terminal application singularity shall provide certain standard
+				commands, including "process", which runs Kaeon FUSION code, "parse", which
+				converts ONE+ code to ONE, "preprocess", which runs the Universal Preprocessor,
+				"js", which runs United JavaScript, "ucc", which runs the United C compiler,
+				"assemble", which compiles CSB, "disassemble", which disassembles CSB, and "ucm",
+				which executes stringified UCM JSON objects.
+
+				Both the process and js utilities, if run without specified source text, will run
+				as console REPLs.
+			-

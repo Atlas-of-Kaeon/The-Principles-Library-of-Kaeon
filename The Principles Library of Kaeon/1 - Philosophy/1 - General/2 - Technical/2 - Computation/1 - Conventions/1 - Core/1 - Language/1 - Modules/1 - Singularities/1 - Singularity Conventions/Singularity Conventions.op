@@ -1,0 +1,88 @@
+Standard Singularities
+
+	Philosophy
+
+		-
+			This document lists conventions for philosopher's singularities.
+		-
+
+	Principles
+
+		Modes
+
+			-
+				The standard singularities refer to four types of philosopher's singularities which
+				each operate on one of two platforms, the browser and the terminal, and in one of
+				two states, as an application and as a library, each combination of platform and
+				state being referred to as a mode among the four singularity modes.
+
+				The four modes can be applied to utilities beyond philosopher's singularities, such
+				utilities being called modal utilities.
+
+				A multi-modal utility is a utility that can operate in more than one singularity
+				mode depending on how it is executed, and an omni-modal utility is a mutli-modal
+				utility that can operate in all four singularity modes.
+
+				A set of utilities can be multi-modal or omni-modal.
+			-
+
+		Execution
+
+			Suites
+
+				Conventions
+
+					-
+						A philosopher's singularity shall have a philosopher's suite from which it
+						derives its functionality by default, referred to as its default suite, but
+						may also have a means through which an alternate philosopher's suite may be
+						specified, referred to as suite configuration mechanisms.
+
+						During runtime, a philosopher's singularity's suite may be altered, with
+						its suite at any given point in time being referred to as its current
+						suite.
+					-
+
+				Suite Configuration Mechanisms
+
+					Web Application
+
+						-
+							The URL of a philosopher's singularity running as a web application may
+							have an argument called "use", specifying the path to an interface
+							module containing an alternate philosopher's suite to use in place of
+							the default philosopher's suite.
+						-
+
+					Terminal Application
+
+						-
+							A philosopher's singularity running as a terminal application may have
+							an argument "-use", followed by the path to an interface module
+							containing an alternate philosopher's suite to use in place of the
+							default philosopher's suite, said arguments being ignored by the rest
+							of the program.
+						-
+
+			Library
+
+				-
+					Generally, in a dynamic programming language, a philosopher's singularity, when
+					imported as a library, shall manifest as a function, or object containing said
+					function, called the singularity function, which may take a string as an
+					argument.
+
+					If said function is given no argument, it shall return, in string form, a
+					rendering of the current suite of the singularity.
+
+					If said function is given a string argument, said string shall be interpreted
+					as a utility ID string, and the function shall return the first utility within
+					its current suite, interpreted as an interface module, which uniquely matches
+					said string, using the version of said utility most appropriate for the
+					environment the program is running in.
+
+					If the utility ID string provided is "use", a function shall be returned, which
+					when executed with a string argument shall set the interface module located at
+					the path specified by said string as an alternate suite for the singularity,
+					overriding the default suite.
+				-

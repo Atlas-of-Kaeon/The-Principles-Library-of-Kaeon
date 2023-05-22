@@ -1,0 +1,19 @@
+Standard Command
+
+	Philosophy
+
+		-
+			The standard command convention is a convention for commands.
+
+			The first argument following the name of the executable is the name of the operation,
+			and every following argument is referred to as a standard argument.
+
+			To dynamically specify source text to the operation, the first standard argument must
+			be "read", and the second standard argument must be said text itself.
+
+			To load the source text to the operation from a file, the first standard argument must
+			be "open", and the second standard argument must be the file path.
+
+			To save the output of the operation to a file, there must be a third standard argument
+			specifying the path of said file.
+		-

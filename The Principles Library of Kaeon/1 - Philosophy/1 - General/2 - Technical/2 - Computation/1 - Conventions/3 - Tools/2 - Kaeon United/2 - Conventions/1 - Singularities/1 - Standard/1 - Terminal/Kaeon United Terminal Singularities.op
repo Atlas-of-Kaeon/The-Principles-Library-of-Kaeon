@@ -1,0 +1,16 @@
+Kaeon United Terminal Singularities
+
+	Philosophy
+
+		-
+			This document lists conventions for the Kaeon United terminal singularities.
+		-
+
+	Principles
+
+		Auto-Caching
+
+			-
+				The Kaeon United terminal singularities shall use a standard auto-cache protocol
+				when operating locally.
+			-

@@ -1,0 +1,34 @@
+Kaeon Origin Server Requests
+
+	Philosophy
+
+		-
+			This document lists conventions regarding requests made to Kaeon Origin server.
+		-
+
+	Principles
+
+		Processes
+
+			Default Processes
+
+				-
+					Kaeon Origin server shall integrate the functionality of a conventional JSH
+					package and a common host.
+				-
+
+			UCM
+
+				-
+					If a GET request is sent to Kaeon Origin server with a URL argument with the
+					alias "ucm", containing a stringified UCM JSON object, the contents of said
+					object shall be executed by the server and any value returned shall be returned
+					in string form in the body of the response.
+				-
+
+		Security
+
+			-
+				The functionality of Kaeon United server may be limited in certain contexts for
+				security purposes.
+			-

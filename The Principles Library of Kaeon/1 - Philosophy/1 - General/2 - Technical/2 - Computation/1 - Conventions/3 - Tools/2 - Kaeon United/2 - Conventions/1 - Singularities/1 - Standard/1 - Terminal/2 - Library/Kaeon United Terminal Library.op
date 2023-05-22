@@ -1,0 +1,17 @@
+Kaeon United Terminal Library
+
+	Philosophy
+
+		-
+			This document lists conventions regarding the Kaeon United terminal library
+			singularity.
+		-
+
+	Principles
+
+		Execute Singularity
+
+			-
+				Within the Kaeon Untied terminal library singularity, the executeSingularity
+				function shall be accessible as a field of the singularity function.
+			-

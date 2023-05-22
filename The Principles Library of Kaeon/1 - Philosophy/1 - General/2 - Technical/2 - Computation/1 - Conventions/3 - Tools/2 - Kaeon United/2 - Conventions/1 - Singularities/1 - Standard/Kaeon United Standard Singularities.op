@@ -1,0 +1,35 @@
+Kaeon United Standard Singularities
+
+	Philosophy
+
+		-
+			This document lists conventions for the Kaeon United standard singularities.
+		-
+
+	Principles
+
+		Access
+
+			-
+				The Kaeon United standard singularities shall be hosted online so that users can
+				use it via CDN regardless of the environment they are operating in.
+			-
+
+		Implementation
+
+			-
+				The Kaeon United standard singularities shall, unless otherwise specified, be
+				implemented in JavaScript.
+			-
+
+		United JavaScript
+
+			-
+				The Kaeon United standard singularities shall, for the application singularities,
+				run JavaScript code hosted through them as United JavaScript, with the singularity
+				function accessible through the require function by the alias "kaeon-united".
+
+				The library singularities of the Kaeon United standard singularities shall export
+				an additional function called "executeSingularity", which when executed shall cause
+				the properties of United JavaScript to take effect in the surrounding code.
+			-

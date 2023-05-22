@@ -1,0 +1,60 @@
+Kaeon United Browser Requests
+
+	Philosophy
+
+		-
+			This document lists conventions regarding requests made to the Kaeon United browser
+			application singularity.
+		-
+
+	Principles
+
+		Kaeon Origin
+
+			-
+				If no arguments are present in a request to the Kaeon United browser application
+				singularity, a page containing the Kaeon Origin shall be rendered, with Kaeon
+				Origin in this mode being referred to as the Kaeon Origin application.
+			-
+
+		Shadow Host
+
+			User Content
+
+				-
+					If the Kaeon United browser application singularity is used as a shadow host,
+					it may have the URL arguments "UnitedJS", "UnitedJSRaw", "UnitedOP",
+					"UnitedOPRaw", "HTML", and "HTMLRaw".
+
+					UnitedJS, if present, shall specify the path to a United JavaScript file which
+					shall be executed.
+
+					UnitedJSRaw, if present, shall specify United JavaScript code which shall be
+					executed.
+
+					UnitedOP, if present, shall specify the path to a Kaeon FUSION file which shall
+					be executed.
+
+					UnitedOPRaw, if present, shall specify the path to a Kaeon FUSION file which
+					shall be executed.
+
+					HTML, if present, shall specify the path to an HTML file which shall be
+					rendered.
+
+					If more than one of the aforementioned arguments are present, the JavaScript,
+					if given, shall execute first, the Kaeon FUSION, if given, shall execute next,
+					and the HTML, if given, shall be rendered last.
+				-
+
+			Applications
+
+				-
+					Kaeon United may redirect to other applications.
+
+					If a request is made to the Kaeon United browser application singularity with
+					the URL argument "app", and said argument contains the module ID string of a
+					United Javascript based application for which the source code is specified in a
+					JavaScript module referenced in the current suite of the singularity, the page
+					shall redirect to said application, and shall pass along all URL arguments
+					passed to it except for "app".
+				-

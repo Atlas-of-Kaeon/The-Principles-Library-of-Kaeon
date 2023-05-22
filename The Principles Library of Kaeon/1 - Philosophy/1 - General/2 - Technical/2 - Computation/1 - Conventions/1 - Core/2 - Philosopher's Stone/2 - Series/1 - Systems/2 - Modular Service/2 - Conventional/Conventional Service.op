@@ -49,8 +49,6 @@ Conventional Service
 			Plugins
 
 				-
-					Plugins used by the service shall be in the form of JSON interfaces.
-
-					Said plugins may be made available either through direct online links, or, more
-					ideally, through online package managers.
+					Plugins used by the service shall be in the form of interface modules, and
+					shall be tracked using a plugin log in the form of a plugin log JSON file.
 				-

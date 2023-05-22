@@ -1,0 +1,19 @@
+Significant Element Distinction
+
+	Philosophy
+
+		-
+			Significant element distinction is a mathematical concept where explicit or implicit
+			sub-expressions of a given expression are treated as unique objects with identities
+			independent of the expression to which they belong, even if their values are identical.
+
+			Such sub-expressions are referred to as significant elements.
+		-
+
+	Principles
+
+		Alias
+
+			-
+				Significant elements may be assigned aliases for identification.
+			-

@@ -16,6 +16,9 @@ HTJS
 				
 				JavaScript content must be placed within script tags and HTML content must be
 				commented out using JavaScript comments.
+
+				An HTJS file following all of the conventions specified in this document is
+				referred to as an HTJSS file, the latter 'S' standing for "standard".
 			-
 
 		Conventions
@@ -47,6 +50,13 @@ HTJS
 					with JavaScript code placed between the two aforementioned lines.
 				-
 
+			Standard Process
+
+				-
+					The standard process for HTJS files enables them to execute as omni-modal
+					utilities.
+				-
+
 			Shebang
 
 				-
@@ -56,8 +66,4 @@ HTJS
 					The standard shebang line for an HTJS file is:
 
 						#!/usr/bin/env node
-
-					If the aforementioned line is placed before the content of an HTJS file written
-					using the standard format, the resulting format is called HTJSS, the latter 'S'
-					standing for "shebang".
 				-

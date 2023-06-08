@@ -1,0 +1,13 @@
+Kaeon United META Library
+
+	Philosophy
+
+		-
+			The Kaeon United META library is a library utility within Kaeon United which exports a
+			function (which in camel case shall be called "kaeonMETA") that takes a string
+			containing a Kaeon META command, executes said command, and returns whatever value was
+			returned by Kaeon META.
+
+			The utility path of the Kaeon United META library is "kaeonUnited", "main",
+			"kaeonMETA".
+		-

@@ -1,0 +1,13 @@
+CCSS
+
+	Philosophy
+
+		-
+			Cross Cascading Style Sheet, or CCSS, is an HTML and CSS convention that extends both
+			HTML and CSS such that all HTML attributes and CSS properties become interchangeable,
+			allowing HTML attributes to be applied to elements as CSS properties, and CSS
+			properties to be applied to elements as HTML attributes.
+
+			If there is a conflict with the alias of a given attribute or property, the default
+			interpretation of said alias shall take priority.
+		-

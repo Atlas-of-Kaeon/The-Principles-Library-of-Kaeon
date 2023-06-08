@@ -1,0 +1,38 @@
+Kaeon United Library Conventions
+
+	Philosophy
+
+		-
+			This document lists conventions regarding the libraries present within the Kaeon United
+			suite.
+		-
+
+	Principles
+
+		Interfaces
+
+			Main
+
+				-
+					The Kaeon United main interface is a philosopher's interface referenced by the
+					Kaeon United interface.
+
+					The Kaeon United main interface contains the majority of all utilities within
+					Kaeon United pertaining to the fundamental use of Kaeon United.
+
+					The package path of utilities under the Kaeon United main interface is
+					"kaeonUnited", "main".
+				-
+
+			General
+
+				-
+					The Kaeon United general interface is a philosopher's interface referenced by
+					the Kaeon United interface.
+
+					The Kaeon United general interface contains the majority of all utilities
+					 within Kaeon United pertaining to third party services.
+
+					The package path of utilities under the Kaeon United main interface is
+					"kaeonUnited", "general".
+				-

@@ -19,15 +19,20 @@ Interface JSON
 					An interface JSON object may have a field with the alias "utilities", which
 					shall contain a package object.
 
-					Each field in a package object shall either contain a package object or a
-					utility object, which shall represent utility packages and utilities
-					respectively, the names of said fields being the names of their respective
-					packages and utilities.
+					Package objects shall represent utility packages, and may have a field with the
+					alias "packages", where each field contains a package object, and may have a
+					field with the alias "utilities", where each field contains a utility object,
+					utility objects representing utilities.
 
-					The sequence of aliases leading from the utilities field to a given package or
-					utility object constitutes its path. However, package and utility objects may
-					each have a field with the alias "path", which contains a list of strings to be
-					appended to their path.
+					The aliases in the "packages" and "utilities" objects of package objects are
+					referred to as name aliases, and represent the names of their respective
+					packages and utilities.
+					
+					The sequence of name aliases leading from the root interface JSON object to a
+					given package or utility object constitutes the path of said package or utility
+					object. However, package and utility objects may each have a field with the
+					alias "path", which contains a list of strings to be appended to their path at
+					the point immediately preceding their name.
 
 					A utility object may have a field with the content "versions", containing a
 					list of version objects.

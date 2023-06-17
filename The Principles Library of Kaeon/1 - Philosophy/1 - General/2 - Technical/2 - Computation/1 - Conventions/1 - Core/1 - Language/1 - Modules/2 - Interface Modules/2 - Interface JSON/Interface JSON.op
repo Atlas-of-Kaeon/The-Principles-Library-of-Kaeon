@@ -13,7 +13,7 @@ Interface JSON
 
 		Structure
 
-			Modules
+			Utilities
 
 				-
 					An interface JSON object may have a field with the alias "utilities", which

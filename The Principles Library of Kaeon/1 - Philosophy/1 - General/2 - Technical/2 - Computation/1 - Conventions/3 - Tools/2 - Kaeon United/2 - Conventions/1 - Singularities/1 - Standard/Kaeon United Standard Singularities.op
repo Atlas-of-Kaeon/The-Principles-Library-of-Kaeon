@@ -29,7 +29,7 @@ Kaeon United Standard Singularities
 				run JavaScript code hosted through them as United JavaScript, with the singularity
 				function accessible through the require function by the alias "kaeon-united".
 
-				The library singularities of the Kaeon United standard singularities shall export
-				an additional function called "executeSingularity", which when executed shall cause
-				the properties of United JavaScript to take effect in the surrounding code.
+				The library singularities of the Kaeon United standard singularities shall
+				automatically cause the properties of United JavaScript to take effect in the host
+				code when referenced.
 			-

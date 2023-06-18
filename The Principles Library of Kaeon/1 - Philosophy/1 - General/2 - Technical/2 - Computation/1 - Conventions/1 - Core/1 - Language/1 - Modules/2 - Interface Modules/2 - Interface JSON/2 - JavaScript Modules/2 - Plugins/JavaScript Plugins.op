@@ -1,0 +1,11 @@
+JavaScript Plugins
+
+	Philosophy
+
+		-
+			Plugin modules may be distributed as CommonJS modules which export their contents as
+			plugin JSON objects.
+
+			Said modules may be distributed via packages managers, and plugin JSON may reference
+			such modules via their alias on said package managers.
+		-

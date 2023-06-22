@@ -126,11 +126,11 @@ ONE+
 					A minus plus sequence is a plus sequence that starts with an open minus
 					sequence and ends with a close minus sequence.
 
-					Within a minus plus sequence, ONE+ is parsed as ONE-, where breaking and
-					nesting sequences shall be interpreted as segregating sequences, unless they
-					occur within escape or extended escape scope plus sequences, in which case they
-					shall be interpreted as escaped alternate breaking and nesting sequences
-					respectively.
+					Within a minus plus sequence, ONE+ is parsed as ONE-, where breaking sequences,
+					and nesting sequences used for nesting, shall be interpreted as segregating
+					sequences, unless they occur within escape or extended escape scope plus
+					sequences, in which case they shall be interpreted as escaped alternate
+					breaking and alternate nesting sequences respectively.
 
 					ONE- can be used independently of ONE+, where a whole document is parsed as
 					ONE- by default.

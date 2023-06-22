@@ -146,14 +146,12 @@ Standard ONE+ Language
 				
 				-
 					In the standard variant of the ONE+ Language, the open minus sequence is an
-					open angle bracket, followed by a forward slash, followed by a closing angle
-					bracket.
+					open square bracket followed by a closing angle bracket.
 				-
 			
 			Close Minus Sequence
 				
 				-
 					In the standard variant of the ONE+ Language, the close minus sequence is an
-					open angle bracket, followed by a backslash, followed by a closing angle
-					bracket.
+					open angle bracket followed by a closing square bracket.
 				-

@@ -56,11 +56,12 @@ Interface JSON
 				-
 					An interface JSON object may have a field with the alias "connections", which
 					may itself have a field with the alias "references", and may have a field with
-					the alias "extensions", both of which contain a list of strings, each of which
-					contains the path to or alias of another interface module.
+					the alias "extensions", both of which contain an object, each field of which
+					shall have the name of an external interface module as its alias, and a list of
+					strings specifying possible locations of said interface module as its value.
 
-					The extensions list represents modules for which the contents are to be added
-					to the module to which the list belongs.
+					The extensions object represents modules for which the contents are to be added
+					to the module to which said object belongs.
 				-
 
 		Standard Interface ACE Conventions

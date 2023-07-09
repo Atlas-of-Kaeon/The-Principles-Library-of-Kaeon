@@ -4,8 +4,9 @@ Kaeon Complex
 
 		-
 			Kaeon Complex is a service integrated into Kaeon United and available via the command
-			line which allows various programming languages to be compiled and executed without
-			having to manually install their compilers or runtime environments.
+			line which provides an interface to all of the cross builders within Kaeon Tempest,
+			allowing various programming languages to be compiled and executed without having to
+			manually install their compilers or runtime environments.
 		-
 
 	Principles

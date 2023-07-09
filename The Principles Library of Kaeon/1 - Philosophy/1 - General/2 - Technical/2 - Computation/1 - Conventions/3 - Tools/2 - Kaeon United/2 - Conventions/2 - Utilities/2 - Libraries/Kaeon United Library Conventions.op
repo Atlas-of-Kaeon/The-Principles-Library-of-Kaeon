@@ -3,8 +3,7 @@ Kaeon United Library Conventions
 	Philosophy
 
 		-
-			This document lists conventions regarding the libraries present within the Kaeon United
-			suite.
+			This document lists conventions regarding the libraries present within Kaeon Core.
 		-
 
 	Principles
@@ -21,7 +20,7 @@ Kaeon United Library Conventions
 					Kaeon United pertaining to the fundamental use of Kaeon United.
 
 					The package path of utilities under the Kaeon United main interface is
-					"kaeonUnited", "main".
+					"kaeonUnited", "core", "main".
 				-
 
 			General
@@ -34,5 +33,5 @@ Kaeon United Library Conventions
 					 within Kaeon United pertaining to third party services.
 
 					The package path of utilities under the Kaeon United main interface is
-					"kaeonUnited", "general".
+					"kaeonUnited", "core", "general".
 				-

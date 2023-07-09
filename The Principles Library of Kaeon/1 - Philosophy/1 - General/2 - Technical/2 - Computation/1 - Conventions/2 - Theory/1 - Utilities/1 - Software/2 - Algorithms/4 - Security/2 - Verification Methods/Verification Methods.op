@@ -114,7 +114,7 @@ Verification Methods
 										user may affirm their identity.
 									-
 
-								Services
+								Personhood Registries
 
 									Rationale
 
@@ -124,6 +124,13 @@ Verification Methods
 											platform, thus, a new service may confirm a user's
 											authenticity by confirming that they are registered
 											with such an existing service.
+
+											A service that performs such checks and limits users to
+											one account each is called a personhood registry. A
+											personhood registry that is free to sign up for is
+											called an open personhood registry, and one that is not
+											free to sign up for is called a closed personhood
+											registry.
 										-
 
 									Methods
@@ -148,15 +155,25 @@ Verification Methods
 												have with said existing service to the new service.
 											-
 
-										Open Reference
+										Personhood Reference
 
-											-
-												One method to confirm registration with an external
-												service is, if said service openly publishes
-												subscriber information, to have the user reference
-												their information, and preferably to confirm it via
-												a private key.
-											-
+											Personhood Library
+
+												-
+													One method to confirm registration with an
+													external service is, if said service openly
+													publishes subscriber information, to have the
+													user reference their information, and
+													preferably to confirm it via a private key.
+												-
+
+											Personhood Authenticator
+
+												-
+													One method to confirm registration with an
+													external service is to use said service as a
+													single sign on method.
+												-
 
 				Details
 
@@ -195,16 +212,22 @@ Verification Methods
 
 		Tools
 
-			Anti-Spam Measures: Captcha, Cloudflare
+			Utilities
 
-			Phone Number Lookup: 'https://github.com/google/libphonenumber'
+				Anti-Spam Measures: Captcha, Cloudflare
 
-			Third Party Service
+				Phone Number Lookup: 'https://github.com/google/libphonenumber'
+
+			Third Party Services
 
 				Email: Robinhood, Coinbase, Banks
 				Link: Plaid
 
-			Open Reference: Kleros - Proof of Humanity
+				Personhood References
+				
+					Coinbase - Verified Users Only: Type: Authenticator
+					Kleros - Proof of Humanity: Type: Library
+					World ID: Type: Authenticator
 
 		Conventions
 
@@ -247,14 +270,23 @@ Verification Methods
 
 				Base
 
-					-
-						The base standard method of user verification is to require the user, in
-						addition to submitting their basic information, to validate their email
-						address and their phone number, to validate that said phone number is most
-						likely a personal phone number, and to enforce a policy of account
-						exclusivity for email addresses and phone numbers, as well as SSNs, if
-						applicable.
-					-
+					Internal
+
+						-
+							The internal base standard method of user verification is to require
+							the user, in addition to submitting their basic information, to
+							validate their email address and their phone number, to validate that
+							said phone number is most likely a personal phone number, and to
+							enforce a policy of account exclusivity for email addresses and phone
+							numbers, as well as SSNs, if applicable.
+						-
+
+					External
+
+						-
+							The external base standard method of user verification is to require
+							users to log in through one specific open personhood authenticator.
+						-
 
 				Levels
 
@@ -270,9 +302,9 @@ Verification Methods
 					Level 3
 
 						-
-							The level 3 standard method expands upon the level 2 standard method,
-							and under it, the SSN of the user shall be collected and retained, but
-							not verified unless necessary.
+							The level 3 standard method expands upon the level 2 internal standard
+							method, and under it, the SSN of the user shall be collected and
+							retained, but not verified unless necessary.
 						-
 
 					Level 4
@@ -283,3 +315,12 @@ Verification Methods
 							form, and a contact service shall be established for dealing with
 							errors in user submissions and with suspicious activity.
 						-
+
+				Default
+
+					-
+						The level 2 external standard method of user verification is the default
+						form of the standard method of user verification.
+
+						As such, said method may be abbreviated as DSMUV.
+					-

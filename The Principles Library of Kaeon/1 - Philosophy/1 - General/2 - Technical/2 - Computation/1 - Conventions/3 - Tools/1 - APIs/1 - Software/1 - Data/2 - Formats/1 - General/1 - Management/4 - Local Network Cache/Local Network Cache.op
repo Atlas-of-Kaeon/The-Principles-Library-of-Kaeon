@@ -12,13 +12,6 @@ Local Network Cache
 
 		Conventions
 
-			Pre-Cache
-
-				-
-					To pre-cache resources for a given process is to load any resources said process
-					may require into a local network cache before said process is ever executed.
-				-
-
 			Auto-Cache Protocol
 
 				-
@@ -28,16 +21,78 @@ Local Network Cache
 					the local cache when the internet is unavailable.
 				-
 
-		Standard Network Cache
+			Optimization
 
-			-
-				A standard network cache is a field JSON object where each key is the location of a
-				resource and each value is the content of the resource referenced by the
-				corresponding key.
+				Pre-Cache and Instant Cache
 
-				A standard network cache shall, unless specified otherwise, be stored as a file
-				with the name "localCache.json"
+					-
+						To pre-cache resources for a given process is to load any resources said
+						process may require into a local network cache before said process is ever
+						executed.
 
-				An auto-cache protocol that uses a standard network cache is called a standard
-				auto-cache protocol.
-			-
+						Instant caching is a similar process in which said resources are loaded at
+						the beginning of runtime as opposed to before it.
+					-
+
+				Mass-Cache
+
+					-
+						A mass cache is a pre-filled local network cache which may have its
+						contents loaded into another, reducing the number of requests that need to
+						be made in order to perform pre-caching or instant caching.
+					-
+
+				Re-Cache Properties
+
+					-
+						Re-cache properties are properties assigned to given resources which
+						dictate the circumstances under which resources should be reloaded from the
+						internet if the internet is available and said resources are already
+						encoded within the local cache.
+
+						If no re-cache properties are specified for a given resource, said resource
+						shall always be reloaded if the internet is available.
+
+						A convention specifying the details of a type of re-cache property, along
+						with any method for encoding it, is referred to as a re-cache convention.
+					-
+
+		Standards
+
+			Standard Network Cache
+
+				-
+					A standard network cache is a JSON object with two fields, the first being a
+					field with the alias "cache", and the second being a field with the alias
+					"properties", both of which contain objects.
+					
+					The cache object is a field JSON object where each key is the location of a
+					resource and each value is the content of the resource referenced by the
+					corresponding key.
+
+					The properties object is a JSON object where the alias of each field is the
+					path to a resource stored in the cache object, and the value of each field is
+					an object. In said object, each field represents a re-cache property of said
+					resource, the alias of said field being the name of said property, and the
+					value of each field being the content of said property.
+
+					A standard network cache shall, unless specified otherwise, be stored as a file
+					with the name "localCache.json"
+
+					An auto-cache protocol that uses a standard network cache is called a standard
+					auto-cache protocol.
+				-
+
+			Re-Cache Conventions
+
+				Reload
+
+					-
+						The reload re-cache property is a boolean flag which determines if the
+						resource to which it applies should ever be reloaded, being true if so and
+						false otherwise.
+
+						In a standard network cache, a field specifying the reload property shall
+						have the alias "reload", and shall contain a boolean as specified in the
+						definition of the property.
+					-

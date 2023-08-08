@@ -5,23 +5,47 @@
 		Philosophy
 	-
 		-
-			Each element in the principles section of this document specifies a resource that
-			pertains to this Kaeon library, along with locations at which it may be located.
-
-			If there is no such resource, the principles section shall be absent.
+			The usage document of this document specifies the locations of external resources.
 		-
 	-
-		Principles
+		Wonders
 	-
 		-
-			The Philosophy Library of Kaeon
+			Use
 		-
 			-
-				https://github.com/Atlas-of-Kaeon/The-Philosophy-Library-of-Kaeon
+				Components
 			-
-		-
-			The Wonders Library of Kaeon
-		-
+				-
+					META
+				-
+					-
+						Global
+					-
 			-
-				https://github.com/Atlas-of-Kaeon/The-Wonders-Library-of-Kaeon
+				Entities
 			-
+				-
+					The Philosophy Library of Kaeon
+				-
+					-
+						Components
+					-
+						-
+							Locations
+						-
+							-
+								https://github.com/Atlas-of-Kaeon/The-Philosophy-Library-of-Kaeon
+							-
+				-
+					The Wonders Library of Kaeon
+				-
+					-
+						Components
+					-
+						-
+							Locations
+						-
+							-
+								https://github.com/Atlas-of-Kaeon/The-Wonders-Library-of-Kaeon
+							-

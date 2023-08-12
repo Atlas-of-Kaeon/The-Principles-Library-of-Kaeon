@@ -23,27 +23,32 @@ Right Aligned ONE
 
 		Forms
 
-			Reverse Indented
-
-				-
-					In the reverse indented form of right aligned ONE, for every right content
-					line, the origins of said lines shall be preceded with enough whitespace such
-					that the resulting length of said lines shall equal the character limit of the
-					wrapping minus the combined length of the nesting sequences used to nest said
-					line within the document.
-				-
-
-			Flat
-
-				-
-					In the flat form of right aligned ONE, for every right content line, the
-					origins of said lines shall be preceded with enough whitespace such that the
-					resulting length of said lines shall equal the character limit of the wrapping.
-				-
-
 			Unshifted
 
 				-
 					In the unshifted form of right aligned ONE, the right content lines shall not
 					be modified.
+
+					This is the default form for right aligned ONE content.
 				-
+
+			Shifted
+
+				Reverse Indented
+
+					-
+						In the reverse indented form of right aligned ONE, for every right content
+						line, the origins of said lines shall be preceded with enough whitespace
+						such that the resulting length of said lines shall equal the character
+						limit of the wrapping minus the combined length of the nesting sequences
+						used to nest said line within the document.
+					-
+
+				Flat
+
+					-
+						In the flat form of right aligned ONE, for every right content line, the
+						origins of said lines shall be preceded with enough whitespace such that
+						the resulting length of said lines shall equal the character limit of the
+						wrapping.
+					-

@@ -63,6 +63,28 @@ ONE Conversions
 					or "JS ONE" for short.
 				-
 
+			JSON to ONE
+
+				-
+					Any JSON primitive may be converted to a ONE element by stringifying its value
+					and creating an element with the resulting string as its content.
+
+					A JSON array may be converted to a ONE element by converting all of its
+					elements to ONE elements according to their type, and adding them in order as
+					children to a root ONE element with empty content.
+
+					A JSON object may be converted to a ONE element by converting each of its
+					fields to a ONE element with the alias of said field as its content and with
+					children created by converting its value to a ONE element according to said
+					value's type, after which the former element is added in order as a child to a
+					root ONE element with empty content.
+
+					Root ONE elements with no content, converted from JSON arrays and objects, if
+					added to other elements converted from the parents of said arrays and objects,
+					shall have their children added directly to the element converted from their
+					parent instead of being added themselves.
+				-
+
 		XML
 
 			ONE to XML

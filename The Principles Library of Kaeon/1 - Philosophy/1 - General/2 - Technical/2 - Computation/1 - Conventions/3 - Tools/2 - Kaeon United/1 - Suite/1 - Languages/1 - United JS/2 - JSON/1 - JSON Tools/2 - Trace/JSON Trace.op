@@ -1,0 +1,9 @@
+JSON Trace
+
+	Philosophy
+
+		-
+			JSON values may function as tag trace modules, with their field aliases, their
+			stringified forms, and their indices functioning as trace tags, and their children
+			functioning as their connections.
+		-

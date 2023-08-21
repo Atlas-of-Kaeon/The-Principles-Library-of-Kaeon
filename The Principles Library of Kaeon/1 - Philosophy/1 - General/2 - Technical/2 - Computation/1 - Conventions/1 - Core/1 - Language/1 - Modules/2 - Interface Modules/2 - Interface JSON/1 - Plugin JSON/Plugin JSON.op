@@ -14,7 +14,7 @@ Plugin JSON
 				A plugin JSON object shall either have a field with the alias "locations",
 				containing a list of strings specifying possible locations at which the interface
 				module the object represents may be found, or a field with the alias "module",
-				containing the interface module it represents as an interface JSON object.
+				containing the interface module it represents as an interface ACE ONE JSON value.
 
 				A plugin JSON object may have a field with the alias "protocols", which may have a
 				field with the alias "install", and a field with the alias "uninstall", each

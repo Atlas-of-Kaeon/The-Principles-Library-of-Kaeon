@@ -1,0 +1,13 @@
+Shift Actuation
+
+	Philosophy
+
+		-
+			Shift actuation involves distributing the force from a set of actuators, the source
+			actuators, to another differently sized set of actuators, the end actuators, in
+			targeted amounts and directions through the controlled use of transmissions and the
+			control of the source actuators' output.
+
+			Shift actuation can be described in terms of n to m, where n is the number of source
+			actuators, and m is the number of end actuators, and where n is not equal to m.
+		-

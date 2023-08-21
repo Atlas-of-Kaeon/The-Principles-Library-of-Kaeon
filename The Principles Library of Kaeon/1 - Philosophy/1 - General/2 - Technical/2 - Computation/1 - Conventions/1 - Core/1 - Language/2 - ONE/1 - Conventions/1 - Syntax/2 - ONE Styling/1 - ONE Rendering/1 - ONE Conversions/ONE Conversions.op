@@ -83,6 +83,9 @@ ONE Conversions
 					added to other elements converted from the parents of said arrays and objects,
 					shall have their children added directly to the element converted from their
 					parent instead of being added themselves.
+
+					JSON values intended to be converted to ONE elements may be called ONE JSON
+					values.
 				-
 
 		XML

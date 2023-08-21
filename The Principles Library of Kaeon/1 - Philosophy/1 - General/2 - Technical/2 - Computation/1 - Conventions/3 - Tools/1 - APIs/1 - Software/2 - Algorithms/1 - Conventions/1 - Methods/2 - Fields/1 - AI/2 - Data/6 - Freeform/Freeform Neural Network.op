@@ -73,16 +73,30 @@ Freeform Neural Network
 
 		Application
 
+			Notes
+
+				Types
+
+					XNN
+
+						-
+							A cross neural network, or XNN, is an FFNN where the network is a dual
+							absolute graph.
+						-
+
+				Uses
+
+					AGI
+
+						-
+							Because FFNNs may be used to host multiple machine learning contexts
+							simultaneously, they, especially XNNs, may be the ideal architecture
+							for AGI.
+						-
+
 			Conventions
 
 				-
-					An FFNN convention is a codified protocol for using and training FFNNs in certain
-					contexts.
-				-
-
-			AGI
-
-				-
-					Because FFNNs may be used to host multiple machine learning contexts
-					simultaneously, they may be the ideal architecture for AGI.
+					An FFNN convention is a codified protocol for using and training FFNNs in
+					certain contexts.
 				-

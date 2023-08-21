@@ -1,0 +1,14 @@
+Absolute Graph
+
+	Philosophy
+
+		-
+			An absolute graph is a graph where all nodes are connected to all other nodes and to
+			themselves.
+
+			An absolute graph where all nodes are connected by singular bidirectional connections
+			is called a single absolute graph, and an absolute graph where all nodes are connected
+			by dual unidirectional connections is called a dual absolute graph.
+
+			The number of nodes in an absolute graph is called its degree.
+		-

@@ -26,3 +26,14 @@ ONE List Form
 				object is a list, said child will be said list interpreted as an element in ONE
 				list form.
 			-
+
+		List ONE Form
+
+			-
+				Any list of strings may be represented by a ONE element which has a child for each
+				string in said list, said elements being arranged in the order of said strings, and
+				each element having the string to which it corresponds as its content.
+
+				This format is called List ONE form, and a ONE element or document in ONE list form
+				is called a ONE list.
+			-

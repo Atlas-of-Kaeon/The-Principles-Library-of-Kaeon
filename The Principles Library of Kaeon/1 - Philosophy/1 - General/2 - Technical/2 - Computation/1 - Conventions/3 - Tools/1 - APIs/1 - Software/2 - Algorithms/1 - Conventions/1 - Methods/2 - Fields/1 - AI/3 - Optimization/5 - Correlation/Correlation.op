@@ -12,3 +12,12 @@ Correlation Testing
 			Correlation testing where all specified correlation values are set to zero is called
 			anti-testing.
 		-
+
+	Principles
+
+		Correlation Training
+
+			-
+				Correlation training is where an AI model is trained using a process that assigns
+				quality scores to output without specifying the intended output.
+			-

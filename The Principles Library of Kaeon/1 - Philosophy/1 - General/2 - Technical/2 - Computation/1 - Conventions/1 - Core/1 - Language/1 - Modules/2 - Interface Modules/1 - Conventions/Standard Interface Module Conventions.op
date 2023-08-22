@@ -35,62 +35,52 @@ Standard Interface Module Conventions
 				Utilities
 
 					-
-						A utility defined in an interface module may be identified by a string,
-						called the utility ID string, created by concatenating the strings that
-						constitute its path together in order, separated by periods.
-
-						A utility may also be identified by any string that ends its utility ID
-						string but does not end the utility ID string of any other utility for the
-						same language or environment in the same interface module.
+						A utility identified in an interface module may be identified by a ONE+
+						string, called a utility ID string, containing a ONE list specifying a tag
+						trace ID for said utility.
 					-
 
 		Conventions
 
 			Interface Module Conventions
 
-				Utility Properties
+				Type
 
-					Type
+					-
+						A utility may have the type property, which may have the values library,
+						component, or plugin, among others, with library indicating that the
+						utility is a library to be imported into a program, with component
+						indicating that the utility is a modular service plugin, and with plugin
+						indicating that the utility is a plugin for another type of system.
+					-
 
-						-
-							A utility may have the type property, which may have the values
-							library, component, or plugin, among others, with library indicating
-							that the utility is a library to be imported into a program, with
-							component indicating that the utility is a modular service plugin, and
-							with plugin indicating that the utility is a plugin for another type of
-							system.
-						-
+				Environment
 
-				Version Properties
+					-
+						A utility may have the environment property, indicating which language or
+						environment said utility is designed for.
 
-					Environment
-
-						-
-							A utility version may have the environment property, indicating which
-							language or environment said utility version is designed for.
-
-							If an environment is not specified, it may be inferred dynamically.
-						-
+						If an environment is not specified, it may be inferred dynamically.
+					-
 
 			Interface ACE Conventions
 
-				Utility Properties
+				Type
 
-					Type
+					-
+						To represent the type property, an interface entity may have a type
+						component, which is a Kaeon ACE component with the content "Type", which
+						itself shall have a child with the content "Library", "Component", or
+						"Plugin", specifying the respective type of the utility said component is
+						attached to.
+					-
 
-						-
-							To represent the type utility property, the properties element of a
-							utility element may have a child with the content "Type", which itself
-							may have a child with the content "Library", "Component", or "Plugin".
-						-
+				Environment
 
-				Version Properties
-
-					Environment
-
-						-
-							To represent the environment utility property, the properties element
-							of a version element may have a child with the content "Environment",
-							which itself may have a child, the content of which shall specify the
-							environment of the version to which it pertains.
-						-
+					-
+						To represent the environment property, an interface entity may have an
+						environment component, which is a Kaeon ACE component with the content
+						"Environment", which itself shall have a child, the content of which shall
+						specify the environment which pertains to the utility said component is
+						attached to.
+					-

@@ -26,8 +26,8 @@ Freeform Neural Network
 					step within it into a layer in a feed forward neural network, the end of one
 					step being the start of the next.
 					
-					In a linearized FFNN cycle, nodes and connections may repeat as shallow copies
-					of themselves throughout the network.
+					In a linearized FFNN cycle, nodes and connections may repeat as entangled
+					elements throughout the network.
 					
 					Once in this format, the linearized FFNN cycle may be trained using some
 					variation of backpropagation, after which a newly trained FFNN model may be

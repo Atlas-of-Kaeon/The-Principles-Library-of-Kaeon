@@ -1,0 +1,23 @@
+Graph Elements
+
+	Philosophy
+
+		-
+			Graph elements is an umbrella term referring to both the nodes and connections of
+			graphs.
+
+			Graph elements may contain connection data, defining which other graph elements they
+			are connected to and how, and other miscellaneous metadata.
+
+			Said graphs may be called discrete graphs to distinguish them from other types of
+			graphs.
+		-
+
+	Principles
+
+		Graph Role Reversal
+
+			-
+				Graph Role reversal is where connections of a graph are treated as nodes, or where
+				nodes of a graph are treated as connections, or both.
+			-

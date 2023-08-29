@@ -38,10 +38,10 @@ ONE Labelling Conventions
 					a hierarchy, and for a given element, concatenated together with a colon
 					followed by a space as a separator, resulting in a poly-path marker.
 
-					Path markers may be generated from ONE paths alone, resulting in ONE path
-					markers, or together with Kaeon library paths preceding them, resulting in
-					library path markers. A path marker generated only from a Kaeon library path is
-					referred to as a library marker.
+					Path markers may be generated from ONE trace paths alone, resulting in ONE path
+					markers, or together with Kaeon library trace paths preceding them, resulting
+					in library path markers. A path marker generated only from a Kaeon library
+					trace path is referred to as a library marker.
 				-
 
 		Processing

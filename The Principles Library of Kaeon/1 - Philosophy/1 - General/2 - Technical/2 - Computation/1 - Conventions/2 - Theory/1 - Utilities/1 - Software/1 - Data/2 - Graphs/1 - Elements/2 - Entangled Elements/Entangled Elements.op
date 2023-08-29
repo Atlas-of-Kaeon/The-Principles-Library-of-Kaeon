@@ -1,0 +1,11 @@
+Entangled Elements
+
+	Philosophy
+
+		-
+			Entangled elements are sets of graph elements which share static properties, meaning
+			that altering said static properties for one of them alters it for all of them.
+
+			Perfectly entangled elements are those for which all properties are static, effectively
+			being shallow copies of one another.
+		-

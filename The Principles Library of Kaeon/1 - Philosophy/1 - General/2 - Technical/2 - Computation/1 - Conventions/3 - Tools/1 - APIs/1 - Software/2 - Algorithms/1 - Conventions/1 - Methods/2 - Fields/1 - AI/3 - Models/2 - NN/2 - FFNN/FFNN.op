@@ -1,0 +1,45 @@
+Freeform Neural Network
+
+	Philosophy
+
+		-
+			A freeform neural network, or FFNN, is a neural network where any node may connect to
+			any other node, and where any node may serve as an input node, an output node, both, or
+			neither.
+		-
+
+	Principles
+
+		Conventions
+
+			ASNP
+
+				-
+					By design, FFNNs should use ASNP, though the usage of them may span fixed
+					cycles with defined endpoint criteria.
+				-
+
+			Linearization
+
+				-
+					An FFNN cycle may be linearized by converting the beginning and end of each
+					step within it into a layer in a feed forward neural network, the end of one
+					step being the start of the next.
+					
+					In a linearized FFNN cycle, nodes and connections may repeat as shallow copies
+					of themselves throughout the network.
+					
+					Once in this format, the linearized FFNN cycle may be trained using some
+					variation of backpropagation, after which a newly trained FFNN model may be
+					reconstructed from the trained linearized FFNN cycle. This process is called
+					linearized training.
+				-
+
+		Applications
+
+			XNN
+
+				-
+					A cross neural network, or XNN, is an FFNN where the network is a dual absolute
+					graph.
+				-

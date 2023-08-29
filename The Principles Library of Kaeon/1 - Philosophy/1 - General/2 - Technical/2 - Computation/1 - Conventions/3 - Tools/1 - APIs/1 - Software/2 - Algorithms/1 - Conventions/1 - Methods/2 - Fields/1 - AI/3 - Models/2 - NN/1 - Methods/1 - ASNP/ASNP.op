@@ -1,0 +1,16 @@
+Asynchronous Neural Processing
+
+	Philosophy
+
+		-
+			Asynchronous neural processing (ASNP) is the usage of a neural network in which data
+			may be fed to its input nodes at each step of its processing, a step being any time
+			data is transferred from one set of nodes to another, such that the feeding of input
+			and the reading of output may be a continuous process spanning many simultaneous
+			contexts.
+
+			The value stored within a given node at any point is called its state.
+
+			Training processes for neural networks designed for ASNP may seek to minimize steps as
+			well as error.
+		-

@@ -1,0 +1,12 @@
+Value Monitor
+
+	Philosophy
+
+		-
+			A value monitor is an event listener that is assigned the alias or address of a
+			specific value, called the target, and triggers an event any time said value is
+			changed.
+
+			The metadata for said event should include both the previous value and the current
+			value of said target.
+		-

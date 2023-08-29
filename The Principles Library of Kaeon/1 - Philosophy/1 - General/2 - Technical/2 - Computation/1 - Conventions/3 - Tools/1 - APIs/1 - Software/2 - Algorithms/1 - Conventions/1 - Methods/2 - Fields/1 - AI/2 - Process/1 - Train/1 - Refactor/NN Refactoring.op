@@ -1,0 +1,49 @@
+Neural Network Refactoring
+
+	Philosophy
+
+		-
+			Neural network refactoring is the act of altering the structure of a neural network to
+			either increase or decrease its complexity while preventing it from producing a
+			different output for any given input.
+
+			Alternatively, to alter the structure of a neural network while allowing for a minimal
+			amount of alteration in its output for any given input is referred to as neural network
+			pseudorefactoring.
+		-
+
+	Principles
+
+		Zero Augmentation
+
+			-
+				Zero augmentation is the process of performing neural network refactoring by adding
+				new nodes to it where all of the newly created parameters resulting from the
+				addition of said nodes are set to zero.
+
+				In most neural network architectures, this should result in no change to the
+				existing behavior of the model.
+			-
+
+		Layer Cloning
+
+			-
+				Layer cloning is a process for performing neural network refactoring in layered
+				neural networks in a way that allows new layers to be added.
+
+				First, a layer in the network, called the indexed layer, must be selected. The new
+				layer will follow the indexed layer, and shall have the same number of neurons.
+
+				The weights between the indexed layer and the layer which originally followed it,
+				called the target layer, shall be transferred to the connections between the new
+				layer and the target layer.
+
+				The weights between the indexed layer and the new layer shall then be set such that
+				for a given neuron in the indexed layer, the weight of the connection between
+				itself and the neuron in the new layer of the same index shall be one, and the
+				weight of the connection between itself and all other neurons in the new layer
+				shall be zero.
+
+				Other parameters, such as biases, should, unless otherwise specified, be assigned
+				to either the indexed layer or the new layer and set to zero in the other.
+			-

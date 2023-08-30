@@ -3,48 +3,61 @@ Atypical Neural Parameters
 	Philosophy
 
 		-
-			Atypical neural parameters (ATNP), are neuron parameters relevant to ASNP, which may be
-			used and trained in addition to weights and biases.
+			Atypical neural parameters (ATNP), are neuron parameters, and states, relevant to ASNP,
+			which may be used and trained in addition to weights and biases.
 		-
 
 	Principles
 
-		Charge
+		Parameters
 
-			Charge Potential
+			Charge
 
+				Charge Potential
+
+					-
+						The charge potential is how much to add or subtract from the state of a
+						given neuron during a step in ASNP.
+					-
+
+				Charge Factor
+
+					-
+						The charge factor is how the charge potential should correlate to the
+						current state of the neuron.
+					-
+
+			Transfer-Relay Ratio
+			
 				-
-					The charge potential is how much to add or subtract from the state of a given
-					neuron during a step in ASNP.
-				-
-
-			Charge Factor
-
-				-
-					The charge factor is how the charge potential should correlate to the current
-					state of the neuron.
-				-
-
-		Transfer-Relay Ratio
-		
-			-
-				The transfer-relay ratio is how much of the state should be retained within a
-				neuron after said state has been relayed across said neuron's connections in a
-				given step.
-			-
-
-		Threshold
-
-			Minimum
-
-				-
-					The minimum threshold is the lowest a neuron's state can be while still being
-					active in ASNP.
+					The transfer-relay ratio is how much of the state should be retained within a
+					neuron after said state has been relayed across said neuron's connections in a
+					given step.
 				-
 
-			Maximum
+			Threshold
+
+				Minimum
+
+					-
+						The minimum threshold is the lowest a neuron's state can be while still
+						being active in ASNP.
+					-
+
+				Maximum
+
+					-
+						The maximum threshold is the highest a neuron's state can be while still
+						being active in ASNP.
+					-
+
+		States
+
+			Heat
 
 				-
-					The maximum threshold is the highest a neuron's state can be while still being
-					active in ASNP.
+					The heat of a neuron is a value which increases or decreases as data is passed
+					to said neuron, to a degree derived from the size of the numbers passed to it.
+
+					It may be used in correlation testing.
 				-

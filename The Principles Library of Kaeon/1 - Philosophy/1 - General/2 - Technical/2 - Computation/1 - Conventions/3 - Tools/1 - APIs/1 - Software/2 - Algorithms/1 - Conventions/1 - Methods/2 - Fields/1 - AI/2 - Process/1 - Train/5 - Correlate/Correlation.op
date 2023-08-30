@@ -20,4 +20,9 @@ Correlation Testing
 			-
 				Correlation training is where an AI model is trained using a process that assigns
 				quality scores to output without specifying the intended output.
+
+				One approach to this is to randomly alter network parameters to a degree that
+				increases as the quality evaluation of the output decreases, and which correlates
+				with other neuron and connection metadata generated according to how the data was
+				processed prior to the training.
 			-

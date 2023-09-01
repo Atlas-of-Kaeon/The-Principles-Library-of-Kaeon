@@ -18,9 +18,18 @@ Reverse Training
 				training it.
 			-
 
-		Inference Extraction
+		Inference
 
-			-
-				Inference extraction refers to any process used to derive or approximate the data
-				used to train a trained machine learning model from said model.
-			-
+			Inference Extraction
+
+				-
+					Inference extraction refers to any process used to derive or approximate the
+					data used to train a trained machine learning model from said model.
+				-
+
+			Inference Analysis
+
+				-
+					Inference analysis refers to any process used to derive meaningful information
+					from the current state of a neural network currently processing information.
+				-

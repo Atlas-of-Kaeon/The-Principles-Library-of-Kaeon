@@ -23,6 +23,11 @@ Neural Network Refactoring
 
 				In most neural network architectures, this should result in no change to the
 				existing behavior of the model.
+
+				Unless there is a specific reason otherwise, nodes should generally be added to the
+				hidden layers which have the fewest nodes if the goal is simply to increase the
+				complexity of the network, which should scale to the size of the training data, and
+				to the input and output layers when necessary to accommodate larger data sizes.
 			-
 
 		Layer Cloning
@@ -41,9 +46,12 @@ Neural Network Refactoring
 				The weights between the indexed layer and the new layer shall then be set such that
 				for a given neuron in the indexed layer, the weight of the connection between
 				itself and the neuron in the new layer of the same index shall be one, and the
-				weight of the connection between itself and all other neurons in the new layer
+				weight of the connections between itself and all other neurons in the new layer
 				shall be zero.
 
 				Other parameters, such as biases, should, unless otherwise specified, be assigned
 				to either the indexed layer or the new layer and set to zero in the other.
+
+				Unless there is a specific reason otherwise, new layers should generally be added
+				to the middle of existing networks.
 			-

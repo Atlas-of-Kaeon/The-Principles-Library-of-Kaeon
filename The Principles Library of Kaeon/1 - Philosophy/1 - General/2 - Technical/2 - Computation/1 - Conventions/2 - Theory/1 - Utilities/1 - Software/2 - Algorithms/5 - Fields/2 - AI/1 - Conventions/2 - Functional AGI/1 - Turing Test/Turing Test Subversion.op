@@ -7,3 +7,16 @@ Turing Test Subversion
 			to derail the interaction with nonsensical tangents and outbursts to see whether the AI
 			seems aware of the absurdity of the diversions.
 		-
+
+	Principles
+
+		Void Answer Fallacy
+
+			-
+				One flaw in many current generation AI systems is that by nature they must provide
+				a response to a prompt, and thus will sooner give a wrong answer than no answer.
+				
+				This flaw can be exploited by forcing a conversation to continue past the point
+				where it should otherwise stop, revealing the system's lack of true understanding
+				and allowing the user to subvert protocols in the system's training.
+			-

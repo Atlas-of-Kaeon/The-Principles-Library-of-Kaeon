@@ -3,6 +3,24 @@ Multi-Purpose Model
 	Philosophy
 
 		-
-			A multi-purpose model is a single machine learning model trained for multiple separate
-			use cases.
+			A multi-purpose model (MPM) is a single machine learning model trained for multiple
+			separate use cases.
 		-
+
+	Principles
+
+		Multi-Purpose Nodes
+
+			-
+				Multi-purpose nodes (MPN) are nodes in a neural network which may serve as input
+				nodes, output nodes, both, or neither regardless of where they are located in the
+				network.
+			-
+
+		Submodels
+
+			-
+				Submodels are subsections of larger machine learning models which may be used or
+				trained in isolation, and which may be removed from or added to larger machine
+				learning models.
+			-

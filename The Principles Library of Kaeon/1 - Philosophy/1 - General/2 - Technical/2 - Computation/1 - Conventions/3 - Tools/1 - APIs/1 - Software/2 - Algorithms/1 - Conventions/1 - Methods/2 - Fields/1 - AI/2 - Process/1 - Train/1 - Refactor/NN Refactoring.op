@@ -14,44 +14,59 @@ Neural Network Refactoring
 
 	Principles
 
-		Zero Augmentation
+		Conventions
+
+			Zero Augmentation
+
+				-
+					Zero augmentation is the process of performing neural network refactoring by
+					adding new nodes to it where all of the newly created parameters resulting from
+					the addition of said nodes are set to zero.
+
+					In most neural network architectures, this should result in no change to the
+					existing behavior of the model.
+				-
+
+			Layer Cloning
+
+				-
+					Layer cloning is a process for performing neural network refactoring in layered
+					neural networks in a way that allows new layers to be added.
+
+					First, a layer in the network, called the indexed layer, must be selected. The
+					new layer will follow the indexed layer, and shall have the same number of
+					neurons.
+
+					The weights between the indexed layer and the layer which originally followed
+					it, called the target layer, shall be transferred to the connections between
+					the new layer and the target layer.
+
+					The weights between the indexed layer and the new layer shall then be set such
+					that for a given neuron in the indexed layer, the weight of the connection
+					between itself and the neuron in the new layer of the same index shall be one,
+					and the weight of the connections between itself and all other neurons in the
+					new layer shall be zero.
+
+					Other parameters, such as biases, should, unless otherwise specified, be
+					assigned to either the indexed layer or the new layer and set to zero in the
+					other.
+				-
+
+		Default Growth Process
 
 			-
-				Zero augmentation is the process of performing neural network refactoring by adding
-				new nodes to it where all of the newly created parameters resulting from the
-				addition of said nodes are set to zero.
+				Regarding zero augmentation, unless there is a specific reason otherwise, nodes
+				should generally be added to the hidden layers which have the fewest nodes if the
+				goal is simply to increase the complexity of the network, which should scale to the
+				size of the training data, and to the input and output layers when necessary to
+				accommodate larger data sizes.
 
-				In most neural network architectures, this should result in no change to the
-				existing behavior of the model.
+				Regarding layer cloning, unless there is a specific reason otherwise, new layers
+				should generally be added to the middle of existing networks.
 
-				Unless there is a specific reason otherwise, nodes should generally be added to the
-				hidden layers which have the fewest nodes if the goal is simply to increase the
-				complexity of the network, which should scale to the size of the training data, and
-				to the input and output layers when necessary to accommodate larger data sizes.
-			-
-
-		Layer Cloning
-
-			-
-				Layer cloning is a process for performing neural network refactoring in layered
-				neural networks in a way that allows new layers to be added.
-
-				First, a layer in the network, called the indexed layer, must be selected. The new
-				layer will follow the indexed layer, and shall have the same number of neurons.
-
-				The weights between the indexed layer and the layer which originally followed it,
-				called the target layer, shall be transferred to the connections between the new
-				layer and the target layer.
-
-				The weights between the indexed layer and the new layer shall then be set such that
-				for a given neuron in the indexed layer, the weight of the connection between
-				itself and the neuron in the new layer of the same index shall be one, and the
-				weight of the connections between itself and all other neurons in the new layer
-				shall be zero.
-
-				Other parameters, such as biases, should, unless otherwise specified, be assigned
-				to either the indexed layer or the new layer and set to zero in the other.
-
-				Unless there is a specific reason otherwise, new layers should generally be added
-				to the middle of existing networks.
+				Unless there is a specific reason otherwise, when growing the network in general,
+				layer cloning should be used if the number of nodes in each hidden layer is equal,
+				and if the number of hidden layers is less then the number of nodes in each hidden
+				layer, with zero augmentation being used in any other case, such that the shape of
+				the hidden layers as a whole trends towards a square.
 			-

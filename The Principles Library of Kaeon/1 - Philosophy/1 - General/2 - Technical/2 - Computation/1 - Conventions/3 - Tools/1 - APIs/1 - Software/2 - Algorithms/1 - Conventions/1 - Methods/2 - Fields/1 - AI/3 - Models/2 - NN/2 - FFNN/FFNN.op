@@ -4,13 +4,12 @@ Freeform Neural Network
 
 		-
 			A freeform neural network, or FFNN, is a neural network where any node may connect to
-			any other node, and where any node may serve as an input node, an output node, both, or
-			neither.
+			any other node, and where all nodes are MPNs.
 		-
 
 	Principles
 
-		Conventions
+		Processing
 
 			ASNP
 
@@ -33,6 +32,15 @@ Freeform Neural Network
 					variation of backpropagation, after which a newly trained FFNN model may be
 					reconstructed from the trained linearized FFNN cycle. This process is called
 					linearized training.
+				-
+
+			Zero Augmentation
+
+				-
+					An FFNN may be grown using a modified form of zero augmentation, where a new
+					node is added to the network and connected to other nodes arbitrarily, with all
+					of the new parameters created from the addition of said node and its
+					connections are set to zero.
 				-
 
 		Applications

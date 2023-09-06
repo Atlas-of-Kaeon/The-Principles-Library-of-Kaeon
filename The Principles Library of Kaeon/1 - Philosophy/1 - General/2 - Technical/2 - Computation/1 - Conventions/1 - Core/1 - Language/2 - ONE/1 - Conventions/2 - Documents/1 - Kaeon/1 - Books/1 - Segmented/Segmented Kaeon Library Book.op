@@ -1,0 +1,41 @@
+Segmented Kaeon Library Book
+
+	Philosophy
+
+		-
+			A segmented Kaeon library book is a Kaeon library book for which the contents are
+			spread across multiple documents, called Kaeon library segments, and tied together with
+			comments, which for standard Kaeon library books shall be reference notation elements.
+		-
+
+	Principles
+
+		Dating
+
+			-
+				Kaeon library segments may use a notation element containing the date and time of
+				their creation or publishing, called a date notation element, so as to resolve
+				conflicts between conflicting records of the same resource.
+
+				A reference notation element and a date notation element may be used together to
+				reassign the location of an existing document within a library.
+			-
+
+		Unindexed Folders
+
+			-
+				The folders of documents within segmented Kaeon library books may be listed as
+				unindexed, where their index number is not displayed in the reference notation
+				element to which they apply, if their indices are either unknown or undecided.
+			-
+
+		Isolated Elements
+
+			-
+				Kaeon library segments may contain individual elements isolated from larger Kaeon
+				documents, in which case their position within said document may be specified using
+				a notation element, called a path line, containing as its content a trace path of
+				the element to which it applies within the Kaeon document that contains said
+				element, with the numbers of said path concatenated together using a sequence
+				consisting of a space, followed by a hyphen, followed by a space.
+			-

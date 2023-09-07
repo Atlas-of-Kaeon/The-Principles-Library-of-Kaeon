@@ -18,9 +18,8 @@ Mark-ONE
 					being unwrapped, and shall borrow conventions from the ONE labelling
 					conventions.
 
-					Title lines in Kaeon library books shall have the comment sequences with which
-					they begin and end removed, shall be trimmed, and shall be converted to
-					italicized text.
+					Notation elements in Kaeon library books shall be rendered as lines of
+					italicized ONE-.
 
 					Each title and section element shall be assigned a nest level, that being the
 					number of periods in a ONE path marker generated for it, plus one.

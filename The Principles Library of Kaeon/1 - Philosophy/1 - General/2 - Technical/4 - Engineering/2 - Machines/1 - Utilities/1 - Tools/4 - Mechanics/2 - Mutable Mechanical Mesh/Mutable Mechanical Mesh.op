@@ -1,0 +1,54 @@
+Mutable Mechanical Mesh
+
+	Philosophy
+	
+		-
+			A mutable mechanical mesh (M3, MMM, Triple-M), is a robotic mesh made of rods,
+			connected to one another at their ends by omni-directional joints, which can extend and
+			contract in length in a manner controllable via programmable actuators.
+		-
+
+	Principles
+
+		Structure
+
+			Form
+
+				Shell
+
+					-
+						An M3's outermost elements are referred to as its shell.
+					-
+
+				Support
+
+					-
+						In order to ensure maximum structural integrity, an M3's form should be
+						composed entirely out of interlocking triangles.
+						
+						Though an M3 may consist solely of its shell in some cases, it may also
+						have internal support structures.
+					-
+
+			Skin
+
+				-
+					An M3 skin is an elastic membrane which stretches over some or all of its
+					shell.
+
+					An M3 skin may feature static or animated visual elements, and may also retain
+					matter within it, allowing an M3 to float in a gaseous or fluid environment.
+				-
+
+			Splitting and Joining
+
+				-
+					In some cases, elements of M3s may detach from or join to M3s dynamically.
+				-
+
+		Control and Design
+
+			-
+				An M3 may be designed and controlled using meshes similar to those used in 3D
+				printing and computer animation.
+			-

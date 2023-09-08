@@ -30,15 +30,26 @@ Mutable Mechanical Mesh
 						have internal support structures.
 					-
 
-			Skin
+			Utilities
 
-				-
-					An M3 skin is an elastic membrane which stretches over some or all of its
-					shell.
+				Skin
 
-					An M3 skin may feature static or animated visual elements, and may also retain
-					matter within it, allowing an M3 to float in a gaseous or fluid environment.
-				-
+					-
+						An M3 skin is an elastic membrane which stretches over some or all of its
+						shell.
+
+						An M3 skin may feature static or animated visual elements, and may also
+						retain matter within it, allowing an M3 to float in a gaseous or fluid
+						environment.
+					-
+
+				Attachments
+
+					-
+						An M3 may have projectors, such as speakers, sensors, and batteries, and
+						control systems, among other things, attached to its mechanical elements or
+						skin.
+					-
 
 			Splitting and Joining
 
@@ -51,4 +62,8 @@ Mutable Mechanical Mesh
 			-
 				An M3 may be designed and controlled using meshes similar to those used in 3D
 				printing and computer animation.
+
+				Power and information should be transferred to and from an M3's elements via
+				channels within its rods and joints, so as to prevent a mesh of wires from
+				overcomplicating its design.
 			-

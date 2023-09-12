@@ -14,3 +14,17 @@ Asynchronous Neural Processing
 			Training processes for neural networks designed for ASNP may seek to minimize steps as
 			well as error.
 		-
+
+	Principles
+
+		Constant Input
+
+			-
+				Constant input is where input is constantly fed to a model regardless of whether
+				input is received from an external source, either according to a constant pattern
+				or with some degree of noise.
+
+				When input is received from an external source, the constant input may either be
+				paused, in the case of substitute constant input, or reduced with the external
+				input superimposed atop it, in the case of permanent constant input.
+			-

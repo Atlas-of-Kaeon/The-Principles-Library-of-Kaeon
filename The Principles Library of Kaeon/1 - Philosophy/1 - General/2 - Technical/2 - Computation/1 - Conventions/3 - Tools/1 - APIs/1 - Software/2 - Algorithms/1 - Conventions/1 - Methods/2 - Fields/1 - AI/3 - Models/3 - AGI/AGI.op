@@ -3,10 +3,11 @@ AGI
 	Philosophy
 
 		-
-			An XNN with ATNP properties, and trained using correlation training fed by noise
-			feedback, which may be called an X-CAT, may be the ideal architecture for an AGI.
+			An XNN with ATNP properties and noisy permanent constant input, and trained using
+			correlation training fed by noise feedback, which may be called an X-CAT, may be the
+			ideal architecture for an AGI.
 
-			Alternatively, an HNMS or HGNMS would also be a prime AGI candidate.
+			Alternatively, an HNMS (ideally an HGNMS) would also be a prime AGI candidate.
 		-
 
 	Principles

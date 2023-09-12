@@ -1,28 +1,19 @@
-Correlation Testing
+Correlation Training
 
 	Philosophy
 
 		-
-			Correlation testing is the testing of an AI model where each input output pair is
-			assigned a correlation value between zero and one, inclusive, where the generated
-			output is assigned a similar correlation value based on the its similarity to the
-			specified output, and then judged based on how close said correlation value is to the
-			specified correlation value.
-
-			Correlation testing where all specified correlation values are set to zero is called
-			anti-testing.
+			Correlation training is where an AI model is trained using a process that assigns
+			quality scores to output without specifying the intended output.
 		-
 
 	Principles
 
-		Correlation Training
+		Frenzied Scattering
 
 			-
-				Correlation training is where an AI model is trained using a process that assigns
-				quality scores to output without specifying the intended output.
-
-				One approach to this is to randomly alter network parameters to a degree that
-				increases as the quality evaluation of the output decreases, and which correlates
-				with other neuron and connection metadata generated according to how the data was
-				processed prior to the training.
+				Frenzied scattering is an approach to correlation training which randomly alters
+				model parameters to a degree that increases as the quality evaluation of the output
+				decreases, and that correlates with other neuron and connection metadata generated
+				according to how the data was processed prior to the training.
 			-

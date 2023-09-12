@@ -6,8 +6,8 @@ Bioequivalent AI
 			A bioequivalent AI (BEAI) is a BES-based AI system modelled after biological
 			intelligent systems.
 
-			A software model that simulates an intelligent biological substrate is referred to as a
-			neural model simulation (NMS). An NMS that can be generated from a digital
+			A software model that fully simulates a connectome as a cognitive agent is referred to
+			as a neural model simulation (NMS). An NMS that can be generated from a digital
 			representation of genetic code is called a genetic NMS (GNMS).
 
 			A hardware system that recreates the parallel and dynamic nature of neurons at the

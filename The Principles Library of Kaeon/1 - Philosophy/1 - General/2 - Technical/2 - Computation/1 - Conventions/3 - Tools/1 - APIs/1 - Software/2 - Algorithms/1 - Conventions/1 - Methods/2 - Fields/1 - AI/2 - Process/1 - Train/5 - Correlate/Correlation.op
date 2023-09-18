@@ -9,11 +9,32 @@ Correlation Training
 
 	Principles
 
-		Frenzied Scattering
+		Frenzied and Flat Scattering
 
 			-
 				Frenzied scattering is an approach to correlation training which randomly alters
 				model parameters to a degree that increases as the quality evaluation of the output
-				decreases, and that correlates with other neuron and connection metadata generated
-				according to how the data was processed prior to the training.
+				decreases.
+
+				Randomly altering the parameters of a model to a degree determined without respect
+				to its performance is called flat scattering.
+
+				Both frenzied and flat scattering may correlate with neuron and connection metadata
+				generated according to how the data was processed prior to the training.
+			-
+
+		Sugar-Spice Probing
+
+			-
+				Sugar-Spice Probing (SSP), is an approach to correlation training where, following
+				a period of performance by a given model, the quality of said performance is
+				assigned a score, with the model regressing to its previous state if said
+				performance is worse than that of its previous state, and with flat scattering
+				being applied to the model if said performance is worse than that of its previous
+				state.
+
+				The degree of said flat scattering may increase as the number of failed attempts to
+				improve the model increase.
+
+				More advanced methods of SSP may utilize partial or complete state graphs.
 			-

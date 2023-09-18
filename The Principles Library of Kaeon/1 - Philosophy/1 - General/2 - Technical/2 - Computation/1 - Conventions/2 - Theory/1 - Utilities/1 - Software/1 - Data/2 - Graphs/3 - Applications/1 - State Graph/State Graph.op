@@ -1,0 +1,13 @@
+State Graph
+
+	Philosophy
+
+		-
+			A state graph is a directed acyclic graph where the nodes contain the historic states
+			of a given system, and the connections specifying that the system transitioned from the
+			state at their origin to the state at their end, as well as any additional metadata
+			regarding the context of the transition.
+
+			A complete state graph contains all of the historic states of the system it represents,
+			whereas a partial state graph does not.
+		-

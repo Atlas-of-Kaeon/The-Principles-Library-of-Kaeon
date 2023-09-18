@@ -28,3 +28,12 @@ Asynchronous Neural Processing
 				paused, in the case of substitute constant input, or reduced with the external
 				input superimposed atop it, in the case of permanent constant input.
 			-
+
+		Step Mean
+
+			-
+				A step mean is the average state of a node used in ASNP across a sequence of steps.
+
+				The use of a step mean to select an element from a set is referred to as mean
+				selection.
+			-

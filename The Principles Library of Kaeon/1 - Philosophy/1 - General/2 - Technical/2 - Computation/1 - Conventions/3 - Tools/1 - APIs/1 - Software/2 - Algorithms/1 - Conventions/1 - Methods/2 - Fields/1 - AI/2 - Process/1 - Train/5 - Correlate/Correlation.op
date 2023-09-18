@@ -28,10 +28,11 @@ Correlation Training
 			-
 				Sugar-Spice Probing (SSP), is an approach to correlation training where, following
 				a period of performance by a given model, the quality of said performance is
-				assigned a score, with the model regressing to its previous state if said
-				performance is worse than that of its previous state, and with flat scattering
-				being applied to the model if said performance is worse than that of its previous
-				state.
+				assigned a score, with the model regressing to its base state, that either being
+				its previous state in local SSP, or its best performing state in global SSP, if
+				said performance is worse than that of said base state, and with flat scattering in
+				flat SSP, or frenzied scattering in frenzied SSP, being applied to the model if
+				said performance is worse than that of said base state.
 
 				The degree of said flat scattering may increase as the number of failed attempts to
 				improve the model increase.

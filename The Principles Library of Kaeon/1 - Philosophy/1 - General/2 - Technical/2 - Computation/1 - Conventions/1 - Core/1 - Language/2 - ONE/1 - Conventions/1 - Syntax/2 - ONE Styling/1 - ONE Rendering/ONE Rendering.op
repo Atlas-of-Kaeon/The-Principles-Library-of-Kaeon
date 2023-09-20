@@ -17,3 +17,13 @@ ONE Rendering
 				ONE and converting its content into a document in another format, the end result
 				being a ONE derendered document.
 			-
+
+		Map Formats
+
+			-
+				A ONE format which preserves all of the typing implicit in another format is called
+				a ONE map format.
+
+				A specific format in another data interchange language which represents ONE is
+				called a map ONE format.
+			-

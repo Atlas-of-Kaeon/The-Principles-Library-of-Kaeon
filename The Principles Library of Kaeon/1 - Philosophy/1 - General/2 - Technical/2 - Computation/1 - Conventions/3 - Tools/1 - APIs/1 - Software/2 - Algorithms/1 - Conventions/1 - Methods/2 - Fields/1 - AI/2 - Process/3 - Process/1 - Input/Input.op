@@ -1,0 +1,31 @@
+Self-Sustaining Input
+
+	Philosophy
+
+		-
+			Self Sustaining input (SSI) is where an AI model receives input throughout an operation
+			independent of the external context of the operation either through a elements of
+			itself or through recurrency.
+		-
+
+	Principles
+
+		Constant Input
+
+			-
+				Constant input is where input is constantly fed to a model regardless of whether
+				input is received from an external source, either according to a constant pattern
+				or with some degree of noise.
+
+				When input is received from an external source, the constant input may either be
+				paused, in the case of substitute constant input, or reduced with the external
+				input superimposed atop it, in the case of permanent constant input.
+			-
+
+		Training as Self-Sustaining Input
+
+			-
+				A model with SSI which is trained throughout an operation may not require any
+				additional input, as it constantly recalibrates its behavior according to the
+				training.
+			-

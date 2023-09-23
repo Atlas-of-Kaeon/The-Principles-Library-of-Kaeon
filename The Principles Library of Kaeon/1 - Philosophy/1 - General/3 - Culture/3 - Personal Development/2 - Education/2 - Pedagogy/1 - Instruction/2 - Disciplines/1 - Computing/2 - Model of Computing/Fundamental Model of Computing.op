@@ -4,8 +4,13 @@ Fundamental Model of Computing
 
 		-
 			The fundamental model of computing defines computing as the execution of a sequence of
-			steps, where each step is to retrieve data from an external source, transform data, or
-			to transfer data to an external source.
+			steps, where each step is the execution of an operation in one of the three modes of
+			computing, those being the first mode, to transform data internally, the second mode,
+			to receive data from an external source, and the third mode, to transfer data to an
+			external source. 
+
+			The first mode can be called the core mode, and the second and third modes may be
+			referred to as the two channels.
 		-
 
 	Principles

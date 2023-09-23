@@ -3,31 +3,49 @@ The Universal Basics of Programming
 	Philosophy
 
 		-
-			The universal basics of programming, listed in order in this document, are the basic
-			concepts one must learn in order to develop the vast majority of programs.
+			The universal basics of programming, or the five basics, listed in order in this
+			document, along with related concepts, are the basic concepts one must learn in order
+			to develop the vast majority of programs, as they constitute the key mechanisms through
+			which the first mode of computing operates.
+
+			The five basics, taken together with the two channels, can be called the seven basics.
 
 			In and of themselves, they can be taught to anyone fairly quickly, in a few hours or
 			less.
+
+			In some cases, loops may be considered a subcategory of conditionals, rendering the
+			five basics four, and the seven basics six.
 		-
 
 	Principles
 
-		The Universal Basics
+		The Five Basics
 
-			Basic Output
-			Variables and Data Types: Number, Characters and Strings, Boolean, Null
-			Basic Input
+			Variables { Literals }
+			
+				The Four Types
+				
+					Numbers
+					Characters: Strings
+					Booleans
+					Null Values
+
 			Conditionals
 			Loops
-			Lists and Strings as Lists
-			Functions
+			Lists: Strings, Objects: Classes
+			Functions: Composition { Parameters { Arguments }, Returning }, Recursion
 
-		Code Styles
+		Related Topics
 
-			-
-				At some point, it is ideal for students to be exposed to programming styles that
-				utilize a LISP-like form, such as what Kaeon FUSION uses, in order to help them
-				grasp the underlying structure of programs regardless of their syntax and to give
-				them powerful insights into the nature of code that can be applied beyond
-				programming.
-			-
+			Scope: Nesting
+			Computational Complexity
+
+			Code Styles
+
+				-
+					At some point, it is ideal for students to be exposed to programming styles
+					that utilize a LISP-like form, such as what Kaeon FUSION uses, in order to help
+					them grasp the underlying structure of programs regardless of their syntax and
+					to give them powerful insights into the nature of code that can be applied
+					beyond programming.
+				-

@@ -25,6 +25,11 @@ ONE Labelling Conventions
 
 					An element which has the root as its parent and no siblings is referred to as a
 					title element, even if it would otherwise be a section element.
+
+					However, a maximum length for non-content elements may be specified, resulting
+					in any non-content element for which the content exceeds said length, taking
+					into account the nesting of said element, being classified as a content
+					element.
 				-
 
 			Path Markers

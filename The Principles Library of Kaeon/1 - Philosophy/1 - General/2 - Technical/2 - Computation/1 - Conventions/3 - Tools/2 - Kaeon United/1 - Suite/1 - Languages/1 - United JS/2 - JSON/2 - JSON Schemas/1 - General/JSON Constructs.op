@@ -1,0 +1,67 @@
+JSON Constructs
+
+	Philosophy
+
+		-
+			JSON objects and arrays may be collectively referred to as JSON constructs.
+		-
+
+	Principles
+
+		Definitions
+
+			Monotype Constructs
+
+				-
+					A monotype JSON construct is a JSON construct that only contains one type of
+					primitive nested within it.
+
+					A mononull JSON construct is a JSON construct which only contains one type of
+					non-null primitive nested within it in addition to null values.
+
+					A monotype or mononull JSON construct can be defined by specifying the type of
+					primitive it contains before the word monotype or mononull.
+				-
+
+			Flat Constructs
+
+				-
+					A flat JSON construct is a JSON construct with no other JSON constructs nested
+					within it.
+				-
+
+			Monoform Constructs
+
+				-
+					A monoform JSON object is a JSON object that has no JSON arrays nested within
+					it, and a monoform JSON array is a JSON array that has no JSON objects nested
+					within it.
+				-
+
+		Formats
+
+			Flat Formats
+
+				Field JSON
+
+					-
+						A field JSON object is a flat string monotype JSON object.
+					-
+
+				ID JSON
+
+					-
+						An ID JSON object is a flat number monotype JSON object.
+					-
+
+				Switch JSON
+
+					-
+						A switch JSON object is a flat boolean monotype JSON object.
+					-
+
+			Minimal JSON
+
+				-
+					A minimal JSON object is a monoform string monotype JSON object.
+				-

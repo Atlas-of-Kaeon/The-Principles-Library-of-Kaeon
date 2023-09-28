@@ -58,6 +58,9 @@ ONE Conversions
 
 					JSON values intended to be converted to ONE elements may be called ONE JSON
 					values.
+
+					A JSON object generated from a ONE document using the aforementioned
+					conventions should be a minimal JSON object.
 				-
 
 			Map Formats

@@ -1,0 +1,12 @@
+Composite Kaeon Library
+
+	Philosophy
+
+		-
+			A composite Kaeon library is a Kaeon library that contains the contents of multiple
+			Kaeon libraries, where each root subfolder, a root subfolder being a subfolder of the
+			master folder, contains a subfolder for each of the original Kaeon libraries which had
+			the same root subfolder, which contains the contents of said original root subfolder,
+			which is named after the original Kaeon library from which it is derived, and which is
+			ordered relative to its siblings in alphabetical order.
+		-

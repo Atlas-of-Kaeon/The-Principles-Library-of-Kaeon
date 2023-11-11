@@ -3,8 +3,8 @@ Atypical Neural Parameters
 	Philosophy
 
 		-
-			Atypical neural parameters (ATNP), are neuron parameters, and states, relevant to ASNP,
-			which may be used and trained in addition to weights and biases.
+			Atypical neural parameters (ATNP), are connection parameters relevant to ASNP, which
+			may be used and trained in addition to weights and biases.
 		-
 
 	Principles
@@ -58,9 +58,9 @@ Atypical Neural Parameters
 				Heat
 
 					-
-						The heat of a neuron is a value which increases or decreases as data is
-						passed to said neuron, to a degree derived from the size of the numbers
-						passed to it.
+						The heat of a connection is a value which increases or decreases as data is
+						passed through said connection, to a degree derived from the size of the
+						numbers passed to it.
 
 						It may be used in correlation testing.
 					-

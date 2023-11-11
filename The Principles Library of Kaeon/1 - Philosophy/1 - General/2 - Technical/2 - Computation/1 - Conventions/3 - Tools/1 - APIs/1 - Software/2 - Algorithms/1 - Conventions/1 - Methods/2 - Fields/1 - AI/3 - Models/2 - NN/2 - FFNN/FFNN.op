@@ -18,21 +18,54 @@ Freeform Neural Network
 					cycles with defined endpoint criteria.
 				-
 
-			Linearization
+			Training
 
-				-
-					An FFNN cycle may be linearized by converting the beginning and end of each
-					step within it into a layer in a feed forward neural network, the end of one
-					step being the start of the next.
-					
-					In a linearized FFNN cycle, nodes and connections may repeat as entangled
-					elements throughout the network.
-					
-					Once in this format, the linearized FFNN cycle may be trained using some
-					variation of backpropagation, after which a newly trained FFNN model may be
-					reconstructed from the trained linearized FFNN cycle. This process is called
-					linearized training.
-				-
+				Linearization
+
+					-
+						An FFNN cycle may be linearized by converting the beginning and end of each
+						step within it into a layer in a feed forward neural network, the end of
+						one step being the start of the next.
+						
+						In a linearized FFNN cycle, nodes and connections may repeat as entangled
+						elements throughout the network.
+						
+						Once in this format, the linearized FFNN cycle may be trained using some
+						variation of backpropagation, after which a newly trained FFNN model may be
+						reconstructed from the trained linearized FFNN cycle. This process is
+						called linearized training.
+					-
+
+				Backfeeding
+
+					-
+						Backfeeding is a process for training an FFNN.
+
+						The process shall begin by assigning the model's performance a feedback
+						score, ranging from negative one to positive one, inclusive, selecting a
+						set of neurons to begin the process at, ideally those serving as the output
+						locations of the behavior being trained, and selecting a number of steps
+						for the process to last over as a function of the number of neurons in the
+						model, with the default method being to take the natural log of said number
+						and square it.
+
+						The process shall begin with the feedback score being passed to the
+						selected neurons, after which said scores shall propagate backwards through
+						the model in the manner of ASNP steps, altered by the weights, properties,
+						and activation functions they pass through in the same manner as any other
+						data, for the selected number of steps.
+
+						Depending on the exact variant of backfeeding used, the weights and
+						properties of the connections passed through may be altered as a function
+						of the score values following each step. The standard method is to take the
+						score value in a neuron after each step and multiply the weight of any
+						outward connections of said neuron by said score value.
+
+						As opposed to executing backfeeding over a finite number of steps, constant
+						backfeeding may also be used, where feedback scores are constantly being
+						passed to output nodes, and propagating backwards through the model,
+						training it parallel to its usage.
+					-
 
 			Zero Augmentation
 

@@ -1,0 +1,22 @@
+Bounds Finding Algorithms
+
+	Philosophy
+
+		-
+			A bounds finding algorithm is an algorithm for determining information regarding the
+			size, structure, or both of a graph for which said information cannot be directly
+			accessed.
+
+			Such a graph is called a bound agnostic graph.
+		-
+
+	Principles
+
+		Bounds Agnostic Algorithms
+
+			-
+				Algorithms which can operate on graphs without initial information regarding their
+				size or structure can be called bounds agnostic algorithms.
+
+				Bounds finding algorithms are necessarily bounds agnostic.
+			-

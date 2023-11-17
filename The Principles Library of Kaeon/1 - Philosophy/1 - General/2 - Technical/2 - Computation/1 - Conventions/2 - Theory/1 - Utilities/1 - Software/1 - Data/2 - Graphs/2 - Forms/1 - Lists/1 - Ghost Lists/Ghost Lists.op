@@ -3,32 +3,50 @@ Ghost Lists
 	Philosophy
 
 		-
-			A ghost list is a list which does not allow for direct retrieval of its length. A
-			random ghost list is a ghost list which supports the random access of its elements via
-			index.
+			A ghost list is a bounds agnostic list which supports the random access of its elements
+			via index.
 		-
 
 	Principles
 
-		The Ghost Skip Algorithm
+		Algorithms
 
-			-
-				The ghost skip algorithm is an algorithm for computing the length of a random
-				ghost list in log n time.
+			The Ghost Skip Algorithm
 
-				The algorithm itself is defined as follows, assuming indices begin at one:
+				-
+					The ghost skip algorithm is a bounds finding algorithm for computing the length
+					of a ghost list in log n time.
 
-				First, the algorithm takes a list as an argument. Secondly, the algorithm sets a
-				low counter to negative one and a high counter to one. Thirdly, while the high
-				counter remains a valid index, the low counter is first set to the high counter,
-				and the high counter is then doubled. Fourthly, while the difference of the high
-				counter minus the low counter is greater than one, a middle counter is first set to
-				the the difference of the high counter minus the low counter, divided over two and
-				floored, plus the low counter, and if the middle counter is a valid index, the low
-				counter is set to the middle counter, and otherwise the high counter is set to the
-				middle counter. Finally, if the high counter is a valid index, the high counter
-				plus one is returned, and otherwise the low counter plus one is returned.
-			-
+					The algorithm itself is defined as follows, assuming indices begin at zero:
+
+					First, the algorithm takes a list as an argument. Secondly, the algorithm sets
+					a low counter to negative one and a high counter to one. Thirdly, while the
+					high counter remains a valid index, the low counter is first set to the high
+					counter, and the high counter is then doubled. Fourthly, while the difference
+					of the high counter minus the low counter is greater than one, a middle counter
+					is first set to the the difference of the high counter minus the low counter,
+					divided over two and floored, plus the low counter, and if the middle counter
+					is a valid index, the low counter is set to the middle counter, and otherwise
+					the high counter is set to the middle counter. Finally, if the high counter is
+					a valid index, the high counter plus one is returned, and otherwise the low
+					counter plus one is returned.
+				-
+
+			The Ghost Search Algorithm
+
+				-
+					The ghost search algorithm is a bounds agnostic search algorithm for a sorted
+					ghost list which runs in log n time.
+
+					The algorithm itself is defined as follows, assuming indices begin at zero:
+
+					First, the algorithm takes a list and a target as arguments. Secondly, the
+					algorithm shall initiate as the ghost skip algorithm. However, if at any point
+					the high counter should locate the target value, said counter shall be
+					returned, and if at any point the high counter should locate a greater value
+					than the target value, or the ghost skip algorithm should conclude, a binary
+					search shall initiate from that point using the current high and low values.
+				-
 
 		Use Cases
 

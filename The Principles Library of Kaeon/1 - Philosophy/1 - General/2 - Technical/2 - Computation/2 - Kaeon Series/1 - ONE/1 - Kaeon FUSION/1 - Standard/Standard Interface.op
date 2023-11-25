@@ -8,12 +8,22 @@ Kaeon FUSION Standard Interface
 		-
 	
 	Principles
+
+		Access
 		
-		Alias
-			
-			-
-				The Kaeon FUSION standard interface may be referenced using the alias "Standard".
-			-
+			Alias
+				
+				-
+					The Kaeon FUSION standard interface may be referenced using the alias
+					"Standard".
+				-
+
+			Kaeon United
+
+				-
+					The Kaeon FUSION standard interface shall be included in the Kaeon United
+					FUSION interface.
+				-
 		
 		Effects
 

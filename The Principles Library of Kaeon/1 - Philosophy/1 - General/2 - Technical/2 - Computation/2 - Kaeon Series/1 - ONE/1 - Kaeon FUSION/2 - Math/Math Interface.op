@@ -1,0 +1,25 @@
+Kaeon FUSION Math Interface
+	
+	Philosophy
+		
+		-
+			The Kaeon FUSION math interface provides commands that allow users to do mathematics
+			using CMN.
+		-
+	
+	Principles
+
+		Access
+		
+			Alias
+				
+				-
+					The Kaeon FUSION math interface may be referenced using the alias "Math".
+				-
+
+			Kaeon United
+
+				-
+					The Kaeon FUSION math interface shall be included in the Kaeon United FUSION
+					interface.
+				-

@@ -3,8 +3,9 @@ Equal
 	Philosophy
 		
 		-
-			The equal command contains the content "Equal". It has two children.
+			The equal command contains the content "Equal". It may have an indefinite number of
+			children.
 			
-			It will return true if the string form of the objects returned by both of its children
+			It will return true if the string form of the objects returned by all of its children
 			are equal, and return false otherwise.
 		-

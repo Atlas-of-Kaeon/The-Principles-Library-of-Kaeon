@@ -3,6 +3,46 @@ Computational Math Notation
 	Philosophy
 
 		-
-			Computational math notation is the application of programming conventions to plain math
-			notation, for both input and output.
+			Computational math notation (CMN) is the application of programming conventions to math
+			notation.
 		-
+
+	Principles
+
+		The Computational Process
+
+			-
+				In CMN, operations are encoded in expressions, in which operators operate on
+				operands in a recursive and hierarchical manner, and performed in sequence, through
+				which a state is maintained.
+
+				A rule is a declaration which identifies a set of expressions as equivalent. Rules
+				may be declared valid or invalid relative to an external set of rules and a set of
+				mathematical axioms.
+
+				A transformation is an operation which changes the form of an expression without
+				altering its value, in accordance with an external set of rules and a set of
+				mathematical axioms. A resolution is a transformation which reduces an expression
+				to as few terms as possible.
+
+				Axioms shall be embedded in the state of the computation by default, but may be
+				altered. Rules may be stored in variables as objects, or embedded as axioms in the
+				state so as to apply by default.
+			-
+
+		Conventions
+
+			Standard Operators
+
+				-
+					The standard operator for rules is "Is", and the standard operator for
+					resolutions is "Solve".
+				-
+
+			Pseudo-CMN
+
+				-
+					When writing CMN by hand, the precise syntactic conventions may be taken more
+					as suggestions than rules, and certain parsers may opt to account for this if
+					one then attempts to process it digitally.
+				-

@@ -197,7 +197,8 @@ ONE+
 					ancestor of said sequence, shall be defined as its right content.
 
 					Processing an infix plus sequence shall cause its center content to become the
-					ancestor of its left and right content.
+					ancestor of its left and right content, with the left content preceding the
+					right content.
 
 					Infix plus sequences shall be processed in order from left to right.
 				-

@@ -14,11 +14,12 @@ ONE+
 				In addition to the three character sequences required by ONE, ONE+ requires the
 				following unique character sequences: The segregating sequence, the nested
 				sequence, the denested sequence, the open scope sequence, the close scope sequence,
-				the open domain sequence, the close domain sequence, the escape sequence, the
-				escape scope sequence, the encoded escape scope sequence, the alternate breaking
-				sequence, the alternate nesting sequence, the comment sequence, the open comment
-				sequence, the close comment sequence, the blank sequence, and the open minus
-				sequence, and the close minus sequence.
+				the open domain sequence, the close domain sequence, the open infix sequence, the
+				close infix sequence, the escape sequence, the escape scope sequence, the encoded
+				escape scope sequence, the alternate breaking sequence, the alternate nesting
+				sequence, the comment sequence, the open comment sequence, the close comment
+				sequence, the blank sequence, and the open minus sequence, and the close minus
+				sequence.
 				
 				It is not permitted for the sequences to be defined such that there may be any
 				instances where two or more sequences conflict at a given location.
@@ -175,6 +176,30 @@ ONE+
 					
 					If a denested sequence is used as the separating sequence, the element
 					following it will be a sibling of the parent of the preceding element.
+				-
+
+			Infix Plus Sequences
+
+				-
+					An infix plus sequence is a plus sequence which may be used in multiple plus
+					element definitions, and that starts with an open infix sequence and ends with
+					a close infix sequence.
+
+					For a given infix plus sequence, the text between its starting and ending
+					characters shall be defined as its center content.
+
+					For a given infix plus sequence, all text preceding it and following the
+					character, or the beginning of the line, which nested said sequence within its
+					parent, shall be defined as its left content.
+
+					For a given infix plus sequence, all text following it and preceding the
+					character, or the end of the line, which returns the nesting scope to an
+					ancestor of said sequence, shall be defined as its right content.
+
+					Processing an infix plus sequence shall cause its center content to become the
+					ancestor of its left and right content.
+
+					Infix plus sequences shall be processed in order from left to right.
 				-
 			
 			Nesting

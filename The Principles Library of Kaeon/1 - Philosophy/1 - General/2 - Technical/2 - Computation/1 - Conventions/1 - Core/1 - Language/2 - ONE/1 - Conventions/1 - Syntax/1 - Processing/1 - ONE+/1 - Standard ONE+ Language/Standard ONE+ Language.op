@@ -80,6 +80,20 @@ Standard ONE+ Language
 					closed curly bracket.
 				-
 			
+			Open Infix Sequence
+				
+				-
+					In the standard variant of the ONE+ Language, the open infix sequence is an
+					open square bracket.
+				-
+			
+			Close Infix Sequence
+				
+				-
+					In the standard variant of the ONE+ Language, the close infix sequence is a
+					closed square bracket.
+				-
+			
 			Escape Sequence
 				
 				-
@@ -146,12 +160,12 @@ Standard ONE+ Language
 				
 				-
 					In the standard variant of the ONE+ Language, the open minus sequence is an
-					open square bracket followed by a closing angle bracket.
+					open curly bracket followed by a closed angle bracket.
 				-
 			
 			Close Minus Sequence
 				
 				-
 					In the standard variant of the ONE+ Language, the close minus sequence is an
-					open angle bracket followed by a closing square bracket.
+					open angle bracket followed by a closed curly bracket.
 				-

@@ -29,20 +29,3 @@ Computational Math Notation
 				altered. Rules may be stored in variables as objects, or embedded as axioms in the
 				state so as to apply by default.
 			-
-
-		Conventions
-
-			Standard Operators
-
-				-
-					The standard operator for rules is "Is", and the standard operator for
-					resolutions is "Solve".
-				-
-
-			Pseudo-CMN
-
-				-
-					When writing CMN by hand, the precise syntactic conventions may be taken more
-					as suggestions than rules, and certain parsers may opt to account for this if
-					one then attempts to process it digitally.
-				-

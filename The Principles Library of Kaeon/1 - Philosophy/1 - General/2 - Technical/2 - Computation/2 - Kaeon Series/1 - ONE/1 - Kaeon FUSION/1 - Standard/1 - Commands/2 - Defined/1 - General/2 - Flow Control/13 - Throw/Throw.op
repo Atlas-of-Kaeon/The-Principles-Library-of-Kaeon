@@ -3,8 +3,10 @@ Throw
 	Philosophy
 		
 		-
-			The throw command contains the content "Throw". It does not trickle down.
+			The throw command contains the content "Throw". It may have one or two children, one of
+			which is a boolean and the other of which is a string.
 			
-			It will throw an exception, preventing any subsequent commands from executing until the
-			exception is caught.
+			If the boolean argument is not present, or if it is true, it will throw an exception,
+			which, if the string argument is present, shall contain said string as its message,
+			preventing any subsequent commands from executing until the exception is caught.
 		-

@@ -3,8 +3,7 @@ Kaeon FUSION Math Interface
 	Philosophy
 		
 		-
-			The Kaeon FUSION math interface provides commands that allow users to do mathematics
-			using CMN.
+			The Kaeon FUSION math interface provides commands that allow users to do mathematics.
 		-
 	
 	Principles
@@ -22,4 +21,116 @@ Kaeon FUSION Math Interface
 				-
 					The Kaeon FUSION math interface shall be included in the Kaeon United FUSION
 					interface.
+				-
+
+		Conventions
+
+			Processing
+
+				Expressions and Rules
+
+					-
+						An expression is any element which uses the available FUSION commands to
+						express a mathematical or logical operation.
+						
+						A rule may be expressed as an element with the content "Is", where each of
+						its children is an expression, with the rule being valid if all of said
+						expressions are equivalent. Rules should be encoded in ONE list form. A
+						standard rule is a rule which contains only two expressions.
+
+						Commands which have an effect in rules are called operators. All
+						mathematical and logical commands of the standard interface may function as
+						operators.
+					-
+
+				Axioms
+
+					-
+						An axiom in the context of the Kaeon FUSION math interface is a function
+						which takes an indefinite number of arguments and validates them as a
+						group, returning true if they are valid and false otherwise.
+
+						The axioms put in place by default by the Kaeon FUSION math interface are
+						called the default axioms.
+					-
+				
+				Case Sensitivity
+					
+					-
+						All of the commands provided by the Kaeon FUSION math interface do not take
+						letter case into account.
+					-
+
+			Usage
+
+				Standard Practice
+
+					-
+						It is standard practice for a Kaeon FUSION program using the Kaeon FUSION
+						math interface for pure mathematical purposes to return a value at the end
+						corresponding to the result of the intended process, with said value being
+						a boolean in the case of a proof.
+					-
+
+				Abridged CMN
+
+					-
+						Abridged CMN (ACMN) is the use of SAO++ with the Kaeon FUSION math
+						interface as general purpose mathematical notation.
+					-
+
+		Commands
+
+			General
+
+				Axioms
+
+					-
+						The axioms command contains the content "Axioms".
+
+						It returns a list of the default axioms of the Kaeon FUSION math interface.
+					-
+
+				Is
+
+					-
+						The is command contains the content "Is" and may have an indefinite number
+						of children. It does not trickle down.
+						
+						It will return an element in ONE list form equal to itself with all the
+						elements in its scope.
+					-
+
+				Validate
+
+					-
+						The validate command contains the content "Validate" and may have one or
+						two children, the first of which returns a list, and the second of which,
+						if present, returns a list of axioms.
+
+						It validates the elements of the first list against a set of axioms, said
+						axioms being those returned by the second argument if provided and being
+						the default axioms if not, returning true if said elements were validated
+						by all of said axioms, and returning false otherwise.
+					-
+
+				Solve
+
+					-
+						The solve command contains the content "Solve" and may have one or
+						two children, the first of which returns an expression in ONE list form,
+						and the second of which, if present, returns a list of rules in ONE list
+						form and axioms.
+
+						It reduces the terms with which said rule is expressed to as few terms as
+						possible in accordance with the rules and axioms in the second list, if
+						present, or in accordance with the default axioms if not, returning the
+						reduced expression in ONE list form.
+					-
+
+			Masked
+
+				-
+					The mathematical and logical commands of the standard interface may be used
+					with their traditional symbols as used in other languages as their content.
 				-

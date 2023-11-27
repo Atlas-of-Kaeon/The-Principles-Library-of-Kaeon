@@ -63,8 +63,8 @@ Kaeon FUSION Standard Interface
 					
 					-
 						If an exception is thrown by a command while the standard interface is
-						active, all subsequent commands will fail to activate until the exception
-						is caught.
+						active, all subsequent commands will cease to process until the exception
+						is caught, the the flow of the FUSION process will continue as normal.
 					-
 			
 			Host Environment

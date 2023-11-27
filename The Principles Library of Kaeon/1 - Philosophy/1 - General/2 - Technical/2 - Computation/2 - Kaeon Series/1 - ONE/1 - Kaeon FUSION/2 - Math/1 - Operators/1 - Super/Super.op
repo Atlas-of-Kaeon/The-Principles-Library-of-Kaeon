@@ -1,0 +1,13 @@
+Super
+
+	Philosophy
+
+		-
+			The super operator has the content "Super", and may have an indefinite number of
+			children, each of which specifies either an expression or a rule.
+
+			The super operator specifies a mathematical superposition, where each child represents
+			a possible resolution of the superposition, with expressions representing possible
+			values, and rules representing possible values with bias, the value being specified by
+			the first expression, and the bias being specified by the second expression.
+		-

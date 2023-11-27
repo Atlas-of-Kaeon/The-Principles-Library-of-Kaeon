@@ -133,4 +133,8 @@ Kaeon FUSION Math Interface
 				-
 					The mathematical and logical commands of the standard interface may be used
 					with their traditional symbols as used in other languages as their content.
+
+					Furthermore, if a number is used as a command or operator, or a variable is
+					used as an operator, with one child, it shall return itself multiplied by its
+					child.
 				-

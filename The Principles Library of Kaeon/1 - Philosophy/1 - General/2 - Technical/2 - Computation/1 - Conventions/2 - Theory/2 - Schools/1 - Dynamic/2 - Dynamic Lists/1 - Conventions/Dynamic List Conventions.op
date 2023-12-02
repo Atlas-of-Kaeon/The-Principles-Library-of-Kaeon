@@ -1,0 +1,63 @@
+Dynamic List Conventions
+
+	Philosophy
+
+		-
+			This document specifies conventions regarding dynamic lists.
+		-
+
+	Principles
+
+		Conventions
+
+			Trace
+
+				-
+					List elements may function as tag trace modules, with their field aliases, if
+					applicable, their stringified forms, and their indices functioning as trace
+					tags, and, if they are themselves lists, with their sub-elements functioning as
+					their connections.
+				-
+
+			ONE
+
+				-
+					Any ONE element may represent a dynamic list, where its children represent the
+					elements of the list, elements with no children representing literals, their
+					content being the values thereof, and elements with children representing
+					fields, their content being the values thereof and their children being the
+					content thereof.
+				-
+
+			DLF
+
+				-
+					The dynamic list format is a standard for encoding a dynamic list as a non
+					dynamic list, where every odd numbered item is an element alias, and every even
+					numbered item is a list element assigned to the alias immediately preceding it.
+				-
+
+		DLN
+
+			Format
+
+				-
+					Dynamic list notation (DLN) is a method for encoding the contents of dynamic
+					lists.
+
+					A list in DLN begins with an open bracket and ends with a closed bracket. By
+					default, said brackets are square brackets.
+
+					The elements in the list shall be written in order between said brackets as
+					literals, separated by commas. If an element has an alias, said alias shall
+					immediately precede said element, separated from it by a colon.
+				-
+
+			Conventions
+
+				JSON
+
+					-
+						DLN may use JSON conventions to escape literal content and denote specific
+						primitive types.
+					-

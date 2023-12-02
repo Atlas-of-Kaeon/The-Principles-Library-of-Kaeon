@@ -1,0 +1,8 @@
+Hardware Assembly Format
+
+	Philosophy
+
+		-
+			The hardware assembly format (HAF) is a GCF standard used to describe assemblies of
+			hardware, specifically electronic hardware, and the software installed on them.
+		-

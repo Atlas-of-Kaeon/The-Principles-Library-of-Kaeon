@@ -1,0 +1,10 @@
+Notation Conventions
+
+	Philosophy
+
+		-
+			Ideally, any system of notation should, in either its standard form or a variant
+			thereof, be renderable in plain text using the character set common to keyboards in the
+			region of its target audience, and in such a way that it is easily parsed by both human
+			readers and digital parsers.
+		-

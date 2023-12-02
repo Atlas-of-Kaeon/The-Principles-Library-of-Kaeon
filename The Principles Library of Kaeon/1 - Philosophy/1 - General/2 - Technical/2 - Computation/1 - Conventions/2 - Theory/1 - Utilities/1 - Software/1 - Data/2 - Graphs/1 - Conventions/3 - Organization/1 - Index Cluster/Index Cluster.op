@@ -1,0 +1,10 @@
+Index Cluster
+
+	Philosophy
+
+		-
+			An index cluster is a tree of the trace tags of elements in dynamic lists such that the
+			tree branches within its tree bundle are trace paths for said elements.
+
+			An index cluster may be specified using ONE.
+		-

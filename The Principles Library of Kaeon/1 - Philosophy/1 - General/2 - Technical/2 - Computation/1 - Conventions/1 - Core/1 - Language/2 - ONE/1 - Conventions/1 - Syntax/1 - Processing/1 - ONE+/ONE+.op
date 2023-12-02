@@ -14,12 +14,12 @@ ONE+
 				In addition to the three character sequences required by ONE, ONE+ requires the
 				following unique character sequences: The segregating sequence, the nested
 				sequence, the denested sequence, the open scope sequence, the close scope sequence,
-				the open domain sequence, the close domain sequence, the open infix sequence, the
-				close infix sequence, the escape sequence, the escape scope sequence, the encoded
-				escape scope sequence, the alternate breaking sequence, the alternate nesting
-				sequence, the comment sequence, the open comment sequence, the close comment
-				sequence, the blank sequence, and the open minus sequence, and the close minus
-				sequence.
+				the open domain sequence, the close domain sequence, the split sequence, the open
+				infix sequence, the close infix sequence, the escape sequence, the escape scope
+				sequence, the encoded escape scope sequence, the alternate breaking sequence, the
+				alternate nesting sequence, the comment sequence, the open comment sequence, the
+				close comment sequence, the blank sequence, and the open minus sequence, and the
+				close minus sequence.
 				
 				It is not permitted for the sequences to be defined such that there may be any
 				instances where two or more sequences conflict at a given location.
@@ -176,6 +176,17 @@ ONE+
 					
 					If a denested sequence is used as the separating sequence, the element
 					following it will be a sibling of the parent of the preceding element.
+				-
+
+			Split Plus Sequence
+
+				-
+					A split sequence has the same segregating effect as the segregating sequence.
+					
+					However, the first element preceding the split sequence which is a sibling of
+					the element following the split sequence shall become a parent to clones of the
+					children of the element following the split sequence. This effect shall
+					propagate across split sequences from right to left.
 				-
 
 			Infix Plus Sequences

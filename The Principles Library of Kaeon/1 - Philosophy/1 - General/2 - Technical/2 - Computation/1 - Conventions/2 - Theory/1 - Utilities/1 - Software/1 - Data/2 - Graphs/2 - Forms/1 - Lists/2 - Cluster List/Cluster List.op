@@ -1,0 +1,13 @@
+Cluster List
+
+	Philosophy
+
+		-
+			A cluster list is a list encoded as an ordered map, allowing duplicate keys, where each
+			value is mapped to a number denoting its quantity such that it may be interpreted as a
+			contiguous list where each of said values constitutes a subsection of the interpreted
+			list containing the respective quantities of said values.
+
+			A set cluster list is a cluster list where there are no duplicate values in its map
+			form.
+		-

@@ -3,7 +3,8 @@ Kaeon FUSION Math Interface
 	Philosophy
 		
 		-
-			The Kaeon FUSION math interface provides commands that allow users to do mathematics.
+			The Kaeon FUSION math interface provides commands that allow users to do operations
+			pertaining to math and chemistry.
 		-
 	
 	Principles
@@ -27,20 +28,33 @@ Kaeon FUSION Math Interface
 
 			Processing
 
-				Expressions and Rules
+				Expressions and Relations
 
 					-
 						An expression is any element which uses the available FUSION commands to
-						express a mathematical or logical operation.
-						
-						A rule may be expressed as an element with the content "Is", where each of
-						its children is an expression, with the rule being valid if all of said
-						expressions are equivalent. Rules should be encoded in ONE list form. A
-						standard rule is a rule which contains only two expressions.
+						express an operation or value.
 
-						Commands which have an effect in rules are called operators. All
+						A relation is a codified relationship between expressions. Rules are
+						relations which denote a set of expressions as equivalent, and formulas are
+						relations that denote that processing one expression produces another. A
+						relation is valid if the relationship it describes is in fact correct.
+						
+						A standard relation contains only two elements, those either being
+						expressions or other relations.
+						
+						Relations should be encoded as dynamic lists in the form of ONE elements,
+						with rules having the content "Is" and formulas having the content "Forms".
+
+						Commands which have an effect in relations are called operators. All
 						mathematical and logical commands of the standard interface may function as
 						operators.
+
+						Under the Kaeon FUSION math interface, elements containing variable names
+						or numbers preceded by a plus or minus sign shall be interpreted as
+						absolute or inversed versions of the values to which they correspond
+						respectively, and a plus or minus sign used as a command with a single
+						child that returns a number shall return the absolute or inversed version
+						of said number respectively.
 					-
 
 				Axioms
@@ -66,10 +80,20 @@ Kaeon FUSION Math Interface
 				Standard Practice
 
 					-
-						It is standard practice for a Kaeon FUSION program using the Kaeon FUSION
-						math interface for pure mathematical purposes to return a value at the end
-						corresponding to the result of the intended process, with said value being
-						a boolean in the case of a proof.
+						It is standard practice for a program used for pure mathematical purposes,
+						called an analysis program, to return a value at the end corresponding to
+						the result of the intended process, with said value being a boolean in the
+						case of a proof.
+
+						To "solve" an analysis program, that is, to render it, means deriving its
+						render product, whether via an automated process or by hand.
+					-
+
+				Chemistry
+
+					-
+						Chemical operations may be performed using the Kaeon FUSION math interface
+						by representing atoms and molecules using SAN and MGCF respectively.
 					-
 
 				Abridged CMN
@@ -89,6 +113,25 @@ Kaeon FUSION Math Interface
 						The axioms command contains the content "Axioms".
 
 						It returns a list of the default axioms of the Kaeon FUSION math interface.
+					-
+
+				Forms
+
+					-
+						The forms command contains the content "Forms" and may have an indefinite
+						number of children. It does not trickle down.
+						
+						It will return an element in ONE list form equal to itself with all the
+						elements in its scope.
+					-
+
+				From Latex
+
+					-
+						The from latex command contains the content "From LaTeX" and shall have one
+						child which returns an expression or relation as a LaTeX string.
+
+						It returns the equivalent of said expression or relation in ONE list form.
 					-
 
 				Is
@@ -126,6 +169,15 @@ Kaeon FUSION Math Interface
 						possible in accordance with the rules and axioms in the second list, if
 						present, or in accordance with the default axioms if not, returning the
 						reduced expression in ONE list form.
+					-
+
+				To Latex
+
+					-
+						The to latex command contains the content "To LaTeX" and shall have one
+						child which returns an expression or relation in ONE list form.
+
+						It returns the equivalent of said expression or relation as a LaTeX string.
 					-
 
 			Masked

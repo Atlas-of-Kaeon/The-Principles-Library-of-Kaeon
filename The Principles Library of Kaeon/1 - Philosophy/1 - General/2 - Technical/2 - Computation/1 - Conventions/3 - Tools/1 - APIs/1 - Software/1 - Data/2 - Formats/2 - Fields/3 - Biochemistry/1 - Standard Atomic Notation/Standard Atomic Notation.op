@@ -1,0 +1,64 @@
+Standard Atomic Notation
+
+	Philosophy
+
+		-
+			Standard atomic notation (SAN) is a plain text format used to denote the type and state
+			of atoms. The text specifying an element in SAN is referred to as a SAN definition.
+
+			A SAN definition consists of one to three parts, the first of which, which must be
+			present, is the element identifier and specifies the element type of the atom, the next
+			of which, which is optional, is the isotope identifier and specifies the isotope of the
+			atom, and the last of which, which is optional, is the charge identifier and specifies
+			the charge of the atom.
+
+			The element identifier may be written as either the atomic number or the atomic symbol
+			of the atom. The isotope identifier shall be written as the atomic mass number of the
+			atom. The charge identifier shall be written as the charge number of the atom preceded
+			by a plus plus for a positive charge or a minus sign for a negative charge.
+		-
+
+	Principles
+
+		Conventions
+
+			Numeric Element Naming
+
+				-
+					In addition to their common names, elements may be referred to as "element ",
+					followed by their atomic number.
+				-
+
+			Molecular GCF
+
+				-
+					Molecular GCF, or MGCF, is a GCF standard used to represent molecules.
+
+					Under MGCF, the standard content for an element specifying a construct is
+					"Chem".
+
+					Under MGCF, all known and named molecular compounds are default constructs.
+
+					Under MGCF, both MGCF constructs and SAN definitions may be used as construct
+					components.
+
+					Under MGCF, molecular bond types may be used as construct link properties.
+				-
+
+		Formats
+
+			Conventional
+
+				-
+					The conventional rendering of a SAN definition concatenates the identifiers for
+					an atom together in order, with the isotope number preceded by a period if it
+					is present.
+				-
+
+			ONE
+
+				-
+					The ONE rendering of a SAN definition uses an element with the element
+					identifier as its content, and elements with the isotope and charge identifiers
+					as their content, as its children.
+				-

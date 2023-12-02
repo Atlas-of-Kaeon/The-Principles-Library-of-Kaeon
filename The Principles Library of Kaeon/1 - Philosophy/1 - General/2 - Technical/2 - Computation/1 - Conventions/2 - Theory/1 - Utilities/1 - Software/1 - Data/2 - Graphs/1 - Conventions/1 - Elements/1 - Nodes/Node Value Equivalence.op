@@ -1,0 +1,9 @@
+Node Value Equivalence
+
+	Philosophy
+
+		-
+			A single node in a graph, or a graph with a single node, may be interpreted as the
+			value contained by said node, and a single value may be interpreted as a single node in
+			a graph, or a graph with a single node.
+		-

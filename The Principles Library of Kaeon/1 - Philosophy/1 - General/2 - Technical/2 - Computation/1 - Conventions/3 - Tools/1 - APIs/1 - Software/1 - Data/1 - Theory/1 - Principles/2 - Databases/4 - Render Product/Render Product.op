@@ -1,0 +1,22 @@
+Render Product
+
+	Philosophy
+
+		-
+			The render product of an operation consists of the information or material produce
+			created as a result of it.
+
+			In the context of computer programming, it refers to the information output by a
+			program, generally to standard out, during its runtime, and to its final value, that
+			being its return value or exit code, if applicable.
+		-
+
+	Principles
+
+		Form
+
+			-
+				If a final value is not generated for a program, its render product should be said
+				to consist of its output, and to consist of said output nested underneath its final
+				value if a final value is returned.
+			-

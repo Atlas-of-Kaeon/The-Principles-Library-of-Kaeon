@@ -1,0 +1,116 @@
+General Construct Format
+
+	Philosophy
+
+		-
+			General Construct Format (GCF), is a ONE format used to specify assemblies, or
+			constructs, of discrete parts, or construct components, linked together by construct
+			links.
+		-
+
+	Principles
+
+		Conventions
+
+			Elements
+
+				Aliases
+
+					-
+						Constructs, and any sub-item thereof, may be assigned aliases.
+
+						Certain constructs may be presumed to exist in certain contexts without
+						being explicitly specified, and may be referenced by alias. Such constructs
+						are referred to as default constructs.
+					-
+
+				Axioms
+
+					-
+						The axioms of assembly for a given type of construct are rules which
+						specify how certain components or relationships between components may be
+						inferred implicitly and deterministically from those specified explicitly.
+					-
+
+				Nomenclature
+
+					-
+						The name of a construct, if it has no alias, may be derived by
+						concatenating the names of each type of construct component within them,
+						said names being their aliases if they have aliases, or their derived name
+						if not, each preceded by their quantity if said quantity is greater than
+						one, ordered first alphabetically and then numerically.
+					-
+
+			GCF Standards
+
+				-
+					A GCF standard is a codified convention for variants of GCF.
+				-
+
+		Formats
+
+			Elements
+
+				Unit Format
+
+					-
+						The unit format is a ONE format used to specify the types of construct
+						components, which may themselves be constructs, and the numbers and aliases
+						thereof, in constructs, said information composing a construct unit. A
+						construct unit may alone comprise a construct if the axioms of assembly for
+						the context of said construct are sufficient to denote the other crucial
+						details.
+
+						The element containing a construct unit shall have children for the types
+						of construct components within it, the content of which shall be a
+						component specifier, which shall specify a quantity, and may specify an
+						alias, for a group of construct components of said quantity within said
+						construct, and the children of which shall specify the type of the
+						construct components in said group.
+
+						A component specifier may either be a number, specifying the quantity of
+						its group, or anything else, specifying the alias of its group and
+						indicating that the quantity of its group is one.
+						
+						As such, the contents of a construct unit may be interpreted as a cluster
+						list from which a list may be derived, to which the construct elements
+						thereof may be assigned unit indices.
+
+						The standard content for an element specifying a construct unit is "Unit".
+					-
+
+				Net Format
+
+					-
+						The net format is a ONE format used to specify sets of construct links
+						called construct nets.
+
+						The element containing a construct net shall have children, each of which
+						shall contain a ONE+ string specifying an index cluster for the construct
+						unit it is associated with. Said children shall have children which shall
+						each contain a ONE+ string specifying an index cluster for the construct
+						unit it is associated with that the construct components specified by its
+						parent are connected to, and may each optionally have a child specifying
+						the direction of the connection, with a child having the content "Mono"
+						specifies a one directional connection, and a child having the content
+						"Dual" specifies a bidirectional connection. The mono or dual child, if
+						present, may have additional children specifying miscellaneous information
+						about the connections they are associated with, said information being
+						referred to as construct link properties.
+
+						The standard content for an element specifying a construct net is "Net".
+					-
+
+			Form Format
+
+				-
+					The form format is a ONE format used to specify constructs.
+
+					It shall have a child in the unit format specifying a construct unit, and may
+					also have a child in the net format specifying a construct net which contains
+					construct links between the construct components of said construct unit.
+
+					The standard content for an element specifying a construct is "Form", but may
+					vary depending on the type of construct being specified.
+				-

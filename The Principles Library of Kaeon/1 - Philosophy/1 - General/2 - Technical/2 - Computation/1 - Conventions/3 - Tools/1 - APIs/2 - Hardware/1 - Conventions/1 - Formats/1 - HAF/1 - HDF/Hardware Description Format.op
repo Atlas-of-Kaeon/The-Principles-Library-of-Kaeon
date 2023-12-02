@@ -1,14 +1,14 @@
-Hardware Assembly Format
+Hardware Description Format
 
 	Philosophy
 
 		-
-			The hardware assembly format is a format for ONE documents used to describe certain
+			The hardware description format is a format for ONE documents used to describe certain
 			assemblies of hardware, specifically electronic hardware, and the software installed on
 			them.
 
-			A document that abides by the hardware assembly format shall be called a hardware
-			assembly document.
+			A document that abides by the hardware description format shall be called a hardware
+			description document.
 		-
 	
 	Principles
@@ -16,9 +16,9 @@ Hardware Assembly Format
 		Sections
 
 			-
-				The Principles section of a hardware assembly document may have any combination of
-				the following elements: an element with the content "Hardware", and an element with
-				the content "Software", and an element with the content "Notes".
+				The Principles section of a hardware description document may have any combination
+				of the following elements: an element with the content "Hardware", and an element
+				with the content "Software", and an element with the content "Notes".
 			-
 
 		Hardware

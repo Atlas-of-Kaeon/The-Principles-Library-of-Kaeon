@@ -153,6 +153,13 @@ Kaeon FUSION Standard Interface
 						Lists used by the standard interface will be dynamic lists, which shall
 						also serve as de facto objects.
 					-
+				
+				Node Value Equivalence
+
+					-
+						Node value equivalence shall apply to all values and lists used by the
+						standard interface.
+					-
 		
 			Formats
 

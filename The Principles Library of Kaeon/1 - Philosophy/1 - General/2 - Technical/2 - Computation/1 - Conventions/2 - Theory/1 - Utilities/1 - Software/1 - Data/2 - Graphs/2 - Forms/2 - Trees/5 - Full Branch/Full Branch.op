@@ -1,0 +1,12 @@
+Full Branch
+
+	Philosophy
+
+		-
+			A full branch is a list derived from a tree by tracing a path from its root node to a
+			given leaf node.
+			
+			Assuming the leaf nodes of a tree can be ordered, so can the full branches derived from
+			said tree. The ordered or unordered set of full branches derivable from a given tree
+			can be called its tree bundle.
+		-

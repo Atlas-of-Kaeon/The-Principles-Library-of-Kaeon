@@ -7,3 +7,12 @@ Significant Comments
 			language is held to be directly or indirectly significant to a preprocessor,
 			interpreter, or compiler.
 		-
+
+	Principles
+
+		Pseudocomments
+
+			-
+				Pseudocomments are sections of code which have no effect on the execution of a
+				program or the interpretation of data, but which are not cropped out by the parser.
+			-

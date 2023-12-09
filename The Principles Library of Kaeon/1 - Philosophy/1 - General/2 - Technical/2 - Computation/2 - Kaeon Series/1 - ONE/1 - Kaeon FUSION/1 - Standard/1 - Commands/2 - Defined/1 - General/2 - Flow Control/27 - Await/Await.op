@@ -3,9 +3,9 @@ Await
 	Philosophy
 
 		-
-			The await command contains the content "Await", and has one child which returns a
-			promise.
+			The await command contains the content "Await".
 			
-			It will pause the execution of the program until the promise returned to it has
-			resolved.
+			It will block the execution of subsequent commands outside its scope until all promises
+			returned to it by its children have resolved and all operations within new threads and
+			processes created by elements within its scope have ceased.
 		-

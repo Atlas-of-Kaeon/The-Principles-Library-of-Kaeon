@@ -85,8 +85,25 @@ Kaeon FUSION Math Interface
 						the result of the intended process, with said value being a boolean in the
 						case of a proof.
 
+						Analysis programs may take the form of entire programs, or the form of
+						functions within said programs.
+
 						To "solve" an analysis program, that is, to render it, means deriving its
 						render product, whether via an automated process or by hand.
+					-
+
+				Block Notation
+
+					-
+						Block notation is the use of block commands as pseudocomments.
+
+						A block note is the use of a block command under which an element with the
+						content "Note" is nested, with said element having children which specify
+						miscellaneous information.
+
+						A block resolution is the use of a block command at the end of a FUSION
+						script, under which an element with the content "Solution" is nested, with
+						the render product of the program being nested under said element.
 					-
 
 				Chemistry
@@ -162,13 +179,14 @@ Kaeon FUSION Math Interface
 					-
 						The solve command contains the content "Solve" and may have one or
 						two children, the first of which returns an expression in ONE list form,
-						and the second of which, if present, returns a list of rules in ONE list
-						form and axioms.
+						and the second of which, if present, returns a list of relations in ONE
+						list form and axioms.
 
-						It reduces the terms with which said rule is expressed to as few terms as
-						possible in accordance with the rules and axioms in the second list, if
-						present, or in accordance with the default axioms if not, returning the
-						reduced expression in ONE list form.
+						It reduces the terms with which said expression is expressed to as few
+						terms as possible, and may transform it first, in accordance with the
+						relations and axioms in the second list, if present, or in accordance with
+						the default axioms if not, returning the reduced expression in ONE list
+						form.
 					-
 
 				To Latex

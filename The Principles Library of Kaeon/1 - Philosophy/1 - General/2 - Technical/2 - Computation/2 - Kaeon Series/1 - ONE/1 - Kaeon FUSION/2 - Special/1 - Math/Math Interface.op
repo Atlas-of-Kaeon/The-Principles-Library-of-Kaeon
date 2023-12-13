@@ -122,6 +122,29 @@ Kaeon FUSION Math Interface
 
 		Commands
 
+			Conventions
+
+				Defining Commands
+
+					-
+						A defining command may have an indefinite number of children, and does not
+						trickle down.
+						
+						It will return an element in ONE list form equal to itself with all the
+						elements in its scope.
+					-
+
+				Masked Commands
+
+					-
+						The mathematical and logical commands of the standard interface may be used
+						with their traditional symbols as used in other languages as their content.
+
+						Furthermore, if a number is used as a command or operator, or a variable is
+						used as an operator, with one child, it shall return itself multiplied by
+						its child.
+					-
+
 			General
 
 				Axioms
@@ -135,11 +158,7 @@ Kaeon FUSION Math Interface
 				Forms
 
 					-
-						The forms command contains the content "Forms" and may have an indefinite
-						number of children. It does not trickle down.
-						
-						It will return an element in ONE list form equal to itself with all the
-						elements in its scope.
+						The forms command contains the content "Forms", and is a defining command.
 					-
 
 				From Latex
@@ -154,11 +173,7 @@ Kaeon FUSION Math Interface
 				Is
 
 					-
-						The is command contains the content "Is" and may have an indefinite number
-						of children. It does not trickle down.
-						
-						It will return an element in ONE list form equal to itself with all the
-						elements in its scope.
+						The is command contains the content "Is", and is a defining command.
 					-
 
 				Validate
@@ -197,14 +212,3 @@ Kaeon FUSION Math Interface
 
 						It returns the equivalent of said expression or relation as a LaTeX string.
 					-
-
-			Masked
-
-				-
-					The mathematical and logical commands of the standard interface may be used
-					with their traditional symbols as used in other languages as their content.
-
-					Furthermore, if a number is used as a command or operator, or a variable is
-					used as an operator, with one child, it shall return itself multiplied by its
-					child.
-				-

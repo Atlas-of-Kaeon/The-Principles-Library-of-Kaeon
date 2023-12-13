@@ -1,0 +1,22 @@
+Point Element
+
+	Philosophy
+
+		-
+			A point element is a ONE element for which the content is irrelevant, but for which the
+			placement within the document is not.
+		-
+
+	Principles
+
+		Blank
+
+			-
+				A blank point element has an empty string as its content.
+			-
+
+		Standard
+
+			-
+				A standard point element has a period as its content.
+			-

@@ -3,12 +3,20 @@ Kaeon United Library Conventions
 	Philosophy
 
 		-
-			This document lists conventions regarding the libraries present within Kaeon Core.
+			This document lists conventions regarding libraries present within Kaeon United.
 		-
 
 	Principles
 
-		Interfaces
+		Kaeon United
+
+			Alternate Alias
+
+				-
+					In addition to "Kaeon United", Kaeon United may also use the alias "KU".
+				-
+
+		Kaeon Core
 
 			Main
 

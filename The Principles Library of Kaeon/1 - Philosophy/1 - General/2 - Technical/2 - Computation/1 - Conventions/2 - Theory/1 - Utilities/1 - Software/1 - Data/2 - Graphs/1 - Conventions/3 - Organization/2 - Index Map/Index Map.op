@@ -1,0 +1,10 @@
+Index Map
+
+	Philosophy
+
+		-
+			An index map is a function or key-value map which, for a given list, maps indices to
+			other indices.
+
+			Altering the properties of index maps may allow for novel sorting algorithms.
+		-

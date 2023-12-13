@@ -1,0 +1,212 @@
+Kaeon FUSION Art Interface
+	
+	Philosophy
+		
+		-
+			The Kaeon FUSION art interface provides commands that allow users to do operations
+			pertaining to visual art and music.
+		-
+	
+	Principles
+
+		Access
+		
+			Alias
+				
+				-
+					The Kaeon FUSION art interface may be referenced using the alias "Art".
+				-
+
+			Kaeon United
+
+				-
+					The Kaeon FUSION art interface shall be included in the Kaeon United FUSION
+					interface.
+				-
+
+		Conventions
+
+			Action
+
+				Structure
+
+					-
+						An action is a modification made to a command which causes said command to
+						trigger specified events, called action events, on specified targets,
+						called action targets, which may last for a specified durations with
+						specified properties, called action properties, may be made to repeat
+						certain numbers of times, and may have action properties used as modifiers
+						applied at each repetition.
+
+						A command with actions is called an acting command. All events within an
+						acting command shall be executed simultaneously, with each set of
+						repetitions occurring among the simultaneous events being called a step,
+						and the FUSION process shall only move forth once all steps within an
+						acting command have finished.
+
+						An event's target shall determine its action type, and if an acting command
+						has multiple actions, they shall be taken as a single action.
+
+						Each type of action property shall have an alias, and unless otherwise
+						specified, each instance of them shall contain a number.
+
+						Depending on the context, a default action target and default action
+						properties may be in effect, causing any action in their context to inherit
+						them unless said actions override them.
+					-
+
+				Format
+
+					-
+						The action format is a ONE element format for specifying actions. By
+						default, the root element containing such a format, called the action
+						element, should have the content "Act".
+
+						Each child of an action element, called an event element, shall have
+						content, called an event specifier, specifying an action event.
+
+						An action event shall have a target element as its child, with content,
+						called a target specifier, specifying an action target for the event to
+						which it is attached, unless a default action target is in effect, in which
+						case the target element is optional.
+
+						For a given event element, its target element, or itself if it has no
+						target element, may have up to two children, the first, if present, called
+						the time element, specifying, in seconds, the time that the event to which
+						it is attached is to last, and the second, if present, called the
+						repetitions element, specifying the number of times said event is to
+						repeat.
+
+						The time and repetitions elements may each have an indefinite number of
+						property elements as children, which shall have content specifying the
+						alias of an action property, and a single child with content specifying the
+						value of said property. If children of the time element, they shall specify
+						action properties to be applied to the first repetition, and if children of
+						the repetitions element, shall specify modifiers to be applied on each
+						subsequent repetition.
+
+						The content of an acting command is called an acting specifier.
+
+						For specifying a default action target and default action properties, the
+						default action format may be used, which consists of a default action
+						element, which by default should have the content "Stage", and which may
+						have a target element specifying the default action target for its context,
+						where said target element, if present, and the default action element
+						itself otherwise, may have an indefinite number of property elements,
+						specifying the default action properties for said context.
+					-
+
+			Specific
+
+				Action Types
+
+					Music
+
+						Command
+
+							-
+								For events with an action type of "music", the content of their
+								acting specifier specifies the lyrical syllables to be attached to
+								each step which encompasses said events.
+
+								Such a specifier should thus specify a syllable for each of said
+								steps, each syllable being separated by a hyphen, with a period
+								used in place of a syllable for a blank lyric, where no lyric is
+								present at that note. If not enough syllables are specified, the
+								remaining lyrics shall be assumed to be blank, and any excess
+								syllables shall be ignored.
+							-
+
+						Events
+
+							-
+								The event specifier for an event with an action type of "music"
+								may specify a specific key on a GMI, either by index or alias, or
+								may be a period, indicating that the pitch is irrelevant.
+							-
+
+						Targets
+
+							-
+								A target specifier which specifies an action type of "music" shall
+								specify a hypothetical type of musical keyboard, called a general
+								musical interface (GMI), which mimics the sound of a specified
+								instrument and has a specified number of keys, where said keys are
+								arranged lowest to highest and assigned indices starting at one.
+
+								The instruments available to a GMI shall be listed in a specified
+								order in a reference called a GMI index, which shall assign each of
+								them unique indices and aliases, and may optionally assign them
+								default key counts, and may optionally assign the individual keys
+								aliases.
+
+								The format for specifying a GMI relative to a GMI index consists of
+								a string which begins with an ampersand, followed by the index or
+								alias of the desired instrument. Optionally, this may be followed
+								by a hyphen, followed by the number of keys on said GMI, which if
+								not present shall indicate that the default key count shall be
+								used.
+							-
+
+						Properties
+
+							-
+								The properties which may be assigned to events with the action type
+								"music" are "Pitch", "Volume", and "Reverb", with the same
+								respective aliases. Each contains a number.
+
+								Pitch specifies a specific integer number of notes to shift the key
+								being played by the event.
+
+								Volume specifies the volume of the note being played by the event,
+								with volume ranging from zero to one, inclusive.
+
+								Reverb specifies, in seconds, how long a note is to last after the
+								track has progressed to the next note.
+							-
+
+				Standard GMI Index
+
+					0: Alias: Synth, .; Keys: 88
+					1: Alias: Piano; Keys: 88
+
+		Commands
+
+			General
+
+				Act
+
+					-
+						The act command contains the content "Act", and is a defining element.
+						
+						Its return value shall be interpreted as an action in the action format,
+						which shall be attached to its parent.
+					-
+
+				Sign
+
+					-
+						The sign command contains the content "Sign", and is a defining element.
+						
+						Its return value shall be interpreted as an action in the action format,
+						which shall be attached to its next subsequent sibling which does not
+						already have an action attached to it and which does not have an act
+						command as a child.
+					-
+
+				Stage
+
+					-
+						The stage command contains the content "Stage", and is a defining element.
+						
+						Its return value shall be interpreted as in the default action format, and
+						may specify a default action target and default action properties for all
+						of its subsequent siblings, and the elements in their scope, which are
+						acting commands.
+					-
+
+			Masked
+
+				-
+					A command with a dollar sign as its content shall function as a sign command.
+				-

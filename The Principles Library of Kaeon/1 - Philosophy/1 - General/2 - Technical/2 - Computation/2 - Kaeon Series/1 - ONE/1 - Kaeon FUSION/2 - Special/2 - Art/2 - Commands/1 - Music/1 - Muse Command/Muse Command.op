@@ -1,0 +1,10 @@
+Muse Command
+
+	Philosophy
+
+		-
+			The muse command contains the content "Muse", and has as its children the content of a
+			muse document. It does not trickle down.
+
+			It plays the audio encoded in the muse document specified by its children.
+		-

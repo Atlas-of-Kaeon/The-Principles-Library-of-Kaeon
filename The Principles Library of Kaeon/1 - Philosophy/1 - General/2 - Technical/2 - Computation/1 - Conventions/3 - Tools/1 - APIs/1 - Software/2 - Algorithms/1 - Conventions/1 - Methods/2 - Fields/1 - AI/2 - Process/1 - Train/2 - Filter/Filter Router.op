@@ -3,8 +3,9 @@ Filter Router
 	Philosophy
 
 		-
-			A filter router uses an AI model to place inputs into types, after which a secondary AI
-			model, assigned according to the predicted type, can be assigned to generate a matching
+			A filter router uses an AI model, called a soft map, to match inputs to types, for a
+			type map, or numerical scores, for a score map, after which a secondary AI model,
+			assigned according to the predicted type, can be assigned to generate a matching
 			output.
 		-
 
@@ -41,4 +42,10 @@ Filter Router
 
 				A sequential filter router that can use auto-generation to modify itself
 				mid-sequence is called an auto-generating sequential filter router.
+			-
+
+		Soft Filter
+
+			-
+				A soft filter is the use of a soft map on the output of generative AI.
 			-

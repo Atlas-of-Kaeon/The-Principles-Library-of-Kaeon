@@ -16,6 +16,13 @@ Kaeon FUSION Art Interface
 				-
 					The Kaeon FUSION art interface may be referenced using the alias "Art".
 				-
+			
+			Case Sensitivity
+				
+				-
+					All of the commands provided by the Kaeon FUSION art interface do not take
+					letter case into account.
+				-
 
 			Kaeon United
 
@@ -31,12 +38,13 @@ Kaeon FUSION Art Interface
 				Structure
 
 					-
-						An action is a modification made to a command which causes said command to
-						trigger specified events, called action events, on specified targets,
-						called action targets, which may last for a specified durations with
-						specified properties, called action properties, may be made to repeat
-						certain numbers of times, and may have action properties used as modifiers
-						applied at each repetition.
+						An action is a modification made to a command.
+						
+						A standard action causes a command to trigger specified events, called
+						action events, on specified targets, called action targets, which may last
+						for specified durations with specified properties, called action
+						properties, may be made to repeat certain numbers of times, and may have
+						action properties used as modifiers applied at each repetition.
 
 						A command with actions is called an acting command. All events within an
 						acting command shall be executed simultaneously, with each set of
@@ -53,13 +61,16 @@ Kaeon FUSION Art Interface
 						Depending on the context, a default action target and default action
 						properties may be in effect, causing any action in their context to inherit
 						them unless said actions override them.
+
+						Unless specified otherwise, acting commands which would otherwise declare
+						variables will not.
 					-
 
 				Format
 
 					-
-						The action format is a ONE element format for specifying actions. By
-						default, the root element containing such a format, called the action
+						The action format is a ONE element format for specifying standard actions.
+						By default, the root element containing such a format, called the action
 						element, should have the content "Act".
 
 						Each child of an action element, called an event element, shall have
@@ -115,6 +126,9 @@ Kaeon FUSION Art Interface
 								present at that note. If not enough syllables are specified, the
 								remaining lyrics shall be assumed to be blank, and any excess
 								syllables shall be ignored.
+
+								The content of said specifiers may be encased in double quotes to
+								prevent them from being interpreted as another command.
 							-
 
 						Events
@@ -208,5 +222,7 @@ Kaeon FUSION Art Interface
 			Masked
 
 				-
-					A command with a dollar sign as its content shall function as a sign command.
+					A command with a dollar sign as its content shall function as a sign command,
+					and a command with an at symbol as its content shall function as an act
+					command.
 				-

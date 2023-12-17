@@ -9,21 +9,18 @@ Instrument Map
 
 	Principles
 
-		Standard Instrument Map
-
-			-
-				A standard instrument map is an instrument map designed for a keyboard and mouse
-				setup.
-			-
-
 		Multiple Instrument Map
 
 			-
 				A multiple instrument map is a set of instrument maps with a protocol for
 				dynamically switching between them.
 
-				The standard protocol for this when using standard instrument maps is to arrange
-				the maps in use into a given order called a map set, to have the user start at the
-				map with the lowest index, and to alternate between them in the order of their
-				indices by pressing the alt key.
+				A set of instrument maps arranged into a given order called a map set.
+			-
+
+		Standard Instrument Map
+
+			-
+				A standard instrument map is an instrument map designed for a keyboard and mouse
+				setup.
 			-

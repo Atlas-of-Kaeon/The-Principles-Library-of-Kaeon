@@ -17,6 +17,13 @@ Kaeon FUSION Standard Interface
 					The Kaeon FUSION standard interface may be referenced using the alias
 					"Standard".
 				-
+			
+			Case Sensitivity
+				
+				-
+					All of the commands provided by the Kaeon FUSION standard interface do not take
+					letter case into account.
+				-
 
 			Kaeon United
 
@@ -121,13 +128,6 @@ Kaeon FUSION Standard Interface
 					Values stored within the state have types, but, if possible, will be implicitly
 					cast when passed as arguments to a command requiring parameters of a different
 					type.
-				-
-			
-			Case Sensitivity
-				
-				-
-					All of the commands provided by the standard interface, with the exception of
-					literals, do not take letter case into account.
 				-
 			
 			Lists

@@ -16,6 +16,13 @@ Kaeon FUSION Math Interface
 				-
 					The Kaeon FUSION math interface may be referenced using the alias "Math".
 				-
+			
+			Case Sensitivity
+				
+				-
+					All of the commands provided by the Kaeon FUSION math interface do not take
+					letter case into account.
+				-
 
 			Kaeon United
 
@@ -66,13 +73,6 @@ Kaeon FUSION Math Interface
 
 						The axioms put in place by default by the Kaeon FUSION math interface are
 						called the default axioms.
-					-
-				
-				Case Sensitivity
-					
-					-
-						All of the commands provided by the Kaeon FUSION math interface do not take
-						letter case into account.
 					-
 
 			Usage

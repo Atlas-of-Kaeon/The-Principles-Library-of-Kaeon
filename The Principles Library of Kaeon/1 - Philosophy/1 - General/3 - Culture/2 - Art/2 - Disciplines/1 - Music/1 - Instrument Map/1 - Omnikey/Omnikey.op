@@ -1,0 +1,111 @@
+Omnikey
+
+	Philosophy
+
+		-
+			Omnikey is a convention for multiple instrument maps of GMIs using a QWERTY keyboard.
+		-
+
+	Principles
+
+		Hands
+
+			Content
+
+				-
+					Omnikey maps sections of a GMI to ordered sections of the keyboard referred to
+					as hands.
+
+					The keys in each hand, called its set, may be ordered according to an ordering
+					scheme. The default ordering scheme is to order a set's keys by their position
+					on the keyboard, first from left to right and then from top to bottom. The
+					number of keys in a hand's set is referred to as the length of said set and
+					said hand.
+
+					Each hand may be mapped to a different GMI, the GMI it is mapped to being
+					called its target. A hand's set shall be mapped to a contiguous section of keys
+					on its target, called its scope, which shall be arranged among the hand's set
+					according to said set's order.
+				-
+
+			Control
+
+				Position Shifting
+
+					-
+						The scope of a hand may be moved, unless the number of keys on said hand's
+						target is less than or equal to said hand's length, in which case the
+						target shall be mapped to its hand starting at the first key in said hand's
+						set, with any excess trailing keys left nonfunctional.
+						
+						If the bounds of a hand's scope move beyond the bounds of its target, said
+						scope shall be moved in the direction opposite the edge of the target it is
+						nearest to, until it is fully within the bounds of the target.
+
+						All keys of a hand's target shall be divided into contiguous sections,
+						called ranges, of the length of said hand, and ordered from lowest to
+						highest. Ranges shall not overlap, except for the last two in the case that
+						the last one would otherwise go out of bounds.
+						
+						The ranges which a hand overlaps most at any given time are referred to as
+						its current range. If it overlaps two ranges equally, it shall be said to
+						be between them.
+
+						For shifting their scopes, each hand shall be assigned left and right
+						variants of the range key, the half key, the quarter key, and the single
+						key, the left variant moving the scope lower and the right variant moving
+						it higher.
+
+						The range key shall move the scope of a hand to the nearest range relative
+						to its current scope in the specified direction. The other keys shall move
+						the scope a specific number of keys in the specified direction, the half
+						key doing so by half the hand's length, the quarter key doing so by a
+						quarter of the hand's length, and the single key by one key.
+					-
+
+				Instrument Switching
+
+					-
+						A hand's target GMI shall have an index relative to the map set it is drawn
+						from.
+
+						Each hand shall be assigned a left switch key and a right switch key,
+						allowing them to change their target by altering its index relative to said
+						map set.
+						
+						The left switch key shall decrement the target's index by one, and the
+						right switch key shall increment said index by one, with the index rolling
+						over if it goes out of bounds.
+					-
+
+		Default Hands
+
+			Left
+
+				Keys: Q, W, E, R, T, A, S, D, F, G, Z, X, C, V, B
+
+				Control
+
+					Shifting
+
+						Range: Left { Tab }, Right { 6 }
+						Half: Left { ~~ }, Right { 5 }
+						Quarter: Left { 1 }, Right { 4 }
+						Single: Left { 2 }, Right { 3 }
+
+					Switch: Left { Enter }, Right { Shift + Enter }
+
+			Right
+
+				Keys: I, O, P, '{', '}', J, K, L, ':', '"', N, M, <, >, ?
+
+				Control
+
+					Shifting
+
+						Range: Left { 7 }, Right { '|' }
+						Half: Left { 8 }, Right { Backspace }
+						Quarter: Left { 9 }, Right { + }
+						Single: Left { 0 }, Right { - }
+
+					Switch: Left { Caps Lock }, Right { Shift + Caps Lock }

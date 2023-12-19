@@ -9,3 +9,38 @@ Credit Institution
 			A credit institution does not require any pre-requisite credits, session attendance, or
 			application to take a given test, but may or may not charge a fee for each attempt.
 		-
+
+	Principles
+
+		Open Credit Institution
+
+			-
+				An open credit institution is a credit institution which allows third parties to
+				submit custom tests.
+				
+				Said tests consist of generator algorithms for a specific order and quantity of
+				multiple choice and free response questions, as well as the grading criteria
+				thereof.
+				
+				Said parties dictate the fee, if any, for taking said tests, though the institution
+				may take a share of said fee.
+
+				Said tests may be updated using a version model, and may recognize other tests or
+				versions thereof as substitutes, where a grade on a substitute test shall override
+				the grade on the test it substitutes if the grade on the substitute test is higher.
+				Tests inherit substitutes from their substitutes.
+
+				The credit institution shall maintain records of all test attempts made by each
+				student, including their percentage score, the time taken, and how it was
+				supervised.
+
+				Third parties may release titles to be applied to students who meet certain
+				requirements for scores, time limits, and supervision on certain tests.
+
+				Students may request custom transcripts for free which detail test results and
+				titles of their choosing.
+
+				The ideal open credit institution operates primarily, if not entirely online, and
+				hosts a large body of free tests sufficient to equal the most popular majors at
+				elite universities.
+			-

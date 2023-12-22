@@ -6,3 +6,12 @@ Alias Map
 			An alias map is a list of aliases that a project which originated in a given context
 			may be alternatively referred to as under other contexts.
 		-
+
+	Principles
+
+		Alias Interface
+
+			-
+				An alias interface is a construct derived from an alias map which represents an
+				entity or process in an alternate form for alternate contexts.
+			-

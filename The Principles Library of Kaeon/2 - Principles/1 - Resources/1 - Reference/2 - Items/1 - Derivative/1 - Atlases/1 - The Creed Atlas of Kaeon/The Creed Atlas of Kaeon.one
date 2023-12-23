@@ -35,13 +35,36 @@
 				Conventions
 			-
 				-
-					Book
+					Content
 				-
 					-
-						A Kaeon Library book for the Creed Atlas of Kaeon should contain the
-						standard contents of the Philosophy Library, but should only contain the
-						reduced contents of the Principles and Wonders Libraries.
+						Divisions
 					-
+						-
+							Core
+						-
+							-
+								The Core content of the Creed Atlas of Kaeon consists of the
+								standard contents of the Philosophy Library, and the reduced
+								contents of the Principles and Wonders Libraries, as said terms
+								apply to Kaeon Library books.
+							-
+						-
+							Canon
+						-
+							-
+								The Canon content of the Creed Atlas of Kaeon consists of its Core
+								content, with the General section of the Philosophy section of the
+								Principles Library removed, and with the master documents of the
+								Principles and Wonders libraries removed.
+							-
+					-
+						Book
+					-
+						-
+							A Kaeon Library book for the Creed Atlas of Kaeon should only contain
+							the Core content.
+						-
 			-
 				Make all that ought to be into reality.
 			-

@@ -179,10 +179,28 @@ Kaeon FUSION Art Interface
 								track has progressed to the next note.
 							-
 
-				Standard GMI Index
+				Standard GMIs
 
-					0: Alias: Synth, .; Keys: 88
-					1: Alias: Piano; Keys: 88
+					Index
+
+						0: Alias: Synth, .; Keys: 88
+						1: Alias: Piano; Keys: 88
+
+					Key Aliases
+
+						-
+							The keys of GMIs within the standard GMIs shall have aliases which
+							match their counterparts on an 88 key piano.
+
+							As such, said aliases shall start with a letter specifying the note
+							from A to G, letter case being irrelevant.
+
+							Said letter may be followed by a number specifying the octave from 0 to
+							8. If the octave is not specified, the notes C to G shall have an
+							octave of 4, and the notes A and B shall have an octave of 5.
+
+							If the note is sharp, the alias shall end with a plus.
+						-
 
 		Commands
 

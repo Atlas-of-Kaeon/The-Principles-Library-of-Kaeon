@@ -221,9 +221,9 @@ Kaeon FUSION Art Interface
 						The sign command contains the content "Sign", and is a defining element.
 						
 						Its return value shall be interpreted as an action in the action format,
-						which shall be attached to its next subsequent sibling which does not
-						already have an action attached to it and which does not have an act
-						command as a child.
+						which shall be attached to its next subsequent sibling which is not a
+						defining element, does not already have an action attached to it, and which
+						does not have an act command as a child.
 					-
 
 				Stage

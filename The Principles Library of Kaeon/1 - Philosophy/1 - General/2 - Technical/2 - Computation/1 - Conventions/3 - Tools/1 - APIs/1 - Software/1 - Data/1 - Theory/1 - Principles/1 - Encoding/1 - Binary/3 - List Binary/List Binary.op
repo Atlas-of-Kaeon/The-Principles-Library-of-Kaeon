@@ -1,0 +1,27 @@
+List Binary
+
+	Philosophy
+
+		-
+			List binary is a binary format for representing multidimensional lists of numbers.
+		-
+
+	Principles
+
+		Structure
+
+			-
+				An element in list binary shall use sequence headers to separate its content into
+				chunks, using the element binary format.
+
+				The first chunk shall be a header specifying the type of element as a single
+				binary digit, two being a list which contains other lists, one being a list
+				containing only numbers, and zero a single number.
+
+				For a type two, every subsequent chunk shall represent an element of the list in
+				element binary.
+
+				For a type one or zero, there shall only be one subsequent chunk. For a type one,
+				the content of the chunk shall be an ordered multistate binary sequence. For a type
+				zero, it shall contain binary representing the number it contains.
+			-

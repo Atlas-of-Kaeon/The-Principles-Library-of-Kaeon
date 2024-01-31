@@ -1,0 +1,11 @@
+Mystery Nodes
+
+	Philosophy
+
+		-
+			Mystery Nodes are nodes on a graph that act as stand-ins for a sub-graph of the graph
+			to which it belongs.
+
+			If said sub-graph can be accessed, the mystery node is referred to as open, whereas if
+			said sub-graph cannot be accessed, the mystery node is referred to as closed.
+		-

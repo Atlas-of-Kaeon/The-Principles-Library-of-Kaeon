@@ -18,7 +18,7 @@ Dynamic Binary Headers
 				"00".
 
 				Following a header may be another header, the main content of the file, or the end
-				or the file. No more headers may be placed into the file following the beginning of
+				of the file. No more headers may be placed into the file following the beginning of
 				the main content.
 			-
 
@@ -42,7 +42,8 @@ Dynamic Binary Headers
 				of their corresponding headers.
 				
 				Any bits that follow the last sequence in the main content may be used for another
-				purpose, if it is not junk data.
+				purpose, if it is not junk data, and in the case of it being junk data said bits
+				should be zero.
 			-
 
 		Sequence Objects

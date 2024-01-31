@@ -4,9 +4,21 @@ Multistate Binary Sequence
 	
 		-
 			A multistate binary sequence is a sequence of bit sequences, referred to as state
-			sequences, each of which just long enough to encode a given number, defined as the
-			order of the multistate binary sequence.
+			sequences, each of which is just long enough to encode a given maximum number, defined
+			as the order of the multistate binary sequence.
 
 			Each state sequence shall specify in binary a number between zero and the order number,
 			inclusive.
 		-
+
+	Principles
+
+		Order Header
+
+			-
+				A multistate binary sequence may be preceded by a dynamic binary header specifying
+				the order of said sequence in trinary.
+
+				Such a sequence with such a header shall be referred to as an ordered multistate
+				binary sequence.
+			-

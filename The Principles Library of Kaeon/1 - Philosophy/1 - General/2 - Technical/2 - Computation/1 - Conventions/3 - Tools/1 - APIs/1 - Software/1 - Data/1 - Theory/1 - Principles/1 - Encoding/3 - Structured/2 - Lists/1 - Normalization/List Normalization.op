@@ -1,0 +1,25 @@
+List Normalization
+
+	Philosophy
+
+		-
+			List normalization is the conversion of any data structure or model to a list of
+			primitives with an indefinite number of dimensions.
+
+			A single primitive may be converted into a list by encasing it in a list where it is
+			the only element.
+		-
+
+	Principles
+
+		Formats
+
+			JSON
+
+				-
+					A JSON object may be normalized into a list by adding all of its values in
+					order to a list and removing its keys.
+
+					A non-primitive JSON construct may be fully normalized into a list by
+					normalizing all objects nested within it.
+				-

@@ -1,0 +1,21 @@
+Category Structures
+
+	Philosophy
+
+		-
+			Category structures are data structures consisting of elements which may only fall into
+			a finite number of types, where all elements of a given type are identical.
+
+			The possible categories for a given category structure are referred to as its category
+			set.
+		-
+
+	Principles
+
+		Labels
+
+			-
+				Categories in category structures may each be assigned unique titles and indices,
+				and may be identified by their indices or by any substring of their titles which
+				uniquely identify them among their category set, letter case being irrelevant.
+			-

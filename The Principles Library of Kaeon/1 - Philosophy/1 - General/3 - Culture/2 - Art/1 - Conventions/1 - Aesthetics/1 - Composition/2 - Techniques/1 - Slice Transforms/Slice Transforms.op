@@ -1,0 +1,10 @@
+Slice Transforms
+
+	Philosophy
+
+		-
+			Slice transforms are modifications made to renderings where portions of a given
+			rendering are omitted, or resized, repositioned, or reoriented.
+
+			A codified slice transform for a given rendering is called a slice transform protocol.
+		-

@@ -3,116 +3,36 @@ Standard Genetic Format
 	Philosophy
 
 		-
-			The standard genetic format is a file format for encoding the genome of an organism.
+			The standard genetic format is a list format for encoding the genome of an organism.
 		-
 
 	Principles
 
 		Structure
 
-			Chunks
-
-				-
-					The standard genetic format is a binary format that uses sequence headers to
-					separate its content into chunks.
-
-					Each possible nucleotide base shall be assigned a unique numerical index,
-					referred to as the base index, in a hierarchy.
-
-					The first chunk shall be a header, referred to as the base order header, used
-					to specify, as a trinary number, how many types of nucleotide bases are present
-					in the sequenced DNA. This number shall be referred to as the base order.
-					
-					For each nucleotide base present in the DNA, one chunk, called a base index
-					header, shall follow the first chunk, specifying the base index of the
-					respective nucleotide base. The order in which a base index header is placed
-					relative to the others, starting at zero, is referred to as its base reference.
-
-					Each of the chunks that follow the base index headers, excluding the last one,
-					shall specify the nucleotide sequence of a given DNA component of an organism's
-					genome using a multistate binary sequence called a standard nucleotide
-					sequence.
-
-					The final chunk may specify, in any manner, any miscellaneous metadata about
-					the sequenced DNA.
-				-
-
-			Standard Nucleotide Sequence
-
-				-
-					A standard nucleotide sequence is a multistate binary sequence used to
-					represent a sequence of nucleotides in a DNA molecule. It shall have an order
-					equivalent to the specified base order.
-					
-					Each number specified in the sequence shall be the base reference of the base
-					header for one of the nucleotide bases present in the sequenced DNA.
-				-
+			-
+				The standard genetic format shall use a category set of nucleotides arranged into a
+				three dimensional list, the root list containing lists representing each major
+				section of the genome, and each section list containing lists representing known
+				portions of that section, each portion list specifying a sequence of nucleotides
+				using the labels of the category set, and the spaces between the portion lists
+				representing unknown or variable portions of the genome.
+			-
 
 		Conventions
 
-			Standard Base Indices
+			Category Set Indices
 
-				Adenine
-
-					-
-						The standard base index for adenine is zero.
-					-
-
-				Cytosine
-
-					-
-						The standard base index for cytosine is one.
-					-
-
-				Guanine
-
-					-
-						The standard base index for guanine is two.
-					-
-
-				Thymine
-
-					-
-						The standard base index for thymine is three.
-					-
-
-				Uracil
-
-					-
-						The standard base index for uracil is four.
-					-
+				Adenine: 0
+				Cytosine: 1
+				Guanine: 2
+				Thymine: 3
+				Uracil: 4
 
 			Eukaryotic Conventions
 
 				-
-					The conventional format for representing the genome of a eukaryotic organism is
-					to specify the nucleotide sequences for each of its chromosomes in order,
-					followed by the nucleotide sequence of its mitochondria.
-				-
-
-			Abbreviation
-
-				-
-					The standard genetic format can be abbreviated as "SGF" and thus files written
-					in it should have an "sgf" extension.
-				-
-
-			ONE
-
-				-
-					The standard genetic format has a human-readable ONE-based counterpart known as
-					the ONE genetic format, which can be abbreviated as "OGF".
-
-					A document in the ONE genetic format may have an indefinite number of elements,
-					called sequence elements.
-
-					Sequence elements must contain the name of the nucleotide sequence they
-					represent, and may have an indefinite number of children, called nucleotide
-					elements.
-
-					Each nucleotide element corresponds to a given nucleotide, and they must be
-					arranged in the order that they occur in the gene they represent.
-					
-					Nucleotide elements shall contain the base index of a base nucleotide, in
-					decimal format, which shall define the nucleotides they represent.
+					The convention for representing the genome of a eukaryotic organism is to
+					specify the nucleotide sequences for each of its chromosomes in order, followed
+					by the nucleotide sequence of its mitochondria.
 				-

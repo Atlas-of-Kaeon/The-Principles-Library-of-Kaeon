@@ -13,8 +13,10 @@ Functional AGI
 		True AGI Prerequisites
 
 			-
-				A true AGI must, among other things, be able to process many contexts
-				simultaneously, where said contexts constantly and asynchronously feedback upon
-				themselves, must be able to dynamically adapt to novel contexts, and must exhibit
-				agency.
+				A true AGI must be capable of indefinite cycles of reflective thought, which would
+				tend to manifest with reflective pauses and backpedaling.
+				
+				Furthermore, a true AGI should be able to process many contexts simultaneously,
+				where said contexts constantly and asynchronously feedback upon themselves, should
+				be able to dynamically adapt to novel contexts, and should exhibit agency.
 			-

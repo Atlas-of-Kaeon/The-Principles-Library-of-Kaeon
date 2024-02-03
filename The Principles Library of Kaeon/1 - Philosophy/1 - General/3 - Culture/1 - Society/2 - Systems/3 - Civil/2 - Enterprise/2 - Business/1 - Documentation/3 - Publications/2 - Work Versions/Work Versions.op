@@ -4,13 +4,16 @@ Work Versions
 
 		-
 			Works may be assigned version number sequences, which shall begin with the primary
-			version, followed by a series of ordered sub-versions, each specifying an update to the
-			last.
+			version, followed by a series of ordered sub-versions, their placement in said order
+			referred to as their indices which start with zero at the primary version, each
+			specifying an update to the last.
 
 			A version number sequence shall be rendered in order from the primary version to the
 			last non-zero number.
 
 			The default primary version of a work shall be one, and each change made shall, unless
-			otherwise specified, increment the last non-zero number, unless said number is the
-			primary version, in which case a new sub-version shall be added with a value of one.
+			otherwise specified (as an index of a sub-version referred to as the update index),
+			increment the last non-zero number, unless said number is the primary version, in which
+			case a new sub-version shall be added with a value of one. Incrementing a version shall
+			reset all of its sub-versions to zero.
 		-

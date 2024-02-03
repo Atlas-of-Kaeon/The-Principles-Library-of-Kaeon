@@ -1,0 +1,20 @@
+General Script
+
+	Philosophy
+
+		-
+			A general script is a script in a simulation which is called on certain occasions, and
+			which takes the form of a function that takes a data string as its one argument which
+			specifies miscellaneous information, that has no access to any outer scope, and that
+			returns a string specifying a query for actions to execute and for information to
+			return in the data string the next time the script is called.
+		-
+
+	Principles
+
+		Advantages
+
+			-
+				The use of general scripts allows scripts for an engine or simulation to be written
+				in any language.
+			-

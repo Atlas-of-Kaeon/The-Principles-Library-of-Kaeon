@@ -1,0 +1,60 @@
+Suite Corruption
+
+	Philosophy
+
+		-
+			Suite corruption is where engineers are forced to abandon utilities and techniques they
+			have grown reliant upon.
+		-
+
+	Principles
+
+		The Seven Deadly Sins
+
+			1 - Payment
+
+				-
+					Payment is when a tool charges for its use, though a freemium model mitigates
+					the severity of it.
+				-
+
+			2 - Signup
+
+				-
+					Signup is when a tool requires the submission of user information for its use.
+				-
+
+			3 - Setup
+
+				-
+					Setup is when a tool requires the user to manually register for, or install,
+					specialized dependencies, becoming more severe the more manual effort is
+					required.
+				-
+
+			4 - Decay
+
+				-
+					Decay is when a tool loses support or compatibility over time.
+				-
+
+			5 - Rigor
+
+				-
+					Rigor is when a tool requires highly specialized knowledge for its use where
+					reasonable abstractions are possible to mitigate said barrier.
+				-
+
+			6 - Excess
+
+				-
+					Excess is where the interface of a tool is excessively obtuse, taking its most
+					severe form when the tool is only usable through visual interfaces.
+				-
+
+			7 - Limits
+
+				-
+					Limits, the most severe of the seven sins, is when a tool binds the user to a
+					specific environment with no clear analogues in others.
+				-

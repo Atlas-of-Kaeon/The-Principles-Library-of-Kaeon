@@ -16,7 +16,7 @@ String Inclination
 
 			-
 				The alignment inclination of a given string refers to whether the first character
-				of a string which is not punctuation or whitespace hails from a script that read
+				of a string which is not punctuation or whitespace hails from a script that reads
 				left to right, rendering the inclination of said string as left, or from a script
 				that reads right to left, rendering said the inclination of said string as right.
 			-

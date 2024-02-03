@@ -1,0 +1,36 @@
+Edge Conventions
+
+	Philosophy
+
+		-
+			This document lists conventions for graph edges.
+		-
+
+	Principles
+
+		Edge Unification
+
+			-
+				A linear sequence of non-branching nodes with consistent directionality, and not
+				containing a targeted or otherwise special node, may be taken as a single edge with
+				its properties being the summation of its constituent elements.
+			-
+
+		Bidirectionality Types
+
+			-
+				For a given process operating on a given node, bidirectionality between said node
+				and another may either result from data, where said process is either independently
+				aware of the other node or where said node contains a reference to it, or from a
+				rule, where said process is forbidden from acknowledging a connection between the
+				nodes in question.
+			-
+
+		Reduced Traversal Recollection
+
+			-
+				A process which traverses a graph and maintains a log of previously visited nodes
+				for the sake of preventing loops need only record the previous node and any other
+				node with more than one incoming one-way connection, or more than two incoming
+				connections of miscellaneous directionality.
+			-

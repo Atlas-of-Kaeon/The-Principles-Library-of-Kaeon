@@ -19,4 +19,9 @@ Turing Test Subversion
 				This flaw can be exploited by forcing a conversation to continue past the point
 				where it should otherwise stop, revealing the system's lack of true understanding
 				and allowing the user to subvert protocols in the system's training.
+
+				Furthermore, many AI systems can be vulnerable to what can be termed "discourse
+				hypnosis", where the user makes comments in the course of a conversation which
+				presuppose some previously unstated information, leading to the AI to uncritically
+				integrate said assumptions into its responses as the conversation progresses.
 			-

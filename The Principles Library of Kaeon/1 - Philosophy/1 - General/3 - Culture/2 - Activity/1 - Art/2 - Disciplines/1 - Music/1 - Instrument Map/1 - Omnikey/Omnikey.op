@@ -26,6 +26,11 @@ Omnikey
 					called its target. A hand's set shall be mapped to a contiguous section of keys
 					on its target, called its scope, which shall be arranged among the hand's set
 					according to said set's order.
+
+					In addition, each hand shall be assigned a modification, or mod, key, which is
+					not in its set, and which when held shall prevent any keys in the hand's set
+					from playing notes, and shall cause certain keys pressed to modify the hand's
+					properties.
 				-
 
 			Control
@@ -61,6 +66,20 @@ Omnikey
 						the scope a specific number of keys in the specified direction, the half
 						key doing so by half the hand's length, the quarter key doing so by a
 						quarter of the hand's length, and the single key by one key.
+
+						By default, the first eight keys in a hand's set shall be, in order, the
+						left range key, the left half key, the left quarter key, the left single
+						key, the right single key, the right quarter key, the right half key, and
+						the right range key.
+
+						Each subsequent key in the hand's set shall be a jump key, assigned an
+						index calculated by taking its position in the set, subtracting nine,
+						dividing it by two, and then adding one, until said indices exceed the
+						number of ranges for the hand. Said keys shall cause the hand to instantly
+						move to the range which occurs relative to the others in the order of the
+						index of the key pressed, with floating point indices indicating a jump to
+						an equal position between the two nearest ranges of the index, the exact
+						position rounded down.
 					-
 
 				Instrument Switching
@@ -71,41 +90,36 @@ Omnikey
 
 						Each hand shall be assigned a left switch key and a right switch key,
 						allowing them to change their target by altering its index relative to said
-						map set.
+						map set when said keys are pressed with the hand's mod key.
 						
 						The left switch key shall decrement the target's index by one, and the
 						right switch key shall increment said index by one, with the index rolling
 						over if it goes out of bounds.
+
+						By default, the last key in a hand's set shall be its right switch key, and
+						the second to last key in its set shall be its left shift key.
 					-
 
 		Default Hands
 
 			Left
+				
+				Set
+				
+					~~, 1, 2, 3, 4, 5, 6
+					Tab, Q, W, E, R, T
+					Caps Lock, A, S, D, F, G
+					Z, X, C, V, B
 
-				Keys: Q, W, E, R, T, A, S, D, F, G, Z, X, C, V, B
-
-				Control
-
-					Shifting
-
-						Range: Left { Tab }, Right { 6 }
-						Half: Left { ~~ }, Right { 5 }
-						Quarter: Left { 1 }, Right { 4 }
-						Single: Left { 2 }, Right { 3 }
-
-					Switch: Left { Enter }, Right { Shift + Enter }
+				Mod: Left Shift
 
 			Right
+				
+				Set
+				
+					7, 8, 9, 0, _, +, Backspace
+					I, O, P, '{', '}', |
+					J, K, L, ':', '"', Enter
+					N, M, <, >, ?
 
-				Keys: I, O, P, '{', '}', J, K, L, ':', '"', N, M, <, >, ?
-
-				Control
-
-					Shifting
-
-						Range: Left { 7 }, Right { '|' }
-						Half: Left { 8 }, Right { Backspace }
-						Quarter: Left { 9 }, Right { + }
-						Single: Left { 0 }, Right { - }
-
-					Switch: Left { Caps Lock }, Right { Shift + Caps Lock }
+				Mod: Right Shift

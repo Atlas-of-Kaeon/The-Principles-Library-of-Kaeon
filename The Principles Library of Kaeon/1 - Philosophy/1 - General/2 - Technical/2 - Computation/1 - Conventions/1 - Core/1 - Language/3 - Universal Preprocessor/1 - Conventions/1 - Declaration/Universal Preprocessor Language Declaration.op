@@ -1,0 +1,17 @@
+Universal Preprocessor Language Declaration
+
+	Philosophy
+
+		-
+			This document specifies conventions for uses, and methods thereof, of the directive
+			language declaration (DLD) in a universal preprocessor directive or host protocol.
+		-
+
+	Principles
+
+		ONE+
+
+			-
+				The DLD in a directive may consist of a ONE+ document. This usage is referred to as
+				an ODLD.
+			-

@@ -25,7 +25,8 @@ United JavaScript
 				local system or a URL to an online resource.
 				
 				The require function may take an optional second argument in the form of an object.
-				Said object may have the fields "async", "dynamic", "global", and "reload".
+				Said object may have the fields "async", "dynamic", "global", "reload", and
+				"cache".
 
 				The async field, if present, shall contain either a function, a boolean, or a null
 				value. If a function or a boolean is provided, it shall indicate that the require
@@ -38,16 +39,23 @@ United JavaScript
 				If a boolean value of true is provided for the async field, then shall return a
 				promise which shall resolve to the specified module once it has loaded.
 
-				The dynamic field, if present, shall indicate that the path argument specifies the
-				raw code of the module as opposed to a path to it. As such, any module loaded this
-				way shall not be stored in the require function's cache.
+				The dynamic field, if present, shall contain a boolean which, if true, shall
+				indicate that the path argument specifies the raw code of the module as opposed to
+				a path to it. As such, any module loaded this way shall not be stored in the
+				require function's cache.
 
-				The global field, if present, shall indicate that the module is to be processed in
-				the global scope. This can be used for loading and executing scripts.
+				The global field, if present, shall contain a boolean which, if true, shall
+				indicate that the module is to be processed in the global scope. This can be used
+				for loading and executing scripts.
 				
 				The reload field, if present, shall contain a boolean which, if true, shall
 				indicate that the module specified by the path parameter is to be deleted from the
 				cache and reloaded.
+				
+				The cache field, if present, shall contain a boolean which, if true, shall indicate
+				that the module specified by the path parameter is a standard network cache for
+				which all compatible resources are to be pre-cached for later use, and that the
+				require function is to return null.
 			-
 
 		Asynchronous Conventions

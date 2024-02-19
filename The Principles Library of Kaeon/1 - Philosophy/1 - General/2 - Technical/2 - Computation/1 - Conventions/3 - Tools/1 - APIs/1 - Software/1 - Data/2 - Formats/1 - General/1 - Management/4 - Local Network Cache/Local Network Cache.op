@@ -63,21 +63,22 @@ Local Network Cache
 
 				-
 					A standard network cache is a JSON object with two fields, the first being a
-					field with the alias "cache", and the second being a field with the alias
-					"properties", both of which contain objects.
+					field with the alias "cache", containing a list of cache objects, and the
+					second being a field with the alias "reference", containing an ID JSON object.
 					
-					The cache object is a field JSON object where each key is the location of a
-					resource and each value is the content of the resource referenced by the
-					corresponding key.
-
-					The properties object is a JSON object where the alias of each field is the
-					path to a resource stored in the cache object, and the value of each field is
-					an object. In said object, each field represents a re-cache property of said
+					A cache object is a JSON object containing a field with the alias "content",
+					which contains a string containing the content of a given resource, and
+					optionally containing a field with the alias "properties", which contains a
+					properties object, in which each field represents a re-cache property of said
 					resource, the alias of said field being the name of said property, and the
 					value of each field being the content of said property.
 
+					The reference object contains fields where the key specifies a path to a given
+					resource, and the content specifies the index of a cache object in the cache
+					array which contains said resource.
+					
 					A standard network cache shall, unless specified otherwise, be stored as a file
-					with the name "localCache.json"
+					with the name "package-cache.json"
 
 					An auto-cache protocol that uses a standard network cache is called a standard
 					auto-cache protocol.

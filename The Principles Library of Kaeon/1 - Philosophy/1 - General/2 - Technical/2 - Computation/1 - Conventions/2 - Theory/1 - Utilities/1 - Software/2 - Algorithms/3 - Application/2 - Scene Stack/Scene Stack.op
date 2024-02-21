@@ -1,0 +1,15 @@
+Scene Stack
+
+	Philosophy
+
+		-
+			A scene stack consists of stackable scenes, those being sub-applications of a container
+			application which may pause execution to spawn a child stackable scene which shall take
+			the former's place, and which shall return to a parent stackable scene when exiting, or
+			shall cause the container application to terminate when exiting if no parent stackable
+			scene is present, with a state object being passed between stackable scenes as they
+			spawn and exit.
+
+			Separate processes may alter the contents of a scene stack, and transition effects may
+			be applied when switching between stackable scenes.
+		-

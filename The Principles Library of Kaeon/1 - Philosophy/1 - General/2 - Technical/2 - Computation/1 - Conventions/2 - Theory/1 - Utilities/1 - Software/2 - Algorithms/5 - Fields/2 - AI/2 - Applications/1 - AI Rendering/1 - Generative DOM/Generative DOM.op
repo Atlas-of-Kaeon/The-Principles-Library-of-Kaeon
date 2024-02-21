@@ -1,0 +1,41 @@
+Generative DOM
+
+	Philosophy
+
+		-
+			Generative DOM, or G-DOM, is a convention for applying AI to the processing and
+			rendering of a DOM driven simulation.
+		-
+
+	Principles
+
+		Generative Components
+
+			-
+				A generative component is a component within a DOM that contains a text description
+				of some aspect of the simulation, and which may also contain references to
+				pre-rendered renderings of said aspect.
+
+				They may be placed in the DOM manually by developers, or automatically placed by
+				automatic generative processes.
+
+				A non-generative component may be referred to as a basic component.
+			-
+
+		Processing
+
+			-
+				When processing the simulation to its next state, or rendering the simulation, the
+				non-generative elements of the DOM shall be processed first, and the generative
+				elements shall be processed afterwards.
+			-
+
+		Resolution
+
+			-
+				Resolution of a G-DOM may refer to basic resolution, where all generative
+				components are converted to basic components, to generative resolution, where basic
+				components are converted to generative components, or to composite resolution,
+				where multiple generative components are converted to a single generative
+				component.
+			-

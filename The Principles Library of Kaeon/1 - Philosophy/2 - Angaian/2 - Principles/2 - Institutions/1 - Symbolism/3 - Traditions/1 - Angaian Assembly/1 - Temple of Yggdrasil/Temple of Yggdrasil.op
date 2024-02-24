@@ -3,41 +3,58 @@ Temple of Yggdrasil
 	Philosophy
 
 		-
-			A temple of Yggdrasil is an implementation of a hypothetical building created to
-			represent Angaianist ideals and to serve as a civil forum.
+			A temple of Yggdrasil is an implementation of a hypothetical building, and the
+			surrounding campus thereof, created to represent Angaianist ideals and to serve as a
+			civil forum.
+
+			The majority of the campus, including the entirety of the main temple, shall be open to
+			the public.
 		-
 
 	Principles
 
-		Tower
+		Main Temple
 
-			-
-				The main part of the temple shall consist of a large tower built in the form of an
-				Angaian Yggdrasil with its entrance at the base hollow.
+			Structure
 
-				By default, the tower's exterior should be designed as a painted natural rendering,
-				with the interior reflecting a sleek and modern style with baroque elements, with
-				certain parts, including the Angaian valhalla, containing lit candles and burning
-				incense. The interior should also contain Akaeda Chronicles inscribed on the walls.
+				Dome
 
-				The Angaian Valhalla would take the form of a large translucent sun dome, said dome
-				being retractable, with a full Angaian Altar on a raised pedestal at the center,
-				and with crown drones patrolling the interior while reciting the Angaian Creed with
-				various Angaian characters displayed on their visors. Said drones may also be
-				present in other parts of the tower.
-			-
+					-
+						The core portion of the temple, called the temple crown, shall take the
+						form of a large translucent sun dome, in the image of an Angaian Valhalla,
+						said dome ideally being retractable, with a full Angaian Altar on a raised
+						pedestal at the center.
 
-		Contents
+						As such, the dome shall have an Angaian Crest painted on it, and should
+						ideally be surrounded by white floral constructs.
+					-
 
-			-
-				The majority of the temple, including the entirety of the main tower, shall be open
-				to the public.
+				Tower
 
-				The temple shall contain tithe stations and mess halls which serve free meals, and
-				may also contain exhibits, libraries, conference rooms, medical facilities,
-				laboratories, and other public resources, though the tower itself should only
-				contain exhibits.
-			-
+					-
+						The Angaian Valhalla should be supported or preceded by a flat hall or
+						vertical tower, referred to as the temple tree, built in the form of an
+						Angaian Yggdrasil, sans the Angaian Valhalla itself, with its entrance at
+						the base hollow.
+
+						By default, the temple tree's exterior should be designed as a painted
+						natural rendering, with the interior reflecting a sleek and modern style
+						with baroque and neoclassical elements.
+
+						Ideally, the temple tree should take the tower form.
+					-
+
+			Contents
+
+				-
+					Crown drones shall patrol the interior of the main temple while reciting the
+					Angaian Creed with various Angaian characters displayed on their visors. Said
+					drones may interact with guests if signaled to do so.
+
+					Various parts of the interior of the main temple shall contain lit candles and
+					burning incense, and shall also contain Akaeda Chronicles inscribed on the
+					walls.
+				-
 
 		Campus
 
@@ -48,32 +65,41 @@ Temple of Yggdrasil
 					Arcs
 
 						-
-							The main tower might sit at the center of a larger complex composed of
+							The main temple might sit at the center of a larger complex composed of
 							a series of concentric arc shaped buildings with gaps in front of the
-							tower, connected to one another and to the tower in the back.
+							tower, connected to one another and to the main temple in the back.
 						-
 
 					Labyrinth
 
 						-
-							Beneath the tower and its surrounding campus might be a sprawling
+							Beneath the main temple and its surrounding campus might be a sprawling
 							underground network of rooms and hallways.
 						-
 
 				Exterior
 
 					-
-						The exterior of the tower might feature a stone walkway leading up to its
-						main entrance, and the rest of the campus might consist of a botanical
+						The exterior of the main temple might feature a stone walkway leading up to
+						its main entrance, and the rest of the campus might consist of a botanical
 						garden with walkways for navigation.
 					-
 
 			Contents
 
+				General
+
+					-
+						The campus shall contain tithe stations and mess halls which serve free
+						meals, and may also contain exhibits, libraries, conference rooms, medical
+						facilities, laboratories, and other public resources, though the main
+						temple should only contain exhibits.
+					-
+
 				Hall of Resurrection
 
 					-
-						In the basement of the tower might be a special medical facility where
+						In the center of the labyrinth might be a special medical facility where
 						patients who have been revived from the dead would awaken from a medically
 						induced coma, and after being counseled, would be led through a lavishly
 						decorated hall to large amounts of fanfare, reuniting with their loved ones

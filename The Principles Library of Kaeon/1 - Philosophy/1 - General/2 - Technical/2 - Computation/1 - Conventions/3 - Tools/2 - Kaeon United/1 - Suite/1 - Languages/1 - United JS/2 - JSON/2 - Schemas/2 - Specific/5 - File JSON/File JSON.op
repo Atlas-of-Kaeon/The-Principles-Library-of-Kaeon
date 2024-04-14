@@ -39,6 +39,6 @@ File JSON
 				-
 					A file JSON object may be used to represent the items within a single directory
 					without specifying their content, by assigning each field representing a folder
-					the value of an empty object, and by assigning each field representing a folder
+					the value of an empty object, and by assigning each field representing a file
 					the value of an empty string.
 				-

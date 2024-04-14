@@ -1,0 +1,47 @@
+JSON Elements
+
+	Philosophy
+
+		-
+			This document specifies generic JSON elements and utilities.
+		-
+
+	Principles
+
+		Conventions
+
+			Location Specifier
+
+				-
+					A location specifier may either be a location identifier, which is a string
+					specifying the path to an external resource, or a location array, a list of
+					location identifiers specifying possible locations for a given external
+					resource, with the locations at lower indices being preferred.
+				-
+
+			Tags Object
+
+				-
+					A tags object is a flat string mononull JSON object specifying miscellaneous
+					information about a subject.
+
+					A codified protocol for the content and meaning of said information is referred
+					to as a JSON tag convention.
+				-
+
+		Formats
+
+			Batch JSON
+
+				-
+					A batch JSON array is a JSON array that specifies a series of items and related
+					metadata.
+
+					A batch JSON array contains item objects, each of which have the field "item",
+					containing a string specifying the item, and each of which may optionally have
+					the field "tags", containing a tags object specifying miscellaneous metadata
+					about said item.
+
+					Batch JSON arrays may be used to define, serialize, and update the internal
+					states of processes in which multiple items are maintained.
+				-

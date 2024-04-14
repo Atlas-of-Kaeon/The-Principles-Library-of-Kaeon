@@ -1,0 +1,12 @@
+Collection States
+
+	Philosophy
+
+		-
+			A collection state refers to the internal state of a system, which may be referred to
+			as a collection process, in which a series of distinct entities, which may be called
+			collection entities, are maintained.
+
+			The serialization of a collection state may be referred to as a collection document,
+			and collection documents may be used to either initiate or update a collection process.
+		-

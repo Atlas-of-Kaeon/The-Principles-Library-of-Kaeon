@@ -16,3 +16,10 @@ Significant Comments
 				Pseudocomments are sections of code which have no effect on the execution of a
 				program or the interpretation of data, but which are not cropped out by the parser.
 			-
+
+		Comment Documents
+
+			-
+				The collective set of commented text in a given document may be referred to as the
+				comment document of said document.
+			-

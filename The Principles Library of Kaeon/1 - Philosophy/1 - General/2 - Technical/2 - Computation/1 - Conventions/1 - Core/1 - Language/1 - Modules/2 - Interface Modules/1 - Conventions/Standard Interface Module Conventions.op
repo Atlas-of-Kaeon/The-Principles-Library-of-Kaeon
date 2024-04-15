@@ -40,6 +40,26 @@ Standard Interface Module Conventions
 						trace ID for said utility.
 					-
 
+			Module Formats
+
+				Document
+
+					-
+						A document which specifies an interface module is referred to as an
+						interface module document.
+					-
+
+				Folder
+
+					-
+						A folder, referred to as an interface module folder, containing a
+						hierarchical series of sub-folders, may be interpreted as an interface
+						module where each file within it constitutes a utility, with the path
+						segments of a given file's path relative to the root folder constitutes its
+						tag trace ID, and where its file type and its comment document determine
+						its properties.
+					-
+
 		Conventions
 
 			Interface Module Conventions

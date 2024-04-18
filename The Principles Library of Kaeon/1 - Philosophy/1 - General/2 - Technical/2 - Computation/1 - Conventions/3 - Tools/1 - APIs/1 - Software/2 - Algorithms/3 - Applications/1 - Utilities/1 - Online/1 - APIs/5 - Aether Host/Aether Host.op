@@ -1,0 +1,15 @@
+Aether Host
+
+	Philosophy
+
+		-
+			An aether host is a server which hosts containerized applications, and which may
+			connect to other aether hosts to coordinate the container orchestration of a collection
+			process in a decentralized manner according to the contents of a collection document. A
+			network of aether hosts may be referred to as a host atlas.
+
+			As such, aether hosts may spawn other aether hosts and terminate themselves as needed,
+			and any aether host may serve as an interface to its host atlas, through which the
+			collection document may be updated and retrieved, along with other metadata regarding
+			said host atlas.
+		-

@@ -1,0 +1,19 @@
+Game Kaeon
+
+	Philosophy
+
+		-
+			All of the game development utilities within the Kaeon APIs shall collectively be known
+			as Game Kaeon.
+		-
+
+	Principles
+
+		Conventions
+
+			Kaeon ACE Liberty
+
+				-
+					All of the utilities within the Kaeon APIs that pertain to Kaeon ACE Liberty
+					shall, unless otherwise specified, fall under Game Kaeon.
+				-

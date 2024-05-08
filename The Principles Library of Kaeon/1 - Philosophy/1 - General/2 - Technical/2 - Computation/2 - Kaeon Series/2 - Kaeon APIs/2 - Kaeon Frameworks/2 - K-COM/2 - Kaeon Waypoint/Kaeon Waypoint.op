@@ -1,0 +1,28 @@
+Kaeon Waypoint
+
+	Philosophy
+
+		-
+			All of the state and data management utilities within the Kaeon APIs shall collectively
+			be known as Kaeon Waypoint.
+		-
+
+	Principles
+
+		Conventions
+
+			Divisions
+
+				-
+					Within Kaeon Waypoint, utilities for managing state within applications shall
+					be referred to as Kaeon Waypoint North, utilities for persisting state
+					information to and retrieving state information from databases shall be
+					referred to as Kaeon Waypoint South, utilities for managing the communication
+					of state information from the frontend shall be referred to as Kaeon Waypoint
+					West, and utilities for managing the communication of state information from
+					the backend shall be referred to as Kaeon Waypoint East.
+				-
+
+		APIs
+
+			Waypoint Core

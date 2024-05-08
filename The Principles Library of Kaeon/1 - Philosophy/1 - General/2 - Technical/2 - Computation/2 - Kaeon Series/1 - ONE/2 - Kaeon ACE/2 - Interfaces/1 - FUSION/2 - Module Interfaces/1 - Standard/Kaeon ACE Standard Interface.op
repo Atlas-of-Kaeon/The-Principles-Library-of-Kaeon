@@ -1,9 +1,9 @@
-Kaeon ACE Standard Interface
+Kaeon ACE Liberty Interface
 
 	Philosophy
 
 		-
-			The Kaeon ACE standard interface is a Kaeon FUSION module interface with the alias
-			"Kaeon ACE Standard", that contains all of the Kaeon ACE modules required by the
-			standard Kaeon ACE framework.
+			The Kaeon ACE Liberty interface is a Kaeon FUSION module interface with the alias
+			"Kaeon ACE Liberty", that contains all of the Kaeon ACE modules required by the Kaeon
+			ACE Liberty framework.
 		-

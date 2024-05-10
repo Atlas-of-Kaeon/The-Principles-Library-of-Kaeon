@@ -13,16 +13,18 @@ Kaeon United Terminal Components
 			-
 				When the Kaeon United terminal singularity is executed with no arguments, or
 				executed with the argument "origin", it shall execute Kaeon Origin which shall host
-				a web server within it.
+				an axis web server within it, and in this mode, Kaeon Origin shall be referred to
+				as Kaeon Origin Axis.
 				
-				In this mode, Kaeon Origin shall be referred to as Kaeon Origin Axis.
-				
-				Kaeon Origin Axis shall act as a virtual dot, a modular service, a JSH server, and
-				an Aether Host. If Kaeon Origin Axis is accessed through the frontend, it shall
-				load the Kaeon Origin frontend virtual system, which shall have access to the
-				system on which the server is running.
+				An axis web server shall act as a virtual dot, a modular service, a JSH server, and
+				an Aether Host. If an axis web server is accessed through the frontend, it shall
+				load a frontend virtual system, which shall have access to the system on which the
+				server is running. An axis web server may optionally function as a SOUL bot, and
+				may optionally employ security measures restricting certain external inputs to
+				those with certain credentials.
 
-				If Kaeon Origin Axis is executed with the argument "origin", any subsequent
-				arguments shall be processed normally but within the environment of Kaeon Origin
-				Axis.
+				In the case of Kaeon Origin Axis, said virtual system shall be that of the Kaeon
+				Origin frontend. If Kaeon Origin Axis is executed with the argument "origin", any
+				subsequent arguments shall be processed normally but within the environment of
+				Kaeon Origin Axis.
 			-

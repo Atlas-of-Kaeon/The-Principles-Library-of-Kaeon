@@ -6,14 +6,3 @@ Kaeon Stream
 			All of the server management utilities within the Kaeon APIs shall collectively be
 			known as Kaeon Stream.
 		-
-
-	Principles
-
-		Conventions
-
-			Kaeon Axis
-
-				-
-					Kaeon Axis is a server provided by Kaeon Stream which acts as a virtual dot, a
-					modular service, and an Aether Host.
-				-

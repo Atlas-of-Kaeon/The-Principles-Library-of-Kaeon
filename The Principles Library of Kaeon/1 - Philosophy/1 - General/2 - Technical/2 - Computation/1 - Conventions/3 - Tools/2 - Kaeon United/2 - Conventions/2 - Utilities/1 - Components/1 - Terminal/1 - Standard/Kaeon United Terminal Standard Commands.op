@@ -9,6 +9,14 @@ Kaeon United Terminal Standard Commands
 
 	Principles
 
+		Additional Interfaces
+
+			-
+				Any Kaeon United terminal command may be followed with the flag "-i", signaling
+				that every subsequent argument is the path to an additional interface module to
+				integrate into the process.
+			-
+
 		Commands
 
 			-

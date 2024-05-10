@@ -8,11 +8,21 @@ Kaeon United Terminal Components
 
 	Principles
 
-		Default Operation
+		Kaeon Origin Axis
 
 			-
-				When the Kaeon United terminal singularity is executed with no arguments, it shall
-				execute Kaeon Origin which shall host a web server within it.
+				When the Kaeon United terminal singularity is executed with no arguments, or
+				executed with the argument "origin", it shall execute Kaeon Origin which shall host
+				a web server within it.
 				
-				In this mode, Kaeon Origin shall be referred to as Kaeon Origin server.
+				In this mode, Kaeon Origin shall be referred to as Kaeon Origin Axis.
+				
+				Kaeon Origin Axis shall act as a virtual dot, a modular service, a JSH server, and
+				an Aether Host. If Kaeon Origin Axis is accessed through the frontend, it shall
+				load the Kaeon Origin frontend virtual system, which shall have access to the
+				system on which the server is running.
+
+				If Kaeon Origin Axis is executed with the argument "origin", any subsequent
+				arguments shall be processed normally but within the environment of Kaeon Origin
+				Axis.
 			-

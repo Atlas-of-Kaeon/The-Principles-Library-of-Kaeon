@@ -32,15 +32,34 @@ Kaeon Stack
 						It is also an option to have the Kaeon stack consist of Kaeon FUSION alone.
 					-
 
-			Kaeon Suite
+			Suites
 
-				-
-					The Kaeon suite is a tool stack consisting of Node.js, git, the GNU compilers,
-					and make.
+				Kaeon Suite
 
-					It is also a convention according to the Kaeon stack to use VS Code and Kaeon
-					Origin as one's primary code editors and terminal interfaces.
-				-
+					-
+						The Kaeon suite is a tool stack consisting of Node.js, git, the GNU
+						compilers, and make.
+
+						It is also a convention according to the Kaeon stack to use VS Code and
+						Kaeon Origin as one's primary code editors and terminal interfaces.
+					-
+
+				Outer Yggdrasil
+
+					-
+						Outer Yggdrasil is a series of layers which constitute a model
+						demonstrating the relationship between the underlying technologies of Kaeon
+						META, using a tree as an analogy for its form, and named in contrast to the
+						"inner" Kaeon Yggdrasil.
+
+						The first layer is Kaeon United itself, followed by the Kaeon APIs,
+						followed by Kaeon Origin. The aforementioned layers are referred to as the
+						root layers, which are followed by the canopy layers, consisting of the
+						Kaeon Apps, followed by Kaeon Kor.
+
+						This model is embedded in the "soil" of Kaeon Sigma, and from this model
+						spouts the "fruits" of Kaeon Ro.
+					-
 
 		Branding
 

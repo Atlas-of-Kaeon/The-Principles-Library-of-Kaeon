@@ -26,6 +26,18 @@ Standard Singularities
 				A set of utilities can be multi-modal or omni-modal.
 			-
 
+		Classification
+
+			-
+				A defined set of Philosopher's Singularities is called a singularity suite, and a
+				single Philosopher's Singularity that provides the functionality of all of the
+				Philosopher's Singularities in a given singularity suite is called a suite
+				singularity.
+
+				A suite singularity for a singularity suite that covers the four modes is called a
+				master singularity.
+			-
+
 		Execution
 
 			Suites

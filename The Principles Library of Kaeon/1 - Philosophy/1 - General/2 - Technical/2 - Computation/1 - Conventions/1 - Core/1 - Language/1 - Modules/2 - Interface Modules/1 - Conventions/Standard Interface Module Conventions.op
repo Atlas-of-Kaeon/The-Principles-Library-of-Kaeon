@@ -10,18 +10,28 @@ Standard Interface Module Conventions
 
 		Standards
 
-			Interface Components
+			Definitions
 
-				-
-					An interface component is a module which takes one argument, which may either
-					be an array of strings or an object for which each field contains a string, and
-					which may perform any miscellaneous action in accordance with the content of
-					said argument.
+				Interface Components
 
-					An array of strings corresponds to the command line arguments passed to a
-					modular service, and an object in the aforementioned schema corresponds to the
-					URL arguments passed to a shadow host.
-				-
+					-
+						An interface component is a module which takes one argument, which may
+						either be an array of strings or an object for which each field contains a
+						string, and which may perform any miscellaneous action in accordance with
+						the content of said argument.
+
+						An array of strings corresponds to the command line arguments passed to a
+						modular service, and an object in the aforementioned schema corresponds to the
+						URL arguments passed to a shadow host.
+					-
+
+				Companion Suite
+
+					-
+						A Philosopher's Suite specifically designed or used to expand another
+						Philosopher's Suite is called a companion suite, and an interface module
+						containing such a suite is called a companion interface.
+					-
 
 			Identification
 
@@ -83,6 +93,14 @@ Standard Interface Module Conventions
 						environment said utility is designed for.
 
 						If an environment is not specified, it may be inferred dynamically.
+
+						For a plugin utility, the environment shall define the application for
+						which it is a plugin, specified using an alias for said application,
+						referred to as an application alias, or the module ID string of an
+						application defined elsewhere in the interface as a utility. If an
+						application is executed by a Philosopher's Singularity and said application
+						has plugins defined for it in said singularity's interface, said plugins
+						shall be integrated into said application automatically.
 					-
 
 			Interface ACE Conventions
@@ -105,4 +123,7 @@ Standard Interface Module Conventions
 						"Environment", which itself shall have a child, the content of which shall
 						specify the environment which pertains to the utility said component is
 						attached to.
+
+						Environment, generally speaking, shall not be sensitive to letter case or
+						to non-alphanumeric characters.
 					-

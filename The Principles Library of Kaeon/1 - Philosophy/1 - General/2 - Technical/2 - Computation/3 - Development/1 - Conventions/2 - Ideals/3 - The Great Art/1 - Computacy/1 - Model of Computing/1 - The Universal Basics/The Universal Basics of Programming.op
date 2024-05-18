@@ -8,31 +8,35 @@ The Universal Basics of Programming
 			to develop the vast majority of programs, as they constitute the key mechanisms through
 			which the first mode of computing operates.
 
-			The five basics, taken together with the two channels, can be called the seven basics.
+			The five basics, which themselves are spread across three chapters, taken together with
+			the two channels, can be called the seven basics.
 
 			In and of themselves, they can be taught to anyone fairly quickly, in a few hours or
 			less.
-
-			In some cases, loops may be considered a subcategory of conditionals, rendering the
-			five basics four, and the seven basics six.
 		-
 
 	Principles
 
-		The Five Basics
+		The Three Chapters of the Five Basics
 
-			Variables { Literals }
-			
-				The Four Types
+			The Two Forms - Data
+
+				Variables { Literals }
 				
-					Numbers
-					Characters: Strings
-					Booleans
-					Null Values
+					The Four Types
+					
+						Numbers
+						Characters: Strings
+						Booleans
+						Null Values
 
-			Conditionals
-			Loops
-			Lists: Strings, Objects: Classes
+				Lists: Strings, Objects: Classes
+
+			The Two Paths - Flow
+
+				Conditionals
+				Loops
+
 			Functions: Composition { Parameters { Arguments }, Returning }, Recursion
 
 		Related Topics
@@ -43,7 +47,7 @@ The Universal Basics of Programming
 			Code Styles
 
 				-
-					At some point, it is ideal for students to be exposed to programming styles
+					At some point, it is ideal for programmers to be exposed to programming styles
 					that utilize a LISP-like form, such as what Kaeon FUSION uses, in order to help
 					them grasp the underlying structure of programs regardless of their syntax and
 					to give them powerful insights into the nature of code that can be applied

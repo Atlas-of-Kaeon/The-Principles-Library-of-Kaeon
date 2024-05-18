@@ -1,10 +1,10 @@
-Kaeon United Terminal Standard Commands
+Kaeon United Terminal Commands
 
 	Philosophy
 
 		-
-			This document lists conventions regarding standard commands made available through the
-			Kaeon United terminal application singularity.
+			This document lists conventions regarding commands made available through the Kaeon
+			United terminal application singularity.
 		-
 
 	Principles
@@ -17,7 +17,7 @@ Kaeon United Terminal Standard Commands
 				integrate into the process.
 			-
 
-		Commands
+		Standard Commands
 
 			-
 				The Kaeon United terminal application singularity shall provide certain standard
@@ -29,4 +29,15 @@ Kaeon United Terminal Standard Commands
 
 				Both the process and js utilities, if run without specified source text, will run
 				as console REPLs.
+			-
+
+		App Command
+
+			-
+				If the "app" command is executed with the Kaeon United terminal application
+				singularity with an argument containing the module ID string of a United Javascript
+				or Kaeon FUSION based application for which the source code is specified in a
+				module referenced in the suite of the singularity, said application shall be
+				executed, with all subsequent arguments of the app command which invoked it passed
+				to it.
 			-

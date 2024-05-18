@@ -15,16 +15,11 @@ Kaeon United Terminal Components
 				executed with the argument "origin", it shall execute Kaeon Origin which shall host
 				an axis web server within it, and in this mode, Kaeon Origin shall be referred to
 				as Kaeon Origin Axis.
-				
-				An axis web server shall act as a virtual dot, a modular service, a JSH server, and
-				an Aether Host. If an axis web server is accessed through the frontend, it shall
-				load a frontend virtual system, which shall have access to the system on which the
-				server is running. An axis web server may optionally function as a SOUL bot, and
-				may optionally employ security measures restricting certain external inputs to
-				those with certain credentials.
 
-				In the case of Kaeon Origin Axis, said virtual system shall be that of the Kaeon
-				Origin frontend. If Kaeon Origin Axis is executed with the argument "origin", any
-				subsequent arguments shall be processed normally but within the environment of
-				Kaeon Origin Axis.
+				In the case of Kaeon Origin Axis, the virtual system loaded by the client shall be
+				that of the Kaeon Origin application.
+				
+				If Kaeon Origin Axis is executed with the argument "origin", any subsequent
+				arguments shall be processed normally but within the environment of Kaeon Origin
+				Axis.
 			-

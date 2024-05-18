@@ -1,0 +1,15 @@
+Axis Stone
+
+	Philosophy
+
+		-
+			An Axis Stone is a globally available value within a process to which any node on a
+			Philosopher's Atlas may connect.
+
+			There should only be one value designated as such, so it may serve as the common link
+			between all Philosopher's Atlas nodes in the process to which it belongs. The nodes to
+			which an Axis Stone is directly or indirectly connected constitute an Axis Atlas.
+
+			A codified convention regarding how to make use of said common link is referred to as
+			an Axis Convention.
+		-

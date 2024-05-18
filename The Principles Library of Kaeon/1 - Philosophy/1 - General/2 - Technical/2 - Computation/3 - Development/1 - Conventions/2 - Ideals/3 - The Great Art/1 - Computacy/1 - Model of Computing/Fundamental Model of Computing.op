@@ -15,34 +15,34 @@ Fundamental Model of Computing
 
 	Principles
 
-		Definitions
+		The Six Definitions
 
-			Program
+			1 - Program
 
 				-
 					A program is a set of data from which a sequence of steps may be derived.
 				-
 
-			Programming Language
+			2 - Programming Language
 
 				-
 					A programming language is a method of deriving a set of steps from a set of
 					data.
 				-
 
-			Code
+			3 - Code
 
 				-
 					Code is the visual or physical representation of a program.
 				-
 
-			Computer
+			4 - Computer
 
 				-
 					A computer is a mechanism that performs computation.
 				-
 
-			Memory
+			5 - Memory
 
 				-
 					Memory is an external mechanism that a computer can connect to through which
@@ -51,7 +51,7 @@ Fundamental Model of Computing
 					Data within memory may be organized.
 				-
 
-			Programmer
+			6 - Programmer
 
 				-
 					A programmer is one who creates programs via constructing code.

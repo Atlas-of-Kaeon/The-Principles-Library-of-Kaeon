@@ -9,12 +9,24 @@ Kaeon United Browser Requests
 
 	Principles
 
+		Additional Interfaces
+
+			-
+				The Kaeon United browser application singularity may have the argument
+				"interfaces", containing a stringified JSON list of string paths for interface ACE
+				files to integrate into the singularity's interface.
+			-
+
 		Kaeon Origin
 
 			-
 				If no arguments are present in a request to the Kaeon United browser application
 				singularity, a page containing the Kaeon Origin shall be rendered, with Kaeon
 				Origin in this mode being referred to as the Kaeon Origin application.
+
+				The Kaeon Origin application shall implement Open Axis, and shall provide the
+				"call" command, which shall perform an open traversal with an axis packet
+				consisting of a string list of the arguments passed to said command.
 			-
 
 		Shadow Host
@@ -49,12 +61,10 @@ Kaeon United Browser Requests
 			Applications
 
 				-
-					Kaeon United may redirect to other applications.
-
 					If a request is made to the Kaeon United browser application singularity with
 					the URL argument "app", and said argument contains the module ID string of a
-					United Javascript based application for which the source code is specified in a
-					JavaScript module referenced in the current suite of the singularity, the page
-					shall redirect to said application, and shall pass along all URL arguments
-					passed to it except for "app".
+					United Javascript or Kaeon FUSION based application for which the source code
+					is specified in a module referenced in the suite of the singularity, the page
+					shall load said application, and shall pass along all URL arguments passed to
+					it except for "app".
 				-

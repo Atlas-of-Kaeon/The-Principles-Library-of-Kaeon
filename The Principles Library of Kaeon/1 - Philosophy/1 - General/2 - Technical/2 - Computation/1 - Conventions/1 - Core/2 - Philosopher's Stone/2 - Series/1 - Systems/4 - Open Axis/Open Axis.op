@@ -1,0 +1,55 @@
+Open Axis
+
+	Philosophy
+
+		-
+			Open Axis is an axis convention for establishing standard sub-processes to operate on
+			the Axis Atlas of a given process.
+
+			Such processes shall, unless otherwise specified, operate on said Atlas by traversing
+			over it upon certain triggers and passing a certain type of value to the standard
+			function of all nodes in said Atlas which abide by the standard Philosopher's medium.
+			Such traversals are referred to as open traversals, the values passed to the standard
+			functions are referred to as axis packets, and the values returned by said functions
+			during said traversals are referred to as axis responses.
+		-
+
+	Principles
+
+		Standard Nodes
+
+			Universal
+
+				Axis Clock
+
+					-
+						The Axis clock is a node on a Philosopher's Atlas which, at regular
+						intervals, performs an open traversal with a number as its atlas packet,
+						specifying the time in seconds since the last open traversal performed by
+						it.
+					-
+
+			Backend
+
+				Axis Server
+
+					-
+						The Axis server is a node on a Philosopher's Atlas which hosts a server
+						that performs an open traversal whenever it receives a request, with the
+						atlas packet being said request converted to HTTP JSON, and returns to the
+						client a response generated from any response HTTP JSON objects returned
+						among the axis responses, with the body of the response being a stringified
+						JSON list of the bodies of all such responses if more than one response
+						with a body is returned.
+					-
+
+		Axis Web Server
+
+			-
+				An axis web server, which is implemented upon Open Axis, shall act as a virtual
+				dot, a modular service, a JSH server, and an Aether Host. If an axis web server is
+				accessed through the frontend, it shall load a frontend virtual system, which shall
+				have access to the system on which the server is running. An axis web server may
+				optionally function as a SOUL bot, and may optionally employ security measures
+				restricting certain external inputs to those with certain credentials.
+			-

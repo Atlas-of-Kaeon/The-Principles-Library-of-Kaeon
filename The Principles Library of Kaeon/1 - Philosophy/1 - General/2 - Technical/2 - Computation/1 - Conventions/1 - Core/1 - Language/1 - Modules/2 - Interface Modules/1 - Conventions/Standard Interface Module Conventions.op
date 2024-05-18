@@ -68,10 +68,12 @@ Standard Interface Module Conventions
 
 					-
 						A utility may have the type property, which may have the values library,
-						component, or plugin, among others, with library indicating that the
-						utility is a library to be imported into a program, with component
-						indicating that the utility is a modular service plugin, and with plugin
-						indicating that the utility is a plugin for another type of system.
+						component, plugin, or application, among others, with library indicating
+						that the utility is a library to be imported into a program, with component
+						indicating that the utility is a modular service plugin, with plugin
+						indicating that the utility is a plugin for another type of system, and
+						with application indicating that the utility is an application in and of
+						itself.
 					-
 
 				Environment

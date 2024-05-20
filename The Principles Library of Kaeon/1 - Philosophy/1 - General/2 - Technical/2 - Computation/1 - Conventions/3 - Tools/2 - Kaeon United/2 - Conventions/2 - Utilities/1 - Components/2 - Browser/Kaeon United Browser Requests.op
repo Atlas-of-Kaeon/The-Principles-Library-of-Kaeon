@@ -13,8 +13,11 @@ Kaeon United Browser Requests
 
 			-
 				The Kaeon United browser application singularity may have the argument
-				"interfaces", containing a stringified JSON list of string paths for interface ACE
-				files to integrate into the singularity's interface.
+				"interfaces" or "interfaces-override", containing a stringified JSON list of string
+				paths for interface ACE files to integrate into the singularity's interface.
+
+				If the "interfaces-override" argument is used, the default suite is to be removed
+				from the suite of the singularity.
 			-
 
 		Kaeon Origin

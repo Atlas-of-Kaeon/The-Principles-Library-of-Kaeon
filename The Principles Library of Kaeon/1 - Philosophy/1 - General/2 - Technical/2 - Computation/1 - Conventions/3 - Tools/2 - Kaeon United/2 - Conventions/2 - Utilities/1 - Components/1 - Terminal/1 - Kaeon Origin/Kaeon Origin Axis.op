@@ -1,0 +1,45 @@
+Kaeon Origin Axis
+
+	Philosophy
+
+		-
+			When the Kaeon United terminal singularity is executed with no arguments, or executed
+			with the argument "origin", it shall execute Kaeon Origin which shall host an axis web
+			server within it, and in this mode, Kaeon Origin shall be referred to as Kaeon Origin
+			Axis.
+		-
+
+	Principles
+
+		Processes
+
+			Arguments
+
+				-
+					If Kaeon Origin Axis is executed with the argument "origin", any subsequent
+					arguments shall be processed normally but within the environment of Kaeon
+					Origin Axis.
+				-
+
+			UCM
+
+				-
+					If a GET request is sent to Kaeon Origin Axis with a URL argument with the
+					alias "ucm", containing a stringified UCM JSON object, the contents of said
+					object shall be executed by the server and any value returned shall be returned
+					in string form in the body of the response.
+				-
+
+			Virtual System
+
+				-
+					In the case of Kaeon Origin Axis, the virtual system loaded by the client shall
+					be that of the Kaeon Origin application.
+				-
+
+		Security
+
+			-
+				The functionality of Kaeon Origin Axis may be limited in certain contexts for
+				security purposes.
+			-

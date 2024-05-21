@@ -1,0 +1,19 @@
+Kaeon Origin Application
+
+	Philosophy
+
+		-
+			If no arguments are present in a request to the Kaeon United browser application
+			singularity, a page containing the Kaeon Origin shall be rendered, with Kaeon Origin in
+			this mode being referred to as the Kaeon Origin application.
+		-
+
+	Principles
+
+		Open Axis
+
+			-
+				The Kaeon Origin application shall implement Open Axis, and shall provide the
+				"call" command, which shall perform an open traversal with an axis packet
+				consisting of a string list of the arguments passed to said command.
+			-

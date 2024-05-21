@@ -12,29 +12,17 @@ Kaeon United Browser Requests
 		Additional Interfaces
 
 			-
-				The Kaeon United browser application singularity may have the argument
-				"interfaces" or "interfaces-override", containing a stringified JSON list of string
-				paths for interface ACE files to integrate into the singularity's interface.
+				The Kaeon United browser application singularity may have the argument "use" or
+				"use-over", containing a stringified JSON list of string paths for interface ACE
+				files to integrate into the singularity's interface.
 
-				If the "interfaces-override" argument is used, the default suite is to be removed
-				from the suite of the singularity.
+				If the "use-over" argument is used, the default suite is to be removed from the
+				suite of the singularity.
 			-
 
-		Kaeon Origin
+		Requests
 
-			-
-				If no arguments are present in a request to the Kaeon United browser application
-				singularity, a page containing the Kaeon Origin shall be rendered, with Kaeon
-				Origin in this mode being referred to as the Kaeon Origin application.
-
-				The Kaeon Origin application shall implement Open Axis, and shall provide the
-				"call" command, which shall perform an open traversal with an axis packet
-				consisting of a string list of the arguments passed to said command.
-			-
-
-		Shadow Host
-
-			User Content
+			Shadow Host
 
 				-
 					If the Kaeon United browser application singularity is used as a shadow host,

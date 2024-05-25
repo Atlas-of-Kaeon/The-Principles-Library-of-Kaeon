@@ -13,7 +13,7 @@ Plugin JSON
 			-
 				A plugin JSON object shall either have a field with the alias "locations",
 				containing a list of strings specifying possible locations at which the interface
-				module the object represents may be found, or a field with the alias "module",
+				module the object represents may be found, or a field with the alias "source",
 				containing the interface module it represents as an interface ACE ONE JSON value.
 
 				A plugin JSON object may have a field with the alias "protocols", which may have a
@@ -33,9 +33,7 @@ Plugin JSON
 			-
 				Plugin log JSON is a JSON list schema for plugin module logs.
 
-				A plugin module log list consists of a list of strings specifying the locations of
-				the documents containing the plugin JSON objects representing the interface modules
-				currently installed within a given environment.
-
-				The standard name for a plugin log JSON file is "plugins.json".
+				A plugin module log list may contain plugin JSON objects, as well as strings
+				specifying the locations of documents containing plugin JSON objects, said objects
+				representing the interface modules currently installed within a given environment.
 			-

@@ -14,3 +14,10 @@ Kaeon United Terminal Singularities
 				The Kaeon United terminal singularities shall use a standard auto-cache protocol
 				when operating locally.
 			-
+
+		Use File
+
+			-
+				The Kaeon United terminal singularities shall use a use file for environment
+				configuration, with the standard use file conventions in effect.
+			-

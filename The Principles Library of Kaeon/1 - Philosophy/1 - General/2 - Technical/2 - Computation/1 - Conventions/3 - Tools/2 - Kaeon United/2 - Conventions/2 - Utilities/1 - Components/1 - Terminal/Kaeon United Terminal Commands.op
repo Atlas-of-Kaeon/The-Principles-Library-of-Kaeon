@@ -9,17 +9,6 @@ Kaeon United Terminal Commands
 
 	Principles
 
-		Additional Interfaces
-
-			-
-				Any Kaeon United terminal command may be followed with the flag "-use" or the flag
-				"-use-over", signaling that every subsequent argument is the path to an additional
-				interface module to integrate into the suite of the singularity.
-
-				If the "-use-over" flag is used, the default suite is to be removed from the suite
-				of the singularity.
-			-
-
 		Commands
 
 			Standard Commands
@@ -46,3 +35,15 @@ Kaeon United Terminal Commands
 					application shall be executed, with all subsequent arguments of the app command
 					which invoked it passed to it.
 				-
+
+		Use Files
+
+			-
+				Any Kaeon United terminal command may be followed with the flag "-use", signaling
+				that every subsequent argument is either the content of or the path to a use file
+				which shall be put into effect along with any local use file for the duration of
+				the process.
+
+				If the "-use-over" flag is used, the default suite is to be removed from the suite
+				of the singularity.
+			-

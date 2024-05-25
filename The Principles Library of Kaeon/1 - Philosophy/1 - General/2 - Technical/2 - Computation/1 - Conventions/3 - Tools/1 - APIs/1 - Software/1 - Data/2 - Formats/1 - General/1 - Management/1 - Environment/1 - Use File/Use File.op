@@ -1,0 +1,20 @@
+Use File
+
+	Philosophy
+
+		-
+			A use file is a file written in a data interchange format which either is, or may be
+			converted to, ONE, which contains an ACE document, and which has the name "use".
+
+			The purpose of a use file is to specify environment configurations for a given process,
+			namely one running in the directory in which it is located.
+		-
+
+	Principles
+
+		Conventions
+
+			-
+				An ACE convention specifying how elements of a use file are to be interpreted is
+				referred to as a use file convention.
+			-

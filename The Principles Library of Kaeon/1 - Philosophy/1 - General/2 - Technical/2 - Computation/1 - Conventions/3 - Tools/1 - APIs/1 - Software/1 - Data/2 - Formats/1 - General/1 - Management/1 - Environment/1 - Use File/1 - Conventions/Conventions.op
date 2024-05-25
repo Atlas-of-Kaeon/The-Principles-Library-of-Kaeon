@@ -1,0 +1,27 @@
+Standard Use File Conventions
+
+	Philosophy
+
+		-
+			This document lists use file conventions.
+		-
+
+	Principles
+
+		Override
+
+			-
+				The override use file convention allows a use file to have a child of the root
+				element with the content "override", case insensitive, which may have a child with
+				a stringified boolean as its content, case insensitive. If said boolean is true,
+				and the process to which the use file is associated is a Philosopher's Singularity,
+				the default suite of said singularity shall be disabled.
+			-
+
+		Plugins
+
+			-
+				The plugins use file convention allows a use file to have a child of the root
+				element with the content "plugins", case insensitive, within which shall be nested
+				the content of a plugin log JSON list converted to ONE.
+			-

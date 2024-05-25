@@ -10,10 +10,40 @@ Kaeon Origin Application
 
 	Principles
 
-		Open Axis
+		Conventions
+
+			Alias
+
+				-
+					The application aliases of the Kaeon Origin Application shall be "origin" and
+					"kaeon-origin".
+				-
+
+			Default Configurations
+
+				-
+					The default content's of the Kaeon Origin Application's file system and the
+					commands it shall execute by default on startup shall be stored in a system
+					JSON file, called the default configuration file, at a fixed online location.
+				-
+
+			Open Axis
+
+				-
+					The Kaeon Origin application shall implement Open Axis, and shall provide the
+					"call" command, which shall perform an open traversal with an axis packet
+					consisting of a string list of the arguments passed to said command.
+				-
+
+			Virtual System
+
+				-
+					The Kaeon Origin Application shall operate as a conventional virtual system.
+				-
+
+		Kaeon United
 
 			-
-				The Kaeon Origin application shall implement Open Axis, and shall provide the
-				"call" command, which shall perform an open traversal with an axis packet
-				consisting of a string list of the arguments passed to said command.
+				Kaeon Origin's virtual system shall provide access to the CLI functionality of
+				Kaeon United.
 			-

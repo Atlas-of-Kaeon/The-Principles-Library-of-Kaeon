@@ -78,7 +78,7 @@ Local Network Cache
 					array which contains said resource.
 					
 					A standard network cache shall, unless specified otherwise, be stored as a file
-					with the name "package-cache.json"
+					with the name "localCache.json"
 
 					An auto-cache protocol that uses a standard network cache is called a standard
 					auto-cache protocol.

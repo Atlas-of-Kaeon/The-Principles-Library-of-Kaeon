@@ -9,17 +9,6 @@ Kaeon United Browser Requests
 
 	Principles
 
-		Additional Interfaces
-
-			-
-				The Kaeon United browser application singularity may have the argument "use" or
-				"use-over", containing a stringified JSON list of string paths for interface ACE
-				files to integrate into the singularity's interface.
-
-				If the "use-over" argument is used, the default suite is to be removed from the
-				suite of the singularity.
-			-
-
 		Requests
 
 			Shadow Host
@@ -59,3 +48,15 @@ Kaeon United Browser Requests
 					shall load said application, and shall pass along all URL arguments passed to
 					it except for "app".
 				-
+
+		Use Files
+
+			-
+				The Kaeon United browser application singularity may have the argument "use",
+				containing a stringified JSON list of strings, each of which is either the content
+				of or the path to a use file which shall be put into effect for the duration of the
+				process.
+
+				If the "use-over" argument is used, the default suite is to be removed from the
+				suite of the singularity.
+			-

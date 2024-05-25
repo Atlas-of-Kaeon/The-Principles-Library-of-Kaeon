@@ -50,5 +50,6 @@ Conventional Service
 
 				-
 					Plugins used by the service shall be in the form of interface modules, and
-					shall be tracked using a plugin log in the form of a plugin log JSON file.
+					shall be tracked using a plugin log in the form of a plugin log JSON list
+					specified in the environment configurations of the service.
 				-

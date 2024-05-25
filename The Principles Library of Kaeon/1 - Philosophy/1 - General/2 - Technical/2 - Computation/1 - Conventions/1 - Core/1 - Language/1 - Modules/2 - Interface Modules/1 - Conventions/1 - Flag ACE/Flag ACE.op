@@ -1,0 +1,67 @@
+Flag ACE
+
+	Philosophy
+
+		-
+			Flag ACE is a set of Kaeon ACE conventions for specifying configuration settings for
+			processes to which it is associated, and for specifying procedures to execute when
+			integrating its content into certain contexts.
+		-
+
+	Principles
+
+		Kaeon ACE Conventions
+
+			Flag
+
+				-
+					A flag component is a Kaeon ACE component with the content "Flag", which may
+					have any children such that said children specify configuration settings for
+					any process to which the document of its entity is associated.
+
+					A codified convention for the content and effect of children of a flag
+					component is called a flag convention.
+				-
+
+			Protocol
+
+				-
+					A protocol component is a Kaeon ACE component with the content "Protocol",
+					which may have trigger elements as children, the children of trigger elements
+					containing terminal commands to execute upon a certain trigger, the order of
+					said children being the order to execute said commands in, and the content of
+					trigger elements specifying said trigger.
+
+					A codified convention for the content and effect of the content of a trigger
+					element is called a flag protocol convention.
+				-
+
+		Component Conventions
+
+			Flag Conventions
+
+				Override
+
+					-
+						A flag component may have a child with the content "Override", which, if
+						the process to which it is associated is a Philosopher's Singularity, shall
+						cause the default suite of said singularity to be disabled.
+					-
+
+			Flag Protocol Conventions
+
+				Install
+
+					-
+						A trigger element may have the content "Install", the trigger for such a
+						trigger element being the installation of the document to which it is
+						associated into a new environment.
+					-
+
+				Uninstall
+
+					-
+						A trigger element may have the content "Uninstall", the trigger for such a
+						trigger element being the uninstallation of the document to which it is
+						associated from its environment.
+					-

@@ -36,14 +36,11 @@ Kaeon United Terminal Commands
 					which invoked it passed to it.
 				-
 
-		Use Files
+		Use Argument
 
 			-
 				Any Kaeon United terminal command may be followed with the flag "-use", signaling
-				that every subsequent argument is either the content of or the path to a use file
-				which shall be put into effect along with any local use file for the duration of
-				the process.
-
-				If the "-use-over" flag is used, the default suite is to be removed from the suite
-				of the singularity.
+				that every subsequent argument is either the content of or the path to a Kaeon ACE
+				document to integrate into the suite of the singularity for the duration of the
+				process.
 			-

@@ -25,8 +25,8 @@ United JavaScript
 				local system or a URL to an online resource.
 				
 				The require function may take an optional second argument in the form of an object.
-				Said object may have the fields "async", "dynamic", "global", "reload", and
-				"cache".
+				Said object may have the fields "async", "dynamic", "global", "reload", "cache",
+				and "use".
 
 				The async field, if present, shall contain either a function, a boolean, or a null
 				value. If a function or a boolean is provided, it shall indicate that the require
@@ -56,6 +56,11 @@ United JavaScript
 				that the module specified by the path parameter is a standard network cache for
 				which all compatible resources are to be pre-cached for later use, and that the
 				require function is to return null.
+				
+				The use field, if present, shall contain a boolean which, if true, shall indicate
+				that the module specified by the path parameter is an interface module to be
+				integrated into the suite of any Philosopher's Singularity that UnitedJS is
+				operating within, and that the require function is to return null.
 			-
 
 		Asynchronous Conventions

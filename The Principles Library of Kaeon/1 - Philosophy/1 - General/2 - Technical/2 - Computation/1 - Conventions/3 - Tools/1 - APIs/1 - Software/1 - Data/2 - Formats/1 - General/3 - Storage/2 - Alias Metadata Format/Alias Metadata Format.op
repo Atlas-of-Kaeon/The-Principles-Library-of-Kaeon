@@ -13,8 +13,13 @@ Alias Metadata Format
 			period, and an extension sequence, spanning from after the last period to the end of
 			the alias.
 
-			The content sequence shall be divided into segments by periods which represent
-			key-value pairs, and each segment shall be divided by hyphens, with the section prior
-			to the hyphen denoting the key, and with the section after the hyphen denoting the
-			value.
+			The content sequence shall be divided into segments by periods, referred to as metadata
+			segments, representing metadata about the referenced item.
+			
+			To represent a key-value pair, a metadata segment may be divided by a hyphen, with the
+			section prior to the hyphen denoting the key, and with the section after the hyphen
+			denoting the value.
+
+			A codified convention specifying the content and effect of a metadata segment shall be
+			referred to as an alias metadata convention.
 		-

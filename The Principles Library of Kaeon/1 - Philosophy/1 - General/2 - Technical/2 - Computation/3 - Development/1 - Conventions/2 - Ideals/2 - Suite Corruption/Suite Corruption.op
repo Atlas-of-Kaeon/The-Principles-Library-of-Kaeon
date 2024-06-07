@@ -9,22 +9,22 @@ Suite Corruption
 
 	Principles
 
-		The Seven Deadly Sins
+		1 - The Seven Deadly Sins
 
-			1 - Payment
+			1.1 - Payment
 
 				-
 					Payment is when a tool charges for its use, though a freemium model mitigates
 					the severity of it.
 				-
 
-			2 - Signup
+			1.2 - Signup
 
 				-
 					Signup is when a tool requires the submission of user information for its use.
 				-
 
-			3 - Setup
+			1.3 - Setup
 
 				-
 					Setup is when a tool requires the user to manually register for, or install,
@@ -32,29 +32,48 @@ Suite Corruption
 					required.
 				-
 
-			4 - Decay
+			1.4 - Decay
 
 				-
 					Decay is when a tool loses support or compatibility over time.
 				-
 
-			5 - Rigor
+			1.5 - Rigor
 
 				-
 					Rigor is when a tool requires highly specialized knowledge for its use where
 					reasonable abstractions are possible to mitigate said barrier.
 				-
 
-			6 - Excess
+			1.6 - Excess
 
 				-
 					Excess is where the interface of a tool is excessively obtuse, taking its most
 					severe form when the tool is only usable through visual interfaces.
 				-
 
-			7 - Limits
+			1.7 - Limits
 
 				-
-					Limits, the most severe of the seven sins, is when a tool binds the user to a
-					specific environment with no clear analogues in others.
+					Limits, the most severe of the seven sins, is when the usage of a tool makes
+					certain types of development impossible to perform.
+				-
+
+		2 - The Sins of Bondage
+
+			2.1 - The Sin of Commitment
+
+				-
+					The sin of commitment is when the usage of certain tools render others
+					unusable.
+					
+					Thus, it forces commitment to one stack at the expense of others and renders
+					migration itself impossible without restarting from scratch.
+				-
+
+			2.2 - The Sin of Baggage
+
+				-
+					The sin of baggage is when a tool cannot be used independently of a specific
+					environment.
 				-

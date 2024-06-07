@@ -16,7 +16,8 @@ Open Universe Core
 					The core seed is the number used to seed the algorithm responsible for
 					generating the procedurally generated content of the simulation.
 
-					If no core seed is specified, it shall be set to zero.
+					In line with the default value conventions, if no core seed is specified, it
+					shall be set to zero.
 				-
 
 			Universal Time

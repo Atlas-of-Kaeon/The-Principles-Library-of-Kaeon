@@ -1,0 +1,17 @@
+ONE to Kaeon ACE
+
+	Philosophy
+
+		-
+			A ONE element which is not Kaeon ACE may be converted to Kaeon ACE using the following
+			conventions:
+
+			A ONE element which has children shall be converted to an entity for which its content
+			becomes its entity alias. A ONE element which has no children shall be converted to a
+			content component containing as its sole child an element with its content. Such
+			elements, if they are children of other elements, shall be assigned to item generated
+			from their parent.
+
+			The exception to the aforementioned conventions is the root element of a ONE document,
+			which shall be converted to a use element.
+		-

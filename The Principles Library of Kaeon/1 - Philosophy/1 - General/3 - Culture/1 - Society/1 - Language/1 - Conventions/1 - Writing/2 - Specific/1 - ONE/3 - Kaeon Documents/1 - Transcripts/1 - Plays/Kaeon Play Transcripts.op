@@ -1,0 +1,34 @@
+Kaeon Play Transcripts
+
+	Philosophy
+
+		-
+			This document lists conventions for Kaeon Transcripts used for plays and screenplays.
+		-
+
+	Principles
+
+		Types
+
+			-
+				The item type for item elements shall be "Item". Item elements may be stored in
+				"Scene" section elements, and scene section elements may be stored in "Act"
+				elements.
+
+				Item elements with multiple lines may act as section elements for which the item
+				elements therein shall have the type "Subitem".
+			-
+
+		Names
+
+			-
+				Act and scene elements may each have unique names.
+
+				Item elements may have names denoting their type, said types being "DIALOGUE",
+				"CONTEXT", for detailing information regarding the action taking place, and
+				"DETAIL", for detailing information regarding the presentation of said action.
+
+				Dialogue elements shall have their name conclude with a space, followed by a
+				hyphen, followed by a space, followed by the identity of the speaker to which it
+				pertains.
+			-

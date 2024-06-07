@@ -1,0 +1,9 @@
+Default Value Convention
+
+	Philosophy
+
+		-
+			The default value convention holds that the default value for a primitive is whatever
+			value a binary value of zero corresponds to, and that the default contents of a
+			construct or collection are empty.
+		-

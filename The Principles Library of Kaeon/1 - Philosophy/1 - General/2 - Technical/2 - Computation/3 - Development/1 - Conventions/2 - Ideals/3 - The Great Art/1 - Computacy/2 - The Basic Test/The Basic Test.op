@@ -1,0 +1,38 @@
+The Basic Test
+
+	Philosophy
+
+		-
+			A basic test refers to any test designed to confirm functional computacy.
+		-
+
+	Principles
+
+		Preparation
+
+			-
+				In and of themselves, the essential principles of functional computacy can be
+				taught to anyone fairly quickly, in a few hours or less; but mastery sufficient to
+				pass the basic test may take longer.
+			-
+
+		The General Basic Test
+
+			Format
+
+				-
+					The general basic test is a test of functional computacy where the subject is
+					to iterate over a list, apply one of two functions to each element of the list
+					according to whether the index is odd or even, append the return values of said
+					functions to a new list in order, and log the content of the new list at the
+					end.
+				-
+
+			Default
+
+				-
+					The default general test has the original list contain the upper case letters
+					of the alphabet, has the first function return the input string converted to
+					lower case, and has the second function return a boolean indicating whether the
+					input string is included in the string "HELLO, WORLD!".
+				-

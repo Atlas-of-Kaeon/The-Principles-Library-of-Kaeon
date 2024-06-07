@@ -5,8 +5,10 @@ Style JSON
 		-
 			A style JSON object is a JSON object that corresponds to a CSS stylesheet.
 			
-			Each field within a style JSON object shall have a key specifying a CSS selector, and
-			shall have a field JSON object as a value, where each field therein represents a CSS
-			style, with the key specifying the style alias and the value specifying the style
-			content.
+			Each field within a style JSON object shall have a key specifying either a CSS selector
+			or a CSS media rule. A field with a key specifying a CSS selector shall have a field
+			JSON object as its value, where each field therein represents a CSS style, with the key
+			specifying the style alias and the value specifying the style content. A field with a
+			key specifying a CSS media rule shall have a style JSON object as its value,
+			representing the CSS content of said media rule.
 		-

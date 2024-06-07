@@ -29,4 +29,6 @@ Soft Programming
 				referred to as seed prompts, and initial prompts that are provided by a user are
 				referred to as request prompts. In a soft programming algorithm with a single
 				initial prompt, said prompt is referred to as the master prompt.
+
+				Codified collections of prompt protocol are referred to as prompt libraries.
 			-

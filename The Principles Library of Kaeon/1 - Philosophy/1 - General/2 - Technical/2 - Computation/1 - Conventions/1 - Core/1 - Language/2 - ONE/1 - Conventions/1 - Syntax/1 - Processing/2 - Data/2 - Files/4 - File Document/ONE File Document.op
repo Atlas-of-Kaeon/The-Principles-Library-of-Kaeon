@@ -20,4 +20,7 @@ ONE File Document
 				content of said child is the content of said file, and if said file is a ONE
 				document, said element has the children of the root element of said ONE document as
 				its children.
+
+				Files storing ONE documents may be encoded in any format that may be converted to
+				ONE.
 			-

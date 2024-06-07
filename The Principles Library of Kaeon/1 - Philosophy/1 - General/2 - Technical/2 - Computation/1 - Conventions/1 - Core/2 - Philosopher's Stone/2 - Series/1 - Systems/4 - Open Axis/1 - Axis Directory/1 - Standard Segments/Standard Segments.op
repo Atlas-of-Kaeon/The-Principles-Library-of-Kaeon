@@ -1,0 +1,54 @@
+Standard Segments
+
+	Philosophy
+
+		-
+			This document lists metadata segments for use by files in axis directories.
+		-
+
+	Principles
+
+		API
+
+			-
+				Any JavaScript file in an axis directory with the metadata segment "api" shall be
+				executed upon a request that retrieves it, and shall return an HTTP JSON object
+				specifying the response to be returned to the client.
+
+				Alternatively, such a segment may be a key-value pair segment, with "api" as the
+				key, and the intended HTTP method used to access it being the value, such that any
+				request not using said method will fail to access it.
+			-
+
+		App
+
+			-
+				Any JavaScript file in an axis directory with the metadata segment "app" shall be
+				preprocessed to an HTML page which runs the content of said file as United
+				JavaScript via Kaeon United.
+			-
+
+		Private
+
+			-
+				Any file in an axis directory with the metadata segment "private" shall be
+				inaccessible via request.
+			-
+
+		PUP
+
+			-
+				The universal preprocessor shall be applied to any file in an axis directory with
+				the metadata segment "PUP".
+
+				The tags in said file, when processed, shall receive as their first external
+				argument an HTTP JSON object specifying the content of the request that retrieved
+				said file.
+			-
+
+		Task
+
+			-
+				Any JavaScript file in an axis directory with the metadata segment "task" shall be
+				executed periodically by the server as a script in a perpetual background process.
+			-

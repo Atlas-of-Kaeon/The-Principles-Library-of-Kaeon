@@ -1,0 +1,65 @@
+Axis Directory
+
+	Philosophy
+
+		-
+			An axis directory is a directory used by a web server to store publicly accessible
+			content.
+		-
+
+	Principles
+
+		Conventions
+
+			Alias Metadata
+
+				-
+					The alias metadata format may be applied to files in axis directories.
+					
+					By default, files in axis directories act as publicly accessible static
+					content, though metadata segments in their file names may change this.
+
+					Metadata segments used on such files are case insensitive.
+				-
+
+			Overlay
+
+				-
+					All axis directories used by a given web server shall be virtually overlaid
+					using folder overlay, the resulting directory being referred to as the axis
+					directory of the server.
+				-
+
+			Routing
+
+				-
+					The subdirectories of a URL shall specify a path within the axis directory of
+					the server at which the desired resource may be found, with the MIME type set
+					according to the file extension, unless altered by metadata segments.
+					
+					For the file name, only the ID sequence is necessary for any file without
+					metadata segments.
+
+					If no file name is specified for a folder in which a file with the ID sequence
+					"index" is present, said file shall be retrieved.
+
+					If multiple files matching the specified path are located, they shall be sorted
+					alphabetically, and the first in the resulting order shall be retrieved.
+
+					The server may have a default redirect set for a 404 error. If no such redirect
+					is set, the server shall return a plain text message reading "404: Not Found".
+				-
+
+		Defaults
+
+			Name
+
+				-
+					The default name for a folder used to store an Axis directory is "Axis".
+				-
+
+			Open Axis
+
+				-
+					An axis web server shall use an axis directory.
+				-

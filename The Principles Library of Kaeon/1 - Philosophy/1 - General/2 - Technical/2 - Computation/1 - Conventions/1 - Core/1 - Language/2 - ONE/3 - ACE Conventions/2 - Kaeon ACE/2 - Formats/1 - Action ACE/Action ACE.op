@@ -1,0 +1,20 @@
+Action ACE
+
+	Philosophy
+
+		-
+			Action ACE is a set of Kaeon ACE conventions which extend query ACE with the action
+			component, the content of which is "Action", and which may be used for querying
+			external databases using the children of said component, according to codified
+			protocols referred to as action ACE protocols.
+			
+			Said databases shall be identified using paths nested within a locations component, and
+			may have their content mapped to Kaeon ACE, according to codified protocols referred to
+			as action ACE conventions.
+
+			The results of said queries shall, by default, be appended to the scope of the entities
+			from which said queries are sent, according to action ACE protocols. The default action
+			ACE protocol is to stringify the response content and append an element containing said
+			stringified content as a child of the content component, adding the component to the
+			entity if it is not already present.
+		-

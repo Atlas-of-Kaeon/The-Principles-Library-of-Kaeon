@@ -14,12 +14,14 @@ Axis Directory
 			Alias Metadata
 
 				-
-					The alias metadata format may be applied to files in axis directories.
+					The alias metadata format may be applied to files and folders in axis
+					directories.
 					
-					By default, files in axis directories act as publicly accessible static
-					content, though metadata segments in their file names may change this.
+					By default, items in axis directories act as publicly accessible static
+					content, though metadata segments in their file names may change this. Items
+					identified via metadata segments as publicly inaccessible are private.
 
-					Metadata segments used on such files are case insensitive.
+					Metadata segments used on such items are case insensitive.
 				-
 
 			Overlay
@@ -42,6 +44,10 @@ Axis Directory
 
 					If no file name is specified for a folder in which a file with the ID sequence
 					"index" is present, said file shall be retrieved.
+
+					If no file name is specified for a folder with no such index file, a plain text
+					response shall be sent containing the contents of said folder, save for any
+					private items, which by default shall be specified using a directory JSON list.
 
 					If multiple files matching the specified path are located, they shall be sorted
 					alphabetically, and the first in the resulting order shall be retrieved.

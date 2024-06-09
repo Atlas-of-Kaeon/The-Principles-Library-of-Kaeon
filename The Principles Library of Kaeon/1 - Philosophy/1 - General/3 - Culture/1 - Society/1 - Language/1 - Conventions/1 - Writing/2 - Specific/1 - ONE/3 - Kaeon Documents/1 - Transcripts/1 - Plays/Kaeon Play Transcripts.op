@@ -17,6 +17,9 @@ Kaeon Play Transcripts
 
 				Item elements with multiple lines may act as section elements for which the item
 				elements therein shall have the type "Subitem".
+
+				Item elements intended to be presented parallel to each other may be nested in
+				split elements, which shall have the name "SPLIT".
 			-
 
 		Names
@@ -28,7 +31,8 @@ Kaeon Play Transcripts
 				"CONTEXT", for detailing information regarding the action taking place, and
 				"DETAIL", for detailing information regarding the presentation of said action.
 
-				Dialogue elements shall have their name conclude with a space, followed by a
-				hyphen, followed by a space, followed by the identity of the speaker to which it
-				pertains.
+				Dialogue elements with no subitems or which have the same speaker for all subitems,
+				as well as subitems of dialogue elements for which the speaker varies between
+				subitems, shall have their name conclude with a space, followed by a hyphen,
+				followed by a space, followed by the identity of the speaker to which they pertain.
 			-

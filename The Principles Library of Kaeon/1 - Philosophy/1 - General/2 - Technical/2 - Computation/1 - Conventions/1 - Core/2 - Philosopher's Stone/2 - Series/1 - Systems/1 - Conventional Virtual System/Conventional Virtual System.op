@@ -88,8 +88,28 @@ Conventional Virtual System
 							global path, and a list of string arguments for said command, which
 							shall execute said file as a command with said arguments, and shall
 							return the value returned by the commands, which should be a string,
-							but does not have to be.
+							but does not have to be. The execute function may operate differently
+							depending on the location of the executed file.
 						-
+
+					I/O Override
+
+						API Override
+
+							-
+								A conventional virtual system shall, to whatever extent possible,
+								override the IO APIs its environment uses by default to read from
+								and write to the virtual file system as well the native
+								environment.
+							-
+
+						Error Handling
+
+							-
+								A conventional virtual system shall store any file that fails to be
+								persisted to external memory in runtime memory, such that it may be
+								read from so long as the process remains active.
+							-
 
 			System Conventions
 
@@ -109,60 +129,97 @@ Conventional Virtual System
 							shell in use.
 						-
 
-		Online Conventions
+		Standard Conventions
 
-			User Configurations
+			Standard Disks
 
-				-
-					When accessing a conventional virtual system operating in a web browser, the
-					user may append, to its URL, arguments for overriding or extending its
-					configurations.
-
-					An argument with the alias "config" may contain either a URL, or a JSON list of
-					strings containing URLs, with each URL pointing to a system JSON file, which
-					shall be implemented alongside, or in place of, the default configuration file.
-
-					An argument with the alias "override" may contain either the string "true", or
-					the string "false", and if said argument is present and contains the string
-					"true", then the default configuration file shall not be implemented on
-					startup.
-				-
-
-			Disks
-
-				-
-					By default, the virtual file system of a conventional virtual system operating
-					in a web browser shall use a disk defined by a file JSON object stored in a
-					browser cookie with the alias "Storage", shall allow the use of HTTP and HTTPS
-					via disks with the aliases "HTTP" and "HTTPS" respectively, and shall allow
-					access to the local file system using a JSH plugin, if one is in use, via a
-					disk with the alias "File".
-				-
-
-			Code
-
-				-
-					Executable files in conventional virtual systems operating in web browsers
-					shall be written in JavaScript and shall use a ".js" file extension.
-				-
-
-		Interface Conventions
-
-			Shells
-
-				Terminal
+				HTTP and HTTPS
 
 					-
-						The default shell for a conventional virtual system is a terminal
-						interface, where commands submitted via the terminal are executed within
-						the virtual system, and where output from processes initiated by said
-						commands is logged to said terminal.
-
-						The terminal shall at any given time operate within a given folder, and
-						commands built into the virtual file system shall allow the terminal to
-						navigate among the file system.
-
-						The terminal may be assigned an indefinite number of file paths in which
-						executable files may be placed and referenced by their file names alone as
-						opposed to their absolute or relative paths.
+						By default, the virtual file system of a conventional virtual system shall
+						allow the use of HTTP and HTTPS via disks with the aliases "HTTP" and
+						"HTTPS" respectively.
 					-
+
+				IP
+
+					-
+						An IP disk, the alias of which may be an IP address or a DNS domain,
+						represents the file system of the machine located at said address or
+						domain, in which the drives of said machine are treated as ordinary
+						directories nested within the IP disk.
+
+						Commands executed within the scope of an IP disk shall, by default, be
+						executed on the machine to which said disk pertains.
+					-
+
+				Storage
+
+					-
+						By default, the virtual file system of a conventional virtual system shall
+						use a disk defined by a file JSON object with the alias "Storage".
+
+						This disk shall be stored in memory, and shall be persisted to a local
+						storage mechanism, if possible, such that its contents may remain between
+						sessions.
+						
+						Such storage mechanisms may include the local storage if running in the
+						browser, and the local file system if running natively.
+					-
+
+			Online Conventions
+
+				User Configurations
+
+					-
+						When accessing a conventional virtual system operating in a web browser,
+						the user may append, to its URL, arguments for overriding or extending its
+						configurations.
+
+						An argument with the alias "config", if present, may contain either a URL,
+						or a JSON list of strings containing URLs, with each URL pointing to a
+						system JSON file, which shall be implemented alongside, or in place of, the
+						default configuration file.
+
+						An argument with the alias "override", if present, may contain either the
+						string "true", or the string "false", and if said argument contains the
+						string "true", then the default configuration file shall not be implemented
+						on startup.
+
+						An argument with the alias "IP", if present, shall contain a JSON list of
+						strings specifying the IP address or domain names of IP disks to use during
+						the session.
+					-
+
+				JavaScript
+
+					-
+						Outside of IP disks, executable files in conventional virtual systems
+						operating in web browsers shall be written in JavaScript and shall use a
+						".js" file extension.
+					-
+
+			Interface Conventions
+
+				Shells
+
+					Terminal
+
+						-
+							The default shell for a conventional virtual system is a terminal
+							interface, where commands submitted via the terminal are executed
+							within the virtual system, and where output from processes initiated by
+							said commands is logged to said terminal.
+
+							The terminal shall at any given time operate within a given folder, and
+							commands built into the virtual file system shall allow the terminal to
+							navigate among the file system.
+
+							The terminal may be assigned an indefinite number of file paths in
+							which executable files may be placed and referenced by their file names
+							alone as opposed to their absolute or relative paths.
+
+							If an executed command returns a function, an object reference to the
+							terminal shall be passed to said function, which may modify the
+							terminal accordingly.
+						-

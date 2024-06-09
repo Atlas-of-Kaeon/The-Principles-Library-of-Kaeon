@@ -31,8 +31,8 @@ Standard Segments
 		Private
 
 			-
-				Any file in an axis directory with the metadata segment "private" shall be
-				inaccessible via request.
+				Any item in an axis directory with the metadata segment "private" shall be marked
+				as a private item.
 			-
 
 		PUP

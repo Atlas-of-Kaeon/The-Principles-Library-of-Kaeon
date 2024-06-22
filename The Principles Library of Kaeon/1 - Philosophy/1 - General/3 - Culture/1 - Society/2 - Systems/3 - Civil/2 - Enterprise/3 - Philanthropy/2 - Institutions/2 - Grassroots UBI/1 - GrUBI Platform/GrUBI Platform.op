@@ -1,0 +1,37 @@
+GrUBI Platform
+
+	Philosophy
+
+		-
+			A GrUBI platform, or GrUBIP, is an online platform for funding and distributing a
+			GrUBI.
+		-
+
+	Principles
+
+		Implementation
+
+			Open Source
+
+				-
+					A GrUBIP's source code shall be open source.
+				-
+
+			Decentralized GrUBIP
+
+				-
+					A decentralized GrUBIP, or D'GrUBIP, is a GrUBIP that is not managed by any one
+					party and is hosted in a decentralized manner.
+
+					Conversely, a centralized GrUBIP can be referred to as a C'GrUBIP.
+				-
+
+		Groups
+
+			-
+				A GrUBIP may allow users to form and manage groups of both users and other such
+				groups to which donations may be targeted.
+
+				By default, any donation a group receives shall be split evenly among each
+				individual user nested with it.
+			-

@@ -8,6 +8,32 @@ Kaeon FUSION Standard Conventions
 		-
 	
 	Principles
+
+		Command Priority
+			
+			-
+				Certain Kaeon FUSION commands may hold priority over others, meaning that every
+				time Kaeon FUSION trickles down at a command, the command's children will be
+				rearranged first based on their priority and then based on their current order.
+			-
+
+		Default Format Conventions
+
+			-
+				Kaeon FUSION shall be preprocessed by the Universal Preprocessor prior to
+				execution. If the output of the Universal Preprocessor is a string, the program
+				shall be interpreted, and said string must be valid ONE or ONE+. If the output of
+				the Universal Preprocessor is a numerical array, an executable shall be generated
+				consisting of the content of said array converted to binary, with the same name as
+				the source file.
+			-
+	
+		Module Aliases
+		
+			-
+				Kaeon FUSION interfaces may be referenced through aliases as opposed to their file
+				paths. The letter case of said aliases is irrelevant.
+			-
 		
 		String Forms
 
@@ -16,21 +42,6 @@ Kaeon FUSION Standard Conventions
 				
 				When a value is converted to a string, said string is referred to as the value's
 				string form.
-			-
-
-		Command Priority
-			
-			-
-				Certain Kaeon FUSION commands may hold priority over others, meaning that commands
-				every time Kaeon FUSION trickles down at a command, the command's children will be
-				rearranged first based on their priority and then based on their current order.
-			-
-	
-		Module Aliases
-		
-			-
-				Kaeon FUSION interfaces may be referenced through aliases as opposed to their file
-				paths. The letter case of said aliases is irrelevant.
 			-
 		
 		Workspace

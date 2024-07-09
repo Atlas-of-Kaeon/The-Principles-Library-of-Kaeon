@@ -32,18 +32,37 @@ Character Separated Binary
 					Any whitespace aside from the separator tokens shall be trimmed.
 				-
 
-		Default Protocol
+		Conventions
 
-			-
-				The default protocol uses binary to represent the bytes and any character other
-				than one or zero as separator tokens.
+			CSB
 
-				However, the best practice for the default protocol is to use single new lines to
-				separate the bytes, and to omit any leading zeros.
-			-
+				Default Protocol
 
-		Abbreviation
+					-
+						The default protocol uses binary to represent the bytes and any character
+						other than one or zero as separator tokens.
 
-			-
-				Character separated binary may be abbreviated as CSB.
-			-
+						However, the best practice, and the default practice, for the default
+						protocol is to use single new lines to separate the bytes, and to omit any
+						leading zeros.
+					-
+
+				Abbreviation
+
+					-
+						Character separated binary may be abbreviated as CSB.
+					-
+
+			B-ONE
+
+				-
+					B-ONE (pronounced "bone"), is the use of a sequence a ONE element, for which
+					each of its children contains a number, which number being specified in any of
+					the formats allowed by CSB, to represent a sequence of bytes, the order of said
+					bytes aligning with the order of the indices of said children.
+
+					B-ONE, by default, shall use binary strings.
+
+					As such, CSB specified using the default protocol with its default practices
+					may be parsed as ONE+ to B-ONE.
+				-

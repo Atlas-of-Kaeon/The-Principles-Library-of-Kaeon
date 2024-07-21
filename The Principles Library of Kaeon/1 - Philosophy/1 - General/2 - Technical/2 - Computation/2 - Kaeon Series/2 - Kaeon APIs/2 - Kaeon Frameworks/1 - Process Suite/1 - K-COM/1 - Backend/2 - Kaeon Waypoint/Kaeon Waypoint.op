@@ -11,16 +11,10 @@ Kaeon Waypoint
 
 		Conventions
 
-			Divisions
+			Action ACE
 
 				-
-					Within Kaeon Waypoint, utilities for managing state within applications shall
-					be referred to as Kaeon Waypoint North, utilities for persisting state
-					information to and retrieving state information from databases shall be
-					referred to as Kaeon Waypoint South, utilities for managing the communication
-					of state information from the frontend shall be referred to as Kaeon Waypoint
-					West, and utilities for managing the communication of state information from
-					the backend shall be referred to as Kaeon Waypoint East.
+					Kaeon Waypoint shall primarily be designed around action ACE.
 				-
 
 		APIs

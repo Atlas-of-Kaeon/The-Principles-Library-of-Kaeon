@@ -1,0 +1,66 @@
+Standard Module ACE Conventions
+
+	Philosophy
+
+		-
+			This document lists module ACE conventions.
+		-
+
+	Principles
+
+		Types
+
+			Array
+			Boolean
+			Character
+
+			Function
+
+				-
+					API endpoints are to be specified in the same manner as functions, the aliases
+					being their routes and the parameters being their URL parameters.
+				-
+
+			Number
+			Object
+			String
+			Variable
+
+		Properties
+
+			API
+
+				GET
+				POST
+
+			Database
+
+				Primary
+
+				Relation
+
+					-
+						Database fields may be linked to fields in other databases.
+					-
+
+			Variable
+
+				General
+
+					Constant
+					Private
+					Protected
+					Public
+					Static
+
+				Number
+
+					Types
+
+						Integer
+						Float
+
+					Properties
+
+						Size
+						Sign

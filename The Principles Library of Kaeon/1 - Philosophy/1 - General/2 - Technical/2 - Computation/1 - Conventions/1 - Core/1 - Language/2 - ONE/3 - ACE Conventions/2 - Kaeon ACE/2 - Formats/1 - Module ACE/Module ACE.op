@@ -1,0 +1,85 @@
+Module ACE
+
+	Philosophy
+
+		-
+			Module ACE is a set of Kaeon ACE conventions for specifying module schemas and data.
+		-
+
+	Principles
+
+		Format
+
+			Module Entities
+
+				-
+					A Kaeon ACE entity with a "module" component shall be a module entity and shall
+					represent a module schema, containing module properties and variable
+					definitions which may be implemented differently in various languages and
+					environments.
+					
+					Module entities that are descendants of other module entities shall represent
+					sub modules of their parent modules.
+
+					A module component may have one or both of the following: a child with the
+					content "Variables", and a child with the content "Properties".
+
+					Each child of the variables element, referred to as variable elements, shall
+					represent a variable in the corresponding module, the content of the element
+					representing the alias of the variable, and its children, referred to as field
+					elements, representing properties of said variable.
+
+					Each child of the properties element, referred to as property elements, shall
+					represent a property of the corresponding module.
+
+					Codified conventions for the content and effects of field elements and property
+					elements, and their descendants, are referred to as module ACE conventions.
+				-
+
+			Data Content
+
+				-
+					The data content convention, or DCC, specifies that a Kaeon ACE entity may
+					specify the content of a module, regardless of whether said entity is a module
+					entity, using a content component.
+
+					Under DCC, certain children of content components may be interpreted as data
+					elements, and shall represent the content of a variable within the module, a
+					data element's content specifying the alias of the variable, and its children
+					specifying the content of the variable.
+
+					A data element representing an unnamed collection of miscellaneous information
+					may be a standard point element.
+
+					In certain contexts, data elements may be interpreted as components or
+					descendant entities of the Kaeon ACE entity to which the content component in
+					which they are nested belongs. Additionally, in certain contexts, other
+					components, and descendant entities, of said Kaeon ACE entity may be
+					interpreted as data elements of its content components.
+
+					Codified conventions for the identification of data elements, and for the
+					content and effects of their descendants, are referred to as data content
+					conventions.
+				-
+
+		Conventions
+
+			General Conventions
+
+				Auto-Generation
+
+					-
+						Module implementations may be auto-generated from module entities, and
+						module entities may be auto-generated from module implementations.
+
+						As such, module ACE may be used to transition a module from one type to
+						another.
+					-
+
+				Usage
+
+					-
+						Module entities may be treated as code modules, classes, APIs, or database
+						schemas, among other things, depending on the implementation of their
+						content.
+					-

@@ -7,7 +7,7 @@ Kaeon ACE Alias
 			alias components.
 
 			A Kaeon ACE alias component is a Kaeon ACE component element with the content "Alias",
-			the content of the children of which specify alternate aliases for the element to which
+			the content of the children of which specify alternate aliases for the entity to which
 			it belongs, such that said aliases may be used for purposes related to the Kaeon ACE
 			Trace conventions.
 		-

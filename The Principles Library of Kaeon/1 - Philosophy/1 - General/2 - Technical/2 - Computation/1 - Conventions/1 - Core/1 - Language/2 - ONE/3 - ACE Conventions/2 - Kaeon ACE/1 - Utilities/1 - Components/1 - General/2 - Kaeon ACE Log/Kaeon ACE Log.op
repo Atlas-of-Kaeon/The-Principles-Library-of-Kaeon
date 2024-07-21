@@ -1,0 +1,17 @@
+Kaeon ACE Log
+
+	Philosophy
+
+		-
+			The Kaeon ACE log component convention is a Kaeon ACE convention regarding Kaeon ACE
+			log components.
+
+			A Kaeon ACE log component is a Kaeon ACE component element with the content "Log",
+			the content of the children of which specify, in order, the output of external systems
+			relevant to the entity to which it belongs, the content of said children specifying the
+			messages themselves, and the descendants of said children specifying metadata regarding
+			the messages within which they are nested.
+
+			Codified conventions for the content and meaning regarding the descendants of said
+			children are referred to as ACE log conventions.
+		-

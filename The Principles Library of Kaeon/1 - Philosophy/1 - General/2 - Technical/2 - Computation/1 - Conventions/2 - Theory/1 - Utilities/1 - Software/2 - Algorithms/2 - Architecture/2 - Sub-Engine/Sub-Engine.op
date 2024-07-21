@@ -1,0 +1,13 @@
+Sub-Engine
+
+	Philosophy
+
+		-
+			A sub-engine is a toolset or framework designed to facilitate a specific task or
+			process within a more generalized toolset or framework that the sub-engine is built on
+			top of.
+
+			As sub-engines may be built on other sub-engines, the depth at which a sub-engine is
+			nested within a tree of an engine and its sub-engines, referred to as an engine tree,
+			may be referred to as its order.
+		-

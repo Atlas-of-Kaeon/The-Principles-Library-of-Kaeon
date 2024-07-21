@@ -1,0 +1,12 @@
+Kaeon ACE Content Comment
+
+	Philosophy
+
+		-
+			The Kaeon ACE content comment convention is a Kaeon ACE convention regarding Kaeon ACE
+			content components and subcomponents.
+
+			Under the Kaeon ACE content comment convention, a standard point element that is a
+			child of a Kaeon ACE content component shall be interpreted as a significant comment,
+			the children of said standard point element being the content of the comment.
+		-

@@ -3,8 +3,8 @@ Greater Kaegaian Dictionary
 	Philosophy
 
 		-
-			The Greater Kaegaian dictionary defines the words within the spoken Angaian language of
-			Greater Kaegaian.
+			The Greater Kaegaian dictionary defines the roots upon which the dictionary of the
+			spoken Angaian language of Greater Kaegaian is derived.
 
 			They are defined in latinized Angaian alongside their English counterparts, listed in
 			Angaian alphabetical order.
@@ -12,116 +12,130 @@ Greater Kaegaian Dictionary
 	
 	Principles
 
-		brel: Repair, Restore
-		ka: Because
-		kal: Call, Command, Contact, Reach Out, Request, Send, Tell
-		kaE: One, Way, Will, Resolve, Single, Spirit
-		kaEda: The Aimless Way
-		kaEluo: The Way Down
-		kaEra: The Neutral Way
-		kaEzaE: Justice, Restorative Justice
-		kaE~'an: Kaeon, The Way Up
-		kE: In Order To
-		konEUr: Idiot, Moron, Stupid
-		kuo: A, An, Single
-		kUoUr: Truth
-		da: Aimless, Independent
-		dakaE: Aimless Will
-		dra: Endure
-		dan: At That Place
-		den: Agony Pain, Suffering
-		deE: At That Time
-		deE~'us: Destiny, Fate, God
-		fen: In Vain, Pointless
-		gaE~'u: World
-		ha: And
-		jaruo: The Dream State, The Future, The Unwritten Future
-		juol: He, Her, Her~'s, Him, His, Their~'s, Them, They
-		luo: Down, Vice
-		luokaE: Counter-Productive Will
-		luova: Vicious Deed
-		med: Own
-		metu: Power
-		mon: Burden
-		mUoUrtu: Die
-		na: Nothing, Void
-		naka: Ghost, Spirit
-		nad: Destroyed, Gone, Lost
-		nagaE: Avatar, Embodiment, Presence
-		naruo: Total Nothingness
-		nava: Spiritual Legacy
-		nazaE: Legacy of Death
-		naE: New
-		ra: Alien, Detached, Foreign, Neutral, Other
-		raE: Shall
-		ren: Bring About
-		rEn: Being, Body
-		ruo: State
-		sa: In
-		saruo: The Past, The Proven State
-		saE: Cry, Wail, Weep
-		sen: What, When, Where, Who, Why
-		sigmu: Embody
-		so: In
-		suo: Of
-		suol: I, Me, Mine, Myself
-		ta: Contemporary, Current, Present
-		taruo: The Current State, The Present
-		tas: The
-		ten: Display, Forge, Make, Present
-		tuol: It, That
-		va: Act, Deed
-		var: Attempt, Effort, Shot, Stand
-		vaE: Yes
-		vAl: Upon
-		veno: Sibling
-		vuo: No, None
-		wuol: Our, Ours, We
-		wUr: At The Time When
-		ya: A Work In Progress, Typical
-		yaruo: The Typical State, The World As A Work In Progress
-		yel: Then
-		yoz: Use
-		yuo: Hope
-		yuol: You, Your, Yours
-		za: Bad
-		zaruo: The Apocalypse, The Bad State
-		zava: Bad Deed
-		zaE: Good
-		zaEja: Current Good, Personal Legacy
-		zaEruo: The Good State, Utopia
-		zaEva: Good Deed
-		zaE~'anruo: The Good Virtuous State
-		zaE~'anva: Good Virtuous Deed
-		Zen: Hand
-		Sema: Hear, Listen
-		a: Supreme
-		akada: Knowledge, Study
-		amna: Constitute, Form
-		amada: Might, Strength
-		an: Infinity, Perfection, Up, Virtue
-		ankaE: Productive Will
-		anga: Nation
-		angaE: People
-		anruo: Enlightenment, Mastery, Perfection, The Upward State
-		anva: Virtuous Deed
-		ar: By, With, Through
-		avada: Benevolence, Goodness, Kindness
-		avas: Farewell, Goodbye
-		a~'deE~'us: The Supreme Power
-		a~'na: The Cosmic Beginning
-		a~'ra: Supreme Detachment
-		a~'za: Supreme Evil
-		a~'zaE: Supreme Good
-		a~'uo: The Supreme Totality
-		An: All
-		AngaE~'u: The Whole World
-		en: Some
-		ev: Am, Are, Is
-		eEs: Actualizer, Champion, Embodiment
-		EHUr: Abstraction
-		il: If
-		impEUr~'u: Lord, King, Queen, Ruler
-		ov: Was, Has Been
-		uo: Totality
-		uosenu: Greetings, Hello
+		Kaegaian
+
+			Primary
+			
+				en: Some
+
+			Secondary
+				
+				ka: Because
+				kal: Call, Command, Contact, Reach out, Request, Send, Tell
+				kUoUr: Truth
+				da: Aimless, Independent
+				luo: Down, Vice
+				ma: Act, Do, Perform, Verb
+				na: Nothing, Void
+				ra: Alien, Detached, Foreign, Neutral, Other
+				sig: Have
+				ta: Contemporary, Current, Present
+				va: Act, Deed
+				ya: A Work In Progress, Typical
+				Se: Give
+				eEs: Actualizer, Champion, Embodiment
+
+		Greater Kaegaian
+
+			Root Syllables
+
+				Primary
+
+					brel: Repair, Restore
+					kar: Acquire, Gain, Get
+					kas: Lose
+					ke: To, Towards, Unto
+					kE: In order to, To, So that
+					kuol: Individual, One, Person
+					dan: There
+					deE: At that time, Then
+					gras: Appreciation, Gratitude, Thanks
+					guo: grow, growth
+					ha: And
+					haE: Big, High, Much, So, Very
+					huo: Few, Low, Little, Small
+					juol: He, Her, Her~'s, Him, His, Their~'s, Them, They
+					las: Female, Feminine
+					les: Gender, Sex
+					luos: Male, Masculine
+					man: Can, Capable, Capability
+					mar: Actor, Do-er of
+					mas: Action
+					maz: Effect, Result
+					med: Own, Property of
+					mE: move, go, head
+					myo: emotion, feel, feeling, mood
+					naE: New
+					nuo: Negative, No, Not
+					raE: Shall, Will
+					ren: Cause
+					rev: Anti, Reverse
+					rEm: Mind
+					rEn: Being, Body
+					ruo: State
+					sa: In
+					sar: Out
+					sal: On, Upon
+					ta: Space, Volume
+					tuo: Time
+					tuol: It, That
+					tuE: Kind, Type, Variety, Version
+					vaE: Yes
+					vAl: Upon
+					vAo: Although, But, However
+					vuo: No, None
+					wUr: At, Where / Whereas
+					yel: So, Then, Thus
+					yoz: Use
+					yuo: Affirmative, Confirmed, Positive, Yes
+					za: Bad
+					ca: Active, On
+					Sa: Because, For
+					Sar: About, Regarding
+					Suol: This
+					Suo: Greeting, Greetings, Hello
+					zaE: Good
+
+					ZAoNS { Translation: Curse, Slur, Vulgar }
+
+						Note
+
+							-
+								Roughly pronounced as "zhaeoongsh", this word is the generic curse
+								word in greater Kaegaian, and is intentionally conceived in a form
+								that is difficult to pronounce and unpleasant to hear, in order to
+								discourage frivolous use and to emphasize intent when used.
+							-
+					
+					a: Supreme
+					af: Difference, Distance
+					al: Local, Specific
+					ar: By, Through, Via, With
+					An: All
+					el: Alter, Change, Transform, Transformation
+					em: Group
+					ev: Am, Are, Is
+					E: -ish, -y
+					En: Extreme, Most
+					Ev: Quality, -Ness
+					Es: More, Greater
+					il: If
+					im: enterprise, institution
+					ov: Did, Has, Was
+					uE: From
+					uEt: Substance
+					uo: Totality, Whole
+					uol: A, An, Single
+					uoS: Farewell, Goodbye
+
+				Secondary
+
+					dra: Endure
+					den: Agony Pain, Suffering
+					fen: In Vain, Pointless
+					mon: Burden
+					nad: Destroyed, Gone, Lost
+					saE: Cry, Wail, Weep
+					ten: Create, Forge, Make
+					var: Attempt, Effort, Shot, Stand
+					Zen: Hand

@@ -1,0 +1,129 @@
+United Use
+
+	Philosophy
+
+		-
+			United use is a convention which specifies that a function with the alias "use", taking
+			a string path to an external resource, along with an optional arguments value, may be
+			implemented in any language or environment, to the extent possible, with the following
+			behavior:
+
+			Said function shall, depending on the environment and the arguments, use integration
+			mode, where it loads the referenced resource into the environment globally, import
+			mode, where it loads the referenced resource into a value and returns it, or some
+			combination or variant thereof, with additional behaviors contingent on the environment
+			and arguments.
+
+			The referenced resource may be referenced by alias or path, and may be loaded from the
+			local file system or from the internet. By default, such aliases shall ignore
+			whitespace and letter case, in addition to punctuation with the exception of that which
+			denotes package nesting, namely periods and slashes.
+			
+			The use function shall be made globally available to the extent possible, and should be
+			implemented to be compatible with as many types of external resources as possible.
+		-
+
+	Principles
+
+		Conventions
+
+			United Use
+
+				Native Utility Bootstraps
+
+					-
+						Utilities native to the environment for loading external resources may, to
+						the extent possible, be overridden as bootstraps for the use function,
+						thereby extending the variety of resources they may load.
+					-
+
+				Built-In Modules
+
+					-
+						The integration of united use into a particular environment may include
+						certain built-in modules which may be accessed with the use function via
+						alias. Such modules, by default, should also be made available through said
+						environment's native resource loading mechanisms.
+						
+						The set of such modules for a given implementation shall be referred to as
+						the provision package.
+					-
+
+				Options Conventions
+
+					-
+						Codified conventions regarding the contents of the options value and the
+						effects thereof are referred to as united option conventions.
+					-
+
+			Standard United
+
+				-
+					Standard United is an extension of united use which applies the Universal
+					Preprocessor to all plain text files referenced via the use function, and to
+					all plain text files to which standard united is applied.
+				-
+
+		Standards
+
+			United Option Conventions
+
+				Async
+
+					-
+						The options value may have an "async" field, containing a boolean which, if
+						true, shall indicate that the referenced resource is to be loaded
+						asynchronously, with a promise being the immediately returned value in
+						import mode.
+					-
+
+				Cache
+
+					-
+						The options value may have a "cache" field, containing a boolean which, if
+						true, shall indicate that the referenced resource is a standard network
+						cache for which all compatible resources are to be pre-cached for later
+						usage, and that the use function is to return null.
+					-
+
+				Dynamic
+
+					-
+						The options value may have a "dynamic" field, containing a boolean which, if
+						true, shall indicate that the path to the referenced resource is to be
+						interpreted as the contents of the resource rather than its location.
+					-
+
+				Global
+
+					-
+						The options value may have a "global" field, containing a boolean which, if
+						true, shall indicate that the use function is to execute in the global
+						scope.
+					-
+
+				Reload
+
+					-
+						The options value may have a "reload" field, containing a boolean which, if
+						true, shall indicate that the use function is to clear any cached data
+						related to the referenced resource, and to fully reload it from its source.
+					-
+
+				Use
+
+					-
+						The options value may have a "use" field, containing a boolean which, if
+						true, shall indicate that the referenced resource is an interface module to
+						be integrated, to extent applicable and possible, into the Philosopher's
+						Suite of the Philosopher's Singularity running the process.
+					-
+
+			Modules
+
+				Kaeon United
+
+					-
+						By default, the provision package of a united use integration should
+						include Kaeon United, with its name as its alias.
+					-

@@ -65,10 +65,22 @@ Atypical Neural Parameters
 						It may be used in correlation testing.
 					-
 
-		Reflective Agents
+		Conventions
 
-			-
-				Reflective agents are entities that monitor the state of a model, generating and
-				recording metadata in the process, and train it according to said state and
-				metadata.
-			-
+			Activations
+
+				-
+					Ideally, ATNP should be implemented in the form of activation functions applied
+					to the nodes and edges of the network.
+
+					Ideally, said activation functions should themselves be trainable. Such
+					functions may be referred to as dynamic activation (DA) functions.
+				-
+
+			Reflective Agents
+
+				-
+					Reflective agents are entities that monitor the state of a model, generating
+					and recording metadata in the process, and train it according to said state and
+					metadata.
+				-

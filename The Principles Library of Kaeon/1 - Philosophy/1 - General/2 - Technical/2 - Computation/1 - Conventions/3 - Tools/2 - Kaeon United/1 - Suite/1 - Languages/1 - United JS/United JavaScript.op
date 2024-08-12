@@ -9,74 +9,33 @@ United JavaScript
 
 	Principles
 
-		CommonJS Conventions
+		Standard United
 
 			-
-				Under United JavaScript, regardless of the environment it is running in, JavaScript
-				may use the CommonJS require function to dynamically load modules and to execute
-				scripts.
+				United JavaScript employs standard united in import mode, with "require" serving as
+				a native utility bootstrap for the use function in environments where the require
+				function is not natively implemented.
 
-				The modules passed to it must follow the CommonJS format.
-
-				United JavaScript shall provide dynamic dependency retrieval for modules installed
-				via package managers.
-
-				The CommonJS require function's path parameter may be either a path on the
-				local system or a URL to an online resource.
+				The use function may import modules using CommonJS and ES6 conventions, and shall
+				employ dynamic dependency retrieval for modules installed via package managers.
 				
-				The require function may take an optional second argument in the form of an object.
-				Said object may have the fields "async", "dynamic", "global", "reload", "cache",
-				and "use".
-
-				The async field, if present, shall contain either a function, a boolean, or a null
-				value. If a function or a boolean is provided, it shall indicate that the require
-				function is to execute asynchronously.
-				
-				If a function is provided for the async field, then upon the loading of the module,
-				the specified function shall be called with the returned module as its first
-				argument.
-				
-				If a boolean value of true is provided for the async field, then shall return a
-				promise which shall resolve to the specified module once it has loaded.
-
-				The dynamic field, if present, shall contain a boolean which, if true, shall
-				indicate that the path argument specifies the raw code of the module as opposed to
-				a path to it. As such, any module loaded this way shall not be stored in the
-				require function's cache.
-
-				The global field, if present, shall contain a boolean which, if true, shall
-				indicate that the module is to be processed in the global scope. This can be used
-				for loading and executing scripts.
-				
-				The reload field, if present, shall contain a boolean which, if true, shall
-				indicate that the module specified by the path parameter is to be deleted from the
-				cache and reloaded.
-				
-				The cache field, if present, shall contain a boolean which, if true, shall indicate
-				that the module specified by the path parameter is a standard network cache for
-				which all compatible resources are to be pre-cached for later use, and that the
-				require function is to return null.
-				
-				The use field, if present, shall contain a boolean which, if true, shall indicate
-				that the module specified by the path parameter is an interface module to be
-				integrated into the suite of any Philosopher's Singularity that UnitedJS is
-				operating within, and that the require function is to return null.
+				The options value passed to the use function shall be an object, with all option
+				field aliases matching the names specified in the united use specification, in
+				lower case.
 			-
 
-		Asynchronous Conventions
+		Conventions
 
-			-
-				Under United JavaScript, the await operator may be used at the root level of the
-				main file, outside of async functions.
-			-
+			Asynchronous
 
-		Execution Conventions
+				-
+					Under United JavaScript, the await operator may be used at the root level of
+					the main file, outside of async functions.
+				-
 
-			-
-				Under United JavaScript, a JavaScript file may be executed on the client side on
-				its own without being explicitly tied to an HTML document.
+			Environment
 
-				Furthermore, prior to interpretation, the Universal Preprocessor shall be applied
-				to both the code of the main file and to any code loaded through the require
-				function.
-			-
+				-
+					Under United JavaScript, a JavaScript file may be executed on the client side
+					on its own without being explicitly tied to an HTML document.
+				-

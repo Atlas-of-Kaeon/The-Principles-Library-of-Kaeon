@@ -24,16 +24,31 @@ Greater Kaegaian Dictionary
 				kal: Call, Command, Contact, Reach out, Request, Send, Tell
 				kUoUr: Truth
 				da: Aimless, Independent
+				deE: Law, Rule
+				gaE: Animal, Creature, Sentient Entity
 				luo: Down, Vice
 				ma: Act, Do, Perform, Verb
+				me: Ability, Can, Capable, Capability
 				na: Nothing, Void
 				ra: Alien, Detached, Foreign, Neutral, Other
-				sig: Have
+				sig: Join, Receive, Use
 				ta: Contemporary, Current, Present
+				tu: Cause
 				va: Act, Deed
 				ya: A Work In Progress, Typical
-				Se: Give
+				Se: Give, Separate
+				Sem: Identity, Indetify, Name
+				a: Supreme
+				ad: Trait, Virtue
+				ak: Intelligence, Know, Knowledge, Wisdom
+				am: Might, Power, Strength
+				av: Benevolent, Kind, Nice
 				eEs: Actualizer, Champion, Embodiment
+				EH: Thought, Idea
+				u: Construct, Derivation, Emergence
+				us: Being, Entity
+				uo: Totality, Whole
+				Ur: Domain, Realm
 
 		Greater Kaegaian
 
@@ -41,16 +56,17 @@ Greater Kaegaian Dictionary
 
 				Primary
 
-					brel: Repair, Restore
+					at: Automatic
+					Ao: Component, Part, Piece, Portion, Segment
+					brel: Fix, Repair, Restore
 					kar: Acquire, Gain, Get
 					kas: Lose
 					ke: To, Towards, Unto
 					kE: In order to, To, So that
 					kuol: Individual, One, Person
 					dan: There
-					deE: At that time, Then
 					gras: Appreciation, Gratitude, Thanks
-					guo: grow, growth
+					guo: Grow, Growth
 					ha: And
 					hE: Or
 					haE: Big, High, Much, So, Very
@@ -59,17 +75,21 @@ Greater Kaegaian Dictionary
 					las: Female, Feminine
 					les: Gender, Sex
 					luos: Male, Masculine
-					man: Can, Capable, Capability
+					luol: Thing
 					mar: Actor, Do-er of
 					mas: Action
 					maz: Effect, Result
-					med: Own, Property of
-					mE: move, go, head
-					myo: emotion, feel, feeling, mood
+					med: Have, Own, Property of
+					mE: Go, Head, Move, Travel
+					myo: Emotion, Feel, Feeling, Mood
+					nad: Garbage, Trash, Waste
 					naE: New
-					nuo: Negative, No, Not
+					nen: See, Sight, Visual
+					nes: Audion, Hear, Sound
+					nEm: Consume, Devour, Eat, Swallow
+					nEv: Food
+					nuo: Alone, Barely, Just, Only, Solely
 					raE: Shall, Will
-					ren: Cause
 					rev: Anti, Reverse
 					rEm: Mind
 					rEn: Being, Body
@@ -77,23 +97,27 @@ Greater Kaegaian Dictionary
 					sa: In
 					sar: Out
 					sal: On, Upon
+					sef: Language, Word
+					sel: Body
 					sE: As, Like, Similar
-					ta: Space, Volume
+					tAo: Space, Volume
 					tuo: Time
 					tuol: It, That
 					tuE: Kind, Type, Variety, Version
-					vaE: Yes
+					vaE: Affirmative, Confirmed, Positive, Yes
 					vAl: Upon
 					vAo: Although, But, However
-					vuo: No, None
-					wUr: At, Where / Whereas
+					veks: System
+					vo: Adore, Affection, Appreciation, Like
+					vuo: Negative, No, Not
+					wUr: At, Where / Whereas, Which / Which is, Specific
 					yel: So, Then, Thus
-					yoz: Use
-					yuo: Affirmative, Confirmed, Positive, Yes
 					za: Bad
+					Houl: This
 					ca: Active, On
 					Sa: Because, For
 					Sar: About, Regarding
+					Sel: Flesh, Tissue
 					Suol: This
 					Suo: Greeting, Greetings, Hello
 					zaE: Good
@@ -109,15 +133,20 @@ Greater Kaegaian Dictionary
 								discourage frivolous use and to emphasize intent when used.
 							-
 					
-					a: Supreme
+					zE: Cease, Halt, Stop, Wait
 					af: Difference, Distance
 					al: Local, Specific
 					ar: By, Through, Via, With
 					An: All
+					eks: Network, Web
+					ef: Apart, Out, Outside, Without
 					el: Alter, Change, Transform, Transformation
 					em: Group
+					er: Assembly, Collection
 					ev: Am, Are, Is
+					ez: In, Inside, Within
 					E: -ish, -y
+					Em: Beyond, Excess, Too much
 					En: Extreme, Most
 					Ev: Quality, -Ness
 					Es: More, Greater
@@ -126,15 +155,16 @@ Greater Kaegaian Dictionary
 					ov: Did, Has, Was
 					uE: From
 					uEt: Substance
-					uo: Totality, Whole
 					uol: A, An, Single
 					uoS: Farewell, Goodbye
+					UoUr: Degree, Level, Order
 
 				Secondary
 
 					dra: Endure
 					den: Agony Pain, Suffering
 					fen: In Vain, Pointless
+					geEn: Funny, Humor, Laughter
 					mon: Burden
 					nad: Destroyed, Gone, Lost
 					saE: Cry, Wail, Weep

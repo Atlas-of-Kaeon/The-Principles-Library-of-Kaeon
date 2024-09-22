@@ -1,0 +1,27 @@
+Public Diary
+
+	Philosophy
+
+		-
+			A public diary is a published collection of dated writings as discrete entries in a
+			series.
+		-
+
+	Principles
+
+		Kaeon Diary
+
+			-
+				A Kaeon diary is a public diary written as a Kaeon library.
+
+				In a standard Kaeon library, a Kaeon document therein shall follow the following
+				conventions:
+
+				The philosophy section shall contain the text "To Whom It May Concern,".
+
+				Each element in the principles section shall be an entry. The content of said entry
+				elements shall specify the date and possibly the time of the entries, and said
+				shall elements shall each have a child with the content "Entry", the children
+				thereof being the entry itself. Said entry elements may each also have a child with
+				the content "Meta", specifying additional metadata about the entry.
+			-

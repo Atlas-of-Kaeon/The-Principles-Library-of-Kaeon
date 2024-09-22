@@ -86,9 +86,18 @@ Mark-ONE
 							single paragraph, separated by spaces.
 						-
 
-		HTML
+		Conversions
 
-			-
-				Once a ONE document has been converted to Markdown, said markdown may be converted
-				to HTML, resulting in a Mark-ONE page.
-			-
+			HTML
+
+				-
+					Once a ONE document has been converted to Markdown, said markdown may be
+					converted to HTML, resulting in a Mark-ONE page.
+				-
+
+			LaTeX
+
+				-
+					Once a ONE document has been converted to Markdown, said markdown may be
+					converted to LaTeX, resulting in a Mark-TeX page.
+				-

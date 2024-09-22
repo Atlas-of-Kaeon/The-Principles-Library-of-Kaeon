@@ -25,6 +25,7 @@ Greater Kaegaian Dictionary
 				kUoUr: Truth
 				da: Aimless, Independent
 				deE: Law, Rule
+				dra: Bear, Endure, Hold
 				gaE: Animal, Creature, Sentient Entity
 				luo: Down, Vice
 				ma: Act, Do, Perform, Verb
@@ -36,6 +37,9 @@ Greater Kaegaian Dictionary
 				tu: Cause
 				va: Act, Deed
 				ya: A Work In Progress, Typical
+				za: Bad
+				zaE: Good
+				zil: Branch, Diverge, Fork, Split
 				Se: Give, Separate
 				Sem: Identity, Identify, Name
 				a: Supreme
@@ -43,8 +47,10 @@ Greater Kaegaian Dictionary
 				ak: Intelligence, Know, Knowledge, Wisdom
 				am: Might, Power, Strength
 				av: Benevolent, Kind, Nice
+				An: All
 				eEs: Actualizer, Champion, Embodiment
 				EH: Thought, Idea
+				ig: Bind, Connect, Connection, Link
 				u: Construct, Derivation, Emergence
 				us: Being, Entity
 				uo: Totality, Whole
@@ -56,8 +62,6 @@ Greater Kaegaian Dictionary
 
 				Primary
 
-					at: Automatic
-					Ao: Component, Part, Piece, Portion, Segment
 					brel: Fix, Repair, Restore
 					kar: Acquire, Gain, Get
 					kas: Lose
@@ -93,7 +97,7 @@ Greater Kaegaian Dictionary
 					rev: Anti, Reverse
 					rEm: Mind
 					rEn: Being, Body
-					sa: In
+					san: In
 					sar: Out
 					sal: On, Upon
 					sef: Language, Word
@@ -110,7 +114,6 @@ Greater Kaegaian Dictionary
 					vuo: Negative, No, Not
 					wUr: At, Where / Whereas, Which / Which is, Specific
 					yel: So, Then, Thus
-					za: Bad
 					Houl: This
 					ca: Active, On
 					Sa: Because, For
@@ -118,7 +121,6 @@ Greater Kaegaian Dictionary
 					Sel: Flesh, Tissue
 					Suol: This
 					Suo: Greeting, Greetings, Hello
-					zaE: Good
 
 					ZAoNS { Translation: Curse, Slur, Vulgar }
 
@@ -135,7 +137,8 @@ Greater Kaegaian Dictionary
 					af: Difference, Distance
 					al: Local, Specific
 					ar: By, Through, Via, With
-					An: All
+					at: Automatic
+					Ao: Component, Part, Piece, Portion, Segment
 					eks: Network, Web
 					ef: Apart, Out, Outside, Without
 					el: Alter, Change, Transform, Transformation
@@ -159,7 +162,6 @@ Greater Kaegaian Dictionary
 
 				Secondary
 
-					dra: Endure
 					den: Agony Pain, Suffering
 					fen: In Vain, Pointless
 					geEn: Funny, Humor, Laughter

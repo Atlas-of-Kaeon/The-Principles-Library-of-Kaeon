@@ -1,0 +1,12 @@
+Split Encryption
+
+	Philosophy
+
+		-
+			Split encryption refers to splitting an encrypted message into segments sent to
+			different locations, and encoding the locations of other portions into the encrypted
+			data, possibly with multiple routes, some being false leads.
+
+			Split encryption may be useful in detecting unauthorized access attempts through
+			unusual network activity.
+		-

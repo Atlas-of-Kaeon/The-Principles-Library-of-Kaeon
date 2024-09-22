@@ -5,7 +5,8 @@ Segmented Kaeon Library Book
 		-
 			A segmented Kaeon library book is a Kaeon library book for which the contents are
 			spread across multiple documents, called Kaeon library segments, and tied together with
-			comments, which for standard Kaeon library books shall be reference notation elements.
+			comments, which for standard Kaeon library books shall be reference notation elements,
+			or with their content.
 		-
 
 	Principles

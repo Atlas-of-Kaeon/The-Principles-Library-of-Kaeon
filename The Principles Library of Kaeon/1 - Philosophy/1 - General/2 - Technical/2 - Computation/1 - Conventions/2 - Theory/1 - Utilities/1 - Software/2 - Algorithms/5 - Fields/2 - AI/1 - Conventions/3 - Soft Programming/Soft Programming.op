@@ -30,12 +30,9 @@ Soft Programming
 				referred to as request prompts. In a soft programming algorithm with a single
 				initial prompt, said prompt is referred to as the master prompt.
 
-				Prompt protocols for deriving structured data from unstructured text, and for
-				converting structured data to unstructured text, are referred to as a structure
+				Prompt protocols for deriving structured data from unstructured data, and for
+				converting structured data to unstructured data, are referred to as a structure
 				protocol, which themselves may be considered a type of prompt protocol.
 
 				Codified collections of prompt protocols are referred to as prompt libraries.
-
-				A prompt protocol for initiating the automation of tasks of indefinite scope is
-				referred to as an omni-protocol.
 			-

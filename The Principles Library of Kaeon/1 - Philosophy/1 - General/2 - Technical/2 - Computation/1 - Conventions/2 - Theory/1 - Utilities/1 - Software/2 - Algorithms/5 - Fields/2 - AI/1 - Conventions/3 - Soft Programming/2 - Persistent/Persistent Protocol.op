@@ -1,0 +1,21 @@
+Persistent Protocol
+
+	Philosophy
+
+		-
+			A prompt protocol for initiating a continuous, real-time process in which an AI system
+			responds to a constant input stream is referred to as a persistent protocol.
+
+			A persistent protocol may utilize multiple models and model contexts, may initiate
+			interactions with its environment, and may take into account cycle counts and real time
+			passage.
+		-
+
+	Principles
+
+		Omni-Protocol
+
+			-
+				A persistent protocol for the automation of tasks of indefinite scope is referred
+				to as an omni-protocol.
+			-

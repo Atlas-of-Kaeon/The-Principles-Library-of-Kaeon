@@ -1,0 +1,21 @@
+Nullification
+
+	Philosophy
+
+		-
+			For a given number 'x' and a given function 'f', and the nullifying function 'n':
+
+				x = f(n(x))
+		-
+
+	Principles
+
+		Dead Weight
+
+			-
+				If n consists solely of multiplying x by a constant 'c', then c is referred to as a
+				dead weight.
+
+				A function f for which a dead weight may be applied for the purpose of
+				nullification is referred to as dead-compatible.
+			-

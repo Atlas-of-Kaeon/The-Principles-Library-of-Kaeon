@@ -35,17 +35,22 @@ Neural Network Refactoring
 
 					First, a layer in the network, called the indexed layer, must be selected. The
 					new layer will follow the indexed layer, and shall have the same number of
-					neurons.
+					neurons, said neurons in the new layer having the same activation functions as
+					the neurons they correspond to in the indexed layer.
 
 					The weights between the indexed layer and the layer which originally followed
 					it, called the target layer, shall be transferred to the connections between
 					the new layer and the target layer.
 
 					The weights between the indexed layer and the new layer shall then be set such
-					that for a given neuron in the indexed layer, the weight of the connection
-					between itself and the neuron in the new layer of the same index shall be one,
+					that, for a given neuron in the indexed layer, the weight of the connection
+					between itself and the neuron in the new layer of the same index shall be set
+					to a dead weight of the activation function of said neuron in the new layer,
 					and the weight of the connections between itself and all other neurons in the
 					new layer shall be zero.
+
+					As such, this is only possible where the relevant activation functions are
+					dead-compatible.
 
 					Other parameters, such as biases, should, unless otherwise specified, be
 					assigned to either the indexed layer or the new layer and set to zero in the

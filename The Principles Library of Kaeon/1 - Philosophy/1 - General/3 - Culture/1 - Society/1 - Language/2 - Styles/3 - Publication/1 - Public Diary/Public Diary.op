@@ -20,8 +20,11 @@ Public Diary
 				The philosophy section shall contain the text "To Whom It May Concern,".
 
 				Each element in the principles section shall be an entry. The content of said entry
-				elements shall specify the date and possibly the time of the entries, and said
-				shall elements shall each have a child with the content "Entry", the children
-				thereof being the entry itself. Said entry elements may each also have a child with
-				the content "Meta", specifying additional metadata about the entry.
+				elements shall specify the date and possibly the time of the entries or, if the
+				date is to be witheld, shall contain the content "Story", and said shall elements
+				shall each have a child with the content "Entry", the children thereof being the
+				entry itself. Said entry elements may each also have a child with the content
+				"Meta", specifying additional metadata about the entry.
+
+				Generally, an entry should end with the signature of the author.
 			-

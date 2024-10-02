@@ -76,7 +76,18 @@ Freeform Neural Network
 					connections are set to zero.
 				-
 
-		Applications
+		Variants
+
+			OLNN
+
+				-
+					An orbital loop neural network, or OLNN, is an FFNN with the form factor of a
+					feed-forward multi-layer neural network, in which the last layer feeds back
+					into the first.
+
+					In a loose OLNN, connections may skip layers, and in a strict OLNN, they may
+					not.
+				-
 
 			XNN
 

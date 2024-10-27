@@ -5,6 +5,8 @@ Atypical Neural Parameters
 		-
 			Atypical neural parameters (ATNP), are connection parameters relevant to ASNP, which
 			may be used and trained in addition to weights and biases.
+
+			ATNP also allows the use of vector activations in addition to scalar activations.
 		-
 
 	Principles
@@ -75,6 +77,14 @@ Atypical Neural Parameters
 
 					Ideally, said activation functions should themselves be trainable. Such
 					functions may be referred to as dynamic activation (DA) functions.
+				-
+
+			Qualitative Quantities
+
+				-
+					Vector activations may include qualitative quantities, which may serve a
+					similar function to neurotransmitters, triggering different behavior depending
+					on their type.
 				-
 
 			Reflective Agents

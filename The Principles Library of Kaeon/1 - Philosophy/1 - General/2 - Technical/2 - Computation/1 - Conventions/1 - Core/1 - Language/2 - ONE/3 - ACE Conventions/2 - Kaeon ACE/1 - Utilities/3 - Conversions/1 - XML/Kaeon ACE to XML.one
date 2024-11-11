@@ -1,0 +1,14 @@
+Kaeon ACE to XML
+
+	Philosophy
+
+		-
+			An XML element may be represented by a Kaeon ACE entity, with the alias of the entity
+			representing the XML tag, and with each component having exactly one child. Each
+			component shall represent an attribute, the alias being the attribute name and the
+			content of the child being the attribute content, except for a content component, which
+			shall represent the content of the XML element. Each child of an entity representing an
+			XML element shall also represent an XML element. Such a child entity with an empty
+			string as its alias, no children, and only a content component, may be used to
+			represent a text node among its siblings.
+		-

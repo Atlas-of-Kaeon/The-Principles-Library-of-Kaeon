@@ -61,19 +61,25 @@ Suite Corruption
 
 		2 - The Sins of Bondage
 
-			2.1 - The Sin of Commitment
+			2.1 - Commitment
 
 				-
-					The sin of commitment is when the usage of certain tools render others
-					unusable.
+					Commitment is when the usage of certain tools render others unusable.
 					
 					Thus, it forces commitment to one stack at the expense of others and renders
 					migration itself impossible without restarting from scratch.
 				-
 
-			2.2 - The Sin of Baggage
+			2.2 - Baggage
 
 				-
-					The sin of baggage is when a tool cannot be used independently of a specific
-					environment.
+					Baggage is when a tool cannot be used independently of a specific environment.
 				-
+
+		3 - The Wage of Deadlock
+
+			-
+				Technical deadlock is when technical debt creates limits which restrict an existing
+				project to such a degree that the goals of the project can no longer be reached,
+				forcing a complete development reset.
+			-

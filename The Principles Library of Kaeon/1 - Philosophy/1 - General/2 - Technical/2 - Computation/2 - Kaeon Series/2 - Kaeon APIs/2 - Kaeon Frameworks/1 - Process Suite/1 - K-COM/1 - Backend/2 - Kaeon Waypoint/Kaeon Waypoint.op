@@ -17,6 +17,13 @@ Kaeon Waypoint
 					Kaeon Waypoint shall primarily be designed around action ACE.
 				-
 
+			Value Monitors
+
+				-
+					Kaeon Waypoint shall make use of value monitors to allow subscriptions and
+					entanglement with and across databases.
+				-
+
 		APIs
 
 			Waypoint Core

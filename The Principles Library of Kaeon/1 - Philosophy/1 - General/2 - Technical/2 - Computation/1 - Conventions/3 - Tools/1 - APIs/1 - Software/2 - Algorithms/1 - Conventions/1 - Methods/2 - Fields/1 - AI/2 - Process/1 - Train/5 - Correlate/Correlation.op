@@ -3,8 +3,9 @@ Correlation Training
 	Philosophy
 
 		-
-			Correlation training is where an AI model is trained using a process that assigns
-			quality scores to output without specifying the intended output.
+			Correlation training is a type of reinforcement training where an AI model is trained
+			using a process that assigns quality scores to output without specifying the intended
+			output.
 		-
 
 	Principles
@@ -38,4 +39,11 @@ Correlation Training
 				improve the model increase.
 
 				More advanced methods of SSP may utilize partial or complete state graphs.
+			-
+
+		Judge Model
+
+			-
+				A judge model (JM) is an AI model that can evaluate the quality of the output of a
+				generative model and assign it a quality score.
 			-

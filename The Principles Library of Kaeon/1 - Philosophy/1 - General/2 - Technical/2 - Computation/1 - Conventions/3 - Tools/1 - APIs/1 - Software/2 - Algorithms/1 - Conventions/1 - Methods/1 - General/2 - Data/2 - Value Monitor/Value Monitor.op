@@ -6,7 +6,33 @@ Value Monitor
 			A value monitor is an event listener that is assigned the alias or address of a
 			specific value, called the target, and triggers an event any time said value is
 			changed.
-
-			The metadata for said event should include both the previous value and the current
-			value of said target.
 		-
+
+	Principles
+
+		Subscriptions
+
+			-
+				An external listener for value monitor events may be referred to as a subscriber of
+				the value to which said events correspond, the relationship thus being a value
+				subscription.
+
+				A standardized use case for subscriptions is called a subscription convention.
+			-
+
+		Conventions
+
+			Entanglement
+
+				-
+					The use of value subscriptions to ensure that multiple separate values remain
+					equivalent whenever one of them is changed, taking on the value of the one most
+					recently changed, may be referred to as value entanglement.
+				-
+
+			Metadata
+
+				-
+					The metadata for value monitor events should include both the previous value
+					and the current value of said target. 
+				-

@@ -1,0 +1,18 @@
+Embedded Paper ONE Scheme
+
+	Philosophy
+
+		-
+			An embedded paper ONE scheme is a paper ONE scheme that interprets and renders the
+			content of all immediate children of the element to which it is applied in a specified
+			format.
+		-
+
+	Principles
+
+		Standard Schemes
+
+			-
+				The formats HTML, Markdown, and LaTeX are available as embedded paper ONE schemes,
+				their aliases all being identical to the names of said formats.
+			-

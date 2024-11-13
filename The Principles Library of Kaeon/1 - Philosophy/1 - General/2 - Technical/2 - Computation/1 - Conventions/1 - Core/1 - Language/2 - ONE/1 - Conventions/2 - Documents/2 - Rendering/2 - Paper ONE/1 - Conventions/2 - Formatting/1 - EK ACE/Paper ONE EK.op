@@ -1,0 +1,27 @@
+Paper ONE EK
+
+	Philosophy
+
+		-
+			This document lists EK ACE conventions used to implement Paper ONE schemes.
+		-
+
+	Principles
+
+		Paper Component
+
+			-
+				The Kaeon ACE paper component convention is a Kaeon ACE convention regarding Kaeon
+				ACE paper components.
+
+				A Kaeon ACE paper component is a Kaeon ACE component element with the content
+				"Paper", the children of which shall specify the aliases of paper ONE schemes to
+				apply to the EK ACE element to which the component belongs.
+			-
+
+		Auto-Application
+
+			-
+				Kaeon ACE paper components may be automatically applied to ONE elements by certain
+				paper ONE processors.
+			-

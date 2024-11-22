@@ -52,4 +52,10 @@ Open Axis
 				have access to the system on which the server is running. An axis web server may
 				optionally function as a SOUL bot, and may optionally employ security measures
 				restricting certain external inputs to those with certain credentials.
+
+				An axis web server may take aether calls in the form of POST requests made to its
+				root URL with no URL arguments, the bodies thereof containing Kaeon documents with
+				action ACE and aether ACE content, and the bodies of the responses containing an
+				aether ACE document specifying the resulting aether state of the atlas to which
+				said server belongs.
 			-

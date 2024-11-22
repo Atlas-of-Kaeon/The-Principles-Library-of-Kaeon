@@ -1,0 +1,62 @@
+Aether Conventions
+
+	Philosophy
+
+		-
+			The aether conventions specify the properties which are, by default, applicable to
+			elements of Aether atlases, the collection states of which may be referred to as aether
+			states.
+		-
+
+	Principles
+
+		Elements
+
+			Internal
+
+				Nodes
+
+					-
+						Nodes, with regards to Aether atlases, refer to machines, or reserved space
+						therein, in which the applications of a given Aether atlas may operate.
+					-
+
+				Processes
+
+					-
+						Processes, with regards to Aether atlases, refer to applications which
+						compose a given Aether atlas.
+					-
+
+				Tasks
+
+					-
+						Tasks, with regards to Aether atlases, refer to actions currently being
+						executed, or which are scheduled to be executed, be it a set number of
+						times, or perpetually, by the processes of a given Aether atlas.
+					-
+
+			Resources
+
+				-
+					Resources, with regards to Aether atlases, refer to external utilities which
+					the processes of a given Aether atlas may utilize.
+				-
+
+		Conventions
+
+			Element Proximity
+
+				-
+					Element proximity, with regards to Aether atlases, refers to the priority of
+					relative preference between processes and nodes, between processes and
+					resources, and between tasks and processes, regarding which of the latter in
+					each of the aforementioned cases should serve the needs of the former.
+				-
+
+			Aether Call
+
+				-
+					An aether call is a request made to an aether atlas to update or read its
+					aether state.
+				-

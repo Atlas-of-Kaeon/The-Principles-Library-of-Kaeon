@@ -1,0 +1,15 @@
+Kaeon ACE Access
+
+	Philosophy
+
+		-
+			The Kaeon ACE access component convention is a Kaeon ACE convention regarding Kaeon ACE
+			access components.
+
+			A Kaeon ACE access component is a Kaeon ACE component element with the content
+			"Access", which may have an indefinite number of children, referred to as access
+			elements, that may specify the identity and credentials of an external system.
+
+			Codified conventions for the content and effects of access elements are
+			referred to as access conventions. 
+		-

@@ -1,0 +1,10 @@
+Contained Processes
+
+	Philosophy
+
+		-
+			Contained processes refer to containerized processes, that is processes which run in
+			dedicated virtual machines, and to contained sub-processes, that is processes which run
+			as sub-processes of another application which is not solely dedicated to said
+			sub-processes.
+		-

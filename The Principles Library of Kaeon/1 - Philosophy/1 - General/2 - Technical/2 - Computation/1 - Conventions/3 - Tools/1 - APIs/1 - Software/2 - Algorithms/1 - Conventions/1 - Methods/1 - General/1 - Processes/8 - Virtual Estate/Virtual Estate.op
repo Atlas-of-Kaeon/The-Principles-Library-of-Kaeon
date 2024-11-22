@@ -1,0 +1,13 @@
+Virtual Estate
+
+	Philosophy
+
+		-
+			Virtual estate refers to horizontal virtual estate, that being nodes into which a given
+			system may scale horizontally, and vertical real estate, that being resources available
+			on said nodes.
+
+			Active virtual estate refers to elements of virtual estate currently in use by a given
+			system, and potential virtual estate refers to elements of virtual estate not currently
+			in use by said system.
+		-

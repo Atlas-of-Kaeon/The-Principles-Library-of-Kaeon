@@ -1,0 +1,27 @@
+Atlas Companion
+
+	Philosophy
+
+		-
+			An Atlas Companion is a Kaeon library containing assets in its wonders folder to extend
+			the content of a given Kaeon library atlas.
+		-
+
+	Principles
+
+		Index
+
+			-
+				Each Atlas Companion for a given Kaeon library atlas shall have a unique numerical
+				ID relative to one another.
+			-
+
+		Structure
+
+			-
+				An Atlas Companion shall have a master document, a principles folder, and a wonders
+				folder.
+				
+				The principles folder shall connect it to the atlas which it extends, and the
+				wonders folder shall contain the extension content.
+			-

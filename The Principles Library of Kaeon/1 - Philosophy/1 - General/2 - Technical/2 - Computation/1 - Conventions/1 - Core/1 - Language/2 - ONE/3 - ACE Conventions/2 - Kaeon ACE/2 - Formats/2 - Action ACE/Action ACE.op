@@ -22,46 +22,67 @@ Action ACE
 						Codified conventions for the content and effects of filter elements are
 						referred to as filter conventions.
 
-						By default, a filter element may be a literal element, a pattern element,
-						one of the comparison elements, those being greater elements and lesser
-						elements, one of the logic elements, those being and elements, or elements,
-						xor elements, and not elements, or a unique element.
+						By default, a filter element may be one of the comparison elements, those
+						being "equal" elements, "greater" elements, and "lesser" elements, one of
+						the logic elements, those being "and" elements, "or" elements, "xor"
+						elements, and "not" elements, or a "unique" element.
+
+						Filter elements make use of the content elements, those being "literal"
+						elements, "pattern" elements, and value elements.
+
+						Filter elements resolve to boolean flags, and content elements resolve to
+						data values. A filter element used as a filter, referred to as a filterable
+						element, must be a comparison element or a unique element, or have one of
+						said types as descendants.
 
 						A literal element shall have the content "Literal", and shall have one
-						child which shall have content specifying a value that the target must be
-						equivalent to.
+						child which shall have content specifying a literal alphanumeric value to
+						which the element shall resolve.
 
 						A pattern element shall have the content "Pattern", and shall have one
-						child which shall have content specifying a regular expression that the
-						target must match.
+						child which shall have content specifying a regular expression to which the
+						element shall resolve.
+						
+						A value element shall have the content "Value", and shall have one child,
+						referred to as an alias element, which shall have content specifying the
+						alias of a module field, with the said value element resolving to the
+						content of said field if applied to a module for which said field is
+						present, and to a null value otherwise.
 
-						A greater element shall have the content "Greater", and shall have one
-						child which shall have content specifying a value that the target's value
-						must alphabetically or numerically exceed.
+						An equal element shall have the content "Equal", and shall have two content
+						children, resolving to true if the values of said children match, and to
+						false otherwise.
 
-						A lesser element shall have the content "Lesser", and shall have one child
-						which shall have content specifying a value that the target's value must
-						alphabetically or numerically subceed.
+						A greater element shall have the content "Greater", and shall have two
+						content children, resolving to true if the value of the first child
+						numerically or alphabetically, as applicable, exceeds the value of the
+						second child, and resolving to false otherwise.
+
+						A lesser element shall have the content "Lesser", and shall have two
+						content children, resolving to true if the value of the second child
+						numerically or alphabetically, as applicable, exceeds the value of the
+						first child, and resolving to false otherwise.
 
 						An and element shall have the content "And", and shall have two filter
-						elements as children, the conditions of both of which must be satisfied by
-						the target.
+						elements as children, resolving to true if both children resolve to true,
+						and resolving to false otherwise.
 
 						An or element shall have the content "Or", and shall have two filter
-						elements as children, the conditions of at least one of which must be
-						satisfied by the target.
+						elements as children, resolving to true if at least one child resolves to
+						true, and resolving to false otherwise.
 
 						An xor element shall have the content "Xor", and shall have two filter
-						elements as children, the conditions of one and only one of which must be
-						satisfied by the target.
+						elements as children, resolving to true if one and only one child resolves
+						to true, and resolving to false otherwise.
 
 						A not element shall have the content "Not", and shall have one filter
-						element as a child, the conditions of which must not be satisfied by the
-						target.
+						element as a child, resolving to true if its child resolves to false, and
+						resolving to false otherwise.
 
-						A unique element shall have the content "Unique", and shall indicate that
-						the target must be unique among those parallel to it in its parent
-						structure.
+						A unique element shall have the content "Unique", and shall have an alias
+						element as a child, resolving to true if applied to an item for which the
+						value of the specified field for said item is unique among all items in the
+						collection to which said item belongs, and resolving to false otherwise.
 					-
 
 				Transform ONE
@@ -138,14 +159,10 @@ Action ACE
 				or delete elements.
 
 				Read elements, update elements, and delete elements may each have filter elements
-				as children, which shall have the content "Filter", may have an indefinite number
-				of filter field elements as children, and shall specify the contents of the target
-				to act on, referred to as the action targets, with all such contents being the
-				default action targets if such a filter element is not present.
-
-				Filter field elements shall specify the alias of the module field to filter for
-				with their content, and shall have a filter ONE element as a child to apply to said
-				module field.
+				as children, which shall have the content "Filter", shall have a filterable element
+				as a child, said child specifying the contents of the target to act on, referred to
+				as the action targets, with all such contents being the default action targets if
+				such a filter element is not present.
 
 				Create elements shall create a new item within the target module, and may have an
 				indefinite number of children referred to as create field elements, which specify

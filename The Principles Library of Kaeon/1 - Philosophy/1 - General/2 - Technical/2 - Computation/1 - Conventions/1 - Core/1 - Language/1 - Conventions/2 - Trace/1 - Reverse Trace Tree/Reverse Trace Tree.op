@@ -1,0 +1,23 @@
+Reverse Trace Tree
+
+	Philosophy
+
+		-
+			A reverse trace tree (RTT) is a tree of trace classes, with each leaf node specifying a
+			trace path which begins at said leaf node and progresses upwards towards the root node.
+
+			Nodes with the lowest depth and indices shall, by default, be held to have higher
+			priority as options for traversal.
+		-
+
+	Principles
+
+		TRTT
+
+			-
+				A tag RTT (TRTT) is an RTT in which each trace class in the tree is a tag trace
+				class.
+
+				A ONE element may be used to specify a TRTT. Such an element may be referred to as
+				a TRTT element.
+			-

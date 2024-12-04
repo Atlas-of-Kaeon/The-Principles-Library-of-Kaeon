@@ -4,7 +4,7 @@ Aether ACE
 
 		-
 			Aether ACE is a set of Kaeon ACE conventions which extend target ACE, for specifying
-			the aether states for Philosopher's Systems in terms of the Aether conventions.
+			the Aether states for Philosopher's Systems in terms of the Aether conventions.
 		-
 
 	Principles
@@ -14,30 +14,31 @@ Aether ACE
 			Aether Entities
 
 				-
-					Aether entities are module entities for specifying nodes, processes, and
-					resources in terms of the Aether conventions.
+					Aether entities are module entities for specifying Aether elements in terms of
+					the Aether conventions, the aliases of said entities being the aliases for the
+					corresponding elements.
 				-
 
 			Task Components
 
 				-
 					Task components are Kaeon ACE components with the content "Task", which shall
-					have a child with either the content "ACE" or "META".
+					have a child with either the content "Discrete" or "General".
 
-					The children of an ACE child shall constitute a Kaeon ACE document, the
-					contents of which shall specify a task for an aether atlas to execute. A
-					codified protocol for how such a document may specify such a task is referred
+					The children of a discrete element shall constitute a Kaeon ACE document, the
+					contents of which shall specify a discrete task for an Aether atlas to execute.
+					A codified protocol for how such a document may specify such a task is referred
 					to as a Task ACE convention.
 
-					The children of a META element shall specify a task for an aether atlas to
-					execute in natural language, the interpretation thereof being subject to the
-					judgement of AI.
+					The children of a general element shall specify a general task for an Aether
+					atlas to execute in natural language, the interpretation thereof being subject
+					to the judgement of AI.
 				-
 
 		Element Proximity
 
 			-
-				Element proximity for aether atlas elements specified by aether ACE documents shall
+				Element proximity for Aether atlas elements specified by Aether ACE documents shall
 				be derived from the trace degree between the Kaeon ACE elements which define said
-				aether atlas elements.
+				Aether atlas elements.
 			-

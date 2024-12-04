@@ -19,6 +19,9 @@ Aether Conventions
 					-
 						Nodes, with regards to Aether atlases, refer to machines, or reserved space
 						therein, in which the applications of a given Aether atlas may operate.
+
+						Separate Aether atlases may be treated as nodes in and of themselves, these
+						nodes being referred to as cluster nodes.
 					-
 
 				Processes
@@ -34,6 +37,11 @@ Aether Conventions
 						Tasks, with regards to Aether atlases, refer to actions currently being
 						executed, or which are scheduled to be executed, be it a set number of
 						times, or perpetually, by the processes of a given Aether atlas.
+
+						Tasks which are specified loosely, such as in natural language, where the
+						precise execution thereof is left to the discretion of the system, are
+						referred to as general tasks. Tasks which are not general are referred to
+						as discrete.
 					-
 
 			Resources
@@ -45,18 +53,40 @@ Aether Conventions
 
 		Conventions
 
-			Element Proximity
-
-				-
-					Element proximity, with regards to Aether atlases, refers to the priority of
-					relative preference between processes and nodes, between processes and
-					resources, and between tasks and processes, regarding which of the latter in
-					each of the aforementioned cases should serve the needs of the former.
-				-
-
 			Aether Call
 
 				-
 					An aether call is a request made to an aether atlas to update or read its
 					aether state.
 				-
+
+			Discrete Tasks
+
+				Relay
+
+					-
+						A relay task is a discrete task which specifies a packet of data to be
+						transferred across the aether atlas from a source Aether element to a
+						specified target Aether element.
+
+						By default, relay tasks should result in a response being sent back from
+						the target element to the source element.
+					-
+
+			Elements
+
+				Aliases
+
+					-
+						Components of Aether atlases, that is nodes, processes, and resources,
+						referred to as Aether elements, may have aliases.
+					-
+
+				Proximity
+
+					-
+						Element proximity, with regards to Aether atlases, refers to the priority
+						of relative preference between processes and nodes, between processes and
+						resources, and between tasks and processes, regarding which of the latter
+						in each of the aforementioned cases should serve the needs of the former.
+					-

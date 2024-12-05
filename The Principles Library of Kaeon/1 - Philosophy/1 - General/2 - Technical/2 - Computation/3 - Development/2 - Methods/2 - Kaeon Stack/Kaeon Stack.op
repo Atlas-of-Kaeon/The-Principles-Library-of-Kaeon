@@ -9,7 +9,7 @@ Kaeon Stack
 
 	Principles
 
-		Conventions
+		Methods
 
 			Implementation
 
@@ -44,24 +44,43 @@ Kaeon Stack
 						Kaeon Origin as one's primary code editors and terminal interfaces.
 					-
 
-				Outer Yggdrasil
+		Conventions
 
-					-
-						Outer Yggdrasil is a series of layers which constitute a model
-						demonstrating the relationship between the underlying technologies of Kaeon
-						META, using a tree as an analogy for its form, and named in contrast to the
-						"inner" Kaeon Yggdrasil.
+			Outer Yggdrasil
 
-						The first layer is Kaeon United itself, followed by the Kaeon APIs,
-						followed by Kaeon Origin. The aforementioned layers are referred to as the
-						root layers, which are followed by the canopy layers, consisting of the
-						Kaeon Apps, followed by Kaeon Kor.
+				-
+					Outer Yggdrasil is a series of layers which constitute a model demonstrating
+					the relationship between the underlying technologies of Kaeon META, using a
+					tree as an analogy for its form, and named in contrast to the "inner" Kaeon
+					Yggdrasil.
 
-						This model is embedded in the "soil" of Kaeon Sigma, and from this model
-						spouts the "fruits" of Kaeon Ro.
-					-
+					The first layer is Kaeon United itself, followed by the Kaeon APIs, followed by
+					Kaeon Origin. The aforementioned layers are referred to as the root layers,
+					which are followed by the canopy layers, consisting of the Kaeon Apps, followed
+					by Kaeon Kor.
 
-		Branding
+					This model is embedded in the "soil" of Kaeon Sigma, and from this model spouts
+					the "fruits" of Kaeon Ro.
+				-
+		
+			The Aethernet
+			
+				-
+					Kaeon Aether shall, in spreading across various networks using various
+					communication and messaging protocols, establish itself as an open and
+					boundless platform and environment, in and as a "Web 2.5" dot net subnetwork of
+					and beyond the internet, with the network itself and its general capabilities,
+					that is, Kaeon META, universally accessible through decentralized, autonomous,
+					and intelligent mechanisms which do not require omniscience of the entirety of
+					the system, and with certain sectors therein held private.
+
+					The Aether protocols refer to the communication mechanisms used to communicate
+					among the elements of Kaeon Aether, which may be utilized by elements external
+					to Kaeon Aether, thus becoming, together with Kaeon Aether, part of the
+					Aethernet.
+				-
+
+		Statements
 
 			Kaeon FUSION
 			

@@ -70,14 +70,3 @@ Kaeon Process Conventions
 					granting leeway when it comes to following the specification to the letter and
 					in terms of going beyond the requirements of the specification.
 				-
-
-			Release Points
-
-				-
-					The developers of a project may define milestone release points in the
-					documentation where an implementation may be fit for an initial release or
-					version update once a certain set of features have been developed.
-					
-					Between milestone release points and following project completion, patches may
-					also be released.
-				-

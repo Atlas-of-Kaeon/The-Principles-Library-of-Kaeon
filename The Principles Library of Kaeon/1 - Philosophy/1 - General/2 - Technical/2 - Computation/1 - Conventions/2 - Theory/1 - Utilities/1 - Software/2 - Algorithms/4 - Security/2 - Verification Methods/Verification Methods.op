@@ -210,25 +210,6 @@ Verification Methods
 							signing up due to the platform raising false alarms.
 						-
 
-		Tools
-
-			Utilities
-
-				Anti-Spam Measures: Captcha, Cloudflare
-
-				Phone Number Lookup: 'https://github.com/google/libphonenumber'
-
-			Third Party Services
-
-				Email: Robinhood, Coinbase, Banks
-				Link: Plaid
-
-				Personhood References
-				
-					Coinbase - Verified Users Only: Type: Authenticator
-					Kleros - Proof of Humanity: Type: Library
-					World ID: Type: Authenticator
-
 		Conventions
 
 			Notes

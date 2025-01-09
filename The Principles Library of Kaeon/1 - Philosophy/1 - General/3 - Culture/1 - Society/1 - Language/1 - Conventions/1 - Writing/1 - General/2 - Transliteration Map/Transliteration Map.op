@@ -5,3 +5,25 @@ Transliteration Map
 		-
 			A transliteration map is a convention which maps one character set to another.
 		-
+
+	Principles
+
+		Transliteration Lists
+
+			-
+				If the character set being mapped has a generally accepted order, a transliteration
+				map for it may be expressed as a list where each element specifies a character, or
+				list of characters, that the character in the mapped character set which matches
+				the index of said element may map to.
+
+				For a transliteration map in which each mapped character may only map to one
+				character, said map may be expressed as a char list. Otherwise, serialization as a
+				JSON list is the ideal method.
+			-
+
+		Letter Case
+
+			-
+				Unless otherwise specified, the letter case of character mappings may be ignored
+				unless there is a conflict.
+			-

@@ -1,0 +1,8 @@
+Char List
+
+	Philosophy
+
+		-
+			A char list is a string in which each character is interpreted as an element in a list,
+			their indices matching their placement in said string.
+		-

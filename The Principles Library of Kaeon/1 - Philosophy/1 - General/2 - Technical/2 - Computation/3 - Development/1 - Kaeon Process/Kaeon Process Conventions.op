@@ -70,3 +70,16 @@ Kaeon Process Conventions
 					granting leeway when it comes to following the specification to the letter and
 					in terms of going beyond the requirements of the specification.
 				-
+
+			Reverse Mining
+
+				-
+					Reverse mining is implementing features against, or without, the terms of an
+					existing specification, with the intention to create or amend the relevant
+					terms at a later time.
+
+					It may be applied to the Kaeon process where some specification is already in
+					place, or started with the intention of integrating the Kaeon process into the
+					project "in labor res" (during development), for exploratory purposes, or as a
+					means to break "coder's block".
+				-

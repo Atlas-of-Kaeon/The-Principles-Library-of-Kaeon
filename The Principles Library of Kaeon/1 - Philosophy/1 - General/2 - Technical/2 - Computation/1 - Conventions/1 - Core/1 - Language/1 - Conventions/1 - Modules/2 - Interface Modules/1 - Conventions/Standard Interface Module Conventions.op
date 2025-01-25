@@ -42,6 +42,13 @@ Standard Interface Module Conventions
 						specified using the Universal Preprocessor's language aliases.
 					-
 
+				Rules
+
+					-
+						An interface rule is a codified rule for identifying interface entities
+						among an interface module which match certain criteria.
+					-
+
 				Utilities
 
 					-

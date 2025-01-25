@@ -3,6 +3,6 @@ Standard SOUL Core
 	Philosophy
 	
 		-
-			A standard SOUL core is a SOUL core implemented using a standard module which may only
+			A standard SOUL core is a SOUL core implemented using a general module which may only
 			be connected to other modules using private connections.
 		-

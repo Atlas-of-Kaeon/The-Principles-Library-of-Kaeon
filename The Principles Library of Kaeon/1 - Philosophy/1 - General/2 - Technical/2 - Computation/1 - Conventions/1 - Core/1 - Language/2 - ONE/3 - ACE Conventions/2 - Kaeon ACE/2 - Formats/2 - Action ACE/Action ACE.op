@@ -83,6 +83,12 @@ Action ACE
 						element as a child, resolving to true if applied to an item for which the
 						value of the specified field for said item is unique among all items in the
 						collection to which said item belongs, and resolving to false otherwise.
+
+						As an extension to the default filter conventions, a filter element may be
+						a search element, which shall have the content "Search", and shall have
+						children specifying, in an unstructured manner, properties for a module to
+						which it is applied, resolving to true if an AI judges said module to match
+						the specified criteria, and resolving to false otherwise.
 					-
 
 				Transform ONE

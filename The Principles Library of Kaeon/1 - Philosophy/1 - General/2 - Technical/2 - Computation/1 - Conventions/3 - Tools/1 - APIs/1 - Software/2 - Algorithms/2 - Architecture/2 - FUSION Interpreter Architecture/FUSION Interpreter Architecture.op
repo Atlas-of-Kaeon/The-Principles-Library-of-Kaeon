@@ -14,8 +14,8 @@ FUSION Interpreter Architecture
 			Philosophy
 			
 				-
-					A FUSION core is a standard module that manages the FUSION process. It will
-					have the tag "FUSION", and will contain a boolean flag called "running" that
+					A FUSION core is a general module that manages the FUSION process. It will have
+					the tag "FUSION", and will contain a boolean flag called "running" that
 					indicates whether the process or internal process functions are currently
 					running.
 				-

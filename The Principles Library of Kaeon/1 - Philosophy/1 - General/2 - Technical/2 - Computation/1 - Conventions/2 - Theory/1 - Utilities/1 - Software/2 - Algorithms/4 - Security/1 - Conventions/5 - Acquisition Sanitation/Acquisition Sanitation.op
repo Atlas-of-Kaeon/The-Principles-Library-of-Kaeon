@@ -1,0 +1,23 @@
+Acquisition Sanitation
+
+	Philosophy
+	
+		-
+			Acquisition sanitation is the process of modifying software or hardware acquired from
+			third parties to remove known or potential vulnerabilities.
+
+			Acquiring assets which one knows fosters or may foster vulnerabilities which they
+			intend to sanitize is referred to as volatile acquisition.
+		-
+
+	Principles
+
+		Use Cases
+
+			-
+				Volatile acquisition followed by acquisition sanitation may be used to conserve, or
+				bypass limits to one's resources without risking damage from malicious actors.
+
+				Reverse engineering and vulnerability analysis may also be performed during
+				acquisition sanitation,
+			-

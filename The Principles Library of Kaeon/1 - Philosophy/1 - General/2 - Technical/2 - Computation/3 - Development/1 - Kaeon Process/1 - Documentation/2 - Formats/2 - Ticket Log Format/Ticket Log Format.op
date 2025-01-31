@@ -77,6 +77,9 @@ Ticket Log Format
 
 				The due element, if present, shall have a single child containing the date and time
 				at which the ticket is due as its content.
+
+				Codified conventions for the content of notes assigned to tickets are referred to
+				as ticket note conventions.
 			-
 
 		Ticket Log Library

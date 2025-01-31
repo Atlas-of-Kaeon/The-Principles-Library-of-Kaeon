@@ -9,43 +9,63 @@ General Contract Format
 	
 	Principles
 
-		Title
+		Content
 
-			-
-				The title of a contract shall begin with the string "Contract", which, for every
-				party involved in the contract, shall be followed with the string " - ", followed
-				by the name of said party.
-				
-				In this order, the contractees shall precede the contractors, and shall otherwise
-				be ordered alphabetically. The name of each party shall be rendered as their full
-				legal title, and thus each of said parties must be a legal entity.
+			Title
 
-				The hyphen between the last contractee and the first contractor shall be replaced
-				with an ampersand.
+				-
+					The title of a contract shall begin with the string "Contract", which, for
+					every party involved in the contract, shall be followed with the string " - ",
+					followed by the name of said party.
+					
+					In this order, the contractees shall precede the contractors, and shall
+					otherwise be ordered alphabetically. The name of each party shall be rendered
+					as their full legal title, and thus each of said parties must be a legal
+					entity.
 
-				The title shall end with the string " - ", followed by a numerical ID unique from
-				all other contracts involving the same combination of contractees and contractors.
+					The hyphen between the last contractee and the first contractor shall be
+					replaced with an ampersand.
 
-				The title of the contract shall serve as the title of the document.
-			-
+					The title shall end with the string " - ", followed by a numerical ID unique
+					from all other contracts involving the same combination of contractees and
+					contractors.
 
-		Sections
+					Open contracts with undefined parties may omit from their titles all of the
+					aforementioned details which concern the names of said parties.
 
-			-
-				The philosophy section of the document shall specify the general purpose of the
-				contract.
+					The title of the contract shall serve as the title of the document.
+				-
 
-				The principles section may either or both of the following: a child with the
-				content "Type", and a child with the content "Specifications".
+			Sections
 
-				The type element, if present, shall have a child specifying the type of the
-				contract, and the specifications element may have any miscellaneous children
-				specifying details about the contract.
-			-
+				-
+					The philosophy section of the document shall specify the general purpose of the
+					contract.
 
-		General Contract Convention
+					The principles section may either or both of the following: a child with the
+					content "Type", and a child with the content "Specifications".
 
-			-
-				A general contract convention is a ruleset specifying which children the
-				specifications element must have for certain contract types.
-			-
+					The type element, if present, shall have a child specifying the type of the
+					contract, and the specifications element may have any miscellaneous children
+					specifying details about the contract.
+				-
+
+		Conventions
+
+			General Contract Convention
+
+				-
+					A general contract convention is a ruleset specifying which children the
+					specifications element must have for certain contract types.
+				-
+
+			Ticket Contract Note
+
+				-
+					The ticket contract convention is a ticket note convention which allows
+					contracts specified in the general contract format to be attached to tickets
+					specified in the ticket log format by giving the notes element of a ticket
+					element a child with the content "Contracts", and nesting the general contract
+					format elements specifying said contracts within said contracts child of said
+					notes element.
+				-

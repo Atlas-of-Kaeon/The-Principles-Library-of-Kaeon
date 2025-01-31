@@ -3,7 +3,7 @@ Triple Log System
 	Philosophy
 
 		-
-			The triple log system is the use of two types of documentation for handling task
+			The triple log system is the use of three types of documentation for handling task
 			management, the ordered log, the chaotic log, and the journal log, which collectively
 			constitute a triple log.
 
@@ -24,4 +24,10 @@ Triple Log System
 
 			-
 				A triple log library is an organized collection of triple logs.
+			-
+
+		Triple Board
+
+			-
+				A triple board is content from a triple log which is made publically available.
 			-

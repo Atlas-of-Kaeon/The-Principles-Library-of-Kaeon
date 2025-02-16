@@ -12,7 +12,7 @@ Kaeon United Standard Singularities
 
 			-
 				The Kaeon United standard singularities shall be hosted online so that users can
-				use it via CDN regardless of the environment they are operating in.
+				use them via CDN regardless of the environment they are operating in.
 			-
 
 		Implementation
@@ -20,6 +20,14 @@ Kaeon United Standard Singularities
 			-
 				The Kaeon United standard singularities shall, unless otherwise specified, be
 				implemented in JavaScript.
+			-
+
+		Path Rules
+
+			-
+				The Kaeon United standard singularities shall apply a default path rule protocol to
+				the Kaeon United suite in order to ensure maximum portability between hosting
+				environments with minimal adjustments.
 			-
 
 		United JavaScript

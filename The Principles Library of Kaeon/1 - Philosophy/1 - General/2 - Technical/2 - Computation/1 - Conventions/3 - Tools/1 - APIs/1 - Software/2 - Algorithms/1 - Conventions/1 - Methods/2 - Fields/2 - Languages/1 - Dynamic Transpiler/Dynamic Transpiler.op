@@ -1,0 +1,77 @@
+Dynamic Transpiler
+
+	Philosophy
+
+		-
+			The dynamic transpiler process is a methodology for implementing a language interpreter
+			which uses JIT transpilation from user-provided source code to the host language of the
+			interpreter, in such a way that the transpiled code can be dynamically altered at
+			runtime.
+		-
+
+	Principles
+
+		Conventions
+
+			AST
+
+				-
+					A dynamic transpiler does not operate on raw source code, but on a pre-rendered
+					AST generated from the source code.
+				-
+
+			Context
+
+				-
+					A dynamic transpiler uses a context object which contains, among other things,
+					a malleable list of transpilation functions, with associated metadata matching
+					said functions to specific operators or classes thereof, a boolean
+					retranspilation flag, set to false by default, an arguments list containing
+					arguments passed to the process, and a return value field which represent the
+					return value of the process.
+				-
+
+		Process
+
+			Phase 1
+
+				-
+					At phase one, the dynamic transpiler recursively transpiles the AST into the
+					host language of the interpreter using the relevant functions in the operator
+					function list of the context object, with the context object being passed to
+					said functions.
+				-
+
+			Phase 2
+
+				-
+					At phase two, the full transpiled code may be post-processed.
+				-
+
+			Phase 3
+
+				-
+					At phase three, the transpiled code shall be executed, with the context object
+					being passed to it. The context object shall retain any changes made to it
+					during execution.
+				-
+
+			Phase 4
+
+				-
+					After the transpiled code has exited, the restranspilation flag of the context
+					object will be checked, and if true, the process will reset to phase one and
+					the flag will reset to false.
+					
+					If the flag remains false after the transpiled code has exited, the process
+					will exit and the return value of the context object will be returned.
+				-
+
+		Defaults
+
+			Universal Preprocessor
+
+				-
+					By default, the Universal Preprocessor is used for the post-processing in phase
+					two.
+				-

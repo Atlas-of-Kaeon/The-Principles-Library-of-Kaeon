@@ -69,6 +69,7 @@ Greater Kaegaian Dictionary
 					kE: In order to, To, So that
 					kuol: Individual, One, Person
 					dan: There
+					dev: Creation, Device, Invention, Tool
 					gras: Appreciation, Gratitude, Thanks
 					guo: Grow, Growth
 					ha: And
@@ -80,12 +81,15 @@ Greater Kaegaian Dictionary
 					les: Gender, Sex
 					luos: Male, Masculine
 					luol: Thing
+					lUoUr: Light, Illumination
+					lUoUrn: Dark, Darkness
 					mar: Actor, Do-er of
 					mas: Action
 					maz: Effect, Result
 					med: Have, Own, Property of
 					mE: Go, Head, Move, Travel
 					myo: Emotion, Feel, Feeling, Mood
+					muol: Instance, Unit
 					nad: Garbage, Trash, Waste
 					naE: New
 					nen: See, Sight, Visual
@@ -97,24 +101,36 @@ Greater Kaegaian Dictionary
 					rev: Anti, Reverse
 					rEm: Mind
 					rEn: Being, Body
-					san: In
-					sar: Out
-					sal: On, Upon
+					san: In, Inside
+					sar: Out, Outside
 					sef: Language, Word
+					spaE: North
+					spe: West
+					spet: Direction
+					speE: South
+					spE: East
+					sta: Center, Middle
+					staE: Up
+					ste: Left
+					step: Coordinate, Location
+					steE: Down
+					stE: Right
+					stA: Back, Backwards
+					stuo: Forth, Forwards
 					sE: As, Like, Similar
-					tAo: Space, Volume
+					tAo: Area, Space, Volume
 					tuo: Time
 					tuol: It, That
 					tuE: Kind, Type, Variety, Version
 					vaE: Affirmative, Confirmed, Positive, Yes
-					vAl: Upon
+					vAl: On, Upon
 					vAo: Although, But, However
 					veks: System
 					vo: Adore, Affection, Appreciation, Like
 					vuo: Negative, No, Not
 					wUr: At, Where / Whereas, Which / Which is, Specific
 					yel: So, Then, Thus
-					Houl: This
+					Houl: That
 					ca: Active, On
 					Sa: Because, For
 					Sar: About, Regarding
@@ -140,19 +156,19 @@ Greater Kaegaian Dictionary
 					at: Automatic
 					Ao: Component, Part, Piece, Portion, Segment
 					eks: Network, Web
-					ef: Apart, Out, Outside, Without
+					ef: Apart, Without
 					el: Alter, Change, Transform, Transformation
 					em: Group
 					er: Assembly, Collection
 					ev: Am, Are, Is
-					ez: In, Inside, Within
+					ez: In, Within
 					E: -ish, -y
 					Em: Beyond, Excess, Too much
 					En: Extreme, Most
 					Ev: Quality, -Ness
 					Es: More, Greater
 					il: If
-					im: enterprise, institution
+					im: Enterprise, Institution
 					ov: Did, Has, Was
 					uE: From
 					uEt: Substance
@@ -162,12 +178,31 @@ Greater Kaegaian Dictionary
 
 				Secondary
 
-					den: Agony Pain, Suffering
-					fen: In Vain, Pointless
+					den: Agony, Pain, Suffering
+					fen: Futile, Pointless, Vain
 					geEn: Funny, Humor, Laughter
+					hyom: Fire
+					haEm: Water
+					held: Rock, Stone
+					helm: Earth, Ground, Soil
+					hels: Plant
+					helt: Metal
+					hom: Air, Atmosphere
 					mon: Burden
 					nad: Destroyed, Gone, Lost
 					saE: Cry, Wail, Weep
 					ten: Create, Forge, Make
 					var: Attempt, Effort, Shot, Stand
+					San: White
+					Saln: Purple
+					Sarn: Red
+					SAn: Brown
+					Sen: Orange
+					Sin: Yellow
+					Suoln: Cyan, Teal
+					Son: Blue
+					Sun: Gray
+					Suon: Black
+					SUrn: Green
 					Zen: Hand
+					Am: Human

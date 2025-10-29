@@ -26,8 +26,9 @@ Angaian Warrior Regalia
 				Overview
 
 					-
-						An Angaian suit is a variant of an Angaian suit decorated with solid color
-						segments, which may be padded and coated with additional material.
+						An Angaian warrior suit is a variant of an Angaian suit decorated with
+						solid color segments, which may be padded and coated with additional
+						material.
 					-
 
 				Segments
@@ -159,34 +160,35 @@ Angaian Warrior Regalia
 					Skin
 
 						-
-							All unnamed sections of the suit shall be referred to as the skin.
+							All unnamed sections of the Angaian warrior suit shall be referred to
+							as the skin.
 						-
 
-		Color
+			Color
 
-			Black and White
+				Black and White
 
-				-
-					The black and white color scheme for the Angaian suit assigns the primary color
-					to the skin, inner spans, tail spans, boots, and jewels, and the secondary
-					color to all other sections, with any writing taking on the opposite color of
-					the section it sits in.
+					-
+						The black and white color scheme for the Angaian warrior suit assigns the
+						primary color to the skin, inner spans, tail spans, boots, and jewels, and
+						the secondary color to all other sections, with any writing taking on the
+						opposite color of the section it sits in.
 
-					By default, the primary color is black and the secondary color is white.
-				-
+						By default, the primary color is black and the secondary color is white.
+					-
 
-			Rainbow
+				Rainbow
 
-				-
-					The rainbow color scheme for the Angaian suit assigns the first color to the
-					skin and boots, the second color to the wings and to the extensions thereof,
-					the third color to the gloves, braces, and tail spans, the fourth color to the
-					plate edges, the fifth color to the inner spans, the sixth color to the jewels,
-					and the seventh color to the Angaian Crest, with any other writing being either
-					black or white according to whichever contrasts more effectively against its
-					background.
+					-
+						The rainbow color scheme for the Angaian warrior suit assigns the first
+						color to the skin and boots, the second color to the wings and to the
+						extensions thereof, the third color to the gloves, braces, and tail spans,
+						the fourth color to the plate edges, the fifth color to the inner spans,
+						the sixth color to the jewels, and the seventh color to the Angaian Crest,
+						with any other writing being either black or white according to whichever
+						contrasts more effectively against its background.
 
-					By default, the first color is blue, the second color is red, the third color
-					is white, the fourth color is silver, the fifth color is black, the sixth color
-					is green, and the seventh color is gold.
-				-
+						By default, the first color is blue, the second color is red, the third
+						color is white, the fourth color is silver, the fifth color is black, the
+						sixth color is green, and the seventh color is gold.
+					-

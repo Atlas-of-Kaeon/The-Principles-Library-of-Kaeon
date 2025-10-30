@@ -136,6 +136,14 @@ Kaeon Tithe
 						If the intended day of a Xy day is inconvenient, the major observance may
 						be moved to the nearest preceding day which is convenient, with a more
 						minor observance or acknowledgement taking place the intended day.
+						
+						The standard observance scheduling formula, used for timing such an
+						observance, is to celebrate it on the intended day if said day falls on a
+						weekend, to celebrate it on the preceding Sunday if the intended day is a
+						Monday, a Tuesday, or a Wednesday, and to celebrate it on the following
+						Saturday if the intended day is a Thursday or a Friday. If the resulting
+						alternate day remains unacceptable, it shall be moved to the nearest
+						weekend date which is acceptable.
 
 						An event similar to a scaled-down Xy day, featuring an ordinary Kaeon tithe
 						instead of a great Kaeon tithe, may be referred to as a kae day. A Xy day

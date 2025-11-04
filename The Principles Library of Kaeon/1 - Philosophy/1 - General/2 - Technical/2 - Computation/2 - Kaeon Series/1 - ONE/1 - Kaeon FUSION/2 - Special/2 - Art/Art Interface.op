@@ -209,9 +209,10 @@ Kaeon FUSION Art Interface
 							followed by nothing, its octave shall be the reference octave. A
 							reference marker may be either positive, consisting of a plus sign
 							followed by a number to raise the reference octave by, or negative,
-							consisting of a number to lower the reference octave by. If the note is
-							A or B and the octave is defined relative to a reference octave, the
-							reference octave shall be raised by 1.
+							consisting of a number to lower the reference octave by. If said number
+							is one, the number itself may be omitted from the reference marker. If
+							the note is A or B and the octave is defined relative to a reference
+							octave, the reference octave shall be raised by 1.
 							
 							The reference octave should be whatever the most common octave in the
 							encoded audio is, and the default reference octave is 4.

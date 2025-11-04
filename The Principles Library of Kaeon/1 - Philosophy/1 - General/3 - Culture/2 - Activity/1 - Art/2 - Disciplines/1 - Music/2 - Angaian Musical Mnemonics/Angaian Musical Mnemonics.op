@@ -1,0 +1,34 @@
+Angaian Musical Mnemonics
+
+	Philosophy
+
+		-
+			The Angaian Musical Mnemonics (AMM) are a solfège system used to label notes according
+			to pitch, accidental, and octave.
+		-
+
+	Principles
+
+		Format
+
+			-
+				A note may be assigned a consonant prefix based on octave, shall be middle vowel
+				based on pitch, and may be assigned a consonant suffix based on accidental.
+
+				The octave shall be defined relative to a reference octave, where notes within the
+				reference octave shall have no prefix. The default reference octave is 4.
+			-
+
+		Standards
+
+			Pitch Vowels
+
+				C: Aey; D: Ah; E: Ee; F: Ai; G: Oo; A: Oh; B: Eh
+
+			Octave Prefixes
+
+				-4: B; -3: K; -2: D; -1: F; +1: G: +2: H; +3: J; +4: K
+			
+			Accidental Suffixes
+			
+				Sharp: S

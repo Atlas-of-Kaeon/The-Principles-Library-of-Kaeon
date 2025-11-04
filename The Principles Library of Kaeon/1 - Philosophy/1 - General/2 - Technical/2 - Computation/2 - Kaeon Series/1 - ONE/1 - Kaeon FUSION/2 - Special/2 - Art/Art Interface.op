@@ -88,6 +88,10 @@ Kaeon FUSION Art Interface
 						repetitions element, specifying the number of times said event is to
 						repeat.
 
+						Rather than an exact value, the content of the time element may consist of
+						a forward slash followed by a number, corresponding to the value of one
+						divided by said number.
+
 						The time and repetitions elements may each have an indefinite number of
 						property elements as children, which shall have content specifying the
 						alias of an action property, and a single child with content specifying the
@@ -170,7 +174,9 @@ Kaeon FUSION Art Interface
 								respective aliases. Each contains a number.
 
 								Pitch specifies a specific integer number of notes to shift the key
-								being played by the event.
+								being played by the event. If said number is followed by an
+								asterisk, it shall represent octaves to be shifted instead of
+								notes.
 
 								Volume specifies the volume of the note being played by the event,
 								with volume ranging from zero to one, inclusive.
@@ -196,10 +202,22 @@ Kaeon FUSION Art Interface
 							from A to G, letter case being irrelevant.
 
 							Said letter may be followed by a number specifying the octave from 0 to
-							8. If the octave is not specified, the notes C to G shall have an
-							octave of 4, and the notes A and B shall have an octave of 5.
+							8.
+							
+							Alternatively, said letter may be defined relative to a reference
+							octave by being followed either by nothing or by a reference marker. If
+							followed by nothing, its octave shall be the reference octave. A
+							reference marker may be either positive, consisting of a plus sign
+							followed by a number to raise the reference octave by, or negative,
+							consisting of a number to lower the reference octave by. If the note is
+							A or B and the octave is defined relative to a reference octave, the
+							reference octave shall be raised by 1.
+							
+							The reference octave should be whatever the most common octave in the
+							encoded audio is, and the default reference octave is 4.
 
-							If the note is sharp, the alias shall end with a plus.
+							If the note is sharp, the letter of the alias shall be followed by an
+							asterisk.
 						-
 
 		Commands

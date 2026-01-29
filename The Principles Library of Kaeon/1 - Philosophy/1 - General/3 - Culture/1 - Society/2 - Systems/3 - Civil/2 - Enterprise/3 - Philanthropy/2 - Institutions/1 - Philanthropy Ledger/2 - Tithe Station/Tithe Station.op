@@ -4,8 +4,45 @@ Tithe Station
 
 		-
 			A tithe station is a physical machine or web portal which accepts payment in the form
-			of digital transactions or physical currency, and automatically donates the money to
-			charity, with the user being given some say as to the recipient, and logs the donation
-			in a digital record, and may optionally distribute contribution points in exchange for
+			of digital transactions or physical currency, automatically donates the money to
+			charity, where the user may be given some say as to the recipient, logs the donation in
+			a digital record, and may optionally distribute contribution points in exchange for
 			donations.
 		-
+
+	Principles
+
+		Alternate Methods
+
+			Passive Aid
+
+				Digital - Process Hosting
+
+					-
+						Digital tithe stations may allow users devices to host background processes
+						which contribute to the logistics of charitable endeavors.
+					-
+
+				Physical - Manual Generation
+
+					-
+						Physical tithe stations may allow users to generate electricity by manually
+						maneuvering an instrument so as to power a generator, where said
+						electricity may be used in charitable endeavors.
+					-
+
+			Material Contributions
+
+				Digital
+
+					-
+						Digital tithe stations may collect such items mailed to public shipping
+						addresses.
+					-
+
+				Physical
+
+					-
+						Certain physical tithe stations may have specialized receptacles, called
+						material slots, in which to deposit physical items intended for charity.
+					-

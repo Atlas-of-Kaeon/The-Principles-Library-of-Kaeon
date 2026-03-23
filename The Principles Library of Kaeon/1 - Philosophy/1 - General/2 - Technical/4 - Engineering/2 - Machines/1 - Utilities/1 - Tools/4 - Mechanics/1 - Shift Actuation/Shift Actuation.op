@@ -11,3 +11,12 @@ Shift Actuation
 			Shift actuation can be described in terms of n to m, where n is the number of source
 			actuators, and m is the number of end actuators, and where n is not equal to m.
 		-
+
+	Principles
+
+		Transmission Types
+
+			-
+				The usage of traction-based transmissions rather than gear-based transmissions may
+				be preferable in shift actuation to ensure smooth operation.
+			-

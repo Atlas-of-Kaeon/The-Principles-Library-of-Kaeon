@@ -1,0 +1,270 @@
+{
+	"properties": {
+		"links": [
+			{
+				"target": "https://raw.githubusercontent.com/Atlas-of-Kaeon/The-Philosophy-Library-of-Kaeon/refs/heads/master/The%20Philosophy%20Library%20of%20Kaeon/Kaeon.one",
+				"properties": {
+					"proxy": "Kaeon"
+				}
+			},
+			{
+				"target": [
+					"https://raw.githubusercontent.com/Atlas-of-Kaeon/The-Philosophy-Library-of-Kaeon/refs/heads/master/The%20Philosophy%20Library%20of%20Kaeon/1%20-%20Philosophy/3%20-%20Wonders/3%20-%20Kaeon%20United/2%20-%20Kaeon%20United/Kaeon%20United.one"
+				],
+				"properties": {
+					"proxy": "Kaeon United"
+				}
+			},
+			{
+				"target": [
+					"https://raw.githubusercontent.com/Atlas-of-Kaeon/The-Principles-Library-of-Kaeon/refs/heads/master/The%20Principles%20Library%20of%20Kaeon/3%20-%20Wonders/2%20-%20Kaeon%20United/2%20-%20Interface/kaeonUnitedInterface.json"
+				],
+				"properties": {
+					"proxy": "Kaeon United Interface"
+				}
+			}
+		]
+	},
+	"packages": {
+		"Kaeon": {
+			"packages": {
+				"KaeonMETA": {
+					"packages": {
+						"KaeonKor": {
+							"properties": {
+								"tags": ["orca"]
+							}
+						}
+					}
+				}
+			}
+		},
+		"telos": {
+			"packages": {
+				"ace": {
+					"utilities": {
+						"ace": {
+							"source": "https://raw.githubusercontent.com/Telos-Project/ACE/refs/heads/main/Code/ace.js",
+							"properties": {
+								"tags": ["library", "javascript"]
+							}
+						},
+						"aceOperators": {
+							"source": "https://raw.githubusercontent.com/Telos-Project/ACE/refs/heads/main/Code/aceOperators.js",
+							"properties": {
+								"tags": ["library", "javascript"]
+							}
+						}
+					}
+				},
+				"apint": {
+					"utilities": {
+						"apint": {
+							"source": "https://raw.githubusercontent.com/Telos-Project/APInt/refs/heads/main/Code/apintUtils.js",
+							"properties": {
+								"tags": ["library", "javascript"]
+							}
+						}
+					}
+				},
+				"autoCORS": {
+					"utilities": {
+						"autoCORS": {
+							"source": "https://raw.githubusercontent.com/Telos-Project/AutoCORS/refs/heads/main/Code/autoCORS.js",
+							"properties": {
+								"tags": ["library", "javascript"]
+							}
+						}
+					}
+				},
+				"busNet": {
+					"utilities": {
+						"busNet": {
+							"source": "https://raw.githubusercontent.com/Telos-Project/Bus-Net/refs/heads/main/Code/JS/busNetUtils.js",
+							"properties": {
+								"tags": ["library", "javascript"]
+							}
+						}
+					}
+				},
+				"csb": {
+					"utilities": {
+						"csb": {
+							"source": "https://raw.githubusercontent.com/Telos-Project/CSB/refs/heads/main/Code/csb.js",
+							"properties": {
+								"tags": ["library", "javascript"]
+							}
+						}
+					}
+				},
+				"fusionLISP": {
+					"utilities": {
+						"fusionLISP": {
+							"source": "https://raw.githubusercontent.com/Telos-Project/Fusion-LISP/refs/heads/main/Code/fusionLISP.js",
+							"properties": {
+								"tags": ["library", "javascript"]
+							}
+						},
+						"jsonLISP": {
+							"source": "https://raw.githubusercontent.com/Telos-Project/Fusion-LISP/refs/heads/main/Code/jsonLISP.js",
+							"properties": {
+								"tags": ["library", "javascript"]
+							}
+						},
+						"standard": {
+							"source": "fusion-lisp/standard.js",
+							"properties": {
+								"type": "fusion-lisp"
+							}
+						}
+					}
+				},
+				"ghi": {
+					"utilities": {
+
+					}
+				},
+				"ghostHost": {
+					"utilities": {
+
+					}
+				},
+				"justUI": {
+					"utilities": {
+						"justUI": {
+							"source": "https://raw.githubusercontent.com/Telos-Project/JustUI/refs/heads/main/Code/JustUI.js",
+							"properties": {
+								"tags": ["library", "javascript"]
+							}
+						}
+					}
+				},
+				"omniQuery": {
+					"utilities": {
+						"omniQuery": {
+							"source": "https://raw.githubusercontent.com/Telos-Project/OmniQuery/refs/heads/main/Code/omniQuery.js",
+							"properties": {
+								"tags": ["library", "javascript"]
+							}
+						},
+						"oql": {
+							"source": "telos-oql/oql.js",
+							"properties": {
+								"type": "fusion-lisp"
+							}
+						}
+					}
+				},
+				"one": {
+					"utilities": {
+						"one": {
+							"source": "https://raw.githubusercontent.com/Telos-Project/ONE/refs/heads/main/Code/oneLang.js",
+							"properties": {
+								"tags": ["library", "javascript"]
+							}
+						}
+					}
+				},
+				"orca": {
+					"utilities": {
+
+					}
+				},
+				"telosLog": {
+					"utilities": {
+						"telosLog": {
+							"source": "https://raw.githubusercontent.com/Telos-Project/Telos-Log/refs/heads/main/Code/telosLog.js",
+							"properties": {
+								"tags": ["library", "javascript"]
+							}
+						}
+					}
+				},
+				"telosOrigin": {
+					"utilities": {
+						
+					}
+				},
+				"telosServer": {
+					"utilities": {
+						"serverUtils": {
+							"source": "https://raw.githubusercontent.com/Telos-Project/Telos-Server/refs/heads/main/Code/serverUtils.js",
+							"properties": {
+								"tags": ["library", "javascript"]
+							}
+						},
+						"telosEngine": {
+							"source": "telos-server/telosEngine.js",
+							"properties": {
+								"type": "bus-module"
+							}
+						},
+						"telosServer": {
+							"source": "telos-server/telosServer.js",
+							"properties": {
+								"type": "bus-module"
+							}
+						},
+						"telosRouter": {
+							"source": "telos-server/telosRouter.js",
+							"properties": {
+								"type": "bus-module"
+							}
+						},
+						"telosMiddleware": {
+							"source": "telos-server/telosMiddleware.js",
+							"properties": {
+								"type": "telos-server-middleware"
+							}
+						}
+					}
+				},
+				"unitedC": {
+					"utilities": {
+						"unitedC": {
+							"source": "https://raw.githubusercontent.com/Telos-Project/United-C/refs/heads/main/Code/uc.js",
+							"properties": {
+								"tags": ["library", "javascript"]
+							}
+						}
+					}
+				},
+				"universalPreprocessor": {
+					"utilities": {
+						"universalPreprocessor": {
+							"source": "https://raw.githubusercontent.com/Telos-Project/Universal-Preprocessor/refs/heads/main/Code/UniversalPreprocessor.js",
+							"properties": {
+								"tags": ["library", "javascript"]
+							}
+						}
+					}
+				},
+				"useJS": {
+					"utilities": {
+
+					}
+				},
+				"virtualSystem": {
+					"utilities": {
+						"virtualSystem": {
+							"source": "https://raw.githubusercontent.com/Telos-Project/Virtual-System/refs/heads/main/Code/virtualSystemUtils.js",
+							"properties": {
+								"tags": ["library", "javascript"]
+							}
+						}
+					}
+				},
+				"xnn": {
+					"utilities": {
+						"xnn": {
+							"source": "https://raw.githubusercontent.com/Telos-Project/XNN/refs/heads/main/Code/JS/xnnUtils.js",
+							"properties": {
+								"tags": ["library", "javascript"]
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

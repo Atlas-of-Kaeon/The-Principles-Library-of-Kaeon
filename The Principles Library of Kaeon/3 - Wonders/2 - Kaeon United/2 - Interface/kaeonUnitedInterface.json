@@ -44,13 +44,13 @@
 				"ace": {
 					"utilities": {
 						"ace": {
-							"source": "https://raw.githubusercontent.com/Telos-Project/ACE/refs/heads/main/Code/ace.js",
+							"source": "https://cdn.jsdelivr.net/gh/Telos-Project/ACE/Code/ace.js",
 							"properties": {
 								"tags": ["library", "javascript"]
 							}
 						},
 						"aceOperators": {
-							"source": "https://raw.githubusercontent.com/Telos-Project/ACE/refs/heads/main/Code/aceOperators.js",
+							"source": "https://cdn.jsdelivr.net/gh/Telos-Project/ACE/Code/aceOperators.js",
 							"properties": {
 								"tags": ["library", "javascript"]
 							}
@@ -60,7 +60,7 @@
 				"apint": {
 					"utilities": {
 						"apint": {
-							"source": "https://raw.githubusercontent.com/Telos-Project/APInt/refs/heads/main/Code/apintUtils.js",
+							"source": "https://cdn.jsdelivr.net/gh/Telos-Project/APInt/Code/apintUtils.js",
 							"properties": {
 								"tags": ["library", "javascript"]
 							}
@@ -70,7 +70,7 @@
 				"autoCORS": {
 					"utilities": {
 						"autoCORS": {
-							"source": "https://raw.githubusercontent.com/Telos-Project/AutoCORS/refs/heads/main/Code/autoCORS.js",
+							"source": "https://cdn.jsdelivr.net/gh/Telos-Project/AutoCORS/Code/autoCORS.js",
 							"properties": {
 								"tags": ["library", "javascript"]
 							}
@@ -80,7 +80,7 @@
 				"busNet": {
 					"utilities": {
 						"busNet": {
-							"source": "https://raw.githubusercontent.com/Telos-Project/Bus-Net/refs/heads/main/Code/JS/busNetUtils.js",
+							"source": "https://cdn.jsdelivr.net/gh/Telos-Project/Bus-Net/Code/JS/busNetUtils.js",
 							"properties": {
 								"tags": ["library", "javascript"]
 							}
@@ -90,7 +90,7 @@
 				"csb": {
 					"utilities": {
 						"csb": {
-							"source": "https://raw.githubusercontent.com/Telos-Project/CSB/refs/heads/main/Code/csb.js",
+							"source": "https://cdn.jsdelivr.net/gh/Telos-Project/CSB/Code/csb.js",
 							"properties": {
 								"tags": ["library", "javascript"]
 							}
@@ -100,13 +100,13 @@
 				"fusionLISP": {
 					"utilities": {
 						"fusionLISP": {
-							"source": "https://raw.githubusercontent.com/Telos-Project/Fusion-LISP/refs/heads/main/Code/fusionLISP.js",
+							"source": "https://cdn.jsdelivr.net/gh/Telos-Project/Fusion-LISP/Code/fusionLISP.js",
 							"properties": {
 								"tags": ["library", "javascript"]
 							}
 						},
 						"jsonLISP": {
-							"source": "https://raw.githubusercontent.com/Telos-Project/Fusion-LISP/refs/heads/main/Code/jsonLISP.js",
+							"source": "https://cdn.jsdelivr.net/gh/Telos-Project/Fusion-LISP/Code/jsonLISP.js",
 							"properties": {
 								"tags": ["library", "javascript"]
 							}
@@ -132,7 +132,7 @@
 				"justUI": {
 					"utilities": {
 						"justUI": {
-							"source": "https://raw.githubusercontent.com/Telos-Project/JustUI/refs/heads/main/Code/JustUI.js",
+							"source": "https://cdn.jsdelivr.net/gh/Telos-Project/JustUI/Code/JustUI.js",
 							"properties": {
 								"tags": ["library", "javascript"]
 							}
@@ -142,7 +142,7 @@
 				"omniQuery": {
 					"utilities": {
 						"omniQuery": {
-							"source": "https://raw.githubusercontent.com/Telos-Project/OmniQuery/refs/heads/main/Code/omniQuery.js",
+							"source": "https://cdn.jsdelivr.net/gh/Telos-Project/OmniQuery/Code/omniQuery.js",
 							"properties": {
 								"tags": ["library", "javascript"]
 							}
@@ -158,7 +158,7 @@
 				"one": {
 					"utilities": {
 						"one": {
-							"source": "https://raw.githubusercontent.com/Telos-Project/ONE/refs/heads/main/Code/oneLang.js",
+							"source": "https://cdn.jsdelivr.net/gh/Telos-Project/ONE/Code/oneLang.js",
 							"properties": {
 								"tags": ["library", "javascript"]
 							}
@@ -173,7 +173,7 @@
 				"telosLog": {
 					"utilities": {
 						"telosLog": {
-							"source": "https://raw.githubusercontent.com/Telos-Project/Telos-Log/refs/heads/main/Code/telosLog.js",
+							"source": "https://cdn.jsdelivr.net/gh/Telos-Project/Telos-Log/Code/telosLog.js",
 							"properties": {
 								"tags": ["library", "javascript"]
 							}
@@ -188,7 +188,7 @@
 				"telosServer": {
 					"utilities": {
 						"serverUtils": {
-							"source": "https://raw.githubusercontent.com/Telos-Project/Telos-Server/refs/heads/main/Code/serverUtils.js",
+							"source": "https://cdn.jsdelivr.net/gh/Telos-Project/Telos-Server/Code/serverUtils.js",
 							"properties": {
 								"tags": ["library", "javascript"]
 							}
@@ -222,7 +222,7 @@
 				"unitedC": {
 					"utilities": {
 						"unitedC": {
-							"source": "https://raw.githubusercontent.com/Telos-Project/United-C/refs/heads/main/Code/uc.js",
+							"source": "https://cdn.jsdelivr.net/gh/Telos-Project/United-C/Code/uc.js",
 							"properties": {
 								"tags": ["library", "javascript"]
 							}
@@ -232,7 +232,7 @@
 				"universalPreprocessor": {
 					"utilities": {
 						"universalPreprocessor": {
-							"source": "https://raw.githubusercontent.com/Telos-Project/Universal-Preprocessor/refs/heads/main/Code/UniversalPreprocessor.js",
+							"source": "https://cdn.jsdelivr.net/gh/Telos-Project/Universal-Preprocessor/Code/UniversalPreprocessor.js",
 							"properties": {
 								"tags": ["library", "javascript"]
 							}
@@ -247,7 +247,7 @@
 				"virtualSystem": {
 					"utilities": {
 						"virtualSystem": {
-							"source": "https://raw.githubusercontent.com/Telos-Project/Virtual-System/refs/heads/main/Code/virtualSystemUtils.js",
+							"source": "https://cdn.jsdelivr.net/gh/Telos-Project/Virtual-System/Code/virtualSystemUtils.js",
 							"properties": {
 								"tags": ["library", "javascript"]
 							}
@@ -257,7 +257,7 @@
 				"xnn": {
 					"utilities": {
 						"xnn": {
-							"source": "https://raw.githubusercontent.com/Telos-Project/XNN/refs/heads/main/Code/JS/xnnUtils.js",
+							"source": "https://cdn.jsdelivr.net/gh/Telos-Project/XNN/Code/JS/xnnUtils.js",
 							"properties": {
 								"tags": ["library", "javascript"]
 							}

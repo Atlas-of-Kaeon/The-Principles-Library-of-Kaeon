@@ -1,0 +1,27 @@
+Mastery Interview
+
+	Philosophy
+
+		-
+			A mastery interview is an exam in interview format designed to gauge if the subject
+			demonstrates a certain level of mastery of a given subject.
+		-
+
+	Principles
+
+		Implementation
+
+			-
+				Mastery interviews may be facilitated by AI.
+				
+				The initial prompts to generate such exams being referred to as exam prompts, and
+				AI facilitated mastery exams may be locked to specific AI models.
+
+				A template exam prompt may allow rapid deployment of tests which vary only in
+				subject matter and difficulty level, and possibly by length.
+
+				Said subjects should consist of general education and those commonly majored in at
+				universities. Said difficulty levels should consist of K-12 grades, undergraduate
+				classes (with senior being the level of a bachelor's degree), a master's degree,
+				and a PhD.
+			-

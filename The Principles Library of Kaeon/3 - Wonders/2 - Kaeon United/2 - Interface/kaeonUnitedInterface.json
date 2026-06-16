@@ -37,6 +37,14 @@
 								"tags": ["orca"]
 							}
 						}
+					},
+					"utilities": {
+						"kaeonMETA": {
+							"source": "kaeon-meta/kaeonMETA.js",
+							"properties": {
+								"type": "fusion-lisp"
+							}
+						}
 					}
 				}
 			}

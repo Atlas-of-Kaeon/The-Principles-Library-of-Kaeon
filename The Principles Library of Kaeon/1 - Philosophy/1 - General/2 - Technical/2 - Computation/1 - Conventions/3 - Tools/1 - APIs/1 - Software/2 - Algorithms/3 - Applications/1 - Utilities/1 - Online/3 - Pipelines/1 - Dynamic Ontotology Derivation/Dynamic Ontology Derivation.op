@@ -1,0 +1,47 @@
+Dynamic Ontology Derivation
+
+	Philosophy
+
+		-
+			Dynamic ontology derivation is a process wherein an AI agent is given a subject to
+			research online, during which it is to persist any relevant information, called
+			ontological evidence, to a database in whatever structure suits it. Following this, it
+			is to derive from this data a standard ontology and to persist said ontology to a
+			separate database. This process may be repeated such that the unstructured data may be
+			continuously updated and the corresponding ontology may be updated in turn to reflect
+			it.
+		-
+
+	Principles
+
+		Standard Ontology
+
+			-
+				A standard ontology consists of a set of discrete objects, called standard ontology
+				objects, which shall each have a string type, name or ID, and value, and which may
+				have an indefinite number of relationships, with each relationship having a source
+				object, a target object, a string type, and a flag indicating whether it is
+				unidirectional or bidirectional.
+
+				The set of types used by the objects of a given standard ontology, together with
+				the set of types used by the relationships of said objects, constitute the
+				ontological schema of the ontology.
+			-
+
+		Portal Derivation
+
+			-
+				Portal Derivation is where a UI is constructed specifically to fit a standard
+				ontology.
+			-
+
+		Dynamic Deriver
+
+			-
+				A dynamic deriver is an agent specifically designed to conduct dynamic ontology
+				derivation, with the creation of a standard ontology from the gathered evidence,
+				followed by portal derivation for said ontology.
+
+				A dynamic deriver may fit the generated ontology to a user specified ontological
+				schema, or to an extended version thereof.
+			-

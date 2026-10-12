@@ -1,0 +1,49 @@
+GrUBI Registry
+
+	Philosophy
+
+		-
+			A GrUBI registry is a publication of a series of anonymous recipient profiles, each
+			with a series of payment endpoint options specifying currency type and public payment
+			addresses.
+			
+			Each recipient profile shall have a unique ID, and may have an indefinite number of
+			tags so as to denote, among other things, group memberships and verification status.
+
+			A GrUBI registry should ideally be implemented as a plain text file in a data
+			interchange format, and published online at a publicly accessible URL.
+		-
+
+	Principles
+
+		GrUBI JSON
+
+			-
+				GrUBI JSON is a JSON format for implementing GrUBI registries.
+
+				A GrUBI JSON registry consists of a list of GrUBI objects, each representing a
+				recipient profile.
+
+				A GrUBI JSON object shall have the field "properties", containing an object which
+				contains all other data.
+
+				The properties object shall have the field "ID", containing a string specifying a
+				unique ID for that profile.
+
+				The properties object shall have the field "tags", containing a string list, with
+				each string specifying a tag assigned to that profile.
+
+				The properties object shall have the field "endpoints", containing a list of
+				endpoint objects, each specifying a payment endpoint for that profile.
+
+				An endpoint object shall have the field "currency", containing a string specifying
+				the currency code for that endpoint.
+
+				An endpoint object shall have the field "address", a string specifying the public
+				wallet address for that endpoint.
+
+				For traditional currency sent via a payment processor, the address shall take the
+				form of a string in the GrUBI processor address format, which begins with the root
+				URL of the payment processor's main website, followed by the '@' symbol, followed
+				by the recipient's username on said payment processor.
+			-

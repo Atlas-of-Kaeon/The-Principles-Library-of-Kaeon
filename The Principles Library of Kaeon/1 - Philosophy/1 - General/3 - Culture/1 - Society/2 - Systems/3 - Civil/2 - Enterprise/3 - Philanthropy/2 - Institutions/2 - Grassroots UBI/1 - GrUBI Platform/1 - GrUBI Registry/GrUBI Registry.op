@@ -27,7 +27,7 @@ GrUBI Registry
 				A GrUBI JSON object shall have the field "properties", containing an object which
 				contains all other data.
 
-				The properties object shall have the field "ID", containing a string specifying a
+				The properties object shall have the field "id", containing a string specifying a
 				unique ID for that profile.
 
 				The properties object shall have the field "tags", containing a string list, with
@@ -43,7 +43,7 @@ GrUBI Registry
 				wallet address for that endpoint.
 
 				For traditional currency sent via a payment processor, the address shall take the
-				form of a string in the GrUBI processor address format, which begins with the root
-				URL of the payment processor's main website, followed by the '@' symbol, followed
-				by the recipient's username on said payment processor.
+				form of a string in the GrUBI processor address format, which begins with the
+				second level domain name of the payment processor's main website, followed by the
+				'$' symbol, followed by the recipient's username on said payment processor.
 			-

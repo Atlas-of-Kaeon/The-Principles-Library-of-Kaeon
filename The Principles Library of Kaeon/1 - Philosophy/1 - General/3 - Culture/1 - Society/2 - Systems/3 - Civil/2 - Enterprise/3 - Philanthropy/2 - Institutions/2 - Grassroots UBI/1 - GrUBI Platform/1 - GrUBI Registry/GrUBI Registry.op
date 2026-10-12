@@ -34,7 +34,8 @@ GrUBI Registry
 				each string specifying a tag assigned to that profile.
 
 				The properties object shall have the field "endpoints", containing a list of
-				endpoint objects, each specifying a payment endpoint for that profile.
+				endpoint objects, each specifying a payment endpoint for that profile. The order of
+				said objects in said list indicates recipient preference.
 
 				An endpoint object shall have the field "currency", containing a string specifying
 				the currency code for that endpoint.

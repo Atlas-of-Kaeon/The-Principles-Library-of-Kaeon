@@ -45,6 +45,6 @@ GrUBI Registry
 
 				For traditional currency sent via a payment processor, the address shall take the
 				form of a string in the GrUBI processor address format, which begins with the
-				second level domain name of the payment processor's main website, followed by the
-				'$' symbol, followed by the recipient's username on said payment processor.
+				domain name of the payment processor's main website, followed by the '$' symbol,
+				followed by the recipient's username on said payment processor.
 			-
